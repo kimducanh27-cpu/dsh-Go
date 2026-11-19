@@ -12952,7 +12952,8 @@ class L10nVi extends L10n {
       'target_changed': 'Mục tiêu ban đầu đã thay đổi, chỉ tiếp tục dọn dẹp.',
       'target_cleanup': 'Chưa xác nhận dọn dẹp mục tiêu, hãy kết nối lại kênh rồi kiểm tra lại.',
       'target_main': 'Mục tiêu đã xuất hiện trên màn hình chính. Đã dừng các bước sau, hãy dọn dẹp xong.',
-      'target_readback': 'Số lượng hoặc chữ đọc lại của mục tiêu cố định không khớp. Đừng lặp lại thao tác, hãy dọn dẹp xong.',
+      'target_readback':
+          'Số lượng hoặc chữ đọc lại của mục tiêu cố định không khớp. Đừng lặp lại thao tác, hãy dọn dẹp xong.',
       'tree_cleanup': 'Chưa xác nhận dọn dẹp kết nối cây, hãy kết nối lại kênh rồi kiểm tra lại.',
       'target_launch': 'Mục tiêu khởi động bị từ chối hoặc chưa xác nhận, hãy kiểm tra thiết bị và dọn dẹp xong.',
       'frame_unavailable': 'Không lấy được khung mẫu cục bộ dùng được, hãy dọn dẹp xong rồi bắt đầu tự kiểm mới.',
