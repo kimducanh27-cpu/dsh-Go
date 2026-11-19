@@ -1,0 +1,22 @@
+{
+  "@@locale": "vi",
+  "schemaDocumentationTitle": "Mô tả trường",
+  "schemaDocumentationOverview": "Tổng quan",
+  "schemaDocumentationEach": "Từng mục",
+  "schemaDocumentationPosition": "Mục thứ {position}",
+  "@schemaDocumentationPosition": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "schemaDocumentationOption": "Lựa chọn {option}",
+  "@schemaDocumentationOption": {
+    "placeholders": {
+      "option": {
+        "type": "int"
+      }
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "@@locale": "vi",
+  "mediaGenerateTile": "Tạo",
+  "mediaAiGenerated": "Do AI tạo",
+  "mediaCostEstimate": "Khoảng {amount}",
+  "@mediaCostEstimate": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaSavedCount": "Đã lưu {count} ảnh vào thư viện",
+  "@mediaSavedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaRegenerate": "Tạo lại",
+  "mediaCopyPrompt": "Sao chép Prompt",
+  "mediaFileGone": "Tệp không còn nữa",
+  "mediaKindImage": "Ảnh",
+  "mediaKindVideo": "Video",
+  "mediaTitleImage": "Tạo ảnh",
+  "mediaTitleVideo": "Tạo video",
+  "mediaOpenElsewhere": "Mở trong app khác",
+  "mediaShowInFiles": "Hiện trong tệp",
+  "mediaGenerating": "Đang tạo",
+  "mediaGeneratingProgress": "Đang tạo · {progress}",
+  "@mediaGeneratingProgress": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaCancelled": "Đã hủy",
+  "mediaNotGenerated": "Chưa tạo",
+  "mediaPartial": "{done} / {total} ảnh",
+  "@mediaPartial": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaCount": "{count} ảnh",
+  "@mediaCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaSeconds": "{seconds} giây",
+  "@mediaSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaImageOf": "Ảnh thứ {index} trong {count} ảnh",
+  "@mediaImageOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaPageOf": "{index} / {count}",
+  "@mediaPageOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaErrorPolicyInput": "Mô tả không qua kiểm duyệt nội dung",
+  "mediaErrorPolicyOutput": "Kết quả tạo không qua kiểm duyệt nội dung",
+  "mediaErrorAuth": "Dịch vụ chưa được cấp quyền",
+  "mediaErrorBalance": "Số dư không đủ",
+  "mediaErrorQuota": "Hạn mức hôm nay đã hết",
+  "mediaErrorUnavailable": "Dịch vụ tạm thời không khả dụng",
+  "mediaErrorExpired": "Kết quả đã hết hạn",
+  "mediaErrorGeneric": "Không tạo được",
+  "mediaVary": "Biến thể",
+  "mediaEdit": "Sửa",
+  "mediaRevise": "Chỉnh sửa",
+  "mediaUpscale": "Phóng to",
+  "mediaMakeVideo": "Làm thành video",
+  "mediaDetailModel": "Mô hình",
+  "mediaDetailSize": "Kích thước",
+  "mediaDetailCost": "Chi phí",
+  "mediaDetailProvenance": "Dấu nguồn gốc",
+  "mediaDetailFile": "Tệp",
+  "mediaOriginalPrompt": "Gốc: {text}",
+  "@mediaOriginalPrompt": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaProvenanceC2pa": "C2PA",
+  "mediaProvenanceImplicit": "Ẩn",
+  "mediaProvenanceVisible": "Watermark hiện",
+  "mediaModeExit": "Thóat chế độ tạo",
+  "mediaModeLabel": "Tham số tạo: {summary}",
+  "@mediaModeLabel": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaParamModel": "Mô hình",
+  "mediaParamAspect": "Tỉ lệ",
+  "mediaParamCount": "Số lượng",
+  "mediaParamQuality": "Độ nét",
+  "mediaParamDuration": "Thời lượng",
+  "mediaQualityAuto": "Tự động",
+  "mediaQualityStandard": "Tiêu chuẩn",
+  "mediaQualityHigh": "HD",
+  "mediaQuality4k": "4K",
+  "mediaQualityLevelLow": "Thấp",
+  "mediaQualityLevelMedium": "Trung bình",
+  "mediaQualityLevelHigh": "Cao",
+  "mediaModelPick": "Chọn",
+  "mediaPickModelFirst": "Chọn một mô hình trước",
+  "mediaPricePerImage": "{price} / ảnh",
+  "@mediaPricePerImage": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaPricePerSecond": "{price} / giây",
+  "@mediaPricePerSecond": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaManageModels": "Quản lý",
+  "mediaHintImage": "Mô tả bức ảnh bạn muốn…",
+  "mediaHintVideo": "Mô tả cảnh và góc quay…",
+  "mediaHintEdit": "Muốn sửa thế nào…",
+  "mediaFirstFrame": "Khung đầu",
+  "mediaLastFrame": "Khung cuối",
+  "mediaNoLastFrame": "Mô hình này không hỗ trợ khung cuối",
+  "mediaNoRefs": "Mô hình này không hỗ trợ ảnh tham chiếu",
+  "mediaRefLimit": "Tối đa {count} ảnh tham chiếu",
+  "@mediaRefLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaNoDescription": "Viết mô tả hình ảnh muốn tạo trước",
+  "mediaDescriptionTooLong": "Mô tả quá dài, rút ngắn rồi tạo lại",
+  "mediaInstallTitle": "Ảnh và video",
+  "mediaInstallBody": "Máy chủ này chưa có plugin ảnh và video",
+  "mediaInstallAction": "Cài trên máy chủ này",
+  "mediaUnavailableTitle": "Chế độ tạo không khả dụng",
+  "mediaUnavailableBody": "Phiên bản plugin ảnh và video trên máy chủ này không tương thích. Bạn vẫn có thể mô tả hình ảnh muốn tạo trực tiếp trong trò chuyện.",
+  "mediaUnavailableAction": "Quản lý Plugin",
+  "mediaSettingsTitle": "Ảnh và video",
+  "searchKwMediaGeneration": "tạo ảnh,vẽ ảnh,ảnh từ chữ,tạo video,vẽ AI,tạo hình ảnh,tạo video",
+  "mediaSettingsDefaults": "Mặc định",
+  "mediaSettingsLegacyDefault": "Mặc định chung cũ",
+  "mediaSettingsLegacyDefaultHint": "Cài đặt của 0.2.x; dùng khi ảnh và video chưa có mặc định riêng",
+  "mediaSettingsLegacyDefaultStale": "Dịch vụ được trỏ tới đã không còn; xóa nó để tránh lỗi khi tạo",
+  "mediaSettingsLegacyDefaultClear": "Xóa mặc định chung cũ",
+  "mediaSettingsDefaultModel": "Mô hình mặc định",
+  "mediaSettingsDefaultFooterLegacy": "Plugin cũ chỉ có một mô hình mặc định; cập nhật plugin để đặt riêng cho ảnh và video.",
+  "mediaSettingsDefaultsFooter": "Chọn mô hình mặc định riêng cho ảnh và video; để trống sẽ tự dùng mô hình khả dụng đầu tiên.",
+  "mediaSettingsNoVideoModels": "Danh mục của máy chủ này chưa có mô hình video",
+  "mediaSettingsServices": "Dịch vụ",
+  "mediaSettingsAddService": "Thêm dịch vụ",
+  "mediaSettingsAddServiceHint": "Bắt đầu từ preset của nhà cung cấp, địa chỉ, giao thức và mô hình sẽ tự điền sẵn",
+  "mediaSettingsServiceLimit": "Tối đa {count} dịch vụ",
+  "@mediaSettingsServiceLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaSettingsNoServices": "Chưa có dịch vụ nào. Thêm một nhà cung cấp là bắt đầu tạo ảnh hoặc video được.",
+  "mediaSettingsNoModels": "Chưa chọn mô hình",
+  "mediaSettingsKeyMissing": "Chưa cấu hình API Key",
+  "mediaSettingsCatalogMissing": "Plugin trên máy chủ này không cung cấp danh mục mô hình; dịch vụ đã có vẫn sửa được, nhưng tạm thời không thêm được dịch vụ mới hay chọn mô hình mặc định.",
+  "mediaSettingsCatalogBroken": "Không đọc được danh mục mô hình (có thể không tương thích phiên bản); dịch vụ đã có vẫn sửa được, nhưng tạm thời không thêm được dịch vụ mới hay chọn mô hình mặc định.",
+  "mediaSettingsCatalogEmpty": "Danh mục mô hình chưa có mô hình nào; dịch vụ đã có vẫn sửa được, nhưng tạm thời không thêm được dịch vụ mới hay chọn mô hình mặc định.",
+  "mediaSettingsNoPresets": "Danh mục chưa có dịch vụ nào để thêm.",
+  "mediaSettingsLimits": "Giới hạn yêu cầu",
+  "mediaSettingsLimitsHint": "Giới hạn số ảnh và số byte mỗi yêu cầu; mặc định là giới hạn cứng của plugin",
+  "mediaSettingsMaxImages": "Số ảnh mỗi lần",
+  "mediaSettingsMaxImageBytes": "Giới hạn byte mỗi ảnh gốc",
+  "mediaSettingsMaxResponseBytes": "Giới hạn byte phản hồi của dịch vụ",
+  "mediaSettingsMaxTotalImageBytes": "Giới hạn tổng byte ảnh mỗi lần",
+  "mediaSettingsMaxVideoBytes": "Giới hạn byte video gốc",
+  "mediaSettingsBudget": "Bảo vệ chi phí",
+  "mediaSettingsDailyBudget": "Ngân sách ngày (NDT)",
+  "mediaSettingsDailyBudgetHint": "Đặt lại theo ngày Thượng Hải; dùng hết sẽ tạm dừng tạo",
+  "mediaSettingsUnknownPriceHold": "Giữ lại mỗi lần khi chưa rõ giá (NDT)",
+  "mediaSettingsUnknownPriceHoldHint": "Số tiền giữ lại được xác nhận từng lần, không phải mức trần mà nhà cung cấp thu",
+  "mediaSettingsApiKey": "API Key",
+  "mediaSettingsReuseKey": "Dùng lại key",
+  "mediaSettingsReuseKeyHint": "Ảnh và video của cùng một nhà cung cấp dùng chung một API Key, không cần nhập lại.",
+  "mediaSettingsReuseKeyNone": "Chưa có dịch vụ khác của cùng nhà cung cấp.",
+  "mediaSettingsReuseKeyShared": "Đã dùng chung",
+  "mediaSettingsModels": "Mô hình",
+  "mediaSettingsModelsEmpty": "Danh mục không có mô hình cho giao thức này",
+  "mediaSettingsModelKeepOne": "Giữ lại ít nhất một mô hình",
+  "mediaSettingsModelMissing": "Không có trong danh mục",
+  "mediaSettingsAdvanced": "Nâng cao",
+  "mediaSettingsBaseUrl": "Địa chỉ gốc API",
+  "mediaSettingsBaseUrlInvalid": "Địa chỉ phải bắt đầu bằng https://",
+  "mediaSettingsProvider": "ID nhà cung cấp",
+  "mediaSettingsKeyRef": "Tên thông tin đăng nhập",
+  "mediaSettingsKeyRefInvalid": "Tên thông tin đăng nhập chỉ gồm chữ, số và dấu gạch dưới",
+  "mediaSettingsResponseFormat": "Định dạng trả về",
+  "mediaSettingsResponseFormatAuto": "Theo giao thức",
+  "mediaSettingsServiceId": "ID dịch vụ",
+  "mediaSettingsServiceGone": "Dịch vụ này không còn nữa",
+  "mediaSettingsServiceGoneBody": "Có thể nó đã bị xóa ở nơi khác. Quay lại trang trước để thêm lại.",
+  "mediaSettingsDelete": "Xóa dịch vụ",
+  "mediaSettingsDeleteTitle": "Xóa “{name}”?",
+  "@mediaSettingsDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaSettingsDeleteBody": "Chỉ xóa dịch vụ này khỏi cài đặt của máy chủ này, API Key sẽ giữ lại; mô hình mặc định trỏ tới nó cũng sẽ bị xóa.",
+  "mediaSettingsNoImageModels": "Danh mục chưa có mô hình ảnh",
+  "mediaSettingsNoAvailableService": "Chưa có dịch vụ nào sẵn sàng (thêm và nhập Key trước)",
+  "mediaSettingsNoImageService": "Chưa có dịch vụ ảnh nào sẵn sàng (thêm và nhập Key trước)",
+  "mediaSettingsNoVideoService": "Chưa có dịch vụ video nào sẵn sàng (thêm và nhập Key trước)",
+  "mediaSettingsKeyExternal": "Do cài đặt khác quản lý, ở đây chỉ tham chiếu",
+  "mediaSettingsEnabledHint": "Tắt xong sẽ không dùng dịch vụ này để tạo nữa"
+}

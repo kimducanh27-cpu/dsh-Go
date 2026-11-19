@@ -1,0 +1,167 @@
+{
+  "@@locale": "vi",
+  "updateCheck": "Kiểm tra cập nhật",
+  "updateAutoCheck": "Tự kiểm tra cập nhật",
+  "updateAutoCheckDaily": "Kiểm tra mỗi ngày một lần",
+  "updateTileDownloading": "Đang tải xuống",
+  "updateTileDownloadingPercent": "Đang tải xuống {percent}%",
+  "@updateTileDownloadingPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "updateTileVerifying": "Đang kiểm tra",
+  "updateTileReady": "Có thể cài đặt",
+  "updateTileInstalling": "Đang cài đặt",
+  "updateTileSkipped": "Đã bỏ qua {version}",
+  "@updateTileSkipped": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateTileNewVersion": "Phiên bản mới {version}",
+  "@updateTileNewVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateTileUpToDate": "Đã là mới nhất",
+  "updateTileUnavailable": "Tạm thời không kiểm tra được",
+  "updateUpToDate": "Đã là phiên bản mới nhất",
+  "updateCheckUnavailable": "Tạm thời không kiểm tra được cập nhật, hãy thử lại sau",
+  "updateDownloadInterrupted": "Tải xuống bị ngắt",
+  "updateDownloadInterruptedMessage": "Mất mạng hoặc mạng quá chậm, thử lại sẽ tải tiếp.",
+  "updateDownloadUnavailable": "Tạm thời không mở được liên kết tải",
+  "updateDownloadUnavailableMessage": "Hãy thử lại sau, hoặc lên trang phát hành tải thủ công.",
+  "updateChecksumFailed": "Gói cài đặt không qua kiểm tra",
+  "updateChecksumFailedMessage": "Tệp không khớp với bản phát hành, đã xóa, hãy thử lại.",
+  "updateChecksumMissing": "Thiếu thông tin kiểm tra",
+  "updateChecksumMissingMessage": "Vì an toàn, sẽ không cài trong App, có thể lên trang phát hành tải thủ công.",
+  "updateStorageWriteFailed": "Không ghi được gói cài đặt",
+  "updateStorageWriteFailedMessage": "Bộ nhớ có thể đã đầy, dọn bớt dung lượng rồi thử lại.",
+  "updateFreeSpaceRetry": "Dọn bớt dung lượng rồi thử lại.",
+  "updateSpaceRequired": "Cần khoảng {size} dung lượng trống, dọn xong rồi thử lại.",
+  "@updateSpaceRequired": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "updateSettingsOpenFailed": "Không mở được cài đặt hệ thống",
+  "updateSettingsOpenFailedMessage": "Vào “Cài đặt → Ứng dụng → DSH Go” để cho phép “Cài đặt ứng dụng không rõ nguồn”, rồi quay lại cài đặt.",
+  "updateInstallCancelled": "Đã hủy cài đặt",
+  "updateInstallCancelledMessage": "Gói cài đặt vẫn còn, lúc nào cũng có thể cài lại.",
+  "updateInstallUnconfirmed": "Chưa xác nhận kết quả cài đặt",
+  "updateInstallUnconfirmedMessage": "Gói cài đặt đã được giữ lại. Có thể kiểm tra thông báo hệ thống trước, rồi thử lại hoặc mở bằng trình cài đặt hệ thống.",
+  "updateSignatureMismatch": "Chữ ký không khớp, không thể ghi đè trực tiếp",
+  "updateSignatureMismatchMessage": "DSH Go trên điện thoại có chữ ký khác (thường là bản thử nghiệm), cần gỡ bản cũ rồi mới cài bản mới. Gỡ sẽ xóa trò chuyện, môi trường Linux và cài đặt.",
+  "updateWrongPackage": "Không phải gói cài đặt của DSH",
+  "updateWrongPackageMessage": "Tệp tải về không đúng, đã xóa, hãy thử lại sau.",
+  "updateDowngradeBlocked": "Không thể cài bản cũ hơn",
+  "updateDowngradeBlockedMessage": "DSH trên điện thoại còn mới hơn gói cài đặt này.",
+  "updateIncompatible": "Không tương thích với điện thoại này",
+  "updateIncompatibleMessage": "Phiên bản hệ thống hoặc kiến trúc chip mà gói cài đặt yêu cầu không khớp với điện thoại.",
+  "updatePackageCorrupt": "Gói cài đặt đã hỏng",
+  "updatePackageCorruptMessage": "Đã xóa, hãy tải lại.",
+  "updateInstallBlocked": "Cài đặt bị chặn",
+  "updateInstallBlockedMessage": "Hãy cho phép trong cửa sổ xác nhận cài đặt của hệ thống; nếu hệ thống chặn thẳng (máy Xiaomi và các hãng khác), thử “Tuyến cài đặt” bên dưới: Shizuku hoặc ADB trên máy, không cần ký lại.",
+  "updateInstallIncomplete": "Cài đặt chưa hoàn tất",
+  "updateInstallIncompleteMessage": "Có thể thử lại, hoặc lên trang phát hành tải thủ công.",
+  "updateBrowserOpenFailed": "Không mở được trình duyệt, hãy tự truy cập {host}{path}",
+  "@updateBrowserOpenFailed": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "updateUpToDateVersion": "Đã là phiên bản mới nhất {version}",
+  "@updateUpToDateVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateCurrentVersion": "Hiện tại {version}",
+  "@updateCurrentVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "updateNewVersionFound": "Đã có phiên bản mới",
+  "updateReleaseNotes": "Nội dung cập nhật",
+  "updateNoReleaseNotes": "Phiên bản này không có ghi chú cập nhật.",
+  "updateInstallKeepsData": "Khi cài đặt, DSH Go sẽ thóat, trò chuyện và cài đặt đều được giữ lại",
+  "updateNoCompatiblePackage": "Không có gói cài đặt phù hợp với máy này",
+  "updateDownloading": "Đang tải xuống",
+  "updateDownloadSource": "Qua {source}",
+  "@updateDownloadSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "updateDownloadInBackgroundNote": "Đóng cửa sổ vẫn tiếp tục tải",
+  "updateVerifyingPackage": "Đang kiểm tra gói cài đặt…",
+  "updateVerifyingPackageNote": "Xác nhận tệp khớp với bản phát hành",
+  "updateInstalling": "Đang cài đặt…",
+  "updateConfirmInstallNote": "Xác nhận cài đặt trong cửa sổ hệ thống",
+  "updatePackageDownloaded": "Đã tải gói cài đặt",
+  "updateReadyToInstall": "Kiểm tra xong, có thể cài đặt rồi.",
+  "updateAllowInstall": "Cho phép DSH Go cài đặt ứng dụng",
+  "updateAllowInstallMessage": "Trong cài đặt hệ thống, bật “Cài đặt ứng dụng không rõ nguồn”, quay lại sẽ tự tiếp tục.",
+  "updateOpenReleasePage": "Mở trang phát hành",
+  "updateUpdateNow": "Cập nhật ngay",
+  "updateSkipVersion": "Bỏ qua phiên bản này",
+  "updateInstallWithSystem": "Cài bằng trình cài đặt hệ thống",
+  "updateSystemInstallerFailed": "Không mở được trình cài đặt hệ thống",
+  "updateExportApk": "Xuất gói cài đặt",
+  "updateExportApkTitle": "Xuất gói cài đặt?",
+  "updateExportApkMessage": "Sẽ sao chép gói cài đặt vừa tải và kiểm tra xong vào “Tải xuống/DSH-Go”, có thể dùng công cụ như MT Manager để ký lại rồi cài.\n\nSau khi ký lại, chữ ký trên điện thoại khác với gói chính thức, cập nhật trong App sẽ luôn báo “chữ ký không khớp”, về sau mỗi lần cập nhật đều phải ký lại thủ công như vậy.\n\nNếu chỉ vì hệ thống chặn không cài được (máy Xiaomi và các hãng khác), hãy thử “Tuyến cài đặt” với Shizuku hoặc ADB trên máy trước, tuyến đó không cần ký lại.",
+  "updateExportApkDone": "Đã lưu vào Tải xuống/{path}",
+  "@updateExportApkDone": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "updateExportApkFailed": "Không xuất được gói cài đặt",
+  "updateStarProject": "Đi Star",
+  "updateCancelDownload": "Hủy tải xuống",
+  "updateDownloadInBackground": "Tải trong nền",
+  "updateVerifying": "Đang kiểm tra…",
+  "updateInstallingBusy": "Đang cài đặt…",
+  "updateOpenPermissionSettings": "Đi bật",
+  "updateNoAbiPackage": "Phiên bản này chưa có gói cài đặt {abi}, có thể lên trang phát hành xem.",
+  "@updateNoAbiPackage": {
+    "placeholders": {
+      "abi": {
+        "type": "String"
+      }
+    }
+  },
+  "updateNoPackage": "Phiên bản này chưa có gói cài đặt, có thể lên trang phát hành xem.",
+  "updateDownloadingPercent": "Đang tải xuống {percent}%",
+  "@updateDownloadingPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  }
+}

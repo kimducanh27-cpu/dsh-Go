@@ -1,0 +1,1388 @@
+{
+  "@@locale": "vi",
+  "viewArtifactSaved": "Đã lưu vào {value}",
+  "@viewArtifactSaved": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewDownloadFolder": "Tải xuống/",
+  "viewArtifactNoPreview": "Không xem trước được",
+  "viewArtifactNotText": "Không phải tệp văn bản",
+  "viewArtifactLarge": "Tệp lớn",
+  "viewArtifactMissing": "Tệp này không còn nữa",
+  "viewArtifactNotFile": "Đây không phải tệp",
+  "viewArtifactOpenFailed": "Không mở được",
+  "viewArtifactMore": "Thêm thao tác",
+  "viewWorkspace": "Không gian làm việc",
+  "viewArtifactEmpty": "Tệp trống",
+  "viewArtifactLines": "Tệp lớn, chỉ hiển thị {count} dòng đầu",
+  "@viewArtifactLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewArtifactRows": "Chỉ hiển thị {count} hàng đầu",
+  "@viewArtifactRows": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewArtifactColumns": "Chỉ hiển thị 200 cột đầu",
+  "viewArtifactWorksheet": "Trang tính {value}",
+  "@viewArtifactWorksheet": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "viewArtifactEmptySheet": "Trang tính trống",
+  "viewArtifactEmptyTable": "Bảng trống",
+  "viewArtifactConvertFailed": "Không chuyển đổi được",
+  "viewArtifactConverting": "Đang chuyển sang bản xem trước PDF…",
+  "viewArtifactImageFailed": "Không hiển thị được ảnh này",
+  "viewArtifactPhoneOpen": "Mở bằng ứng dụng trên điện thoại",
+  "viewArtifactPdfFailed": "Không mở được PDF này, hãy thử mở bằng ứng dụng khác",
+  "viewArtifactPages": "Tổng {count} trang",
+  "@viewArtifactPages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewArtifactPage": "Trang {value}",
+  "@viewArtifactPage": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "viewBalanceInvalidKey": "Key không hợp lệ, không tra được số dư",
+  "viewBalancePrefix": "Số dư ",
+  "viewBalanceLowSuffix": " · Số dư không đủ",
+  "viewBalanceUnavailableSuffix": " · Không gọi được nữa",
+  "viewBalanceTopUp": "Nạp tiền",
+  "viewBalanceTitle": "Số dư DeepSeek",
+  "viewBalanceKeyRequired": "Nhập API Key để tra số dư",
+  "viewBalanceKeyInvalid": "API Key không hợp lệ, không tra được số dư",
+  "viewBalancePaid": "Đã nạp {value}",
+  "@viewBalancePaid": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewBalanceGranted": "Tặng {value}",
+  "@viewBalanceGranted": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewBalanceLow": "Số dư không đủ",
+  "viewBalanceUnavailable": "Không gọi được nữa",
+  "viewBalanceChecking": "Đang tra số dư…",
+  "viewBalanceCheckFailed": "Tạm thời không tra được số dư",
+  "viewBalanceNoAlert": "Không nhắc",
+  "viewBalanceBannerHidden": "Không hiện nhắc số dư nữa trong lần chạy này",
+  "viewBalanceTurnOff": "Không nhắc nữa",
+  "viewBalanceBelow": "Dưới {value}",
+  "@viewBalanceBelow": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewBalanceAlert": "Nhắc số dư thấp",
+  "viewBalanceThreshold": "Ngưỡng nhắc",
+  "viewBalanceGoTopUp": "Đi nạp tiền",
+  "viewBalanceRemaining": "Số dư chỉ còn {value}",
+  "@viewBalanceRemaining": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewBalanceModelDisabled": "Số dư không đủ, mô hình đã bị tắt",
+  "viewBalanceRestore": "Nạp tiền để dùng lại",
+  "viewUiIncomplete": "Chế độ xem chưa tạo xong",
+  "viewUiInvalid": "Chế độ xem này sai định dạng",
+  "viewUiResend": "Nhờ gửi lại",
+  "viewChartUnit": "Đơn vị: {value}",
+  "@viewChartUnit": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewChartSeries": "Nhóm thứ {value}",
+  "@viewChartSeries": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "viewChartTotal": "Tổng cộng",
+  "viewChartBar": "Biểu đồ cột",
+  "viewChartHorizontalBar": "Biểu đồ cột ngang",
+  "viewChartLine": "Biểu đồ đường",
+  "viewChartDonut": "Biểu đồ vành khăn",
+  "viewUiResendMessage": "Không hiển thị được chế độ xem dsh-ui trước: {value}. Hãy sửa rồi gửi lại.",
+  "@viewUiResendMessage": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "viewUiBytesLimit": "Chế độ xem có {first} byte, vượt giới hạn {second} byte",
+  "@viewUiBytesLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiEmptyCode": "Khối mã trống",
+  "viewUiInvalidJson": "Không phải JSON hợp lệ ({message})",
+  "@viewUiInvalidJson": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiJsonRepaired": "Có chú thích hoặc dấu phẩy thừa, đã bỏ qua",
+  "viewUiExpectedObject": "Phải là một đối tượng thành phần",
+  "viewUiDepthLimit": "Tầng thứ {first}, vượt giới hạn {second} tầng",
+  "@viewUiDepthLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiMissingType": "Thiếu type",
+  "viewUiUnknownComponent": "Thành phần không xác định {value}",
+  "@viewUiUnknownComponent": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiAvailableTypes": "{first}; có thể dùng: {second}",
+  "@viewUiAvailableTypes": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiExpectedChildren": "Phải là mảng gồm 1 đến {limit} thành phần",
+  "@viewUiExpectedChildren": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiHiddenItems": "Đã cắt bớt: còn {count} mục chưa hiển thị",
+  "@viewUiHiddenItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiNodeLimit": "Vượt {first} thành phần, {second} mục cuối đã bị cắt",
+  "@viewUiNodeLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiChildLimit": "Vượt {first} mục, {second} mục cuối đã bị cắt",
+  "@viewUiChildLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiExpectedString": "Phải là chuỗi",
+  "viewUiTextLimit": "{first} ký tự, vượt giới hạn {second}",
+  "@viewUiTextLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiTextTruncated": "Đã cắt bớt: chữ quá dài",
+  "viewUiExpectedFinite": "Phải là số hữu hạn",
+  "viewUiYes": "Có",
+  "viewUiNo": "Không",
+  "viewUiExpectedStringNumber": "Phải là chuỗi hoặc số",
+  "viewUiUnknownTone": "tone không xác định {value}, đã bỏ qua; có thể dùng: good, warn, bad",
+  "@viewUiUnknownTone": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiUnknownChart": "Biểu đồ không xác định {value}, vẽ dạng cột; có thể dùng: bar, hbar, line, donut",
+  "@viewUiUnknownChart": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiExpectedCategories": "Phải là mảng nhãn không trống",
+  "viewUiCategoryLimit": "{first} danh mục, vượt giới hạn {second}",
+  "@viewUiCategoryLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiFirstPoints": "Chỉ hiển thị {limit} điểm đầu",
+  "@viewUiFirstPoints": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiExpectedSeries": "Phải là mảng không trống, mỗi mục là {shape}",
+  "viewUiSkippedSeries": "Phải là mảng số, nhóm này đã bị bỏ qua",
+  "viewUiValuesCategories": "{first} giá trị cho {second} danh mục, thừa thì cắt, thiếu thì để trống",
+  "@viewUiValuesCategories": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiNonFiniteValues": "{count} giá trị không phải số hữu hạn, đã để trống",
+  "@viewUiNonFiniteValues": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiNoSeries": "Không có nhóm dữ liệu nào để vẽ",
+  "viewUiDonutSeries": "Biểu đồ vành khăn chỉ vẽ một nhóm dữ liệu, {count} nhóm còn lại đã bị bỏ qua",
+  "@viewUiDonutSeries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiFirstSeries": "Chỉ vẽ nhóm dữ liệu đầu tiên",
+  "viewUiSeriesLimit": "{first} nhóm dữ liệu, vượt giới hạn {second}",
+  "@viewUiSeriesLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiFirstSeriesCount": "Chỉ hiển thị {limit} nhóm dữ liệu đầu",
+  "@viewUiFirstSeriesCount": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiNoFiniteValues": "Không có giá trị số hữu hạn nào",
+  "viewUiTruncated": "Đã cắt bớt: {value}",
+  "@viewUiTruncated": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiExpectedCompare": "Phải là mảng 2 đến {limit} mục, mỗi mục là {shape}",
+  "@viewUiExpectedCompare": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      },
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiItemLimit": "{first} mục, vượt giới hạn {second}",
+  "@viewUiItemLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiFirstItems": "Chỉ hiển thị {limit} mục đầu",
+  "@viewUiFirstItems": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiSkippedCompare": "Phải là {shape}, mục này đã bị bỏ qua",
+  "viewUiSkippedItemLabel": "Phải là chuỗi không trống, mục này đã bị bỏ qua",
+  "viewUiRowLimit": "{first} hàng, vượt giới hạn {second}",
+  "@viewUiRowLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiSkippedRow": "Phải là [tên, giá trị], hàng này đã bị bỏ qua",
+  "viewUiNoItems": "Không có mục nào để vẽ",
+  "viewUiFirstRows": "Mỗi mục chỉ hiển thị {limit} hàng đầu",
+  "@viewUiFirstRows": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiExpectedSteps": "Phải là mảng không trống, mỗi mục là {shape}",
+  "viewUiStepLimit": "{first} bước, vượt giới hạn {second}",
+  "@viewUiStepLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiFirstSteps": "Đã cắt bớt: chỉ hiển thị {limit} bước đầu",
+  "@viewUiFirstSteps": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiSkippedStep": "Phải là {shape}, bước này đã bị bỏ qua",
+  "viewUiUnknownStatus": "Trạng thái không xác định {value}, vẽ dạng todo; có thể dùng: done, current, todo, failed",
+  "@viewUiUnknownStatus": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiNoSteps": "Không có bước nào để vẽ",
+  "viewUiUnknownCalloutTone": "tone không xác định {value}, vẽ dạng info; có thể dùng: info, good, warn, bad",
+  "@viewUiUnknownCalloutTone": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiExpectedOptions": "Phải là mảng 1 đến {limit} lựa chọn, mỗi mục là {shape}",
+  "@viewUiExpectedOptions": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      },
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiOptionLimit": "{first} lựa chọn, vượt giới hạn {second}",
+  "@viewUiOptionLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiFirstOptions": "Đã cắt bớt: chỉ hiển thị {limit} lựa chọn đầu",
+  "@viewUiFirstOptions": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiDuplicateLabel": "Nhãn trùng {value}, đã bỏ qua",
+  "@viewUiDuplicateLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiNoOptions": "Không có lựa chọn nào dùng được",
+  "viewUiSummaryBody": "[Chế độ xem] {value}",
+  "@viewUiSummaryBody": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryTitleBody": "[Chế độ xem] {first}: {second}",
+  "@viewUiSummaryTitleBody": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryInvalid": "[Chế độ xem] (sai định dạng, không hiển thị được)",
+  "viewUiSummaryText": "Chữ: {value}",
+  "@viewUiSummaryText": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryChart": "Biểu đồ: {summary}",
+  "@viewUiSummaryChart": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryCompare": "So sánh: {value}",
+  "@viewUiSummaryCompare": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummarySteps": "Bước: {value}",
+  "@viewUiSummarySteps": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryCallout": "Ghi chú: {value}",
+  "@viewUiSummaryCallout": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryOptions": "Lựa chọn: {value}",
+  "@viewUiSummaryOptions": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSummaryConfirm": "Xác nhận: {first}/{second}",
+  "@viewUiSummaryConfirm": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiReplyChoice": "Chọn: {value}",
+  "@viewUiReplyChoice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiReplyConfirm": "Xác nhận: {value}",
+  "@viewUiReplyConfirm": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiReplyCancel": "Hủy: {value}",
+  "@viewUiReplyCancel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiReplyOther": "Khác: {value}",
+  "@viewUiReplyOther": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiFreeTextHint": "Khác (tự điền)",
+  "viewUiChosenOther": "Đã điền: {value}",
+  "@viewUiChosenOther": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiChosen": "Đã chọn: {value}",
+  "@viewUiChosen": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiConfirmed": "Đã xác nhận",
+  "viewUiConfirmedValue": "Đã xác nhận: {value}",
+  "@viewUiConfirmedValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiCancelledValue": "Đã hủy: {value}",
+  "@viewUiCancelledValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiReplied": "Đã trả lời",
+  "viewUiGenerating": "Đang tạo chế độ xem",
+  "viewUiReplyAfterEnd": "Chọn được sau khi trả lời xong",
+  "viewUiExpired": "Đã hết hạn",
+  "viewUiNotStarted": "Chưa bắt đầu",
+  "viewUiMultiple": "Được chọn nhiều",
+  "viewSuggestWorkspace": "Xem không gian làm việc",
+  "viewSuggestWorkspacePrompt": "Xem trong không gian làm việc hiện có những tệp và dự án nào, giới thiệu ngắn gọn giúp tôi.",
+  "viewSuggestWordCount": "Viết một đoạn mã nhỏ",
+  "viewSuggestWordCountPrompt": "Viết một đoạn mã Python: đếm 20 từ xuất hiện nhiều nhất trong một tệp văn bản, rồi chạy một lần và cho tôi xem kết quả.",
+  "viewSuggestNode": "Tạo dự án mới",
+  "viewSuggestNodePrompt": "Tạo một dự án Node.js mới trong không gian làm việc, cấu hình TypeScript và một bài kiểm thử đơn vị tối thiểu.",
+  "viewSuggestGit": "Giải thích về Git",
+  "viewSuggestGitPrompt": "Dùng một ví dụ cụ thể để giải thích sự khác nhau giữa git rebase và git merge, và khi nào dùng cái nào.",
+  "viewSuggestWorkspaceHint": "Liệt kê tệp và dự án",
+  "viewSuggestWordCountHint": "Đếm tần suất từ rồi chạy một lần",
+  "viewSuggestNodeHint": "Node.js kèm kiểm thử",
+  "viewSuggestGitHint": "rebase và merge",
+  "viewTipNext": "Mẹo tiếp theo",
+  "viewTipLabel": "Mẹo: {value}",
+  "@viewTipLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewTipSteer": "Khi đang tạo, giữ phím Gửi để chen ngang, xếp hàng hoặc dừng",
+  "viewTipMidRun": "AI đang làm việc vẫn có thể nhắn, nó sẽ thấy ở bước tiếp theo",
+  "viewTipSlash": "Nhập / để gọi lệnh: nén ngữ cảnh, đổi mô hình…",
+  "viewTipMention": "Nhập @ để nhắc tới tệp trong không gian làm việc hoặc trò chuyện khác",
+  "viewTipReplyMenu": "Giữ vào câu trả lời của AI để sao chép, trích dẫn hoặc tạo lại",
+  "viewTipEditResend": "Giữ vào tin của mình để sửa rồi gửi lại, trò chuyện gốc không đổi",
+  "viewTipQuote": "Chọn một đoạn trong câu trả lời rồi chạm “Trích dẫn” để hỏi riêng đoạn đó",
+  "viewTipTitleDetails": "Chạm tiêu đề trò chuyện ở trên cùng để xem thay đổi, tệp và terminal",
+  "viewTipContextRing": "Vòng tròn nhỏ cạnh phím Gửi là mức dùng ngữ cảnh, chạm để xem chi tiết",
+  "viewTipDrawerMenu": "Giữ vào một trò chuyện trong thanh bên để ghim, đổi tên hoặc lưu trữ",
+  "viewTipSearch": "Khi máy chủ hỗ trợ, tìm trò chuyện còn tìm được cả nội dung, không chỉ tiêu đề",
+  "viewTipSettingsSearch": "Giữ phím Cài đặt trong thanh bên để tìm thẳng mục cài đặt",
+  "viewTipQuickPanel": "Vuốt sang trái ở trang trò chuyện để mở bảng nhanh",
+  "viewTipFolderNewChat": "Giữ vào thư mục trong thanh bên để mở trò chuyện mới ngay trong đó",
+  "viewTipSwitchHost": "Chạm tên máy chủ ở cuối thanh bên để chuyển sang DSH trên máy tính",
+  "viewTipPasteImage": "Ảnh chụp màn hình và sticker trong bàn phím có thể dán thẳng vào ô nhập",
+  "viewTipLauncher": "Giữ biểu tượng ứng dụng để hỏi bằng giọng nói hoặc mở trò chuyện mới",
+  "viewTipPetBubble": "Khi thú cưng hiện bong bóng, chạm vào để nhảy tới trò chuyện đang chờ bạn",
+  "viewTipPetPlay": "Chạm thú cưng ba lần để cù, giữ để đổi thú cưng",
+  "viewTipActivityStrip": "Khi đang tạo, chạm thanh trạng thái để xem toàn bộ dấu vết lượt này",
+  "viewTipImageZoom": "Khi xem ảnh, chạm hai lần để phóng to, chụm hai ngón để thu phóng, giữ để lưu",
+  "viewTipQueuedRecall": "Tin đang xếp hàng có thể kéo lại ô nhập để sửa",
+  "viewTipKeyboard": "Khi cắm bàn phím: Ctrl+Enter để gửi, nhấn Esc hai lần để dừng",
+  "viewTipShareIn": "Chia sẻ chữ hoặc ảnh từ ứng dụng khác sang DSH Go sẽ điền vào trò chuyện mới",
+  "viewTipShareSelect": "Khi chia sẻ trò chuyện, giữ rồi trượt để chọn nhiều tin cùng lúc",
+  "viewTipChartDrag": "Kéo ngang biểu đồ trong câu trả lời để xem giá trị từng điểm",
+  "viewTipCopyPath": "Trong thẻ thay đổi, giữ vào một tệp để sao chép đường dẫn của nó",
+  "viewTipCompanion": "“Phòng Bạn đồng hành” nằm trong bảng chuyển máy chủ",
+  "viewTipAnswerInline": "Khi AI hỏi bạn, cứ gõ câu trả lời ngay trong ô nhập",
+  "viewTipWallpaper": "Hình nền có thể kéo, phóng to, chỉnh mờ và tối",
+  "viewTipModelHere": "Đổi được mô hình, sẵn có và quyền ngay tại đây, chỉ áp dụng cho trò chuyện này",
+  "viewNewChatFolder": "Thư mục",
+  "viewNewChatPresetTitle": "Sẵn có cho trò chuyện này",
+  "viewNewChatPermissionTitle": "Quyền cho trò chuyện này",
+  "viewNewChatDefault": "Mặc định",
+  "viewNewChatUnavailable": "Không dùng được",
+  "viewNewChatChange": "Thay đổi",
+  "viewNewChatModesFailed": "Không đặt được sẵn có hoặc quyền, tin chưa được gửi",
+  "viewGreetingMorning": "Chào buổi sáng",
+  "viewGreetingNoon": "Chào buổi trưa",
+  "viewGreetingAfternoon": "Chào buổi chiều",
+  "viewGreetingEvening": "Chào buổi tối",
+  "viewGreetingNight": "Khuya rồi",
+  "viewEmptySubtitle": "Hôm nay bạn muốn làm gì?",
+  "viewEmptyStarting": "Đang khởi động Engine…",
+  "viewEmptyConnecting": "Đang kết nối tới Engine…",
+  "viewEmptyDisconnected": "Engine chưa kết nối",
+  "viewEmptyReconnect": "Kết nối lại",
+  "viewEmptyWorkspace": "Trong “{value}”",
+  "@viewEmptyWorkspace": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewEmptySwitchWorkspace": "Chuyển không gian làm việc",
+  "viewEmptyHostDefaultDirectory": "Thư mục mặc định của máy chủ",
+  "viewScheduleTitle": "Nhiệm vụ tự động",
+  "viewScheduleRefreshFailed": "Không làm mới được",
+  "viewScheduleNone": "Không có nhiệm vụ nào đang chạy",
+  "viewScheduleNext": "Lần tới {value}",
+  "@viewScheduleNext": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleUntitled": "Nhiệm vụ chưa đặt tên",
+  "viewScheduleSendFailed": "Không gửi được",
+  "viewScheduleEnded": "Đã kết thúc",
+  "viewScheduleUpcoming": "Sắp tới",
+  "viewScheduleSending": "Đang gửi…",
+  "viewScheduleRunNow": "Chạy ngay",
+  "viewScheduleManage": "Quản lý",
+  "viewScheduleToday": "Hôm nay {value}",
+  "@viewScheduleToday": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleTomorrow": "Ngày mai {value}",
+  "@viewScheduleTomorrow": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleYesterday": "Hôm qua {value}",
+  "@viewScheduleYesterday": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleWeekday": "{first} {second}",
+  "@viewScheduleWeekday": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleDue": "Sắp chạy",
+  "viewScheduleDaysAhead": "{count} ngày nữa",
+  "@viewScheduleDaysAhead": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleDaysOverdue": "Đã quá hạn {count} ngày",
+  "@viewScheduleDaysOverdue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleSingleLabel": "Nhiệm vụ tự động: {title}",
+  "@viewScheduleSingleLabel": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleCountLabel": "{count} nhiệm vụ tự động",
+  "@viewScheduleCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewModelSelect": "Chọn mô hình",
+  "viewModelThinkingOff": "Không suy nghĩ",
+  "viewModelThinkingMinimal": "Rất ít",
+  "viewModelThinkingLow": "Thấp",
+  "viewModelThinkingMedium": "Vừa",
+  "viewModelThinkingHigh": "Cao",
+  "viewModelThinkingMax": "Cao nhất",
+  "viewModelLabel": "Mô hình: {value}",
+  "@viewModelLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewModelEffortLabel": "Độ sâu suy nghĩ {value}",
+  "@viewModelEffortLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewModelLoadFailed": "Không tải được danh sách mô hình",
+  "viewModelDisconnected": "Chưa kết nối Engine",
+  "viewModelConnectHint": "Kết nối xong sẽ chọn được mô hình",
+  "viewModelEffort": "Độ sâu suy nghĩ",
+  "viewModelKeyRequired": "Cần API Key",
+  "viewModelProvidersHint": "Hỗ trợ DeepSeek và các kênh mô hình khác",
+  "viewModelEnterKey": "Nhập API Key",
+  "viewModelAddProvider": "Thêm kênh khác",
+  "viewModelNone": "Tạm thời không có mô hình nào",
+  "viewModelKeyHint": "Key có thể chưa có hiệu lực hoặc đã hết hạn",
+  "viewModelManageProviders": "Quản lý kênh",
+  "viewContinuePrompt": "Tiếp tục trò chuyện trong tệp đính kèm này:",
+  "viewContinueRange": "Lượt {first}–{second}, tổng {third} lượt",
+  "@viewContinueRange": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      },
+      "third": {
+        "type": "int"
+      }
+    }
+  },
+  "viewContinueHeader": "> Trò chuyện DSH Go được chia sẻ · {value}\n",
+  "@viewContinueHeader": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewContinueUser": "\n## Người dùng\n\n",
+  "viewImageCount": "{count} ảnh",
+  "@viewImageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewContinueAttachments": "\n(Tệp đính kèm: {value})\n",
+  "@viewContinueAttachments": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewContinueAssistant": "\n## Trợ lý\n\n",
+  "viewContinueInterrupted": "\n(Câu trả lời bị dừng)\n",
+  "viewContinueFailed": "(Thất bại)",
+  "viewContinueDeclined": "(Bị từ chối)",
+  "viewContinueCancelled": "(Đã hủy)",
+  "viewLinkWeek": "7 ngày",
+  "viewLinkMonth": "30 ngày",
+  "viewLinkForever": "Vĩnh viễn",
+  "viewShareChat": "Trò chuyện",
+  "viewShareNoPermission": "Không có quyền lưu trữ, chưa lưu được",
+  "viewShareOpenFailed": "Không mở được bảng chia sẻ",
+  "viewShareLinkFailed": "Không tạo được liên kết, thử lại sau",
+  "viewShareLinkText": "“{first}” · Trò chuyện DSH Go\n{second}",
+  "@viewShareLinkText": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "viewShareEmpty": "Trò chuyện này chưa có nội dung",
+  "viewShareMessageCount": "{count} tin nhắn",
+  "@viewShareMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewShareToolCount": "{count} lần gọi công cụ",
+  "@viewShareToolCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewShareFileHint": "Xem lại và tiếp tục trong DSH Go",
+  "viewShareWebHint": "Mở được trên mọi trình duyệt, không cần mạng",
+  "viewShareMarkdownHint": "Văn bản thuần, đọc được ở mọi nơi",
+  "viewShareLinkHint": "Mã hóa đầu cuối, máy chủ không thấy nội dung",
+  "viewSharePreview": "Xem trước",
+  "viewShareWhole": "Toàn bộ trò chuyện",
+  "viewShareScopeReply": "Câu trả lời này",
+  "viewShareScopePicked": "Tin đã chọn",
+  "viewShareThinking": "Quá trình suy nghĩ",
+  "viewShareIncludeTools": "Lần gọi công cụ",
+  "viewShareChatFile": "Tệp trò chuyện",
+  "viewShareWebPage": "Trang web",
+  "viewShareLink": "Liên kết",
+  "viewShareAsImage": "Ảnh",
+  "viewShareAsFile": "Tệp",
+  "viewShareAsText": "Chữ",
+  "viewShareRedacted": "Đã ẩn khóa bí mật",
+  "viewShareAdjust": "Chỉnh sửa",
+  "viewShareTooLarge": "Vượt {value} MB, hãy thu hẹp phạm vi",
+  "@viewShareTooLarge": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "viewShareCreateLink": "Tạo liên kết",
+  "viewShareStop": "Dừng chia sẻ",
+  "viewShareStopTitle": "Dừng chia sẻ?",
+  "viewShareStopped": "Đã dừng chia sẻ",
+  "viewQrCode": "Mã QR",
+  "viewShareTurn": "Lượt {value}",
+  "@viewShareTurn": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "viewReplayContinue": "Tiếp tục trò chuyện",
+  "viewReplayTurns": "Lượt {first}–{second}",
+  "@viewReplayTurns": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "viewReplaySeconds": "{count} giây",
+  "@viewReplaySeconds": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewReplayMinutes": "{count} phút",
+  "@viewReplayMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewReplayFull": "Toàn văn",
+  "viewReplayPause": "Tạm dừng",
+  "viewReplayRestart": "Phát lại",
+  "viewReplayPlay": "Phát",
+  "viewReplaySpeed": "Tốc độ {value}×",
+  "@viewReplaySpeed": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "viewTemplatePaper": "Giấy",
+  "viewTemplateGlass": "Kính",
+  "viewTemplateCard": "Thẻ",
+  "viewShareProjectQr": "Mã QR trang chủ dự án",
+  "viewShareBrandLine": "DSH trên điện thoại · Quét mã để tải",
+  "viewShareBrandLineNoQr": "DSH trên điện thoại",
+  "viewShareSteps": "{count} bước",
+  "@viewShareSteps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewShareWebSearch": "Tìm kiếm trên mạng",
+  "viewShareOpenPage": "Mở trang web",
+  "viewShareRunCommand": "Chạy lệnh",
+  "viewShareReadFile": "Xem tệp",
+  "viewShareEditFile": "Sửa tệp",
+  "viewShareSubagent": "Subagent",
+  "viewShareSkill": "Dùng kỹ năng",
+  "viewSharePresentFiles": "Giao tệp",
+  "viewShareWorkflow": "Quy trình làm việc",
+  "viewSharePlugin": "Gọi Plugin",
+  "viewShareStars": "Sao",
+  "viewSharePluginTitle": "DSH Plugin “{value}”",
+  "@viewSharePluginTitle": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewShareInstallCommand": "Cài đặt: dsh plugin add {value}",
+  "@viewShareInstallCommand": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewSharePhoneInstall": "Cài bằng một chạm trên điện thoại: {value}",
+  "@viewSharePhoneInstall": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewShareImages": "Ảnh",
+  "viewSharePickMessages": "Chọn tin nhắn",
+  "viewShareDoneCount": "Xong ({count})",
+  "@viewShareDoneCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewShareImageMarker": "[Ảnh]",
+  "viewShareImagesMarker": "[{count} ảnh]",
+  "@viewShareImagesMarker": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewShareYou": "Bạn",
+  "viewShareImageFailed": "Không tạo được ảnh, hãy thử lại",
+  "viewShareQuestion": "Câu hỏi",
+  "viewShareModelSteps": "Mô hình và quá trình",
+  "viewShareImagePreview": "Xem trước ảnh chia sẻ",
+  "viewShareSaveImage": "Lưu ảnh",
+  "viewScheduleHoursAhead": "{count} giờ nữa",
+  "@viewScheduleHoursAhead": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleHoursOverdue": "Đã quá hạn {count} giờ",
+  "@viewScheduleHoursOverdue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleMinutesAhead": "{count} phút nữa",
+  "@viewScheduleMinutesAhead": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleMinutesOverdue": "Đã quá hạn {count} phút",
+  "@viewScheduleMinutesOverdue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleSecondsAhead": "{count} giây nữa",
+  "@viewScheduleSecondsAhead": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleSecondsOverdue": "Đã quá hạn {count} giây",
+  "@viewScheduleSecondsOverdue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewScheduleDate": "{date} {clock}",
+  "@viewScheduleDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "clock": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleYearDate": "{date} năm {year} {clock}",
+  "@viewScheduleYearDate": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "clock": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleWeekdayName": "{day, select, 1{Thứ Hai} 2{Thứ Ba} 3{Thứ Tư} 4{Thứ Năm} 5{Thứ Sáu} 6{Thứ Bảy} other{Chủ nhật}}",
+  "@viewScheduleWeekdayName": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "viewReplayDate": "Ngày {day} tháng {month}",
+  "@viewReplayDate": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "viewReplayHours": "{count} giờ",
+  "@viewReplayHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewReplayHoursMinutes": "{hours} giờ {minutes} phút",
+  "@viewReplayHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiHundredMillion": "{value} trăm triệu",
+  "@viewUiHundredMillion": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiTenThousand": "{value} chục nghìn",
+  "@viewUiTenThousand": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiMillion": "{value} tr",
+  "@viewUiMillion": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewListSeparator": ", ",
+  "viewAttachmentSeparator": ", ",
+  "@viewUiSkippedCompare": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "@viewUiExpectedSteps": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "@viewUiSkippedStep": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "@viewUiExpectedSeries": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiInvalidJsonOffset": "Không phải JSON hợp lệ ({message}, gần ký tự thứ {offset})",
+  "@viewUiInvalidJsonOffset": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "offset": {
+        "type": "int"
+      }
+    }
+  },
+  "viewUiUnavailableChart": "Không hiển thị được biểu đồ",
+  "viewUiUnavailableMetric": "Không hiển thị được chỉ số",
+  "viewUiUnavailableCompare": "Không hiển thị được phần so sánh",
+  "viewUiUnavailableSteps": "Không hiển thị được các bước",
+  "viewUiUnavailableCallout": "Không hiển thị được ghi chú",
+  "viewUiUnavailableOptions": "Không hiển thị được các lựa chọn",
+  "viewUiUnavailableConfirm": "Không hiển thị được phần xác nhận",
+  "viewUiUnavailableText": "Không hiển thị được chữ",
+  "viewUiUnavailableGroup": "Không hiển thị được nhóm này",
+  "viewUiUnavailablePart": "Không hiển thị được phần này",
+  "viewScheduleSingleNextLabel": "Nhiệm vụ tự động: {title}, lần tới {when}",
+  "@viewScheduleSingleNextLabel": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleCountNextLabel": "{count} nhiệm vụ tự động, lần tới {when}",
+  "@viewScheduleCountNextLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiSkippedStepLabel": "Phải là chuỗi, bước này đã bị bỏ qua",
+  "viewLabeledValue": "{label}: {value}",
+  "@viewLabeledValue": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewDescribedValue": "{label}, {description}",
+  "@viewDescribedValue": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "description": {
+        "type": "String"
+      }
+    }
+  },
+  "viewSemicolonSeparator": "; ",
+  "viewChartSemantics": "{kind}. {data}",
+  "@viewChartSemantics": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      },
+      "data": {
+        "type": "String"
+      }
+    }
+  },
+  "viewMetricSemantics": "{label} {value}",
+  "@viewMetricSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "viewMetricCaptionSemantics": "{label} {value}, {caption}",
+  "@viewMetricCaptionSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      },
+      "caption": {
+        "type": "String"
+      }
+    }
+  },
+  "viewScheduleZone": "{rule} ({city} · {offset})",
+  "@viewScheduleZone": {
+    "placeholders": {
+      "rule": {
+        "type": "String"
+      },
+      "city": {
+        "type": "String"
+      },
+      "offset": {
+        "type": "String"
+      }
+    }
+  },
+  "viewContinueNotice": "\n({text})\n",
+  "@viewContinueNotice": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "viewShareAltMarker": "[{alt}]",
+  "@viewShareAltMarker": {
+    "placeholders": {
+      "alt": {
+        "type": "String"
+      }
+    }
+  },
+  "viewModelThinkingXhigh": "Rất cao",
+  "viewUiDialectWebOnly": "{kind} · Xem trong DSH Web",
+  "@viewUiDialectWebOnly": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      }
+    }
+  },
+  "viewUiDialectKindInteractive": "Nội dung tương tác",
+  "viewUiDialectKindChart": "Biểu đồ",
+  "viewUiDialectKindDiagram": "Sơ đồ",
+  "viewUiDialectKindImage": "Ảnh",
+  "viewUiDialectKindAudio": "Âm thanh",
+  "viewUiDialectKindVideo": "Video",
+  "viewUiDialectKindScene": "Khung cảnh 3D",
+  "viewUiDialectKindFiles": "Cây tệp",
+  "viewUiDialectKindMap": "Bản đồ",
+  "viewUiDialectKindOther": "Phần này",
+  "viewUiDialectInvalid": "Xem khối nội dung này trong DSH Web",
+  "viewUiDialectNote": "Xem trong DSH Web"
+}

@@ -1,0 +1,776 @@
+{
+  "@@locale": "vi",
+  "chatBackgroundTaskNotice": "Thông báo tác vụ nền",
+  "chatBackgroundTaskMessage": "Tin nhắn tác vụ nền",
+  "chatDeclineQuestion": "Bỏ qua",
+  "chatChats": "Trò chuyện",
+  "chatViewChatDetails": "Xem chi tiết trò chuyện",
+  "chatUnsent": "Chưa gửi",
+  "chatFailedSubmission": "Chưa gửi được · Đã giữ lại nội dung",
+  "chatEditFailedSubmission": "Sửa rồi gửi lại",
+  "chatErrReasoningEffortUnsupported": "Mô hình hiện tại không hỗ trợ mức suy luận này, hãy đổi mức hoặc đổi mô hình",
+  "chatSteerNextStep": "Chen ngang · Áp dụng ở bước tiếp theo",
+  "chatQueuedAfterTurn": "Xếp hàng · Gửi sau lượt này",
+  "chatSteering": "Đang chen ngang",
+  "chatQueued": "Đang xếp hàng",
+  "chatStoppingTurn": "Đang dừng lượt này",
+  "chatSending": "Đang gửi",
+  "chatSendNow": "Gửi ngay",
+  "chatSwitchToSteer": "Chuyển sang chen ngang",
+  "chatWithdraw": "Thu hồi",
+  "chatContinuedInNewChat": "Đã tiếp tục trong trò chuyện mới",
+  "chatReadOriginalImageFailed": "Không đọc được ảnh gốc, hãy thử lại",
+  "chatRegenerateFailed": "Tạo lại câu trả lời thất bại",
+  "chatRegeneratedInNewChat": "Đã tạo lại câu trả lời trong trò chuyện mới",
+  "chatOpenedInNewChatReattach": "Đã mở trong trò chuyện mới, cần thêm lại tệp đính kèm",
+  "chatOpenedInNewChat": "Đã mở trong trò chuyện mới",
+  "chatForkQueuedLeft": "{message} ({left} tin nhắn đang xếp hàng chưa mang theo được)",
+  "@chatForkQueuedLeft": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "left": {
+        "type": "int"
+      }
+    }
+  },
+  "chatReturnToOriginal": "Quay lại trò chuyện gốc",
+  "chatWaitingCount": "{count} mục chờ xác nhận",
+  "@chatWaitingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatWaitingBackToBottom": "{count} mục chờ xác nhận, quay xuống cuối",
+  "@chatWaitingBackToBottom": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatBackToBottom": "Quay xuống cuối",
+  "chatCreateFailed": "Tạo trò chuyện mới thất bại",
+  "chatSendMode": "Cách gửi",
+  "chatSteer": "Chen ngang",
+  "chatSteerHint": "Không làm gián đoạn, AI sẽ thấy ở bước tiếp theo",
+  "chatInterruptAndSend": "Dừng và gửi",
+  "chatInterruptHint": "Dừng tác vụ hiện tại, xử lý tin này trước",
+  "chatQueue": "Xếp hàng",
+  "chatQueueHint": "Gửi sau khi xong lượt này",
+  "chatWithdrawnEditable": "Đã thu hồi, sửa rồi gửi lại",
+  "chatWithdrawn": "Đã thu hồi",
+  "chatAttachmentLimit": "Mỗi tin nhắn tối đa {count} tệp đính kèm",
+  "@chatAttachmentLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatAttachmentPermission": "Không có quyền, hãy bật trong cài đặt hệ thống",
+  "chatOpenAttachmentFailed": "Không mở được tệp đính kèm",
+  "chatReadFailed": "Đọc thất bại",
+  "chatReadImageFailed": "Không đọc được ảnh",
+  "chatOpenChatFirst": "Hãy mở một cuộc trò chuyện trước",
+  "chatTurnCompleted": "Lượt này đã hoàn thành",
+  "chatTurnError": "Lượt này đã xảy ra lỗi",
+  "chatAnswerHint": "Nhập câu trả lời…",
+  "chatAnswerMode": "Gửi văn bản để trả lời câu hỏi đang chờ",
+  "chatMessageMode": "Gửi tin nhắn mới",
+  "chatQuestionAnswered": "Đã trả lời",
+  "chatStarting": "Đang khởi động",
+  "chatConnecting": "Đang kết nối",
+  "chatDisconnected": "Đã mất kết nối",
+  "chatReconnecting": "Đang kết nối lại",
+  "chatGenerating": "Đang tạo",
+  "chatGoToSettings": "Mở cài đặt",
+  "chatListeningEllipsis": "Đang nghe…",
+  "chatTranscribingEllipsis": "Đang chuyển văn bản…",
+  "chatConnectToSend": "Kết nối tới Engine để gửi",
+  "chatGeneratingSteerHint": "Đang tạo · Có thể chen ngang ngay",
+  "chatComposerHint": "Nhắn cho DSH…",
+  "chatStopGenerating": "Dừng tạo",
+  "chatVoiceInput": "Nhập bằng giọng nói",
+  "chatStopVoiceInput": "Dừng nhập giọng nói",
+  "chatGoal": "Mục tiêu",
+  "chatGoalActions": "Thao tác mục tiêu",
+  "chatGoalBlocked": "Bị chặn",
+  "chatGoalRoundLimit": "Vòng {rounds} / {max}",
+  "@chatGoalRoundLimit": {
+    "placeholders": {
+      "rounds": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGoalRound": "Vòng {rounds}",
+  "@chatGoalRound": {
+    "placeholders": {
+      "rounds": {
+        "type": "int"
+      }
+    }
+  },
+  "chatEditGoal": "Sửa mục tiêu",
+  "chatPauseGoal": "Tạm dừng",
+  "chatPauseGoalHint": "Tạm thời không tự tiếp tục",
+  "chatResumeGoal": "Tiếp tục",
+  "chatResumeGoalHint": "Tiếp tục tự tiến hành",
+  "chatClearGoal": "Xóa mục tiêu",
+  "chatGoalHint": "Muốn hoàn thành việc gì?",
+  "chatClearGoalTitle": "Xóa mục tiêu?",
+  "chatTodoCurrent": "Đang làm: {content}",
+  "@chatTodoCurrent": {
+    "placeholders": {
+      "content": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTodoNext": "Tiếp theo: {content}",
+  "@chatTodoNext": {
+    "placeholders": {
+      "content": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTodoAllDone": "Đã hoàn thành tất cả",
+  "chatTodoSemantics": "Việc cần làm {count}, {label}",
+  "@chatTodoSemantics": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCollapseTodos": "Thu gọn danh sách",
+  "chatExpandTodos": "Mở rộng danh sách",
+  "chatDockFolded": "{count} thanh trạng thái đã xếp chồng",
+  "@chatDockFolded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDockSpread": "Mở rộng",
+  "chatDockFold": "Thu gọn thanh trạng thái",
+  "chatDockNext": "Thẻ tiếp theo",
+  "chatDockPrevious": "Thẻ trước",
+  "chatTodoNotStarted": "Chưa bắt đầu",
+  "chatFile": "Tệp",
+  "chatFolder": "Thư mục",
+  "chatChat": "Trò chuyện",
+  "chatSubagent": "Subagent",
+  "chatRecent": "Gần đây",
+  "chatMentionSearching": "Đang tìm…",
+  "chatMentionNoFiles": "Không có tệp phù hợp",
+  "chatMentionNoMatches": "Không có tệp hay trò chuyện phù hợp",
+  "chatQuote": "Trích dẫn",
+  "chatOpenFolder": "Mở thư mục",
+  "chatJustNow": "Vừa xong",
+  "chatMentionAgeMinutes": "{count} phút",
+  "@chatMentionAgeMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMentionAgeHours": "{count} giờ",
+  "@chatMentionAgeHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMentionAgeDays": "{count} ngày",
+  "@chatMentionAgeDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMentionAgeMonths": "{count} tháng",
+  "@chatMentionAgeMonths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMentionAgeYears": "{count} năm",
+  "@chatMentionAgeYears": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMermaidChart": "Biểu đồ Mermaid",
+  "chatPreview": "Xem trước",
+  "chatUnwrapLines": "Không ngắt dòng",
+  "chatWrapLines": "Tự động ngắt dòng",
+  "chatAlertNote": "Lưu ý",
+  "chatAlertTip": "Mẹo",
+  "chatAlertImportant": "Quan trọng",
+  "chatAlertWarning": "Cảnh báo",
+  "chatAlertCaution": "Chú ý",
+  "chatImage": "Ảnh",
+  "chatImageNotFound": "Không tìm thấy ảnh",
+  "chatImageOffline": "Chưa kết nối DSH",
+  "chatImageTooLarge": "Ảnh quá lớn",
+  "chatImageReadFailed": "Không đọc được tệp",
+  "chatImageDisplayFailed": "Không hiển thị được",
+  "chatImageTapToView": "Chạm để xem",
+  "chatImageTapToRetry": "Chạm để thử lại",
+  "chatImageUnsupportedAddress": "Địa chỉ không được hỗ trợ",
+  "chatMermaidNeedsNetwork": "Cần có mạng",
+  "chatMermaidSyntaxError": "Cú pháp biểu đồ không đúng",
+  "chatChartPreview": "Xem trước biểu đồ",
+  "chatCopyCode": "Sao chép mã",
+  "chatChartClosed": "Đã đóng biểu đồ",
+  "chatVoiceMicrophoneFailed": "Không mở được micro",
+  "chatVoicePermissionOff": "Quyền micro đã tắt",
+  "chatVoicePermissionNeeded": "Cần quyền micro để nhập bằng giọng nói",
+  "chatVoiceUnavailable": "Điện thoại này không có nhận dạng giọng nói",
+  "chatVoiceNotHeard": "Chưa nghe rõ, hãy nói lại",
+  "chatVoiceTranscriptionFailed": "Không chuyển được đoạn giọng nói này thành văn bản",
+  "chatVoiceNetworkFailed": "Mạng không tốt, không nhận dạng được",
+  "chatVoiceLanguageUnsupported": "Chưa hỗ trợ ngôn ngữ này",
+  "chatVoiceMicrophoneBusy": "Micro đang được dùng",
+  "chatVoiceBusy": "Nhận dạng giọng nói đang bận, thử lại sau",
+  "chatVoiceRecognitionFailed": "Nhận dạng giọng nói bị lỗi",
+  "chatListening": "Đang nghe",
+  "chatTranscribing": "Đang chuyển văn bản",
+  "chatCancelVoiceInput": "Hủy nhập giọng nói",
+  "chatViewTurnTrace": "Xem dấu vết lượt này",
+  "chatTokensPerSecond": "Khoảng {count} token/giây",
+  "@chatTokensPerSecond": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatNoTokensStreaming": "Không có chữ đang chạy ra",
+  "chatCurrentStep": "Bước này {step}",
+  "@chatCurrentStep": {
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTodoProgress": "Tiến độ việc cần làm {done}/{total}",
+  "@chatTodoProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "chatProgress": "Tiến độ {done}/{total}",
+  "@chatProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "chatApproveCommand": "Cho phép chạy lệnh này?",
+  "chatApproveWrite": "Cho phép ghi tệp này?",
+  "chatApproveEdit": "Cho phép sửa tệp này?",
+  "chatApproveWebpage": "Cho phép mở trang web này?",
+  "chatApproveSearch": "Cho phép tìm kiếm trên mạng?",
+  "chatApproveTool": "Cho phép dùng “{name}”?",
+  "@chatApproveTool": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatDecline": "Từ chối",
+  "chatAllowOnce": "Cho phép lần này",
+  "chatAllowForChat": "Cho phép trong trò chuyện này",
+  "chatSaveToDownloads": "Lưu vào “Tải xuống”",
+  "chatCopyPath": "Sao chép đường dẫn",
+  "chatOpenInDefaultApp": "Mở bằng ứng dụng mặc định",
+  "chatDownloadsFolderHint": "Thư mục Tải xuống/DSH-Go",
+  "chatSavedToDownloadsPath": "Đã lưu vào Tải xuống/{path}",
+  "@chatSavedToDownloadsPath": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "chatSavedToPath": "Đã lưu vào {path}",
+  "@chatSavedToPath": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "chatDeliveredFiles": "Đã giao {count} tệp",
+  "@chatDeliveredFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatGeneratedFiles": "Đã tạo {count} tệp",
+  "@chatGeneratedFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatAllFiles": "Tổng cộng {count} tệp",
+  "@chatAllFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatCollapseFileList": "Thu gọn danh sách tệp",
+  "chatExpandAllFiles": "Mở rộng tất cả {count} tệp",
+  "@chatExpandAllFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatDownloading": "Đang tải xuống…",
+  "chatDownloadingPercent": "Đang tải xuống… {percent}%",
+  "@chatDownloadingPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "chatOpening": "Đang mở…",
+  "chatSavingToDownloads": "Đang lưu vào “Tải xuống”…",
+  "chatOpenInPhoneApp": "Mở bằng ứng dụng trên điện thoại",
+  "chatMoreActions": "Thêm thao tác",
+  "chatAlreadyInDownloads": "Đã có trong “Tải xuống” trên điện thoại",
+  "chatArtifactCopyPathOnly": "Kết nối hiện tại không đọc được tệp, chỉ sao chép được đường dẫn",
+  "chatReplying": "Đang trả lời",
+  "chatInterrupted": "Đã dừng",
+  "chatGallery": "Thư viện ảnh",
+  "chatTakePhoto": "Chụp ảnh",
+  "chatAddAttachment": "Thêm ảnh hoặc tệp",
+  "chatRemoveAttachment": "Gỡ “{name}”",
+  "@chatRemoveAttachment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatAutoApproveCommands": "Tự động cho phép lệnh",
+  "chatAutoApproving": "Đang tự động cho phép",
+  "chatViewMoreChanges": "Xem thay đổi, còn {count} tệp",
+  "@chatViewMoreChanges": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatViewChanges": "Xem thay đổi",
+  "chatChangedFiles": "Đã thay đổi {count} tệp",
+  "@chatChangedFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMoreFiles": "Còn {count} tệp",
+  "@chatMoreFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatFileChangeSemantics": "{path}, thêm {added} dòng, xóa {removed} dòng",
+  "@chatFileChangeSemantics": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      },
+      "added": {
+        "type": "int"
+      },
+      "removed": {
+        "type": "int"
+      }
+    }
+  },
+  "chatNewFileSuffix": "  Mới",
+  "chatPathCopied": "Đã sao chép đường dẫn",
+  "chatCommandCompacted": "Đã nén {count} mục lịch sử (khoảng {tokens} token)",
+  "@chatCommandCompacted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "tokens": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCommandPermissionChanged": "Đã chuyển sang {name}",
+  "@chatCommandPermissionChanged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCommandCurrentPermission": "Quyền hiện tại: {name}",
+  "@chatCommandCurrentPermission": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatCommandUnknownPermission": "Không có sẵn quyền này",
+  "chatCommandFeedbackRequired": "Hãy viết nội dung phản hồi rồi gửi",
+  "chatCommandFeedbackSubmitted": "Đã gửi phản hồi",
+  "chatCommandNothingToCompact": "Chưa có nội dung để nén",
+  "chatCommandCompactionCancelled": "Đã hủy nén",
+  "chatCommandCompactionBusy": "Đang bận, hãy nén sau",
+  "chatCommandCompactedSaveFailed": "Đã nén nhưng không lưu được",
+  "chatCommandCompactUsage": "/compact không nhận tham số",
+  "chatCommandHistoryChanged": "Trò chuyện đã thay đổi, hãy thử lại",
+  "chatCommandCompactionFailed": "Không nén được, hãy thử lại",
+  "chatCommandCompactionIncomplete": "Nén chưa xong, hãy xem lại trò chuyện",
+  "chatCommandPlanEnabled": "Đã bật chế độ lập kế hoạch",
+  "chatCommandPlanEnabling": "Chế độ lập kế hoạch bắt đầu từ bước tiếp theo",
+  "chatCommandPlanDisabled": "Đã tắt chế độ lập kế hoạch",
+  "chatCommandPlanDisabling": "Chế độ lập kế hoạch kết thúc từ bước tiếp theo",
+  "chatCommandPlanCancelled": "Đã hủy vào chế độ lập kế hoạch",
+  "chatCommandPlanInactive": "Chế độ lập kế hoạch đang tắt",
+  "chatCommandPlanNoAttachments": "Không thể đính kèm tệp khi thóat chế độ lập kế hoạch",
+  "chatCommandNoGoal": "Chưa có mục tiêu",
+  "chatCommandGoalRequired": "Hãy viết mục tiêu mới rồi gửi",
+  "chatCommandGoalAttachments": "Tệp đính kèm cần gửi cùng mục tiêu",
+  "chatCommandGoalCleared": "Đã xóa mục tiêu",
+  "chatCommandGoalInvalid": "Hiện không thực hiện được, hãy xem lại mục tiêu",
+  "chatCommandGoalExists": "Đã có mục tiêu, hãy sửa hoặc xóa rồi đặt lại",
+  "chatCommandGoalCreated": "Đã đặt mục tiêu",
+  "chatCommandGoalUpdated": "Đã cập nhật mục tiêu",
+  "chatCommandGoalPaused": "Đã tạm dừng mục tiêu",
+  "chatCommandGoalResumed": "Đã tiếp tục mục tiêu",
+  "chatCommandCurrentGoal": "Mục tiêu hiện tại",
+  "chatCommandGoalBlocked": "Cần xử lý",
+  "chatCommandGoalSummary": "{title}\n{objective}\n{status} · Vòng {rounds}/{max}",
+  "@chatCommandGoalSummary": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "objective": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      },
+      "rounds": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "chatCommandFailed": "Chạy lệnh thất bại",
+  "chatImageStorageDenied": "Không có quyền lưu trữ, chưa lưu được",
+  "chatImageCannotSave": "Không lưu được ảnh này",
+  "chatImageDownloadFailed": "Tải ảnh thất bại, hãy thử lại",
+  "chatImageSaveFailed": "Lưu thất bại, hãy thử lại",
+  "chatImageSavedToPhotos": "Đã lưu vào thư viện ảnh",
+  "chatShareFailed": "Không mở được chia sẻ",
+  "chatSubmit": "Gửi",
+  "chatSelectText": "Chọn chữ",
+  "chatRegenerate": "Trả lời lại",
+  "chatBranchFromHere": "Tách nhánh từ đây",
+  "chatEditAndResend": "Sửa rồi gửi lại",
+  "chatRegenerateHint": "Tạo lại trong trò chuyện mới, trò chuyện gốc không đổi",
+  "chatBranchHint": "Tiếp tục trong trò chuyện mới, trò chuyện gốc không đổi",
+  "chatEditResendHint": "Viết lại trong trò chuyện mới, cần thêm lại ảnh và tệp; trò chuyện gốc không đổi",
+  "chatSaveToPhotos": "Lưu vào thư viện ảnh",
+  "chatCopyAll": "Sao chép tất cả",
+  "chatRequestRetrying": "Yêu cầu thất bại, đang thử lại",
+  "chatRequestRetryAttempt": "Yêu cầu thất bại, đang thử lại (lần {count})",
+  "@chatRequestRetryAttempt": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatRequestRetryLimit": "Yêu cầu thất bại, đang thử lại ({count}/{max})",
+  "@chatRequestRetryLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "chatSubscriptionExpired": "Đăng nhập {name} đã hết hạn",
+  "@chatSubscriptionExpired": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatProviderKeyMissing": "Kênh mô hình này chưa có khóa",
+  "chatDeepSeekKeyMissing": "Chưa có DeepSeek API Key",
+  "chatOutputLimitReached": "Đã đạt giới hạn đầu ra một lần",
+  "chatTurnBlocked": "Lượt này đã bị chặn",
+  "chatTurnEngineRestarted": "Engine đã khởi động lại, lượt này đã dừng",
+  "chatSignInAgain": "Đăng nhập lại",
+  "chatQuestionsTitle": "Có {count} câu hỏi muốn hỏi bạn",
+  "@chatQuestionsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatOneQuestion": "Có một câu hỏi muốn hỏi bạn",
+  "chatMultipleChoices": "Được chọn nhiều",
+  "chatCustomAnswer": "Câu trả lời khác",
+  "chatCustomAnswerHint": "Nhập câu trả lời của bạn",
+  "chatQuoteSemantics": "Trích dẫn: {text}",
+  "@chatQuoteSemantics": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatRemoveQuote": "Gỡ trích dẫn",
+  "chatReadOnlySubagent": "Subagent dùng một lần, chỉ xem",
+  "chatThinkingActive": "Đang suy nghĩ",
+  "chatThinking": "Suy nghĩ",
+  "chatTranslate": "Dịch",
+  "chatTranslationUnavailable": "Dịch tạm thời không dùng được",
+  "chatViewOriginal": "Xem văn bản gốc",
+  "chatViewTranslation": "Xem bản dịch",
+  "chatTranslating": "Đang dịch",
+  "chatToolFailures": "{label}, {count} lần thất bại",
+  "@chatToolFailures": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatToolNeedsApproval": "Cần cấp quyền mới chạy được",
+  "chatCommand": "Lệnh",
+  "chatToolLineRange": " · Dòng {first}–{last}",
+  "@chatToolLineRange": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "last": {
+        "type": "int"
+      }
+    }
+  },
+  "chatParameters": "Tham số",
+  "chatOutput": "Đầu ra",
+  "chatResult": "Kết quả",
+  "chatError": "Lỗi",
+  "chatChanges": "Thay đổi",
+  "chatContent": "Nội dung",
+  "chatNoOutput": "Không có đầu ra",
+  "chatToolDeclined": "Đã từ chối lần gọi công cụ này",
+  "chatToolRunning": "Đang chạy…",
+  "chatNoDetails": "Chưa có chi tiết",
+  "chatOutputHiddenLines": "{count, plural, other{Đã ẩn {shown} dòng ở giữa}}",
+  "@chatOutputHiddenLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "chatOutputHiddenChars": "Đã ẩn {count} ký tự ở giữa",
+  "@chatOutputHiddenChars": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "chatOutputSummary": "{count, plural, other{Tổng {lines} dòng}} · {chars} ký tự",
+  "@chatOutputSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "lines": {
+        "type": "String"
+      },
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
+  "chatOutputViewAll": "Xem tất cả",
+  "chatOutputCopyAll": "Sao chép toàn văn",
+  "chatOutputCopied": "Đã sao chép toàn văn",
+  "chatOutputToEnd": "Nhảy xuống cuối",
+  "chatOutputToStart": "Quay lên đầu",
+  "chatErrApiKey": "API Key không hợp lệ hoặc đã hết hạn",
+  "chatErrForbidden": "Thông tin đăng nhập không dùng được hoặc không đủ quyền",
+  "chatErrBalance": "Số dư không đủ",
+  "chatErrAccountQuota": "Đã dùng hết hạn mức tài khoản",
+  "chatErrRateLimit": "Yêu cầu quá nhiều, thử lại sau",
+  "chatErrContextLength": "Trò chuyện quá dài. Nếu /compact cũng thất bại, hãy tạo trò chuyện mới hoặc đổi mô hình",
+  "chatErrModelUnavailable": "Dịch vụ mô hình tạm thời không dùng được",
+  "chatErrModelTimeout": "Mô hình phản hồi quá thời gian chờ",
+  "chatErrModelConnection": "Không kết nối được tới dịch vụ mô hình",
+  "chatErrModelEmpty": "Mô hình không trả về nội dung",
+  "chatErrEngineOutdated": "Mô hình này cần Engine phiên bản mới hơn",
+  "chatErrModelUnsupported": "Mô hình hiện tại không dùng được",
+  "chatSwitchModel": "Đổi mô hình",
+  "chatErrTurn": "Lượt này đã xảy ra lỗi",
+  "chatTurnSteps": "{count} bước",
+  "@chatTurnSteps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTurnFootnoteSemantics": "Lượt này {summary}, xem dấu vết lượt này",
+  "@chatTurnFootnoteSemantics": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTurnToolCalls": "{count} lần gọi công cụ",
+  "@chatTurnToolCalls": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTurnMessages": "{count} tin nhắn",
+  "@chatTurnMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatTurnThoughts": "{count} đoạn suy nghĩ",
+  "@chatTurnThoughts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMe": "Tôi",
+  "chatGoalSemantics": "Mục tiêu, {objective}",
+  "@chatGoalSemantics": {
+    "placeholders": {
+      "objective": {
+        "type": "String"
+      }
+    }
+  },
+  "chatGoalStateSemantics": "Mục tiêu, {objective}, {state}",
+  "@chatGoalStateSemantics": {
+    "placeholders": {
+      "objective": {
+        "type": "String"
+      },
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "chatTodoItemSemantics": "{content}, {state}",
+  "@chatTodoItemSemantics": {
+    "placeholders": {
+      "content": {
+        "type": "String"
+      },
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMentionSemantics": "{kind}: {label}",
+  "@chatMentionSemantics": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "chatArtifactSemantics": "{name}, {description}",
+  "@chatArtifactSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "description": {
+        "type": "String"
+      }
+    }
+  }
+}

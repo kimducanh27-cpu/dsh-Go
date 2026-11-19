@@ -1,0 +1,179 @@
+{
+  "@@locale": "vi",
+  "workshopTitle": "Workshop",
+  "workshopSubtitle": "Thú cưng và bạn đồng hành do mọi người làm, thích cái nào thì cài cái đó",
+  "workshopEntrySubtitle": "Tìm thú cưng và bạn đồng hành do người khác làm",
+  "workshopTabBrowse": "Khám phá",
+  "workshopTabMine": "Bài gửi của tôi",
+  "workshopKindAll": "Tất cả",
+  "workshopKindPet": "Thú cưng pixel",
+  "workshopKindCompanion": "Bạn đồng hành",
+  "workshopSearchHint": "Tìm theo tên hoặc tác giả",
+  "workshopGet": "Lấy",
+  "workshopRefresh": "Làm mới",
+  "workshopByAuthor": "{author} làm",
+  "@workshopByAuthor": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopEmptyTitle": "Ở đây vẫn trống",
+  "workshopEmptyMessage": "Chưa ai gửi bài. Nếu bạn làm thú cưng hay bạn đồng hành thì có thể gửi đầu tiên.",
+  "workshopNoMatchTitle": "Không tìm thấy",
+  "workshopNoMatchMessage": "Thử tên hoặc tác giả khác xem.",
+  "workshopUnavailableTitle": "Tạm thời không mở được Workshop",
+  "workshopNotOpenTitle": "Workshop chưa mở",
+  "workshopNotOpenMessage": "Phiên bản này chưa kết nối dịch vụ Workshop.",
+  "workshopShowingOlder": "Không làm mới được, đang hiện nội dung lấy lúc {when}.",
+  "@workshopShowingOlder": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopLocalUnknown": "Không đọc được trên máy đã cài những gì, dấu “Đã cài” có thể không chính xác.",
+  "workshopStatVersion": "Phiên bản",
+  "workshopStatSize": "Kích thước",
+  "workshopStatLicense": "Giấy phép",
+  "workshopAbout": "Giới thiệu",
+  "workshopNoDescription": "Tác giả chưa viết giới thiệu.",
+  "workshopSource": "Nguồn",
+  "workshopMinApp": "Cần DSH Go {version} trở lên.",
+  "@workshopMinApp": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledVersion": "Đã cài {version}",
+  "@workshopInstalledVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopUpdateTo": "Cập nhật lên {version}",
+  "@workshopUpdateTo": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledWithdrawn": "Phiên bản bạn đã cài đã bị rút lại. Nó vẫn dùng được; có phiên bản mới thì cập nhật, không có thì nên gỡ.",
+  "workshopPhasePreparing": "Đang chuẩn bị…",
+  "workshopPhaseDownloading": "Đang tải xuống",
+  "workshopPhaseVerifying": "Đang kiểm tra…",
+  "workshopPhaseCancelling": "Đang hủy…",
+  "workshopProgressBytes": "{received} / {total}",
+  "@workshopProgressBytes": {
+    "placeholders": {
+      "received": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstallDone": "Cài xong",
+  "workshopInstallDonePet": "Cài xong, vào trang Thú cưng là đổi được.",
+  "workshopInstallDoneCompanion": "Cài xong, vào phòng Bạn đồng hành là gặp được cô ấy.",
+  "workshopInstallDoneRefreshIssue": "Cài xong, nhưng danh sách chưa làm mới được, vào lại là thấy.",
+  "workshopInstallCancelled": "Đã hủy, không thay đổi gì trên máy.",
+  "workshopInstallBusy": "Lần cài hoặc gỡ trước chưa xong, chờ xong rồi thử lại.",
+  "workshopReplaceTitle": "Ghi đè bản đã có trên máy?",
+  "workshopReplaceMessage": "Trên máy đã có một tài nguyên cùng tên, không phải cài từ mục Workshop này. Tiếp tục sẽ thay bằng “{title}”, thay xong không lấy lại được.",
+  "@workshopReplaceMessage": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopReplaceConfirm": "Ghi đè",
+  "workshopReport": "Báo cáo",
+  "workshopErrorNetwork": "Không có mạng, thử lại sau.",
+  "workshopErrorTimeout": "Chờ quá lâu không có phản hồi, thử lại sau.",
+  "workshopErrorServer": "Dịch vụ Workshop tạm thời gặp sự cố, thử lại sau.",
+  "workshopErrorRateLimited": "Thao tác quá thường xuyên, thử lại sau một lúc.",
+  "workshopErrorBadData": "Nội dung Workshop trả về không đúng, chưa dùng. Thử lại sau.",
+  "workshopErrorCatalogChanged": "Tác phẩm này vừa thay đổi, làm mới rồi xem lại.",
+  "workshopErrorNotFound": "Không tìm thấy tác phẩm này nữa, có thể đã bị gỡ.",
+  "workshopErrorWithdrawn": "Phiên bản này đã bị rút lại, không cài được.",
+  "workshopErrorMinApp": "App quá cũ, cập nhật rồi mới cài được.",
+  "workshopErrorUnsupported": "Phiên bản app này chưa nhận diện loại tác phẩm này.",
+  "workshopErrorCompanionOff": "Tác phẩm bạn đồng hành tạm thời đang tắt.",
+  "workshopErrorUploadOff": "Workshop tạm thời không nhận bài gửi.",
+  "workshopErrorNoSpace": "Điện thoại không đủ dung lượng, dọn bớt rồi thử lại.",
+  "workshopErrorStorage": "Không đọc/ghi được tệp trên điện thoại.",
+  "workshopErrorIntegrity": "Nội dung tải về không khớp với bản đăng ký, đã bỏ. Thử lại nhé.",
+  "workshopErrorDowngrade": "Phiên bản trên máy mới hơn, sẽ không đổi sang bản cũ.",
+  "workshopErrorRuntimeMissing": "Cần mời một nhân vật trong phòng Bạn đồng hành trước, rồi mới cài được bạn đồng hành khác.",
+  "workshopErrorReadersBusy": "Cô ấy đang được dùng. Rời phòng Bạn đồng hành hoặc tắt cửa sổ nổi rồi thử lại.",
+  "workshopErrorInstallRecord": "Bản ghi cài đặt trên máy không khớp, chưa động vào nó.",
+  "workshopErrorOtherOrigin": "Cài từ Workshop khác.",
+  "workshopErrorSignIn": "Cần đăng nhập tài khoản GitHub trước.",
+  "workshopErrorConsent": "Cần đồng ý để Workshop dùng thông tin đăng nhập xác minh danh tính trước.",
+  "workshopErrorAccountMismatch": "Tài khoản đăng nhập không khớp loại tài khoản Workshop dùng, đăng nhập lại nhé.",
+  "workshopErrorAccountDown": "Tạm thời không xác minh được danh tính với GitHub, thử lại sau.",
+  "workshopErrorPreferences": "Không lưu được bản ghi trên máy, bước này chưa tiếp tục.",
+  "workshopErrorBusy": "Bước trước chưa xong, chờ một lát.",
+  "workshopErrorCancelled": "Đã hủy.",
+  "workshopErrorUnknownResult": "Không chắc đã thành công chưa. Làm mới xem trước, đừng vội thử lại.",
+  "workshopErrorGeneric": "Không thành công, thử lại sau.",
+  "workshopErrorWithCode": "Không thành công, thử lại sau. ({code})",
+  "@workshopErrorWithCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopErrorPackage": "Có tệp trong gói không đạt yêu cầu, không tải lên được ({code}).",
+  "@workshopErrorPackage": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopDisclosureTitle": "Để Workshop xác minh danh tính GitHub của bạn",
+  "workshopDisclosureLead": "Gửi bài, quản lý bài gửi của mình và báo cáo, Workshop đều cần biết bạn là ai trước. Cách làm là gửi thông tin đăng nhập GitHub của bạn cho dịch vụ Workshop dưới đây, để nó hỏi GitHub xem đó là tài khoản nào.",
+  "workshopDisclosureWorker": "Workshop nhận thông tin đăng nhập",
+  "workshopDisclosureAccount": "Dịch vụ tài khoản xác minh danh tính",
+  "workshopDisclosureUse": "Thông tin này được gửi khi bạn gửi bài, xem hoặc rút bài gửi của mình, hoặc báo cáo. Workshop chỉ dùng nó để xác minh danh tính với GitHub, không lưu lại.",
+  "workshopDisclosureKept": "Thông tin đăng nhập chỉ lưu trên điện thoại này, máy còn ghi lại rằng bạn đã đồng ý hai địa chỉ này; đổi một trong hai sẽ hỏi lại.",
+  "workshopDisclosureStale": "Địa chỉ vừa thay đổi, hãy xác nhận lại theo địa chỉ đang hiện.",
+  "workshopDisclosureAccept": "Đồng ý và tiếp tục",
+  "workshopDisclosureDecline": "Để sau",
+  "workshopDisclosureUnsaved": "Lần đồng ý này đã có hiệu lực, nhưng không lưu được trên máy, lần sau có thể hỏi lại.",
+  "workshopSignInTitle": "Đăng nhập bằng GitHub",
+  "workshopSignInLead": "Workshop nhận diện tác giả bằng tài khoản GitHub. Lần cấp quyền này chỉ đọc hồ sơ công khai của bạn (tên người dùng và mã tài khoản), không động vào kho của bạn.",
+  "workshopSignInPreparing": "Đang lấy mã xác minh từ GitHub…",
+  "workshopSignInSteps": "Nhập mã xác minh trên trang xác minh của GitHub và cấp quyền, rồi quay lại đây.",
+  "workshopSignInOpen": "Sao chép và mở GitHub",
+  "workshopSignInCopied": "Đã sao chép mã xác minh",
+  "workshopSignInWaiting": "Đang chờ bạn cấp quyền trên GitHub…",
+  "workshopSignInExpired": "Mã xác minh đã hết hạn.",
+  "workshopSignInDenied": "Bạn đã hủy cấp quyền trên GitHub.",
+  "workshopSignInNetwork": "Không kết nối được GitHub, kiểm tra mạng rồi thử lại.",
+  "workshopSignInUnconfigured": "Workshop này chưa bật đăng nhập GitHub.",
+  "workshopSignInAgain": "Lấy mã xác minh mới",
+  "workshopAccountLine": "Tài khoản GitHub {login}",
+  "workshopAccountSignOut": "Đăng xuất",
+  "workshopAccountSignedOut": "Đã đăng xuất. Muốn thu hồi hoàn toàn quyền, vào trang Applications trong cài đặt GitHub để thu hồi.",
+  "workshopAccountSignOutFailed": "Không đăng xuất được, thử lại sau.",
+  "@workshopAccountLine": {
+    "placeholders": {
+      "login": {
+        "type": "String"
+      }
+    }
+  }
+}

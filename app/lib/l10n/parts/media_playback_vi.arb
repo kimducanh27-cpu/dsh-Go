@@ -1,0 +1,9 @@
+{
+  "@@locale": "vi",
+  "mediaVideoLoading": "Đang tải video…",
+  "mediaVideoCannotPlay": "Không phát được video này trong app. Thử lại hoặc mở bằng app khác.",
+  "mediaVideoUnsupported": "Bản này chưa hỗ trợ phát video trong app. Bạn có thể lưu video vào thư viện ảnh hoặc mở bằng app khác.",
+  "mediaVideoPlay": "Phát",
+  "mediaVideoPause": "Tạm dừng",
+  "mediaVideoSaveFailed": "Lưu video thất bại, thử lại nhé."
+}

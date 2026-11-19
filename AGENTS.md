@@ -129,3 +129,36 @@ CI（`.github/workflows/ci.yml`）在 PR 上跑通用检查和改动涉及的部
 ## 编辑本文件
 
 `CLAUDE.md` 是指向 `AGENTS.md` 的符号链接；编辑真身。每条规则保持自包含，细节链接到权威文档。
+
+## Tiếng Việt (vi) — Vietnamese localization
+
+Fork này thêm tiếng Việt cho toàn bộ giao diện (75 area, 8.332 key).
+Quy tắc đầy đủ ở [GLOSSARY.md](GLOSSARY.md) (v3), quy trình review ở
+[REVIEW.md](REVIEW.md), hạ tầng locale ở [PLUMBING.md](PLUMBING.md).
+
+- Văn bản UI chỉ nằm ở `app/lib/l10n/parts/<area>_{zh,en,vi}.arb`; zh là gốc
+  (template), en đối chiếu, vi dịch từ zh. Không sửa tay file gộp
+  (`app_zh.arb`/`app_en.arb`/`app_vi.arb`) và file gen (`lib/l10n/gen/`).
+- Mỗi key phải đủ zh+en+vi, placeholder giống hệt nhau, plural/select phải có
+  case `other`, key lowerCamel và duy nhất toàn repo. Kiểm tra bằng
+  `python3 app/tool/l10n_merge.py --locale vi --check` (phải exit=0).
+- Giữ nguyên key, `$var`, `${expr}`, `{placeholder}`, selector và case của
+  plural/select; chỉ dịch chữ trong case. Copy nguyên `@key` metadata từ zh.
+- Không dịch URL, path, mã shell/CLI, tên brand/linh vật (`DSH Go`, `Deepy`,
+  `鲸娘`) và thuật ngữ giữ nguyên theo Glossary: Subagent, Agent, Instance,
+  Plugin, Prompt, Sandbox/PRoot, Engine, Tavern, Workshop.
+- Thuật ngữ chính: Model = "Mô hình"/"mô hình"; Chat = "Trò chuyện";
+  Session = "Phiên"; Remote Host = "Máy chủ từ xa"; Workspace =
+  "Không gian làm việc"; 任务 automation = "Nhiệm vụ", generic background =
+  "Tác vụ"; file (UI) = "tệp"; cache = "cache"; Lorebook = "Sổ thế giới";
+  Persona = "Nhân cách" (≠ 角色 "Nhân vật"); More (bare) = "Xem thêm".
+- Chính tả thống nhất: hủy / xóa / hóa / khóa / thỏa.
+- Thêm ngôn ngữ mới: thêm `Locale` vào `AppLocale.supported` trong
+  `app/lib/l10n/l10n.dart`, thêm mục vào enum `AppLanguage`
+  (`app/lib/state/locale_state.dart`) và vào `language_tile.dart`;
+  kiểm tra các `switch` exhaustive khác trên `AppLanguage` có đủ case không.
+  Android native (`AppStrings.kt`, `values/`) chưa có bản vi — xem
+  `PLUMBING.md`.
+- Mọi thay đổi bản dịch đều qua 3 lớp review (ngữ nghĩa, kỹ thuật, đọc hiểu)
+  + Consensus Judge; finding phải có `file:line` và log kiểm chứng thực tế.
+

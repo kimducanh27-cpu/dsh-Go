@@ -1,0 +1,88 @@
+{
+  "@@locale": "vi",
+  "localEnvChooseTitle": "DSH chạy ở đâu?",
+  "localEnvChooseMessage": "Sau này đổi được trong cài đặt",
+  "localEnvThisPhoneDetail": "Bộ nhớ khoảng {storage} MB · RAM khoảng {memory} MB",
+  "@localEnvThisPhoneDetail": {
+    "placeholders": {
+      "storage": {
+        "type": "int"
+      },
+      "memory": {
+        "type": "int"
+      }
+    }
+  },
+  "localEnvThisPhoneDetailShort": "RAM khoảng {memory} MB",
+  "@localEnvThisPhoneDetailShort": {
+    "placeholders": {
+      "memory": {
+        "type": "int"
+      }
+    }
+  },
+  "localEnvLowStorage": "Không đủ dung lượng, cần khoảng {needed} MB",
+  "@localEnvLowStorage": {
+    "placeholders": {
+      "needed": {
+        "type": "int"
+      }
+    }
+  },
+  "localEnvRemoteDetail": "Kết nối DSH trên máy tính hoặc máy chủ",
+  "localEnvUnavailable": "Thiết bị này tạm thời không chạy được DSH trên máy",
+  "localEnvUnsupported": "Tạm thời chưa hỗ trợ",
+  "localEnvRecommended": "Đề xuất",
+  "localEnvInstallTitle": "Cài môi trường chạy trên máy",
+  "localEnvInstallMessage": "Chạy DSH trên điện thoại này",
+  "localEnvFactStorage": "Khoảng {storage} MB dung lượng",
+  "@localEnvFactStorage": {
+    "placeholders": {
+      "storage": {
+        "type": "int"
+      }
+    }
+  },
+  "localEnvFactMemory": "Khi chạy khoảng {memory} MB RAM",
+  "@localEnvFactMemory": {
+    "placeholders": {
+      "memory": {
+        "type": "int"
+      }
+    }
+  },
+  "localEnvUseRemote": "Dùng máy chủ từ xa",
+  "localEnvNotInstalled": "Chưa cài môi trường chạy trên máy",
+  "localEnvUninstall": "Gỡ môi trường chạy",
+  "localEnvUninstallHint": "Giải phóng dung lượng",
+  "localEnvUninstallTitle": "Gỡ môi trường chạy?",
+  "localEnvUninstallBody": "Cuộc trò chuyện, không gian làm việc, Plugin, cài đặt, cấu hình giao diện và kỹ năng trên máy sẽ bị xóa cùng.",
+  "localEnvUninstallConfirm": "Gỡ",
+  "localEnvUninstallFailed": "Không gỡ được, thử lại lần nữa",
+  "localEnvPhoneNeedsRuntime": "Cài môi trường chạy trên máy rồi mới dùng được",
+  "localEnvSignInNeedsRuntime": "Cần môi trường chạy trên máy",
+  "localEnvSignInInstallFirst": "Cài xong là đăng nhập được",
+  "engineStartReopensApp": "Mỗi lần mở app, Engine chỉ khởi động được một lần, khởi động lại sẽ mở lại app.",
+  "engineReopenFailed": "Engine cần mở lại app mới khởi động lại được, hãy tự mở lại một lần.",
+  "engineCapShell": "Dòng lệnh",
+  "engineCapShellBuiltin": "Tích hợp {count} lệnh",
+  "@engineCapShellBuiltin": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineCapShellSystem": "Hệ thống",
+  "engineCapNodeScripts": "Script Node",
+  "engineCapMarket": "Cài Plugin từ chợ",
+  "engineCapBackground": "Khi chuyển sang nền",
+  "engineCapMayFreeze": "Có thể bị hệ thống tạm dừng",
+  "engineCapKeepsRunning": "Vẫn chạy tiếp",
+  "engineCapYes": "Được",
+  "engineCapNone": "Không dùng được",
+  "marketInstallRefused": "Engine này không cài được Plugin từ chợ",
+  "localEnvChooseUseTitle": "Bạn muốn dùng dsh-Go thế nào?",
+  "localEnvTavernTitle": "Trò chuyện với nhân vật",
+  "localEnvTavernDetail": "Nối lại cuộc trò chuyện DeepSeek cũng ở đây · Không cần cài đặt"
+}

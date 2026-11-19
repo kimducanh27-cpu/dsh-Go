@@ -1,0 +1,8 @@
+{
+  "@@locale": "vi",
+  "phoneRuntimeUpgradeBase": "Không xác nhận được Engine mới có tương thích với môi trường Linux hiện có hay không, đã dừng cập nhật. Môi trường gốc và các công cụ đã cài không bị xóa. Hãy sao lưu đầy đủ trước, rồi liên hệ người duy trì để chuyển đổi; đừng đặt lại hay gỡ App trực tiếp.",
+  "phoneRuntimeUpgradeManifest": "Không nhận dạng an toàn được bản kê khai cập nhật runtime, đã dừng cập nhật, giữ nguyên môi trường gốc. Hãy kiểm tra gói cài đặt và liên hệ người duy trì, đừng đặt lại trực tiếp.",
+  "phoneRuntimeUpgradeInterrupted": "Nâng cấp runtime chưa hoàn tất, dữ liệu và hiện trường khôi phục đã được giữ lại. Hãy thử cài lại; nếu vẫn lỗi thì xuất chẩn đoán và liên hệ người duy trì, đừng đặt lại hay xóa thư mục khôi phục.",
+  "phoneRuntimeUpgradeSymlink": "Đường dẫn hệ thống của môi trường hiện có đã bị thay bằng liên kết tuỳ chỉnh, không thể cập nhật an toàn. Môi trường gốc được giữ lại, hãy sao lưu trước rồi liên hệ người duy trì để xử lý.",
+  "phoneRuntimeUpgradeRunning": "Chưa xác nhận Engine hay tiến trình cũ đã dừng, chưa bắt đầu cập nhật. Hãy dừng Engine trên máy trước, đợi dọn dẹp xong rồi thử lại; đừng đặt lại môi trường."
+}

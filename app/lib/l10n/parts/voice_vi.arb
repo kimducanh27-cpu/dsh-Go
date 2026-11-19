@@ -1,0 +1,150 @@
+{
+  "@@locale": "vi",
+  "voiceSettingsTitle": "Giọng nói",
+  "voiceModeAuto": "Tự động",
+  "voiceModeSystem": "Hệ thống",
+  "voiceModeEngine": "Mô hình giọng nói",
+  "voiceModeAutoHint": "Có tài khoản DeepSeek hoặc API Key thì dùng DeepSeek, không thì dùng mô hình giọng nói hoặc nhận dạng hệ thống",
+  "voiceModeSystemHint": "Dùng dịch vụ nhận dạng trong cài đặt điện thoại",
+  "voiceModeEngineHint": "Nhận dạng bằng mô hình giọng nói trong Engine",
+  "voiceFallbackStarted": "Đã chuyển sang mô hình giọng nói, hãy nói lại lần nữa",
+  "voiceChooseSystem": "Hãy chọn dịch vụ nhận dạng giọng nói trong cài đặt hệ thống",
+  "voiceConfigureEngine": "Hãy tải mô hình giọng nói trong cài đặt giọng nói trước",
+  "voiceConfigureEither": "Nhận dạng hệ thống không dùng được, bạn có thể tải mô hình giọng nói trong cài đặt giọng nói",
+  "voiceErrorNetworkTimeout": "Kết nối nhận dạng giọng nói hết thời gian, hãy kiểm tra mạng",
+  "voiceErrorNetwork": "Kết nối mạng nhận dạng giọng nói thất bại",
+  "voiceErrorAudio": "Ghi âm giọng nói thất bại, hãy kiểm tra mic",
+  "voiceErrorServer": "Dịch vụ nhận dạng hệ thống bị lỗi, hãy thử lại sau",
+  "voiceErrorClient": "Không khởi động được nhận dạng hệ thống, hãy kiểm tra dịch vụ giọng nói",
+  "voiceErrorSpeechTimeout": "Không nghe thấy tiếng, hãy nói lại lần nữa",
+  "voiceErrorNoMatch": "Không nghe rõ, nói lại lần nữa",
+  "voiceErrorBusy": "Nhận dạng hệ thống đang bận, hãy thử lại sau",
+  "voiceErrorPermission": "Cần quyền mic mới nhập bằng giọng nói được",
+  "voiceErrorTooManyRequests": "Yêu cầu nhận dạng giọng nói quá nhiều, hãy thử lại sau",
+  "voiceErrorDisconnected": "Dịch vụ nhận dạng hệ thống đã ngắt kết nối",
+  "voiceErrorLanguageUnsupported": "Nhận dạng hệ thống không hỗ trợ ngôn ngữ này",
+  "voiceErrorLanguageUnavailable": "Hãy tải ngôn ngữ này trong dịch vụ giọng nói trước",
+  "voiceErrorSupportCheck": "Dịch vụ giọng nói không hỗ trợ kiểm tra khả năng nhận dạng",
+  "voiceErrorDownloadEvents": "Dịch vụ giọng nói không hỗ trợ xem tiến độ tải mô hình",
+  "voiceErrorUnknown": "Dịch vụ giọng nói trả lỗi {code}, hãy đổi dịch vụ nhận dạng",
+  "@voiceErrorUnknown": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceSettingsFailed": "Không đọc được cài đặt giọng nói, hãy thử lại",
+  "voiceModeSection": "Cách nhận dạng",
+  "voiceModelSection": "Mô hình giọng nói",
+  "voiceModelFooter": "Tải về rồi nhận dạng tiếng Trung, tiếng Anh, tiếng Quảng Đông, tiếng Nhật và tiếng Hàn ngay trên điện thoại, bản ghi âm không rời khỏi máy.",
+  "voiceModelWaiting": "Khởi động Engine rồi mới tải được",
+  "voiceModelUnsupported": "Engine hiện tại không hỗ trợ mô hình giọng nói",
+  "voiceModelAbsent": "Chưa tải",
+  "voiceModelDownloading": "Đang tải",
+  "voiceModelPreparing": "Đang kiểm tra và tải vào",
+  "voiceModelReady": "Đã sẵn sàng",
+  "voiceModelFailed": "Tải thất bại",
+  "voiceModelBytes": "{done} / {total}",
+  "@voiceModelBytes": {
+    "placeholders": {
+      "done": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelReadyNote": "Đã chiếm {size}, dùng ngoại tuyến được",
+  "@voiceModelReadyNote": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelAbsentNote": "Tải khoảng {size}",
+  "@voiceModelAbsentNote": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelWaitingNote": "Việc tải sẽ bắt đầu sau khi Engine khởi động",
+  "voiceModelFailNetwork": "Kết nối mạng thất bại",
+  "voiceModelFailTimeout": "Tải lâu không có tiến triển",
+  "voiceModelFailCertificate": "Kết nối bảo mật thất bại, hãy kiểm tra giờ trên điện thoại",
+  "voiceModelFailServer": "Nguồn tải tạm thời không dùng được",
+  "voiceModelFailIntegrity": "Kiểm tra tệp không đạt",
+  "voiceModelFailStorage": "Không đủ dung lượng, còn cần khoảng {size}",
+  "@voiceModelFailStorage": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelFailEngine": "Engine không phản hồi",
+  "voiceModelFailUnknown": "Tải chưa xong",
+  "voiceModelDownload": "Tải",
+  "voiceModelResume": "Tiếp tục tải",
+  "voiceModelRedownload": "Tải lại",
+  "voiceModelMeteredTitle": "Dùng dữ liệu di động để tải?",
+  "voiceModelMeteredBody": "Mô hình giọng nói khoảng {size}, sẽ dùng lưu lượng dữ liệu di động.",
+  "@voiceModelMeteredBody": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelDeleteTitle": "Xóa mô hình giọng nói?",
+  "voiceModelDeleteBody": "Xóa rồi, nhập giọng nói sẽ chuyển sang nhận dạng hệ thống, cần thì tải lại được.",
+  "voiceModelDeleteFailed": "Không xóa được mô hình giọng nói, hãy thử lại",
+  "voiceModelDeleteStopping": "Việc tải vẫn đang dừng, hãy đợi rồi xóa sau",
+  "voiceModelStartedToast": "Mô hình giọng nói bắt đầu tải · khoảng {size}",
+  "@voiceModelStartedToast": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelResumedToast": "Tiếp tục tải mô hình giọng nói · còn khoảng {size}",
+  "@voiceModelResumedToast": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelReadyToast": "Nhập giọng nói đã sẵn sàng",
+  "voiceModelFailedToast": "Tải mô hình giọng nói thất bại: {reason}",
+  "@voiceModelFailedToast": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceModelNoticeDownloading": "Đang tải mô hình giọng nói {percent}%",
+  "@voiceModelNoticeDownloading": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "voiceModelNoticePreparing": "Đang kiểm tra mô hình giọng nói",
+  "voiceModelNoticeFailed": "Tải mô hình giọng nói thất bại, mở app thử lại",
+  "voiceModeDeepseek": "DeepSeek",
+  "voiceModeDeepseekHint": "Nhận dạng giọng nói bằng DeepSeek, tài khoản đã đăng nhập hoặc API Key sẽ trả phí",
+  "voiceModeCloud": "Dịch vụ đám mây khác",
+  "voiceModeCloudHint": "Giao diện chuyển giọng nói thành chữ tương thích OpenAI, ví dụ Whisper, SiliconFlow",
+  "voiceCloudSection": "Dịch vụ nhận dạng đám mây",
+  "voiceCloudFooter": "Bản ghi âm sẽ gửi cho dịch vụ này để nhận dạng. Key chỉ lưu trên điện thoại này.",
+  "voiceCloudBaseHelper": "Điền tới /v1, app sẽ gọi …/audio/transcriptions",
+  "voiceCloudModelHelper": "Ví dụ whisper-1, FunAudioLLM/SenseVoiceSmall"
+}

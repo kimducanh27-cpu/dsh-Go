@@ -1,0 +1,108 @@
+{
+  "@@locale": "vi",
+  "marketSectionOfficial": "Chính thức",
+  "marketSectionAdapted": "Tương thích DSH Go",
+  "marketSectionAll": "Tất cả",
+  "marketSectionLoading": "Đang tải…",
+  "marketSectionFailed": "Không mở được danh mục chính thức",
+  "marketSectionEmpty": "Chưa có",
+  "marketTierOfficial": "Chính thức",
+  "marketTierAdapted": "Tương thích DSH Go",
+  "marketRiskMedium": "Rủi ro trung bình",
+  "marketRiskHigh": "Rủi ro cao",
+  "marketFlagInstallScripts": "Chạy script khi cài",
+  "marketFlagInstallScriptsBody": "Khi cài sẽ tự chạy script trong gói (preinstall, install hoặc postinstall)",
+  "marketFlagNativeCode": "Có mã native",
+  "marketFlagNativeCodeBody": "Gói có chương trình native đã biên dịch (.node, binding.gyp hoặc tệp nhị phân), không đọc trực tiếp được",
+  "marketFlagShell": "Chạy lệnh",
+  "marketFlagShellBody": "Code sẽ gọi lệnh hệ thống (child_process)",
+  "marketFlagNetwork": "Truy cập mạng",
+  "marketFlagNetworkBody": "Code sẽ gửi yêu cầu mạng (fetch, http, WebSocket)",
+  "marketFlagFilesystem": "Ghi tệp ngoài không gian làm việc",
+  "marketFlagFilesystemBody": "Sẽ ghi vào đường dẫn ngoài không gian làm việc",
+  "marketFlagObfuscated": "Khó kiểm tra code",
+  "marketFlagObfuscatedBody": "Có tệp lớn đã nén hoặc làm rối, không nhìn ra nó làm gì",
+  "marketFlagNotAdapted": "Chưa tương thích DSH Go",
+  "marketFlagNotAdaptedBody": "Không khai báo giao thức native của DSH Go, nên không có giao diện native trong app",
+  "marketFlagOtherBody": "Đặc điểm khác mà kiểm tra tự động báo cáo",
+  "marketChecksTitle": "Kiểm tra tự động",
+  "marketChecksClean": "Không phát hiện đặc điểm rủi ro",
+  "marketChecksNote": "Đặc điểm mà kiểm tra tự động phát hiện, không có nghĩa là plugin độc hại",
+  "marketCheckedOn": "Đã kiểm tra ngày {date}",
+  "@marketCheckedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "marketScreenshot": "Ảnh chụp màn hình {index}",
+  "@marketScreenshot": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "marketRiskConfirmTitle": "“{name}” có đặc điểm rủi ro",
+  "@marketRiskConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "marketRiskConfirmAction": "Vẫn cài",
+  "marketPinnedVersion": "Phiên bản đã ghim",
+  "marketRequiresApp": "Cần DSH Go",
+  "marketNeedsApp": "Cần DSH Go {version} trở lên",
+  "@marketNeedsApp": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "marketUpdateAvailable": "Có bản cập nhật",
+  "marketBlockedTitle": "Phiên bản này đã bị gỡ khỏi kệ",
+  "marketBlockedMessage": "Phiên bản {version} đã cài đã bị gỡ khỏi chợ plugin, nên gỡ cài đặt",
+  "@marketBlockedMessage": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "marketBlockedRow": "Phiên bản đã bị gỡ, nên gỡ cài đặt",
+  "marketBlockedBadge": "Đã gỡ khỏi kệ",
+  "marketVerifying": "Đang kiểm tra phiên bản…",
+  "marketMismatchTitle": "Kiểm tra phiên bản không khớp",
+  "marketMismatchMessage": "{version} trên npm không phải gói mà chợ plugin đã kiểm tra, đã dừng cài đặt",
+  "@marketMismatchMessage": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "marketSubmit": "Gửi plugin",
+  "marketSubmitHint": "Gửi trên GitHub, qua kiểm tra tự động sẽ được đăng",
+  "marketLinkNotFound": "Không có {name} trong chợ plugin",
+  "@marketLinkNotFound": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "marketVerificationUnavailableTitle": "Tạm thời không kiểm tra được phiên bản",
+  "marketVerificationUnavailableBody": "Không lấy được thông tin kiểm tra phiên bản từ npm, chưa bắt đầu cài đặt. Kiểm tra mạng rồi thử lại.",
+  "marketCombinedCount": "{count} plugin",
+  "@marketCombinedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

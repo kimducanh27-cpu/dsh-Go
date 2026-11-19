@@ -1,0 +1,31 @@
+{
+  "@@locale": "vi",
+  "fileImageName": "Ảnh",
+  "fileSharedText": "Văn bản chia sẻ.txt",
+  "fileChatFallback": "Trò chuyện",
+  "fileUploadToHost": "Gửi tệp tới máy tính",
+  "fileUploadToHostHint": "Vào không gian làm việc của cuộc trò chuyện này trên máy tính, không nén tệp gốc",
+  "fileUploadProgress": "Đang gửi {done}/{total}: {name}",
+  "@fileUploadProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "fileUploadDone": "Đã gửi tới máy tính: {names}",
+  "@fileUploadDone": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "fileUploadFailed": "Không gửi được tới máy tính"
+}

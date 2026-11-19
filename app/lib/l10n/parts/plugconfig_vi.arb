@@ -1,0 +1,67 @@
+{
+  "@@locale": "vi",
+  "pluginConfigUnsaved": "Chưa lưu",
+  "pluginConfigSecretSet": "Đã đặt",
+  "pluginConfigAdvanced": "Nâng cao",
+  "pluginConfigSearchHint": "Tìm cài đặt",
+  "pluginConfigNoMatch": "Không có cài đặt khớp",
+  "pluginConfigOpenWeb": "Cài đặt trên bản web",
+  "pluginConfigOpenWebHint": "Trang cài đặt riêng của Plugin",
+  "pluginConfigResetAll": "Khôi phục tất cả về mặc định",
+  "pluginConfigResetAllTitle": "Khôi phục tất cả về mặc định?",
+  "pluginConfigReset": "Khôi phục",
+  "pluginConfigChanges": "{count} thay đổi",
+  "@pluginConfigChanges": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginConfigAppliesOnReload": "Lưu xong sẽ tải lại Plugin",
+  "pluginConfigSaving": "Đang lưu…",
+  "pluginConfigReloading": "Đang tải lại…",
+  "pluginConfigApplied": "Đã áp dụng",
+  "pluginConfigFailed": "Không áp dụng được",
+  "pluginConfigRestored": "Đã khôi phục cài đặt cũ",
+  "pluginConfigStopped": "Không áp dụng được, cũng không khôi phục được cài đặt cũ",
+  "pluginConfigRestore": "Khôi phục cài đặt cũ",
+  "pluginConfigDiscard": "Hủy bỏ",
+  "pluginConfigNotStarted": "Plugin chưa khởi động",
+  "pluginConfigNone": "Không có mục nào để cài đặt",
+  "pluginConfigInvalidOperation": "Không áp dụng được thay đổi này",
+  "pluginConfigGone": "Plugin không còn chạy, đã làm mới",
+  "pluginConfigUnknown": "Mất kết nối, đã đọc lại",
+  "pluginConfigUnsupported": "Chưa hỗ trợ cài đặt ở đây",
+  "pluginConfigSecretUnbound": "Cần Plugin hỗ trợ rồi mới đặt được",
+  "pluginConfigListFailed": "Không đọc được danh sách Plugin, thử lại sau",
+  "pluginConfigListUpdating": "Danh sách Plugin đang cập nhật, thử lại sau",
+  "pluginConfigFixed": "Đã cố định bằng tệp cấu hình",
+  "pluginConfigFixedNote": "Đã cố định bằng tệp cấu hình, ở đây chỉ xem được",
+  "pluginConfigReadOnly": "Chỉ đọc",
+  "pluginConfigEntryTitle": "{bundle} · {entry}",
+  "@pluginConfigEntryTitle": {
+    "placeholders": {
+      "bundle": {
+        "type": "String"
+      },
+      "entry": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginConfigNameSpeechToText": "Nhận dạng giọng nói",
+  "pluginConfigNameSenseVoice": "Nhận dạng SenseVoice",
+  "pluginConfigNameSpeechApi": "API chuyển giọng nói thành văn bản",
+  "pluginConfigNameTranslator": "Dịch vụ dịch",
+  "pluginConfigNameSessionIndex": "Chỉ mục phiên",
+  "pluginConfigNameSessionSearchTool": "Công cụ tìm kiếm phiên",
+  "pluginConfigNameTerminalService": "Dịch vụ terminal",
+  "pluginConfigNameTerminalBash": "Terminal Bash",
+  "pluginConfigNameTerminalPwsh": "Terminal PowerShell",
+  "pluginConfigNameTerminalTools": "Công cụ terminal",
+  "pluginConfigNameWorktree": "Quản lý worktree",
+  "pluginConfigNameWorktreeTools": "Công cụ worktree",
+  "pluginConfigNameRalphWorkflow": "Engine quy trình làm việc",
+  "pluginConfigNameRalphTools": "Công cụ Ralph"
+}

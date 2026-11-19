@@ -1,0 +1,831 @@
+{
+  "@@locale": "vi",
+  "activityThinkingUntangle": "Ừm… để mình gỡ rối đã",
+  "activityThinkingWorkThrough": "Để mình xử lý từng bước",
+  "activityThinkingGears": "Bánh răng não đang xoay",
+  "activityThinkingSecond": "Cho mình một giây",
+  "activityThinkingSmoking": "Não đang bốc khói",
+  "activityThinkingOnIt": "Đang nghĩ, đang nghĩ",
+  "activityThinkingNoRush": "Đừng giục, đừng giục",
+  "activityThinkingPonder": "Để mình ngẫm đã",
+  "activityThinkingLogic": "Đang rà logic",
+  "activityThinkingBrain": "Động não một chút",
+  "activityThinkingSort": "Để mình sắp xếp lại",
+  "activityThinkingMemory": "Lục lại trí nhớ",
+  "activityThinkingStorm": "Đang bão não",
+  "activityThinkingSavor": "Ừm… để mình ngấm đã",
+  "activityThinkingMoment": "Đợi chút, đang nghĩ",
+  "activityThinkingHeadScratch": "Gãi đầu…",
+  "activityThinkingPlayOut": "Để xem chuyện đi tới đâu",
+  "activityThinkingLoading": "Đang tải suy nghĩ",
+  "activityThinkingMulling": "Đang nghiền ngẫm",
+  "activityThinkingBreakDown": "Ừm… để mình tách nhỏ ra",
+  "activityThinkingTrain": "Tàu suy nghĩ đang chạy",
+  "activityThinkingSomething": "Ừm… có gì đó đây",
+  "activityThinkingJog": "Chạy bộ cùng ý tưởng một chút",
+  "activityThinkingPicture": "Đợi đã, mình hình dung ra rồi",
+  "activityThinkingBubbles": "Bong bóng suy nghĩ",
+  "activityThinkingWaves": "Sóng não đang truyền tới",
+  "activityThinkingCoffee": "Não đang pha cà phê",
+  "activityThinkingDraft": "Mình nháp trong đầu đã",
+  "activityThinkingComing": "Ừ, ra rồi, ra rồi",
+  "activityThinkingBubbling": "Ý tưởng đang sủi bọt",
+  "activityThinkingTackle": "Ừm… xử lý nó nào",
+  "activityThinkingSpark": "Loé lên một ý",
+  "activityThinkingLogicFirst": "Rà logic trước đã",
+  "activityThinkingLocate": "Đang xác định vị trí",
+  "activityThinkingInvestigate": "Đang kiểm tra",
+  "activityThinkingGif": "đang-nghĩ.gif",
+  "activityThinkingLook": "Để mình xem nào",
+  "activityThinkingInteresting": "Ừm… thú vị đấy",
+  "activityThinkingHands": "Xoa tay nghĩ nào",
+  "activityThinkingFiveMinutes": "5 phút, việc lớn đấy",
+  "activityThinkingSerious": "Lần này mình phải nghiêm túc",
+  "activityThinkingTricky": "Đúng là hơi vòng vo",
+  "activityThinkingAscend": "Mình đang tu luyện",
+  "activityThinkingAlmostPromise": "Sắp xong rồi, thật đấy",
+  "activityThinkingLongWay": "Đi vòng một vòng lớn",
+  "activityThinkingWrapping": "Đang kết thúc",
+  "activityThinkingSong": "Cho mình thời gian một bài hát",
+  "activityThinkingBigMove": "Đang chuẩn bị chiêu lớn",
+  "activityThinkingSimple": "Yêu cầu này đơn giản lắm (đùa đấy)",
+  "activityThinkingOneMinute": "1 phút rồi, vẫn đang nghĩ",
+  "activityThinkingChallenge": "Câu này thử thách đấy",
+  "activityThinkingDig": "Để mình đào sâu thêm",
+  "activityThinkingNotSimple": "Vấn đề không đơn giản",
+  "activityThinkingDeep": "Đang đào hơi sâu",
+  "activityThinkingBurning": "Tế bào não đang cháy",
+  "activityThinkingNearlyClear": "Sắp rõ rồi",
+  "activityThinkingTwisty": "Cái này hơi vòng vo…",
+  "activityThinkingWorkout": "Đang tập não…",
+  "activityThinkingStay": "Đừng đi, sắp xong rồi",
+  "activityThinkingCloser": "Ừ, để mình nghĩ kỹ đã",
+  "activityThinkingThirtySeconds": "30 giây rồi, vẫn đang nghĩ",
+  "activityThinkingSoon": "Đừng vội, sắp có kết quả rồi",
+  "activityThinkingAnotherPass": "Để mình rà lại một lượt",
+  "activityThinkingTrack": "Suy nghĩ vẫn liền mạch",
+  "activityThinkingLead": "Có manh mối rồi",
+  "activityThinkingCircles": "Đang xoay vòng…",
+  "activityThinkingAnyMoment": "Sắp xong ngay đây",
+  "activityThinkingStillLocate": "Vẫn đang thu hẹp lại",
+  "activityWaitingCall": "Đang gọi mô hình…",
+  "activityWaitingOnWay": "Mô hình đang tới",
+  "activityWaitingSpeak": "Đợi nó mở lời…",
+  "activityWaitingWords": "Nó đang chọn từ",
+  "activityWaitingAwake": "Mô hình đã tỉnh chưa nhỉ",
+  "activityWaitingStretch": "Để nó vươn vai đã",
+  "activityWaitingYawn": "Nó vừa ngáp",
+  "activityWaitingComing": "Mô hình: tới đây, tới đây",
+  "activityWaitingText": "Đợi nó ra chữ",
+  "activityWaitingQueue": "Vẫn đang xếp hàng",
+  "activityWaitingBrew": "Nó đang ủ",
+  "activityWaitingWater": "Mô hình đang uống nước",
+  "activityWaitingWarmup": "Đợi nó khởi động",
+  "activityWaitingMeditate": "Mô hình đang thiền",
+  "activityWaitingBlink": "Đợi nó chớp mắt",
+  "activityWaitingMoment": "Nó bảo đợi một chút",
+  "activityWritingWords": "Đang chọn từ",
+  "activityWritingTyping": "Đang gõ chữ",
+  "activityWritingInspired": "Viết như có thần",
+  "activityWritingOnIt": "Đang viết, đang viết",
+  "activityWritingCareful": "Cân nhắc từng chữ",
+  "activityWritingFlow": "Viết một mạch",
+  "activityWritingPlain": "Viết cho dễ hiểu",
+  "activityWritingIdeas": "Viết ý tưởng ra",
+  "activityWritingKeys": "Đang gõ phím",
+  "activityWritingAlmost": "Sắp viết xong",
+  "activityWritingTell": "Để mình kể",
+  "activityWritingFast": "Viết nhanh như bay",
+  "activityWritingBreeze": "Chữ bay lên trang",
+  "activityWritingFormat": "Đang trình bày lại",
+  "activityNightAscend": "Đang tu luyện…",
+  "activityNightHello": "Chào buổi khuya",
+  "activityNightOwl": "Bạn cũng là cú đêm à",
+  "activityNightMoon": "Trăng chưa ngủ, mình chưa ngủ",
+  "activityNightSlow": "Khuya não chậm, thông cảm nhé",
+  "activityNightChampion": "Quán quân thức khuya đã online",
+  "activityNightSleepy": "Buồn ngủ nhưng vẫn làm được",
+  "activityNightMidnight": "Qua nửa đêm vẫn cày",
+  "activityNightOpen": "Ca đêm vẫn mở",
+  "activityNightStars": "Sao cũng đã ngủ",
+  "activityNightDawn": "Rạng sáng vẫn đang nghĩ",
+  "activityWeekendChill": "Cuối tuần thư giãn",
+  "activityWeekendHere": "Cuối tuần cũng có mặt!",
+  "activityWeekendCompany": "Nghỉ vẫn ở cùng bạn",
+  "activityWeekendOnline": "Cuối tuần không tắt máy",
+  "activityWeekendSneak": "Cuối tuần lén nghĩ",
+  "activityWeekendWorking": "Cuối tuần cũng cày à?",
+  "activityWeekendMode": "Chế độ cuối tuần BẬT",
+  "activityWeekendBugs": "Cuối tuần sửa bug",
+  "activityWeekendSkin": "Giao diện riêng cuối tuần",
+  "activityNewYearCheers": "Chúc mừng năm mới!",
+  "activityNewYearDay": "Chúc mừng năm mới",
+  "activityNewYearBugs": "Năm mới, bug mới",
+  "activityNewYearFirstLine": "Dòng mã đầu tiên của năm mới",
+  "activityNewYearWork": "Khai xuân thuận lợi",
+  "activityValentineCode": "Lễ tình nhân cũng gõ mã",
+  "activityValentineLove": "Mã mới là tình yêu đích thực",
+  "activityValentineDate": "Hôm nay không hẹn hò à?",
+  "activityValentineKeyboard": "Bàn phím chính là hoa hồng",
+  "activityPiDay": "Chúc mừng ngày π",
+  "activityPiCircle": "Hôm nay hình tròn tròn hơn hẳn",
+  "activityAprilFools": "Chúc mừng ngày Cá tháng Tư",
+  "activityAprilBug": "Bug này là giả phải không",
+  "activityAprilErrors": "Cẩn thận lỗi giả",
+  "activityAprilKidding": "Đùa thôi, không có lỗi đâu",
+  "activityLaborWorking": "Ngày Lao động vẫn cày",
+  "activityLaborPride": "Lao động là vinh quang",
+  "activityLaborSpirit": "Tinh thần người lao động",
+  "activityChildrenDay": "Chúc mừng ngày Thiếu nhi",
+  "activityChildrenHeart": "Ai mà chẳng là trẻ con",
+  "activityChildrenCode": "Hôm nay mã phải viết thật dễ thương",
+  "activityProgrammerCheers": "Chúc mừng ngày Lập trình viên 1024",
+  "activityProgrammerDay": "Hôm nay là ngày Lập trình viên",
+  "activityProgrammer1024": "1024, chúc mừng ngày lễ",
+  "activityProgrammerCode": "Ngày lễ của lập trình viên cũng viết mã",
+  "activityHalloween": "Chúc mừng Halloween",
+  "activityHalloweenTreat": "Cho kẹo hay bị phá",
+  "activityHalloweenCode": "Mã cũng đáng sợ đấy",
+  "activityChristmasEve": "Chúc mừng đêm Giáng sinh",
+  "activityChristmasEveThinking": "Đêm Giáng sinh cũng đang nghĩ",
+  "activityChristmasEveGift": "Tối nay viết mã có quà",
+  "activityChristmas": "Chúc mừng Giáng sinh",
+  "activityChristmasCompany": "Giáng sinh cũng ở cùng bạn",
+  "activityChristmasEgg": "Trứng phục sinh riêng Giáng sinh",
+  "activityChristmasReindeer": "Tuần lộc mang mã tới",
+  "activityYearEndEve": "Đêm giao thừa",
+  "activityYearEndLast": "Lần nghĩ cuối cùng của năm nay",
+  "activityYearEndReady": "Chuẩn bị đón năm mới",
+  "activityYearEndSeeYou": "Hẹn gặp năm sau!",
+  "activityZodiacRat": "Tý",
+  "activityZodiacOx": "Sửu",
+  "activityZodiacTiger": "Dần",
+  "activityZodiacRabbit": "Mão",
+  "activityZodiacDragon": "Thìn",
+  "activityZodiacSnake": "Tỵ",
+  "activityZodiacHorse": "Ngọ",
+  "activityZodiacGoat": "Mùi",
+  "activityZodiacMonkey": "Thân",
+  "activityZodiacRooster": "Dậu",
+  "activityZodiacDog": "Tuất",
+  "activityZodiacPig": "Hợi",
+  "activityLunarCheers": "Chúc mừng Tết!",
+  "activityLunarCode": "Ăn Tết vẫn viết mã",
+  "activityLunarEnvelope": "Lì xì đâu rồi",
+  "activityLunarSpring": "Chúc mừng năm mới",
+  "activityLunarGreeting": "Chúc mừng năm mới",
+  "activityLunarCodeGreeting": "Mã cũng chúc Tết",
+  "activityRareSsr": "SSR! Trứng hiếm",
+  "activityRareUr": "Rơi UR",
+  "activityRareLegend": "Huyền thoại vàng!",
+  "activityRareOrange": "Ra đồ cam",
+  "activityRareEgg": "Trứng phục sinh tìm tới bạn",
+  "activityRareChosen": "Khoảnh khắc được chọn",
+  "activityRareHidden": "Bạn đã tìm ra bản ẩn",
+  "activityRareChat": "Đã mở khóa trò chuyện bí mật",
+  "activityRareMax": "Độ hiếm TỐI ĐA",
+  "activityRareLucky": "Vận may đang ở bên bạn",
+  "activityRareCritical": "Chí mạng rồi",
+  "activityRareNextLevel": "Đẳng cấp cao hơn",
+  "activityFailCrash": "Lật xe rồi",
+  "activityFailOops": "Ôi",
+  "activityFailRun": "Chạy không được",
+  "activityFailTrip": "Vấp một cái",
+  "activityFailWrong": "Cái này không đúng",
+  "activityFailHiccup": "Gặp trục trặc",
+  "activityFailBroken": "Không chạy được nữa",
+  "activityFailLocal": "Máy mình chạy được mà",
+  "activityFailYesterday": "Hôm qua còn chạy được",
+  "activityFailTough": "Khó thật",
+  "activityFailCrack": "Vỡ rồi",
+  "activityFailPressure": "Huyết áp tăng rồi",
+  "activityFailCareless": "Lần này chủ quan rồi",
+  "activityFailSlip": "Trượt tay",
+  "activityFailTryAgain": "Đổi cách thử lại",
+  "activityFailChance": "Cho mình thêm một cơ hội",
+  "activityTestGreen": "Kiểm thử xanh hết",
+  "activityTestAllGreen": "Xanh hết, thỏai mái",
+  "activityTestFirstTry": "Qua ngay lần đầu!",
+  "activityTestNoErrors": "Không báo lỗi",
+  "activityTestPassed": "Qua rồi, qua rồi",
+  "activityTestSolid": "Ổn rồi",
+  "activityTestRed": "Đỏ rồi, xem cái nào hỏng",
+  "activityTestInvestigate": "Kiểm thử hỏng, đang xem lại",
+  "activityTestStubborn": "Có một ca kiểm thử cứng đầu",
+  "activityTestFix": "Đèn đỏ, sửa lại nào",
+  "activityGitCommitSave": "Đã commit, lưu lại tiến độ",
+  "activityGitSaved": "Lưu tiến độ thành công",
+  "activityGitCommitRelief": "Commit một cái cho yên tâm",
+  "activityGitPushed": "Đã đẩy lên",
+  "activityGitPushDone": "Đẩy xong, lên đường",
+  "activityGitCodeOut": "Mã đã ra khỏi cửa",
+  "activityInstallDone": "Đã cài xong thư viện phụ thuộc",
+  "activityInstallInternet": "Đã tải nửa cái internet",
+  "activityInstallPackages": "Gói nào cũng đủ",
+  "activityMilestoneFive": "Công cụ x5, vào guồng rồi",
+  "activityMilestoneTen": "Combo công cụ x10",
+  "activityMilestoneTwenty": "Công cụ x20, không dừng được",
+  "activityMilestoneFifty": "Công cụ x50, cày hết mình",
+  "activityRetryWait": "Đợi chút, đang thử lại",
+  "activityRetryBackoff": "Vừa bị từ chối, lùi lại một chút",
+  "activityRetryKnock": "Gõ cửa thêm lần nữa",
+  "activityRateLimited": "Bị giới hạn tốc độ, nghỉ một chút rồi thử",
+  "activityRate429": "429 rồi, nghỉ một hơi rồi thử lại",
+  "activityRateQueue": "Hôm nay hơi đông người xếp hàng",
+  "activityCompactContext": "Đang dọn dẹp ngữ cảnh…",
+  "activityCompactBag": "Đang sắp xếp ba lô…",
+  "activityCompactSpace": "Đang dọn chỗ",
+  "activityCompactMemory": "Đang gọn lại trí nhớ",
+  "activityCompactChats": "Đang đóng gói trò chuyện cũ",
+  "activityReminderWater": "Nửa giờ rồi, uống ngụm nước nhé?",
+  "activityReminderTenMinutes": "10 phút rồi, việc này không nhỏ",
+  "activityDiffTitle": "Thay đổi trong lượt này",
+  "activityDiffCopied": "Đã sao chép bản vá",
+  "activityDiffNoWrap": "Không ngắt dòng",
+  "activityDiffWrap": "Tự động ngắt dòng",
+  "activityDiffCopy": "Sao chép bản vá",
+  "activityDiffEmpty": "Tệp trống, không có thay đổi để hiển thị",
+  "activityDiffNewFile": "Tệp mới",
+  "activityDiffUnknownLines": "Không biết số dòng",
+  "activityDiffCopyPath": "Sao chép đường dẫn",
+  "activityThinking": "Suy nghĩ",
+  "activityReplyInterrupted": "Câu trả lời (đã dừng)",
+  "activityWaitingApproval": "Đang chờ xác nhận",
+  "activityWaitingAnswer": "Đang chờ câu trả lời",
+  "activityWriting": "Đang viết câu trả lời",
+  "activityThinkingNow": "Đang suy nghĩ",
+  "activityRetrying": "Đang thử lại",
+  "activityCompacting": "Đang nén ngữ cảnh",
+  "activityVerbRun": "Chạy",
+  "activityVerbWrite": "Viết",
+  "activityVerbEdit": "Sửa",
+  "activityVerbImage": "Xem ảnh",
+  "activityVerbRead": "Đọc",
+  "activityVerbFind": "Tìm",
+  "activityVerbSearch": "Tìm kiếm",
+  "activityVerbWebSearch": "Tìm trên web",
+  "activityVerbWebView": "Xem web",
+  "activityVerbSubagent": "Gửi Subagent",
+  "activityVerbTodo": "Cập nhật việc cần làm",
+  "activitySecretHide": "Ẩn khóa",
+  "activitySecretShow": "Hiện khóa",
+  "activitySlashNoMatch": "Không có lệnh phù hợp, gửi dưới dạng tin nhắn thường",
+  "activitySlashCommands": "Lệnh",
+  "activitySlashEnterArgs": "Nhập tham số rồi gửi",
+  "activitySlashRunIntent": "Lệnh · Chạy",
+  "activitySlashInsertIntent": "Lệnh · Điền vào",
+  "activitySlashSkillIntent": "Kỹ năng · Điền vào",
+  "activityStepTitle": "Chi tiết bước",
+  "activityStepMissing": "Bước này không có trong lịch sử đã tải",
+  "activityStepQuestion": "Câu hỏi",
+  "activityStepSuccess": "Thành công",
+  "activityStepNeedsPermission": "Cần cấp quyền",
+  "activityTools": "Công cụ",
+  "activityStepDispatched": "Đã gửi đi",
+  "activityStepExecution": "Thực thi",
+  "activityStepLocation": "Vị trí",
+  "activityStepArguments": "Tham số",
+  "activityStepChanges": "Thay đổi",
+  "activityStepFullScreen": "Xem toàn màn hình",
+  "activityStepReadContent": "Nội dung đã đọc",
+  "activityStepWrittenContent": "Nội dung đã ghi",
+  "activityStepError": "Lỗi",
+  "activityOutput": "Đầu ra",
+  "activityStepResult": "Kết quả",
+  "activityStepDeclined": "Bạn đã từ chối lần gọi công cụ này",
+  "activityStepNoOutput": "Không có đầu ra",
+  "activityStepStart": "Đã bắt đầu",
+  "activityDuration": "Thời gian dùng",
+  "activityFirstToken": "Token đầu tiên",
+  "activityStepGeneration": "Tạo",
+  "activityStepSpeed": "Tốc độ",
+  "activityModel": "Mô hình",
+  "activityStepTiming": "Tính giờ",
+  "activityUsage": "Mức dùng",
+  "activityInput": "Đầu vào",
+  "activityStepCacheHit": "  Trúng cache",
+  "activityStepCacheMiss": "  Không trúng",
+  "activityStepCacheWrite": "  Ghi cache",
+  "activityStepReasoning": "  Suy luận",
+  "activityStepAnswer": "  Câu trả lời",
+  "activityStepThinking": "Quá trình suy nghĩ",
+  "activityStepExplanation": "Giải thích",
+  "activityStepToolCalls": "Công cụ đã gọi trong bước này",
+  "activityStepProcessing": "Mô hình đang xử lý",
+  "activityApprovalAllowed": "Đã cho phép",
+  "activityApprovalUnanswered": "Không ai xác nhận",
+  "activityApprovalAnswered": "Đã trả lời",
+  "activityToolRead": "Đọc",
+  "activityToolWrite": "Ghi",
+  "activityToolCall": "Gọi công cụ",
+  "activityTraceTitle": "Dấu vết lượt này",
+  "activityTraceNotLoaded": "Lịch sử lượt này chưa tải xong",
+  "activityTraceOutputLimit": "Đầu ra đã đạt giới hạn",
+  "activityTraceEngineRestarted": "Engine đã khởi động lại, đã dừng",
+  "activityTraceBlocked": "Đã bị chặn",
+  "activityTraceHeading": "Dấu vết lượt này  ",
+  "activityTraceWaiting": "Đang đợi bạn",
+  "activityTraceNoSteps": "Lượt này không có bước nào tính giờ",
+  "activityUsageInputIncludesCache": "Đầu vào gồm cả trúng cache",
+  "activityCacheHit": "Trúng cache",
+  "activitySummaryTodo": "Đã cập nhật việc cần làm",
+  "activityUsageBalance": "Số dư DeepSeek",
+  "activityUsageContext": "Ngữ cảnh",
+  "activityUsageChat": "Trò chuyện này",
+  "activityUsageAfterMessage": "Hiển thị sau khi bạn gửi tin nhắn",
+  "activityUsageWaiting": "Đang đợi dữ liệu mức dùng ngữ cảnh",
+  "activityUsageProjected": "Dự kiến cho lần yêu cầu tiếp theo",
+  "activityUsageLastRequest": "Lần yêu cầu trước",
+  "activityUsageBreakdownEstimate": "Các mục chi tiết là ước tính riêng, có thể khác tổng số",
+  "activityUsageCumulativeInput": "Tổng đầu vào",
+  "activityUsageContextFull": "Ngữ cảnh sắp đầy, gửi /compact để nén",
+  "activitySpanZero": "0 giây",
+  "activitySpanTiny": "<0,1 giây",
+  "activityTokensTenThousands": "{value} chục nghìn",
+  "@activityTokensTenThousands": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "activityTokensHundredMillions": "{value} trăm triệu",
+  "@activityTokensHundredMillions": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUsageContextSemantics": "Ngữ cảnh đã dùng {percent}, xem mức dùng",
+  "@activityUsageContextSemantics": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUsageSystemTokens": "Hệ thống {tokens}",
+  "@activityUsageSystemTokens": {
+    "placeholders": {
+      "tokens": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUsageToolTokens": "Công cụ {tokens}",
+  "@activityUsageToolTokens": {
+    "placeholders": {
+      "tokens": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUsageMessageTokens": "Tin nhắn {tokens}",
+  "@activityUsageMessageTokens": {
+    "placeholders": {
+      "tokens": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUsageTurns": "Tổng {count} lượt",
+  "@activityUsageTurns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityUsageCacheWriteTokens": "Ghi cache {tokens}",
+  "@activityUsageCacheWriteTokens": {
+    "placeholders": {
+      "tokens": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySummaryCommands": "Đã chạy {count} lệnh",
+  "@activitySummaryCommands": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummaryEditedFiles": "Đã sửa {count} tệp",
+  "@activitySummaryEditedFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummaryReadFiles": "Đã đọc {count} tệp",
+  "@activitySummaryReadFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummarySearches": "Đã tìm kiếm {count} lần",
+  "@activitySummarySearches": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummaryWeb": "Đã dùng mạng {count} lần",
+  "@activitySummaryWeb": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummarySubagents": "Đã gọi Subagent {count} lần",
+  "@activitySummarySubagents": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummaryOther": "Công cụ khác {count} lần",
+  "@activitySummaryOther": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySummaryTotal": "Đã dùng {count} công cụ",
+  "@activitySummaryTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffBlockMarker": "@@ Thay đổi thứ {index}/{total} @@",
+  "@activityDiffBlockMarker": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffEditMarker": "Lần sửa thứ {index} (tổng {total} lần)",
+  "@activityDiffEditMarker": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "activityTraceSpanSemantics": "{title} {detail}, dùng {duration}",
+  "@activityTraceSpanSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "detail": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "activityTraceGroupSemantics": "{label}, dùng {duration}",
+  "@activityTraceGroupSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "activityTraceEstimatedCost": "{cost} (ước tính theo đơn giá chính thức)",
+  "@activityTraceEstimatedCost": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      }
+    }
+  },
+  "activityTraceReasoningTokens": "Trong đó suy luận {tokens}",
+  "@activityTraceReasoningTokens": {
+    "placeholders": {
+      "tokens": {
+        "type": "String"
+      }
+    }
+  },
+  "activityStepPosition": "Lượt {turn} · Bước {step}",
+  "@activityStepPosition": {
+    "placeholders": {
+      "turn": {
+        "type": "int"
+      },
+      "step": {
+        "type": "Object"
+      }
+    }
+  },
+  "activityStepTokenSpeed": "{speed} token/giây",
+  "@activityStepTokenSpeed": {
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      }
+    }
+  },
+  "activityStepRetryCount": "{count} lần",
+  "@activityStepRetryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityStepTruncated": "{text}\n…(Chỉ hiển thị {count}k ký tự đầu, sao chép để xem toàn văn)",
+  "@activityStepTruncated": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityStepLiveElapsed": "{elapsed} · Đang diễn ra{suffix}",
+  "@activityStepLiveElapsed": {
+    "placeholders": {
+      "elapsed": {
+        "type": "String"
+      },
+      "suffix": {
+        "type": "String"
+      }
+    }
+  },
+  "activityStepCopySection": "Sao chép {title}",
+  "@activityStepCopySection": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "activityStepCopiedSection": "Đã sao chép {title}",
+  "@activityStepCopiedSection": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySlashDescriptionArgs": "{description} · Nhập tham số rồi gửi",
+  "@activitySlashDescriptionArgs": {
+    "placeholders": {
+      "description": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySpanSecondsText": "{seconds} giây",
+  "@activitySpanSecondsText": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySpanSeconds": "{seconds} giây",
+  "@activitySpanSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySpanMinutesSeconds": "{minutes} phút {seconds} giây",
+  "@activitySpanMinutesSeconds": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySpanHoursMinutes": "{hours} giờ {minutes} phút",
+  "@activitySpanHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "activityCostUnderCent": "Dưới {symbol}0,01",
+  "@activityCostUnderCent": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "activityCostApprox": "Khoảng {symbol}{amount}",
+  "@activityCostApprox": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySpanRetries": "Đã thử lại {count} lần",
+  "@activitySpanRetries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activitySpanToolCalls": "Quyết định gọi {count} công cụ",
+  "@activitySpanToolCalls": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityRunningItems": "Đợi {count} mục",
+  "@activityRunningItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityRetryAttempt": "Lần {count}",
+  "@activityRetryAttempt": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffFileCount": "{count} tệp",
+  "@activityDiffFileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffFileSemantics": "{path}, thêm {added} dòng, xóa {removed} dòng",
+  "@activityDiffFileSemantics": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      },
+      "added": {
+        "type": "int"
+      },
+      "removed": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffEditNumber": "Lần sửa thứ {edit}",
+  "@activityDiffEditNumber": {
+    "placeholders": {
+      "edit": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffHunkNumber": "Chỗ {index}",
+  "@activityDiffHunkNumber": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffFromLine": "Từ dòng {line}",
+  "@activityDiffFromLine": {
+    "placeholders": {
+      "line": {
+        "type": "int"
+      }
+    }
+  },
+  "activityDiffEditCount": "Đã sửa {count} lần",
+  "@activityDiffEditCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityLunarZodiac": "Năm {animal} đại cát",
+  "@activityLunarZodiac": {
+    "placeholders": {
+      "animal": {
+        "type": "String"
+      }
+    }
+  },
+  "activityReminderHours": "Đã làm liên tục {hours} giờ, nghỉ một chút nhé?",
+  "@activityReminderHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "activityStepModelRequest": "Một lần yêu cầu mô hình",
+  "activityStepModelRequestDetail": "Một lần yêu cầu mô hình · {detail}",
+  "@activityStepModelRequestDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUsageEstimatedCost": "Khoảng {symbol}{amount}",
+  "@activityUsageEstimatedCost": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "activitySlashCommandSemantics": "{label}, /{name}",
+  "@activitySlashCommandSemantics": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "activityQuotaTitle": "Hạn mức đăng ký",
+  "activityQuotaRefresh": "Làm mới hạn mức",
+  "activityQuotaPermissionDenied": "Gói đăng ký không có quyền tra hạn mức",
+  "activityQuotaAuthError": "Đăng nhập đã hết hạn hoặc không có quyền tra, hãy kiểm tra đăng nhập gói đăng ký",
+  "activityQuotaNetworkError": "Kết nối mạng thất bại, hãy thử lại sau",
+  "activityQuotaRateLimited": "Tra quá nhiều, hãy thử lại sau",
+  "activityQuotaLoading": "Đang tra hạn mức đăng ký…",
+  "activityQuotaUnavailable": "Tạm thời không tra được hạn mức đăng ký, hãy thử lại sau",
+  "activityQuotaUnsupported": "Máy chủ này tạm thời không hỗ trợ tra hạn mức đăng ký",
+  "activityQuotaSignedOut": "Gói đăng ký chưa đăng nhập",
+  "activityQuotaPrimary": "Hạn mức chính",
+  "activityQuotaSecondary": "Hạn mức phụ",
+  "activityQuotaFiveHour": "5 giờ",
+  "activityQuotaSevenDay": "7 ngày",
+  "activityQuotaSevenDaySonnet": "7 ngày · Sonnet",
+  "activityQuotaSevenDayOpus": "7 ngày · Opus",
+  "activityQuotaUsed": "Đã dùng {value}",
+  "@activityQuotaUsed": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "activityQuotaReset": "Thời gian đặt lại: {time}",
+  "@activityQuotaReset": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "activityToolListSeparator": ", "
+}

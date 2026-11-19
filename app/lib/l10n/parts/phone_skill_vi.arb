@@ -1,0 +1,50 @@
+{
+  "@@locale": "vi",
+  "phoneSkillSectionTitle": "Tác vụ thành công và kỹ năng",
+  "phoneSkillAskAfterSuccess": "Hỏi có lưu thành kỹ năng không sau khi tác vụ thành công",
+  "phoneSkillAskAfterSuccessHint": "Mặc định tắt. Khi trang này đang hiện, tác vụ mới hoàn thành sẽ hỏi một lần; bạn cũng có thể tự chọn bất cứ lúc nào.",
+  "phoneSkillTask": "Tác vụ {taskId} · {steps} bước",
+  "@phoneSkillTask": {
+    "placeholders": {
+      "taskId": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneSkillCandidateHint": "Hãy kiểm tra kết quả thực tế trước; công cụ báo thành công không có nghĩa là đã đạt mục tiêu.",
+  "phoneSkillSaveAction": "Lưu thành kỹ năng",
+  "phoneSkillConfirmGoal": "Tác vụ lần này đã đạt mục tiêu chưa?",
+  "phoneSkillConfirmGoalBody": "Hãy kiểm tra kết quả thực tế. Xác nhận rồi mới soạn nháp, trước khi lưu vẫn xem và sửa được.",
+  "phoneSkillGoalDone": "Đã đạt mục tiêu, xem bản nháp",
+  "phoneSkillPrivacyHint": "Bản nháp chỉ xử lý trên máy này. Đừng điền mật khẩu, khóa hay mã xác minh. Chữ tự do ở giai đoạn này sẽ thay bằng tham số, xóa và sắp xếp lại bước vẫn giữ nguyên; lấy bản xem trước cuối cùng làm chuẩn.",
+  "phoneSkillGoal": "Mục tiêu",
+  "phoneSkillPrerequisites": "Điều kiện trước (app, phiên bản, trạng thái đăng nhập)",
+  "phoneSkillStep": "Bước gốc {number}",
+  "@phoneSkillStep": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneSkillCheckpoint": "Sau bước này nên thấy gì",
+  "phoneSkillMoveUp": "Dời bước lên",
+  "phoneSkillMoveDown": "Dời bước xuống",
+  "phoneSkillUpdatePreview": "Cập nhật bản xem trước đã ẩn thông tin nhạy cảm",
+  "phoneSkillPreviewTitle": "Nội dung đầy đủ sẽ lưu",
+  "phoneSkillParameterizedHint": "Chữ tự do đã thay bằng tham số; khi dùng kỹ năng cần bổ sung và kiểm tra lại.",
+  "phoneSkillFinalConfirmation": "Tôi đã kiểm tra bản xem trước đầy đủ hiện tại, đồng ý lưu phiên bản này.",
+  "phoneSkillSavedBody": "Đã ghi tệp vào thư mục kỹ năng trên máy. Chưa kiểm chứng danh sách kỹ năng của Engine đã làm mới chưa; bạn có thể kiểm tra ở trang kỹ năng.",
+  "phoneSkillWriting": "Đang ghi kỹ năng",
+  "phoneSkillCannotCancel": "Có thể việc ghi đã vào giai đoạn gửi đi, không đảm bảo rút lại được. Đóng chỉ đóng trang này; tệp đã gửi vẫn sẽ lưu.",
+  "phoneSkillKeepWaiting": "Tiếp tục xem",
+  "phoneSkillCheckWrite": "Kiểm tra kết quả ghi",
+  "phoneSkillStale": "Bản nháp này đã hết hạn. Hãy đóng rồi chọn lại tác vụ.",
+  "phoneSkillSensitive": "Bản chỉnh sửa có nội dung nhạy cảm, hãy gỡ ra rồi cập nhật bản xem trước.",
+  "phoneSkillInvalid": "Nội dung chỉnh sửa hoặc thứ tự bước không đúng giới hạn. Hãy rút ngắn chữ, giữ lại ít nhất một bước.",
+  "phoneSkillWriteFailed": "Không ghi được. Hãy kiểm tra môi trường chạy trên máy và bộ nhớ; sửa rồi cập nhật bản xem trước mới xác nhận lưu lại được.",
+  "phoneSkillUnavailable": "Hiện không xử lý được bản nháp kỹ năng. Hãy kiểm tra trạng thái Engine trên máy rồi thử lại."
+}

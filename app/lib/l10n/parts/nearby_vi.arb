@@ -1,0 +1,24 @@
+{
+  "@@locale": "vi",
+  "nearbyThisChat": "Trò chuyện này",
+  "nearbyPermissionTitle": "Quyền của trò chuyện này",
+  "nearbyNewChatDefault": "Mặc định cho trò chuyện mới: {name}",
+  "@nearbyNewChatDefault": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nearbySetAsDefault": "Đặt làm mặc định cho trò chuyện mới",
+  "nearbyManageModels": "Quản lý mô hình",
+  "nearbyPermissionPill": "Quyền của trò chuyện này: {name}",
+  "@nearbyPermissionPill": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nearbyChange": "Đổi"
+}

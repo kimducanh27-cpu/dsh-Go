@@ -1,0 +1,56 @@
+{
+  "@@locale": "vi",
+  "shellDeletePermanently": "Xóa vĩnh viễn",
+  "shellDeleteNoUndo": "Không thể hoàn tác, khác với lưu trữ",
+  "shellDeleteChecking": "Đang kiểm tra máy chủ này có hỗ trợ xóa vĩnh viễn…",
+  "shellDeleteUnsupported": "Máy chủ này không hỗ trợ xóa vĩnh viễn an toàn, vẫn có thể dùng lưu trữ.",
+  "shellDeleteUnavailable": "Xóa vĩnh viễn an toàn tạm thời không khả dụng, hãy kết nối lại hoặc cập nhật máy chủ này; sẽ không chuyển thành lưu trữ.",
+  "shellDeleteChatConfirmation": "Xóa vĩnh viễn “{title}”?",
+  "@shellDeleteChatConfirmation": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "shellDeleteChatsConfirmation": "Xóa vĩnh viễn {count} cuộc trò chuyện?",
+  "@shellDeleteChatsConfirmation": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellDeleteWarning": "Sẽ xóa vĩnh viễn bản ghi trò chuyện đã chọn khỏi máy chủ này, không thể hoàn tác, khác với lưu trữ.\n\nThư mục làm việc, tệp đã tạo, trò chuyện rẽ nhánh, tệp đính kèm đã chia sẻ và liên kết chia sẻ đám mây đã phát hành đều được giữ lại. Liên kết chia sẻ đám mây cần xóa riêng. Trò chuyện Subagent sẽ bị xóa cùng trò chuyện đã chọn. Trò chuyện đang chạy hoặc có nhiệm vụ theo lịch sẽ bị máy chủ từ chối.",
+  "shellDeleteOwnerChanged": "Máy chủ hoặc kết nối đã thay đổi. Hãy hủy rồi bắt đầu lại việc xóa, xác nhận cũ không còn hiệu lực.",
+  "shellDeletingChats": "Đang xóa trò chuyện…",
+  "shellChatsDeleted": "Đã xóa vĩnh viễn {count} cuộc trò chuyện",
+  "@shellChatsDeleted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellDeletePartial": "Đã xóa {deleted}, thất bại {failed}",
+  "@shellDeletePartial": {
+    "placeholders": {
+      "deleted": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "shellDeleteRunning": "Hãy dừng công việc đang chạy trước; máy chủ cũng sẽ kiểm tra nhiệm vụ đang hoạt động và nhiệm vụ theo lịch.",
+  "shellDeleteRelated": "Cuộc trò chuyện này vẫn còn nhiệm vụ theo lịch liên quan, máy chủ đã từ chối xóa để bảo vệ chúng.",
+  "shellDeleteWriterHeld": "Một tiến trình khác đang dùng cuộc trò chuyện này, hãy đóng nó trong tiến trình đó rồi thử lại.",
+  "shellDeleteNotFound": "Trên máy chủ này không còn cuộc trò chuyện đó, hãy làm mới danh sách.",
+  "shellDeleteConnectionLost": "Đã mất kết nối, chưa xác nhận kết quả xóa, hãy làm mới danh sách trò chuyện rồi thao tác lại.",
+  "shellDeleteArchivePending": "Cuộc trò chuyện này đang chờ lưu trữ, hãy hoàn tất hoặc hủy lưu trữ trước.",
+  "shellDeleteInventoryChanged": "Danh sách trò chuyện đã thay đổi, hãy làm mới rồi chọn lại.",
+  "shellDeleteProtocolError": "Chưa xác nhận kết quả xóa, hãy làm mới danh sách trò chuyện rồi thao tác lại.",
+  "shellDeleteNotAttempted": "Chưa thực hiện, hãy kiểm tra danh sách trò chuyện rồi thử lại.",
+  "shellDeleteFailed": "Máy chủ không xác nhận được kết quả xóa, hãy làm mới rồi quyết định có thử lại không."
+}

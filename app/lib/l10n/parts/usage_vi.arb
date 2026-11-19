@@ -1,0 +1,10 @@
+{
+  "@@locale": "vi",
+  "usageStatsTitle": "Gửi thống kê sử dụng ẩn danh",
+  "usageStatsSection": "Cải thiện DSH Go",
+  "usageStatsFooter": "Công tắc này chỉ điều khiển thống kê của riêng dsh-go: số lần dùng từng tính năng (gồm tin nhắn Tavern, lượt vào phòng Bạn đồng hành, cuộc gọi thoại), số token mà phản hồi của mô hình báo cáo, phiên bản, hãng và mẫu điện thoại, phiên bản hệ thống; không gồm đoạn trò chuyện, thẻ nhân vật, tệp và tài khoản; không điều khiển thống kê của Google ML Kit SDK.",
+  "usageNoticeBody": "Không chứa đoạn trò chuyện và thông tin cá nhân, có thể tắt bất cứ lúc nào",
+  "usageUpgradeNotice": "Mới: thống kê sử dụng ẩn danh, giúp cải thiện DSH Go.\nKhông chứa đoạn trò chuyện và thông tin cá nhân",
+  "usageUpgradeLearn": "Tìm hiểu",
+  "usageUpgradeOff": "Tắt"
+}

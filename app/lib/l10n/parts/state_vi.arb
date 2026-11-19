@@ -1,0 +1,794 @@
+{
+  "@@locale": "vi",
+  "stateDiagnosticsSubject": "Gói chẩn đoán DSH Go",
+  "stateStoragePermission": "Không có quyền lưu trữ, không lưu được vào “Tải xuống”",
+  "stateDiagnosticsStorageFull": "Hết dung lượng, không tạo được gói chẩn đoán",
+  "stateDiagnosticsExportFailed": "Không xuất được gói chẩn đoán",
+  "stateForumUnreachable": "Không kết nối được diễn đàn",
+  "stateSignInExpired": "Đăng nhập đã hết hạn, hãy đăng nhập lại",
+  "stateForbidden": "Không có quyền",
+  "stateForumContentMissing": "Nội dung không tồn tại hoặc đã bị xóa",
+  "stateTooManyActions": "Thao tác quá thường xuyên, thử lại sau",
+  "stateForumSendFailed": "Không gửi được",
+  "stateForumServerError": "Diễn đàn đang gặp sự cố",
+  "stateBrowserOpenFailed": "Không mở được trình duyệt",
+  "stateSignInStartFailed": "Không bắt đầu đăng nhập được",
+  "stateSignInIncompleteRetry": "Đăng nhập chưa hoàn tất, hãy thử lại",
+  "statePluginLabel": "Plugin",
+  "stateConfigLabel": "Cấu hình",
+  "stateConfigShare": "Cấu hình chia sẻ",
+  "stateShareCode": "Mã chia sẻ",
+  "stateCopyShareCodeFirst": "Hãy sao chép mã chia sẻ ở mục Chia sẻ trước",
+  "stateFileOpenFailed": "Không mở được tệp này",
+  "stateLinkOpenFailed": "Không mở được liên kết này",
+  "stateAlertPublicDone": "Có một lượt đã hoàn thành",
+  "stateAlertPublicFailed": "Có một lượt bị lỗi",
+  "stateAlertPublicStopped": "Có một lượt đã dừng",
+  "stateAlertPublicApproval": "Có một bước chờ bạn xác nhận",
+  "stateAlertPublicQuestion": "Có một câu hỏi chờ bạn trả lời",
+  "stateAlertTurnDone": "Lượt này đã hoàn thành",
+  "stateAlertOutputLimit": "Đã kết thúc · Đạt giới hạn độ dài đầu ra một lần",
+  "stateAlertTurnBlocked": "Lượt này đã bị chặn",
+  "stateAlertEngineRestarted": "Đã gián đoạn · Engine đã khởi động lại",
+  "stateAlertMissingKey": "Lỗi · Chưa cấu hình khóa",
+  "stateAlertTurnFailed": "Lượt này bị lỗi",
+  "stateRunCommand": "Chạy lệnh",
+  "stateWriteFile": "Ghi tệp",
+  "stateEditFile": "Sửa tệp",
+  "stateOpenPage": "Mở trang web",
+  "stateWebSearch": "Tìm kiếm trên mạng",
+  "stateAlertQuestion": "Hỏi bạn một câu",
+  "stateSizeSmall": "Nhỏ",
+  "stateSizeStandard": "Chuẩn",
+  "stateSizeLarge": "Lớn",
+  "stateSizeCustom": "Tùy chỉnh",
+  "statePetDone": "Làm xong rồi",
+  "statePetFailed": "Có lỗi",
+  "statePhoneNotReady": "Mô-đun điều khiển điện thoại chưa sẵn sàng",
+  "stateBackgroundRestricted": "Mạng nền bị hệ thống hạn chế",
+  "stateBackgroundFinish": "Để trò chuyện chạy xong cả khi ở nền",
+  "stateDeepSeekAccount": "Tài khoản DeepSeek",
+  "stateAccountUnreachable": "Không kết nối được DeepSeek",
+  "stateAccountUnavailable": "DeepSeek tạm thời không đăng nhập được",
+  "stateSignInIncomplete": "Đăng nhập chưa hoàn tất",
+  "stateSignInTimeout": "Đăng nhập quá thời gian",
+  "stateSignInSaveFailed": "Không lưu được thông tin đăng nhập",
+  "stateEngineNotReady": "Engine chưa sẵn sàng",
+  "stateSignInInterrupted": "Đăng nhập bị gián đoạn",
+  "stateAccountUnsupported": "Engine hiện tại không hỗ trợ đăng nhập tài khoản",
+  "stateCheckPhoneNetwork": "Kiểm tra mạng điện thoại rồi thử lại",
+  "stateServiceUnavailableRetry": "Dịch vụ tạm thời không khả dụng, thử lại sau",
+  "stateAuthorizationFailed": "Ủy quyền không thành công, hãy đăng nhập lại",
+  "stateAuthorizationExpired": "Trang ủy quyền đã hết hạn, hãy đăng nhập lại",
+  "stateRestartEngineRetry": "Khởi động lại ở trang “Engine” rồi thử lại",
+  "stateEngineStartingRetry": "Engine đang khởi động, thử lại sau",
+  "stateEngineDisconnectedSignIn": "Kết nối Engine đã đứt, hãy đăng nhập lại",
+  "stateUpdateRuntimeOrKey": "Cập nhật môi trường chạy, hoặc dùng API Key",
+  "stateEngineDisconnected": "Engine chưa kết nối",
+  "stateAgentError": "Lỗi",
+  "stateNotRunning": "Chưa chạy",
+  "stateAgentOneShot": "Một lần",
+  "stateAgentContinuable": "Có thể tiếp tục",
+  "stateAgentExternal": "Nhiệm vụ bên ngoài",
+  "stateSubagent": "Subagent",
+  "stateParentChat": "Trò chuyện cấp trên",
+  "statePreparing": "Đang chuẩn bị",
+  "stateIconMist": "Xanh sương",
+  "stateIconNight": "Đêm",
+  "stateIconFrost": "Trắng sương",
+  "stateIconInk": "Mực",
+  "stateAppDisclaimer": "Xây dựng trên DeepSeek Harness · Không phải ứng dụng chính thức của DeepSeek",
+  "stateWallpaper": "Hình nền",
+  "stateFileMissing": "Không tìm thấy tệp này nữa, có thể đã bị xóa hoặc di chuyển",
+  "stateFileNoApp": "Trên điện thoại không có ứng dụng nào mở được loại tệp này",
+  "stateFileConnectionLimit": "Tệp quá lớn, kết nối này không chuyển được",
+  "stateFileReadUnsupported": "Kết nối này không hỗ trợ đọc tệp",
+  "stateArtifactImage": "Hình ảnh",
+  "stateArtifactDocument": "Tài liệu",
+  "stateArtifactSheet": "Bảng tính",
+  "stateArtifactSlides": "Bản trình bày",
+  "stateArtifactArchive": "Tệp nén",
+  "stateArtifactAudio": "Âm thanh",
+  "stateArtifactVideo": "Video",
+  "stateArtifactWeb": "Trang web",
+  "stateArtifactText": "Văn bản",
+  "stateArtifactFile": "Tệp",
+  "statePrivateKeyTooLarge": "Tệp quá lớn, không giống khóa riêng",
+  "stateBotTeamBusy": "Một DSH khác đang dùng nhóm này",
+  "stateBotOperationFailed": "Không hoàn thành được thao tác, thử lại",
+  "stateBotMissing": "Máy chủ này không có DS Bot",
+  "stateHostAuthFailed": "Không vượt qua xác thực của máy chủ",
+  "stateUnexpectedError": "Có chút sự cố",
+  "stateGroupChat": "Trò chuyện nhóm",
+  "stateBotNewMessage": "Bot có tin nhắn mới",
+  "stateChatAgentBusy": "AI đang bận, thử lại sau",
+  "stateChatWriterHeld": "Trò chuyện này đang được dùng ở nơi khác",
+  "stateChatModelUnavailable": "Mô hình này hiện không dùng được",
+  "stateChatAttachmentInvalid": "Không gửi được tệp đính kèm này",
+  "stateChatForkUnavailable": "Không thể rẽ nhánh ở đây",
+  "stateChatImagesTooLarge": "Ảnh quá lớn, chọn ít ảnh hơn rồi gửi",
+  "stateChatSyncInterrupted": "Đồng bộ trò chuyện bị gián đoạn",
+  "stateChatSynchronizing": "Đang đồng bộ trò chuyện",
+  "stateChatSyncRetry": "Đồng bộ lại",
+  "stateChatSyncRequired": "Trò chuyện chưa được đồng bộ, hãy đồng bộ lại rồi thử",
+  "stateChatAutoApproveFailed": "Tự động cho phép thất bại",
+  "stateCommandMissing": "Không có lệnh này",
+  "stateCommandFailed": "Lệnh chưa chạy",
+  "stateChatStopSteered": "Không dừng được lượt này, đã gửi dưới dạng chen ngang",
+  "stateChatTextOnlyModel": "Mô hình hiện tại chưa khai báo hỗ trợ ảnh, đã gửi dưới dạng tệp. Bạn có thể đổi mô hình, hoặc đặt kiểu đầu vào của mô hình tùy chỉnh thành “Văn bản và hình ảnh”",
+  "stateAttachmentUploadFailed": "Tải tệp đính kèm lên thất bại",
+  "stateChatImageModelRequired": "Mô hình hiện tại chưa khai báo hỗ trợ ảnh. Hãy đổi mô hình, hoặc đặt kiểu đầu vào của mô hình tùy chỉnh thành “Văn bản và hình ảnh” rồi gửi lại",
+  "stateSendFailed": "Gửi thất bại",
+  "stateChatStopFailed": "Không dừng được, thử lại",
+  "stateChatTurnEnded": "Lượt này đã kết thúc, tin nhắn sẽ được gửi thành lượt mới",
+  "stateChatSteerFailed": "Chen ngang thất bại",
+  "stateChatUndoTooLate": "Muộn rồi, AI đã đọc tin nhắn này",
+  "stateChatUndoFailed": "Thu hồi thất bại",
+  "stateChatApprovalFailed": "Gửi phê duyệt thất bại",
+  "stateChatAnswerFailed": "Gửi câu trả lời thất bại",
+  "stateChatModelSwitchFailed": "Đổi mô hình thất bại",
+  "stateChatHistoryFailed": "Tải lịch sử thất bại",
+  "stateChatBranchLastReply": "Chỉ rẽ nhánh được từ tin nhắn trả lời cuối cùng của một lượt đã hoàn thành",
+  "stateChatBranchFailed": "Rẽ nhánh thất bại",
+  "stateChatEarlierHistoryFailed": "Đọc bản ghi cũ hơn thất bại",
+  "stateChatNoEarlierHistory": "Trước tin nhắn này không còn bản ghi nào giữ lại được. Hãy bắt đầu trò chuyện mới.",
+  "stateCommandNewDescription": "Bắt đầu một trò chuyện mới",
+  "stateModelLabel": "Mô hình",
+  "stateCommandModelDescription": "Đổi mô hình và độ sâu suy nghĩ",
+  "stateCommandExportLabel": "Xuất nhật ký",
+  "stateCommandExportDescription": "Đóng gói toàn bộ bản ghi của trò chuyện này thành ZIP, chia sẻ hoặc lưu vào “Tải xuống”",
+  "stateAllFeatures": "Tất cả tính năng",
+  "stateCommandFeaturesDescription": "Lối vào từng tính năng của bản web chính thức",
+  "stateCompactLabel": "Nén",
+  "stateCommandCompactDescription": "Nén nội dung trò chuyện phía trên để giải phóng ngữ cảnh",
+  "statePermissionLabel": "Quyền",
+  "stateCommandPermissionDescription": "Đổi bộ quyền (chế độ Sandbox và chính sách phê duyệt)",
+  "stateCommandPermissionHint": "<tên bộ quyền>",
+  "statePlanLabel": "Kế hoạch",
+  "stateCommandPlanDescription": "Vào hoặc thóat chế độ Kế hoạch",
+  "stateGoalLabel": "Mục tiêu",
+  "stateCommandGoalDescription": "Đặt hoặc xem mục tiêu của nhiệm vụ dài hạn",
+  "stateFeedbackLabel": "Phản hồi",
+  "stateCommandFeedbackDescription": "Gửi phản hồi về trò chuyện hiện tại",
+  "stateCommandFeedbackHint": "<nội dung>",
+  "stateShareFileTooLarge": "Có tệp quá lớn, chưa thêm vào",
+  "stateShareFileUnreadable": "Có tệp không đọc được",
+  "stateShareImagesOnly": "Máy chủ hiện tại chỉ gửi được hình ảnh",
+  "stateComposerInserted": "Đã đưa vào ô nhập",
+  "stateCordisPending": "Chờ xác nhận",
+  "stateCordisStarting": "Đang khởi động",
+  "stateCordisRunFailed": "Chạy thất bại",
+  "stateCordisNoApproval": "Chưa được cấp quyền chạy",
+  "stateCordisBackendFailed": "Phần chạy nền không khởi động được",
+  "stateCordisClientLoadFailed": "Giao diện không tải được",
+  "stateCordisRenderFailed": "Hiển thị giao diện bị lỗi",
+  "stateCordisFailed": "Không chạy được",
+  "stateDrawerAll": "Tất cả",
+  "stateDrawerUnread": "Chưa đọc",
+  "stateDrawerToday": "Hôm nay",
+  "stateDrawerThisWeek": "Tuần này",
+  "stateDrawerEarlier": "Trước đó",
+  "stateEngineAuthFailed": "Không vượt qua xác thực của Engine",
+  "stateChatMissing": "Trò chuyện này không còn nữa",
+  "stateChatFormatUnsupported": "Engine hiện tại không đọc được định dạng nhật ký của trò chuyện này, hãy xuất gói chẩn đoán để kiểm tra",
+  "stateEngineUnsupported": "Phiên bản Engine hiện tại không hỗ trợ",
+  "stateEngineServiceUnavailable": "Dịch vụ Engine cần dùng chưa sẵn sàng, hãy xem nhật ký Engine hoặc xuất gói chẩn đoán",
+  "stateEngineOperationUnavailable": "Engine hiện không thực hiện được thao tác này, hãy xem nhật ký Engine",
+  "stateSettingsRefreshed": "Vừa được sửa ở nơi khác, đã làm mới",
+  "stateCredentialFromEnvironment": "Engine đã cung cấp Key này qua môi trường khởi động, không sửa được ở đây",
+  "stateSettingsFromFile": "Đã cố định bởi tệp cấu hình",
+  "stateSettingsInteger": "Hãy nhập số nguyên",
+  "stateSettingsInvalidFormat": "Định dạng không đúng",
+  "stateSettingsReadOnly": "Cài đặt Engine chỉ được đọc",
+  "statePluginDisabled": "Plugin đã tắt",
+  "stateSettingsRestartRequired": "Mục này phải khởi động lại Engine mới đổi được",
+  "stateSettingsInvalidValue": "Giá trị không hợp lệ",
+  "stateSettingsRejected": "Engine không chấp nhận giá trị này",
+  "stateInventoryEnabled": "Đã bật",
+  "stateInventoryDisabled": "Chưa bật",
+  "stateLoading": "Đang tải",
+  "stateInventoryWaiting": "Đang chờ phần phụ thuộc",
+  "stateInventoryConditional": "Bật theo điều kiện",
+  "stateBundleBuiltIn": "Có sẵn trong DSH",
+  "stateBundleHeadless": "Chạy không giao diện",
+  "stateConfigFile": "Tệp cấu hình",
+  "stateGoalEmpty": "Mục tiêu không được để trống",
+  "stateGoalPauseFailed": "Không tạm dừng được",
+  "stateGoalResumeFailed": "Không tiếp tục được",
+  "stateGoalClearOffline": "Không xóa được: không kết nối được Engine",
+  "stateGoalClearFailed": "Không xóa được",
+  "stateGoalStale": "Mục tiêu vừa thay đổi, thử lại",
+  "stateGoalMissing": "Mục tiêu không còn nữa",
+  "stateGoalChatNotReady": "Trò chuyện chưa sẵn sàng, thử lại sau",
+  "stateGoalTurnsExhausted": "Đã hết lượt",
+  "stateGoalStateChanged": "Trạng thái mục tiêu đã thay đổi",
+  "stateSshHost": "Máy chủ SSH",
+  "stateHostBrowserFailed": "Không mở được trình duyệt, bạn có thể sao chép liên kết đăng nhập rồi mở trong trình duyệt.",
+  "stateSignInFailed": "Đăng nhập thất bại",
+  "stateMarketTooLarge": "Danh mục Plugin quá lớn, đã dừng tải",
+  "stateMarketUnreachable": "Không kết nối được danh mục Plugin",
+  "stateMarketInsecure": "Không thiết lập được kết nối an toàn tới danh mục Plugin",
+  "stateMarketTimeout": "Tải danh mục Plugin quá thời gian",
+  "stateMarketInterrupted": "Tải danh mục Plugin bị gián đoạn",
+  "stateRegistryDefault": "Nguồn cài đặt mặc định",
+  "stateRegistryNpm": "Nguồn chính thức của npm",
+  "stateRegistryMirror": "Mirror npmmirror",
+  "statePluginIncompatible": "Plugin này không hỗ trợ phiên bản DSH hiện tại.",
+  "statePluginInstallCancelled": "Đã hủy cài đặt",
+  "statePluginNoChanges": "Không thay đổi gì cả",
+  "statePluginIncompatibleTitle": "Không tương thích với DSH hiện tại",
+  "statePluginNetworkFailed": "Mạng không kết nối được",
+  "statePluginSourceUnreachable": "Không kết nối được trang chứa mã nguồn Plugin",
+  "statePluginDownloadTimeout": "Tải xuống quá thời gian",
+  "statePluginRegistryUnavailable": "Nguồn cài đặt tạm thời không phản hồi",
+  "statePluginPnpmMissing": "Thiếu pnpm",
+  "statePluginPhonePnpmMissing": "Điện thoại này thiếu pnpm",
+  "statePluginHostPnpmMissing": "Máy chủ này thiếu pnpm",
+  "statePluginNotFound": "Không tìm thấy Plugin này",
+  "statePluginPackageMissing": "Nguồn cài đặt không có gói này",
+  "statePluginTooNew": "Phiên bản quá mới",
+  "statePluginWaitForRelease": "Chỉ cài được sau khi phát hành đủ 24 giờ",
+  "statePluginVersionMissing": "Không tìm thấy phiên bản này",
+  "statePluginRegistryVersionMissing": "Nguồn cài đặt chưa có phiên bản này",
+  "stateDeviceStorageFull": "Bộ nhớ thiết bị không đủ",
+  "statePluginNoWritePermission": "Không có quyền ghi",
+  "statePluginConfigReadOnly": "Thư mục cấu hình Engine không ghi được",
+  "statePluginIntegrityFailed": "Kiểm tra tệp thất bại",
+  "statePluginDownloadIncomplete": "Tệp tải xuống chưa đầy đủ",
+  "statePluginBuildScripts": "Cần chạy script build",
+  "statePluginBuildApproval": "Script build đang chờ cho phép",
+  "statePluginAlreadyInstalled": "Đã cài rồi",
+  "statePluginUninstallFirst": "Đổi phiên bản phải gỡ cài đặt trước",
+  "statePluginInvalid": "Đây không phải Plugin DSH",
+  "statePluginNoEntry": "Gói này không có điểm vào Plugin, đã hoàn tác cài đặt",
+  "statePluginInUse": "Plugin đang được dùng",
+  "statePluginHasDependents": "Có Plugin khác phụ thuộc vào nó",
+  "statePluginManagedElsewhere": "Không sửa được ở đây",
+  "statePluginEngineManaged": "Plugin này do Engine quản lý riêng",
+  "statePluginAuthorizationExpired": "Ủy quyền đã hết hạn",
+  "statePluginBuildChanged": "Script build đã thay đổi, cần cài đặt lại",
+  "statePluginInvalidAddress": "Địa chỉ cài đặt không hợp lệ",
+  "statePluginCatalogInvalidAddress": "Địa chỉ cài đặt của danh mục Plugin không đúng",
+  "statePluginOperationIncomplete": "Thao tác chưa hoàn tất",
+  "statePluginRemoteForbidden": "Máy chủ này không cho phép cài đặt từ xa",
+  "statePluginRelayToggleOnly": "Kết nối qua chuyển tiếp chỉ bật/tắt Plugin được",
+  "statePluginManagementUnsupported": "Máy chủ không hỗ trợ quản lý Plugin",
+  "statePluginEngineUnsupported": "Engine hiện tại không hỗ trợ quản lý Plugin",
+  "statePluginResultMissing": "Không lấy được kết quả cài đặt",
+  "statePluginResultPending": "Kết quả cài đặt đang chờ xác nhận",
+  "statePluginDisconnected": "Kết nối đã đứt",
+  "statePluginQueued": "Đang xếp hàng",
+  "statePluginRemoving": "Đang gỡ phiên bản cũ",
+  "statePluginInstalling": "Đang tải xuống và cài đặt",
+  "statePluginApplying": "Đang bật",
+  "statePluginCancelling": "Đang hủy",
+  "statePluginInstalledRestart": "Đã cài đặt, khởi động lại để áp dụng.",
+  "statePluginInstallFailed": "Cài đặt thất bại",
+  "statePluginConnectFirst": "Kết nối rồi mới cài được Plugin",
+  "stateProviderOpenAi": "Tương thích OpenAI",
+  "stateProviderAnthropic": "Tương thích Anthropic",
+  "stateProviderUrlRequired": "Nhập Base URL",
+  "stateProviderUrlInvalid": "Nhập địa chỉ đầy đủ bắt đầu bằng http:// hoặc https://",
+  "stateProviderUrlSuffix": "Bỏ phần sau ? hoặc #",
+  "stateProviderKeyRequired": "Nhập API Key",
+  "stateProviderKeyOnly": "Chỉ dán mỗi Key, không kèm tên biến",
+  "stateProviderKeyQuotes": "Bỏ dấu ngoặc kép hai bên",
+  "stateProviderKeyInvalid": "Key chứa ký tự không hợp lệ",
+  "stateProviderModelRequired": "Nhập ID mô hình",
+  "stateProviderModelSpaces": "ID mô hình không được có khoảng trắng",
+  "stateProviderAlreadyAdded": "Đã thêm rồi",
+  "stateProviderConflict": "Kênh vừa bị sửa, quay lại rồi thử lại",
+  "stateProviderUnsupported": "Phiên bản Engine hiện tại không hỗ trợ thao tác này",
+  "stateProviderKeyRejected": "API Key không hợp lệ hoặc không đủ quyền",
+  "stateProviderModelsMissing": "Không tìm thấy danh sách mô hình, kiểm tra Base URL",
+  "stateProviderRateLimited": "Yêu cầu quá thường xuyên, thử lại sau",
+  "stateProviderResponseTooLarge": "Nội dung trả về quá lớn",
+  "stateProviderUnreachable": "Không kết nối được địa chỉ này, kiểm tra Base URL và mạng",
+  "stateProviderModelsUnreadable": "Không đọc được danh sách mô hình, kiểm tra Base URL",
+  "stateProviderManualModels": "Giao thức này không lấy được mô hình, hãy thêm thủ công",
+  "stateProviderConfigRejected": "Engine đã từ chối cấu hình này, kiểm tra giao thức và mô hình",
+  "stateProviderOffline": "Chưa kết nối được Engine",
+  "stateSafeStartupFailed": "Khởi động thất bại",
+  "stateSafeCrashedEarly": "Sập ngay sau khi khởi động",
+  "stateSafeCrashedLate": "Sập trong lúc đang chạy",
+  "stateSafeKilled": "Bị hệ thống kết thúc",
+  "stateSafeManualEntry": "Tôi đã tự vào chế độ An toàn",
+  "stateScheduleNotCreated": "Trò chuyện đã kết thúc, nhưng chưa tạo được nhiệm vụ",
+  "stateScheduleChatFailed": "Trò chuyện bị lỗi",
+  "stateScheduleResultPending": "Chưa chờ được kết quả",
+  "statePlanPending": "Kế hoạch chờ duyệt",
+  "stateQuestionPending": "Chờ trả lời",
+  "stateExportRelayUnsupported": "Kết nối qua chuyển tiếp tạm thời không hỗ trợ xuất",
+  "stateExportChatMissing": "Không tìm thấy trò chuyện này nữa",
+  "stateExportFailed": "Không xuất được",
+  "stateSizeExtraLarge": "Rất lớn",
+  "stateSubscriptionUnsupported": "Engine hiện tại không hỗ trợ đăng nhập bằng gói đăng ký",
+  "stateSubscriptionUnreachable": "Không kết nối được dịch vụ đăng nhập, kiểm tra mạng rồi thử lại",
+  "stateSubscriptionSignInFailed": "Không hoàn tất đăng nhập được, thử lại",
+  "stateSubscriptionTimeout": "Yêu cầu quá thời gian, kiểm tra mạng rồi thử lại",
+  "stateSubscriptionDisconnected": "Mất kết nối với Engine, thử lại sau",
+  "stateTerminalLimit": "Số lượng terminal đã đạt giới hạn",
+  "stateTerminalStartFailed": "Không khởi động được terminal",
+  "stateTerminalDisabledOnHost": "Máy tính này đã tắt terminal từ xa. Hãy bật “Terminal” trong cài đặt Remote trên máy tính, rồi quay lại thử",
+  "stateTileDuotone": "Phẳng hai màu",
+  "stateTileGeometric": "Hình học tối giản",
+  "stateTileGlassy": "Kính chuyển màu",
+  "stateUiNative": "Gốc",
+  "stateDefaultWorkspace": "Không gian làm việc mặc định",
+  "stateDiagnosticsSaved": "Đã lưu vào {where}",
+  "@stateDiagnosticsSaved": {
+    "placeholders": {
+      "where": {
+        "type": "String"
+      }
+    }
+  },
+  "stateDownloadsPrefix": "Tải xuống/",
+  "stateSharePluginCount": "{count} Plugin",
+  "@stateSharePluginCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateShareSkillCount": "{count} kỹ năng",
+  "@stateShareSkillCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateShareSettingCount": "{count} nhóm cài đặt",
+  "@stateShareSettingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateAlertCompletedReply": "Đã hoàn thành · {reply}",
+  "@stateAlertCompletedReply": {
+    "placeholders": {
+      "reply": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertErrorDetail": "Lỗi · {detail}",
+  "@stateAlertErrorDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertUseTool": "Dùng công cụ {name}",
+  "@stateAlertUseTool": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertApprovalAction": "Chờ bạn xác nhận: {action}",
+  "@stateAlertApprovalAction": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertApprovalReason": "Chờ bạn xác nhận: {action} · {reason}",
+  "@stateAlertApprovalReason": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertQuestions": "Hỏi bạn: {question} (tổng cộng {count})",
+  "@stateAlertQuestions": {
+    "placeholders": {
+      "question": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateAlertQuestionText": "Hỏi bạn: {question}",
+  "@stateAlertQuestionText": {
+    "placeholders": {
+      "question": {
+        "type": "String"
+      }
+    }
+  },
+  "statePetChatsDone": "{count} trò chuyện đã làm xong",
+  "@statePetChatsDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statePetChatsFailed": "{count} trò chuyện bị lỗi",
+  "@statePetChatsFailed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statePetChatsApproval": "{count} trò chuyện chờ bạn xác nhận",
+  "@statePetChatsApproval": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statePetChatsQuestion": "{count} trò chuyện chờ bạn trả lời",
+  "@statePetChatsQuestion": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateAttachmentEmpty": "“{name}” là tệp trống",
+  "@stateAttachmentEmpty": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAttachmentImageLimit": "Ảnh “{name}” vượt quá 20 MB",
+  "@stateAttachmentImageLimit": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAttachmentFileLimit": "Tệp “{name}” vượt quá 200 MB",
+  "@stateAttachmentFileLimit": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAttachmentTotalLimit": "Tổng kích thước tệp đính kèm vượt quá 400 MB",
+  "stateBotFinished": "{name} đã làm xong việc",
+  "@stateBotFinished": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateBotQuestion": "{name} hỏi bạn: {text}",
+  "@stateBotQuestion": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "stateBotApproval": "{name} chờ bạn phê duyệt: {text}",
+  "@stateBotApproval": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "stateCommandPlanHint": "[off | yêu cầu]",
+  "stateCommandGoalHint": "[mục tiêu | clear | pause | resume]",
+  "stateShareReadFailed": "Không đọc được “{name}”",
+  "@stateShareReadFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateShareAttachmentLimit": "Mỗi tin nhắn tối đa {count} tệp đính kèm",
+  "@stateShareAttachmentLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateShareNamedFileTooLarge": "“{name}” quá lớn, chưa thêm vào",
+  "@stateShareNamedFileTooLarge": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateShareTextTruncated": "Chữ quá dài, chỉ giữ {count} ký tự đầu",
+  "@stateShareTextTruncated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateSettingsMinimum": "Không được nhỏ hơn {bound}",
+  "@stateSettingsMinimum": {
+    "placeholders": {
+      "bound": {
+        "type": "String"
+      }
+    }
+  },
+  "stateSettingsMaximum": "Không được lớn hơn {bound}",
+  "@stateSettingsMaximum": {
+    "placeholders": {
+      "bound": {
+        "type": "String"
+      }
+    }
+  },
+  "stateSettingsMultiple": "Phải là bội số của {bound}",
+  "@stateSettingsMultiple": {
+    "placeholders": {
+      "bound": {
+        "type": "String"
+      }
+    }
+  },
+  "stateSettingsMinLength": "Ít nhất {count} ký tự",
+  "@stateSettingsMinLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateSettingsMaxLength": "Nhiều nhất {count} ký tự",
+  "@stateSettingsMaxLength": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stateEngineHttpRejected": "Engine đã từ chối yêu cầu ({status})",
+  "@stateEngineHttpRejected": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "stateGoalActionOffline": "{action}: không kết nối được Engine",
+  "@stateGoalActionOffline": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "stateHostRemoteLabel": "{name} · Từ xa",
+  "@stateHostRemoteLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "stateMarketHttpError": "Danh mục Plugin tạm thời không mở được (HTTP {status})",
+  "@stateMarketHttpError": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "statePluginRuntimeIncompatible": "Plugin này không hỗ trợ phiên bản DSH hiện tại ({version}).",
+  "@statePluginRuntimeIncompatible": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "statePluginRequiredVersion": "Plugin này yêu cầu DSH {wanted}, hiện tại là {current}.",
+  "@statePluginRequiredVersion": {
+    "placeholders": {
+      "wanted": {
+        "type": "String"
+      },
+      "current": {
+        "type": "String"
+      }
+    }
+  },
+  "statePluginRegistryUnreachable": "Không kết nối được nguồn cài đặt",
+  "statePluginNamedRegistryUnreachable": "Không kết nối được nguồn cài đặt ({registry})",
+  "@statePluginNamedRegistryUnreachable": {
+    "placeholders": {
+      "registry": {
+        "type": "String"
+      }
+    }
+  },
+  "statePluginBuildsPending": "Chờ cho phép: {builds}",
+  "@statePluginBuildsPending": {
+    "placeholders": {
+      "builds": {
+        "type": "String"
+      }
+    }
+  },
+  "statePluginRegistryProgress": "Đang tải từ {registry} (nguồn thứ {attempt}/{attempts})",
+  "@statePluginRegistryProgress": {
+    "placeholders": {
+      "registry": {
+        "type": "String"
+      },
+      "attempt": {
+        "type": "int"
+      },
+      "attempts": {
+        "type": "int"
+      }
+    }
+  },
+  "stateProviderServiceUnavailable": "Dịch vụ tạm thời không khả dụng ({status})",
+  "@stateProviderServiceUnavailable": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "stateProviderServiceStatus": "Dịch vụ trả về {status}",
+  "@stateProviderServiceStatus": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "stateProviderKeySaveFailed": "Đã lưu kênh, nhưng Key chưa lưu được: {reason}",
+  "@stateProviderKeySaveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "stateSafeSuspectPlugins": "{what}, Plugin đáng ngờ: {plugins}",
+  "@stateSafeSuspectPlugins": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      },
+      "plugins": {
+        "type": "String"
+      }
+    }
+  },
+  "stateSafePreflightFailed": "{what}, kiểm tra khởi động không đạt: {checks}",
+  "@stateSafePreflightFailed": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      },
+      "checks": {
+        "type": "String"
+      }
+    }
+  },
+  "stateListSeparator": ", ",
+  "stateSafeRepairPrompt": "DSH của tôi ở chế độ thường đang gặp sự cố ({what}). Hãy làm theo hướng dẫn ở “Chế độ an toàn” để tìm nguyên nhân, sửa cấu hình web bằng cách có thể hoàn tác, sửa xong dùng dsh-app-plugins trial thử khởi động để kiểm tra, rồi cho tôi biết đã sửa những gì.",
+  "@stateSafeRepairPrompt": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      }
+    }
+  },
+  "stateScheduleCreatePrompt": "Tạo nhiệm vụ tự động “{title}”: {rule}.\nChỉ gọi schedule_create một lần, dùng nguyên các tham số; đừng thực hiện nội dung nhiệm vụ ngay bây giờ.\n\n```json\n{args}\n```",
+  "@stateScheduleCreatePrompt": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "rule": {
+        "type": "String"
+      },
+      "args": {
+        "type": "String"
+      }
+    }
+  },
+  "stateActionReason": "{action}: {reason}",
+  "@stateActionReason": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertPreviewRun": "Chạy: {value}",
+  "@stateAlertPreviewRun": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertPreviewWrite": "Ghi: {value}",
+  "@stateAlertPreviewWrite": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertPreviewEdit": "Sửa: {value}",
+  "@stateAlertPreviewEdit": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertPreviewOpen": "Mở: {value}",
+  "@stateAlertPreviewOpen": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "stateAlertPreviewUse": "Dùng công cụ: {value}",
+  "@stateAlertPreviewUse": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "stateUiWeb": "Web",
+  "statePluginRegistryProgressUnknown": "Đang tải từ {registry} (nguồn thứ {attempt}/null)",
+  "@statePluginRegistryProgressUnknown": {
+    "placeholders": {
+      "registry": {
+        "type": "String"
+      },
+      "attempt": {
+        "type": "int"
+      }
+    }
+  },
+  "stateProviderTokenCountInvalid": "Nhập số, ví dụ 128K",
+  "appSlogan": "Mọi lúc mọi nơi, muốn Go là Go!",
+  "statePasteEmpty": "Clipboard không có văn bản để dán.",
+  "statePasteDenied": "Hệ thống chưa cấp quyền dán, hãy bấm lại nút dán.",
+  "statePasteBusy": "Cửa sổ dán chưa đóng hẳn, hãy xong hoặc hủy rồi thử lại.",
+  "statePasteFailed": "Không đọc được clipboard, hãy thử lại hoặc nhập tay."
+}

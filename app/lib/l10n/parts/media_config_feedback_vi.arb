@@ -1,0 +1,40 @@
+{
+  "@@locale": "vi",
+  "mediaConfigKeySaved": "Đã lưu · Chưa xác minh",
+  "mediaConfigKeyUnknown": "Không rõ trạng thái",
+  "mediaConfigKeyNote": "Việc key có tồn tại hay không do máy chủ trả về quyết định. Lưu key không có nghĩa là đã xác minh danh tính hay quyền dùng mô hình.",
+  "mediaConfigConsumers": "Dịch vụ media đang dùng key này: {services}. Sửa hoặc gỡ sẽ ảnh hưởng tới các dịch vụ này; các tích hợp khác trên máy chủ cũng có thể đang dùng nó.",
+  "mediaConfigCheck": "Kiểm tra cấu hình đã lưu",
+  "mediaConfigCheckNote": "Chỉ kiểm tra bản snapshot cấu hình local, không gọi tới nhà cung cấp, không phát sinh phí tạo. Không xác minh key, kết nối, số dư, quyền dùng mô hình hay khu vực; cấu hình có được chấp nhận hay không vẫn do máy chủ quyết định.",
+  "mediaConfigCheckReady": "Không phát hiện vấn đề cấu hình local",
+  "mediaConfigCheckMissingKey": "Máy chủ chưa báo có key đã lưu.",
+  "mediaConfigCheckModels": "Chưa chọn mô hình, hoặc một số mô hình đã chọn không có trong danh mục, hoặc không khớp giao thức.",
+  "mediaConfigCheckDisabled": "Dịch vụ này đã tắt.",
+  "mediaConfigUrlInvalid": "Nhập địa chỉ gốc API HTTPS có tên máy chủ, không chứa thông tin đăng nhập, tham số truy vấn, fragment hay khoảng trắng.",
+  "mediaConfigUrlEndpoint": "Đây có vẻ là endpoint yêu cầu. Hãy nhập địa chỉ gốc API, máy chủ sẽ tự thêm đường dẫn yêu cầu.",
+  "mediaConfigUrlRoot": "Giao thức này chỉ cần địa chỉ gốc (https://tên-máy-chủ), không nhập đường dẫn API.",
+  "mediaConfigUrlHint": "Nhập địa chỉ gốc API, không phải endpoint tạo. Dịch vụ tương thích OpenAI giữ nguyên tiền tố đường dẫn (ví dụ /v1).",
+  "mediaConfigPreview": "Tạo bản xem trước yêu cầu",
+  "mediaConfigPreviewNote": "Chỉ xem trước yêu cầu tạo; yêu cầu sửa và tra cứu trạng thái có thể dùng đường dẫn khác. Bản xem trước không chứng minh đã kết nối hay đã được máy chủ chấp nhận.",
+  "mediaConfigPreviewUnavailable": "Danh mục của máy chủ này không cung cấp đường dẫn yêu cầu.",
+  "mediaConfigTargetTitle": "Dùng key cho mục tiêu khác?",
+  "mediaConfigTargetBody": "Mục tiêu sẽ đổi từ {before} thành {after}. Các yêu cầu sau có thể gửi key được tham chiếu tới mục tiêu mới. Chỉ tiếp tục nếu bạn tin tưởng mục tiêu đó. Máy chủ vẫn sẽ kiểm tra thay đổi này.",
+  "mediaConfigTargetConfirm": "Tin tưởng mục tiêu và tiếp tục",
+  "@mediaConfigConsumers": {
+    "placeholders": {
+      "services": {
+        "type": "String"
+      }
+    }
+  },
+  "@mediaConfigTargetBody": {
+    "placeholders": {
+      "before": {
+        "type": "String"
+      },
+      "after": {
+        "type": "String"
+      }
+    }
+  }
+}

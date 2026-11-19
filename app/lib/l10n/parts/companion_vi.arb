@@ -1,0 +1,371 @@
+{
+  "@@locale": "vi",
+  "companionTitle": "Phòng Bạn đồng hành",
+  "companionEntrySubtitle": "Ở bên cô ấy một lát",
+  "companionDefaultName": "cô ấy",
+  "companionInputHint": "Nói gì đó với {name}",
+  "@companionInputHint": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionMenu": "Xem thêm",
+  "companionVoice": "Giọng nói",
+  "companionStop": "Bảo cô ấy dừng lại",
+  "companionSend": "Gửi",
+  "companionNotConnected": "Hiện em không kết nối được Engine, lát nữa hãy nói với em nhé.",
+  "companionSendFailed": "Câu này chưa gửi được, nói lại lần nữa nhé?",
+  "companionLogTitle": "Lịch sử trò chuyện",
+  "companionContextUnsupported": "Bạn đồng hành trên máy chủ này chưa hỗ trợ ngữ cảnh: tên, tính cách và chuyện vừa xảy ra sẽ không tới được chỗ cô ấy, chỉ gửi những gì bạn nói. Cập nhật máy chủ hoặc chuyển sang chế độ gọn nhẹ là được.",
+  "companionLogEmpty": "Chưa nói gì.",
+  "companionLogYou": "Bạn",
+  "companionLogOpenChat": "Xem trong trò chuyện chính",
+  "companionLogOlder": "Tải tin nhắn cũ hơn",
+  "companionMenuHistory": "Xem lịch sử trò chuyện",
+  "companionMenuRestart": "Làm quen lại",
+  "companionMenuRestartHint": "Bắt đầu cuộc trò chuyện mới",
+  "companionMenuRestartConfirm": "Cô ấy sẽ quên cuộc trò chuyện này. Bản ghi cũ vẫn ở trên máy chủ, không bị xóa.",
+  "companionMenuRemovePack": "Gỡ tài nguyên",
+  "companionMenuRemoveConfirm": "Tài nguyên nhân vật trên điện thoại này sẽ bị xóa, lịch sử trò chuyện không bị ảnh hưởng. Lần sau vào phải nhập lại.",
+  "companionCreditAuthor": "Tác giả: {name}",
+  "@companionCreditAuthor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionSetupTitle": "Đón cô ấy về nhà",
+  "companionSetupBody": "Tài nguyên nhân vật không có trong app, chỉ đưa vào điện thoại khi cần dùng. Chọn gói tài nguyên (zip) nhập vào là gặp được cô ấy.",
+  "companionSetupImport": "Nhập gói tài nguyên",
+  "companionFailedTitle": "Cô ấy không ra được",
+  "companionFailedBody": "Tải trên điện thoại này thất bại ({reason}). Nhập lại gói tài nguyên rồi thử lại.",
+  "@companionFailedBody": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFailedBodyPlain": "Cô ấy vừa không tải được. Thử lại trước, chưa được thì nhập lại gói tài nguyên.",
+  "companionPackBroken": "Tệp này không mở được, có thể không phải gói tài nguyên hoặc đã hỏng.",
+  "companionPackRuntimeMismatch": "Runtime trong gói tài nguyên không khớp với phiên bản app này.",
+  "companionPackNoRuntime": "Gói này chỉ có nhân vật, trên điện thoại chưa có runtime. Nhập gói tài nguyên đầy đủ trước.",
+  "companionPackNoModel": "Không tìm thấy mô hình Live2D (.model3.json) trong gói. Nén cả thư mục của mô hình thành zip rồi thử lại.",
+  "companionPackUnsafe": "Gói có tệp hoặc đường dẫn không được phép, chưa nhập.",
+  "companionPackTooLarge": "Gói tài nguyên quá lớn.",
+  "companionPackStorage": "Ghi thất bại, kiểm tra xem dung lượng điện thoại còn đủ không.",
+  "companionGreetFirst": "Chào bạn, em là {name}. Từ nay em ở đây nhé, mong được giúp đỡ.",
+  "@companionGreetFirst": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionGreetMorning": "Chào buổi sáng, hôm nay nhớ ăn sáng đầy đủ nhé.",
+  "companionGreetNoon": "Trưa rồi, bạn ăn cơm chưa?",
+  "companionGreetAfternoon": "Chào buổi chiều, em vừa mới ngẩn ngơ.",
+  "companionGreetEvening": "Chào buổi tối, hôm nay của bạn thế nào?",
+  "companionGreetLate": "Muộn thế này còn chưa ngủ à?",
+  "companionGreetLong": "Lâu rồi không gặp, em tưởng bạn quên em rồi.",
+  "companionGreetBack": "Hửm? Lại quay lại rồi à.",
+  "companionWake": "Ừm…… em đâu có ngủ, chỉ nhắm mắt một lát thôi.",
+  "companionPat1": "Hi hi…… xoa thêm một lát cũng được.",
+  "companionPat2": "Ừm, dễ chịu quá.",
+  "companionPat3": "Tóc em sắp bị bạn làm rối rồi.",
+  "companionTapHead1": "Sao vậy?",
+  "companionTapHead2": "Hửm?",
+  "companionTapFace1": "Đừng chọc má em nữa.",
+  "companionTapFace2": "Ối, tay bạn lạnh quá.",
+  "companionTapFace3": "Trên mặt em có gì à?",
+  "companionTapBody1": "Á, làm em giật mình.",
+  "companionTapBody2": "Gì vậy?",
+  "companionTapBody3": "Tạp dề em vừa giặt xong!",
+  "companionTapTail1": "Đuôi không được chạm lung tung!",
+  "companionTapTail2": "Á, nhột quá.",
+  "companionTapTail3": "Đây là cái đuôi rất quan trọng đấy.",
+  "companionTapLegs1": "Dưới đất có gì à?",
+  "companionTapLegs2": "Bạn đang nhìn đâu vậy.",
+  "companionTease1": "Đừng đùa nữa, em chóng mặt rồi.",
+  "companionTease2": "Chọc nữa là em không thèm nói chuyện đâu!",
+  "companionTease3": "Bạn rảnh lắm à?",
+  "companionShake1": "Ối, đừng lắc nữa!",
+  "companionShake2": "Em chóng mặt quá…… nước văng tung toé rồi.",
+  "companionShake3": "Lắc nữa là em thổi bong bóng đấy!",
+  "companionStatusIdle": "Đang ngẩn ngơ",
+  "companionStatusListening": "Đang nghe bạn nói",
+  "companionStatusThinking": "Đang nghĩ",
+  "companionStatusSpeaking": "Đang nói",
+  "companionStatusSleeping": "Đang ngủ",
+  "companionStatusAway": "Không có mặt",
+  "companionListening": "Đang nghe…",
+  "companionTouchHint": "Thử xoa đầu cô ấy xem",
+  "companionArriving": "Cô ấy đang bơi tới…",
+  "companionPrivacyLine": "Tài nguyên chỉ ở trên điện thoại này, trò chuyện đi qua máy chủ hiện tại.",
+  "companionMemoryTitle": "Những điều cô ấy nhớ",
+  "companionMemoryScope": "Lưu trên {host}. Cô ấy chưa tự nhớ tới những điều này, phiên bản sau sẽ nối vào.",
+  "@companionMemoryScope": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "companionMemoryAdd": "Thêm",
+  "companionMemoryEdit": "Sửa",
+  "companionMemorySave": "Lưu",
+  "companionMemoryHint": "Ví dụ: tôi thích trà không đường, không uống cà phê",
+  "companionMemoryForget": "Quên đi",
+  "companionMemoryForgetTitle": "Để cô ấy quên chuyện này?",
+  "companionMemoryEmpty": "Chưa ghi lại gì",
+  "companionMemoryEmptyHint": "Muốn cô ấy nhớ điều gì thì viết ở đây. Chỉ lưu trên máy chủ hiện tại, sửa hay xóa lúc nào cũng được.",
+  "companionMemoryUnsupported": "Máy chủ này chưa lưu được ký ức của cô ấy",
+  "companionMemoryUnsupportedHint": "Không dùng được khi kết nối qua relay DSH Remote, hoặc cầu nối dsh-go trên máy chủ này đã cũ.",
+  "companionMemoryLoadFailed": "Không tải được",
+  "companionMemoryRetry": "Thử lại",
+  "companionMemoryConflict": "Vừa có chỗ khác sửa, đã làm mới",
+  "companionMemoryFull": "Đã đầy, xóa bớt vài mục đi",
+  "companionMemorySaveFailed": "Chưa lưu được, thử lại nhé",
+  "companionStatusSnacking": "Đang ăn vặt",
+  "companionStatusPlaying": "Đang chơi bong bóng",
+  "companionStatusResting": "Đang nghỉ trên đệm",
+  "companionSnack1": "Ưm—— ngon quá!",
+  "companionSnack2": "Vị rong biển, cảm ơn bạn.",
+  "companionSnack3": "Ừm…… em ăn thêm một miếng được không?",
+  "companionPlay1": "Này, bắt được rồi!",
+  "companionPlay2": "Bong bóng mềm mềm, vui quá.",
+  "companionPlay3": "Nó lại bay về rồi.",
+  "companionRest1": "Vậy em tựa ở đây một lát.",
+  "companionRest2": "Bạn nói đi, em đang nghe đây.",
+  "companionTouchHintHome": "Chạm vào vỏ sò, bong bóng và đệm, đồ ăn vặt còn kéo được tới miệng cô ấy",
+  "companionMenuMode": "Cách trò chuyện",
+  "companionModeLight": "Nhẹ",
+  "companionModeLightHint": "Chỉ trò chuyện. Điện thoại nói thẳng với mô hình, không cần khởi động Engine",
+  "companionModeFull": "Đầy đủ",
+  "companionModeFullHint": "Engine DSH trên máy chủ, có công cụ và điều khiển điện thoại",
+  "companionLightNoKey": "Chế độ gọn nhẹ cần DeepSeek API Key, nhập trong cài đặt là trò chuyện với em được.",
+  "companionLightBadKey": "API Key có vẻ sai, hoặc đã hết hạn.",
+  "companionLightBusy": "Bên kia hơi bận, lát nữa nói với em nhé.",
+  "companionNotConnectedTryLight": "Hiện không kết nối được máy chủ. Nếu chỉ muốn trò chuyện, đổi sang chế độ gọn nhẹ trong menu góc phải trên.",
+  "companionMenuRestartLightHint": "Xóa lịch sử trò chuyện trên điện thoại này",
+  "companionMenuRestartLightConfirm": "Cô ấy sẽ quên cuộc trò chuyện này, lịch sử trò chuyện trên điện thoại này sẽ bị xóa.",
+  "companionInviteRest": "Nghỉ trên đệm cùng em một lát nhé?",
+  "companionInviteAccept": "Ừ, được",
+  "companionInviteDecline": "Để sau",
+  "companionInviteYes1": "Hi hi, nghỉ một lát thôi.",
+  "companionInviteYes2": "Vậy em nằm đây trước, bạn cũng thả lỏng đi.",
+  "companionMenuPace": "Cô ấy chủ động thế nào",
+  "companionPaceHint": "Cô ấy chỉ lên tiếng khi bạn lặng lẽ ở bên cô ấy: rủ bạn nghỉ một lát, hoặc nhắc tới một cuộc trò chuyện khác. Không nói vào đêm khuya, mỗi lần vào tối đa rủ một lần.",
+  "companionPaceQuiet": "Im lặng",
+  "companionPaceQuietHint": "Không tự lên tiếng, bạn tìm cô ấy thì cô ấy mới nói",
+  "companionPaceRare": "Thỉnh thỏang",
+  "companionPaceRareHint": "Tối đa 2 lần mỗi ngày, cách nhau ít nhất 6 tiếng",
+  "companionPaceOften": "Thường xuyên",
+  "companionPaceOftenHint": "Tối đa 6 lần mỗi ngày, cách nhau ít nhất 2 tiếng",
+  "companionPaceChatty": "Nói nhiều",
+  "companionPaceChattyHint": "Tối đa 12 lần mỗi ngày, cách nhau ít nhất nửa tiếng",
+  "companionSetupBundled": "Đón cô ấy về nhà",
+  "companionSetupBodyBundled": "Cô ấy đã có trong app, chạm một cái là tới, tài nguyên chỉ giải nén trên điện thoại này. Bạn cũng có thể nhập gói tài nguyên khác, hoặc nén thư mục của mô hình Live2D thành zip rồi nhập trực tiếp.",
+  "companionSetupImportOther": "Nhập gói tài nguyên khác",
+  "companionMenuRemoveConfirmBundled": "Tài nguyên nhân vật đã giải nén trên điện thoại này sẽ bị xóa, lịch sử trò chuyện không bị ảnh hưởng. Sau này lúc nào cũng đón cô ấy về lại được.",
+  "companionHug1": "Ừm…… ôm em đi.",
+  "companionHug2": "Được bạn ôm thế này, em thấy an tâm quá.",
+  "companionHug3": "Ôm thêm một lát nữa, chỉ một lát thôi.",
+  "companionBondTitle": "Mối quan hệ của hai bạn",
+  "companionBond0": "Mới quen",
+  "companionBond1": "Đang dần thân",
+  "companionBond2": "Thân rồi",
+  "companionBond3": "Rất thân",
+  "companionCloser1": "Hình như…… em không còn căng thẳng nữa.",
+  "companionCloser2": "Ở bên bạn, em thấy càng lúc càng thỏai mái.",
+  "companionCloser3": "Sau này nhớ thường xuyên tới nhé, em sẽ nhớ bạn.",
+  "companionPatClose": "Em thích nhất là được bạn xoa đầu.",
+  "companionHugClose": "Ôm chặt hơn một chút cũng được.",
+  "companionTaskDoneUntitled": "Nhiệm vụ bên kia của bạn xong rồi.",
+  "companionTaskFailedUntitled": "Nhiệm vụ bên kia của bạn hình như bị lỗi, đi xem không?",
+  "companionTaskOpen": "Đi xem",
+  "companionMenuSignals": "Cô ấy sẽ nhắc tới gì",
+  "companionSignalsHint": "Những điều này chỉ nói riêng với bạn trong phòng, không gửi cho mô hình. Nói nhiều hay ít theo mục “Cô ấy chủ động thế nào”, dùng chung số lần với lời mời, không nói vào đêm khuya; chọn “Im lặng” thì cô ấy cũng không nói.",
+  "companionSignalState": "Để ý các trò chuyện khác",
+  "companionSignalStateHint": "Khi trò chuyện khác trên máy chủ này xong hoặc bị lỗi, cô ấy đều biết",
+  "companionSignalSpeech": "Nhắc một câu",
+  "companionSignalSpeechHint": "Chọn lúc bạn đang yên lặng để nói một câu",
+  "companionSignalVoice": "Nói thành tiếng",
+  "companionSignalVoiceHint": "Khi giọng của cô ấy đang bật, đọc câu này thành tiếng",
+  "companionSignalNight": "Đêm khuya nhắc bạn nghỉ ngơi",
+  "companionSignalNightHint": "Đêm khuya ở trong phòng một lúc, cô ấy nhẹ nhàng nhắc một lần",
+  "companionSignalLateUse": "Muộn thế này rồi còn ở bên em…… nghỉ sớm một lát nhé?",
+  "companionRecallTitle": "Tự nhớ lại ký ức ở chế độ đầy đủ",
+  "companionRecallHint": "Bật lên sẽ đổi sang cuộc trò chuyện mới; sửa những điều cô ấy nhớ sẽ tự tắt",
+  "companionRecallConfirm": "Bật lên, ký ức đã xác nhận của cô ấy (tối đa 12 mục) sẽ được gửi tới mô hình cùng mỗi câu trả lời của cô ấy ở chế độ đầy đủ. Sẽ bắt đầu một cuộc trò chuyện mới, cuộc hiện tại vẫn ở trong danh sách trò chuyện chính. Sửa ký ức xong sẽ tự tắt, lúc đó bật lại được.",
+  "companionRecallTurnOn": "Bật",
+  "companionRecallOn": "Được, từ cuộc trò chuyện mới này, em sẽ nhớ những điều bạn dặn em nhớ.",
+  "companionRecallBusy": "Một trò chuyện khác đang dùng tính năng tự nhớ lại, tắt ở bên đó trước đã",
+  "companionRecallUnsupported": "Máy chủ này hiện không bật được tính năng tự nhớ lại",
+  "companionRecallFailed": "Tính năng tự nhớ lại chưa bật được, thử lại nhé",
+  "companionRecallOff": "Đã tắt tính năng tự nhớ lại, câu tiếp theo sẽ bắt đầu một cuộc trò chuyện mới",
+  "companionRecallOffFailed": "Tính năng tự nhớ lại chưa tắt được, thử lại nhé",
+  "companionRecallStopped": "Tính năng tự nhớ lại đã dừng (những điều cô ấy nhớ có thay đổi), đã đổi sang cuộc trò chuyện mới. Muốn thì bật lại trong menu.",
+  "companionMenuVoice": "Giọng của cô ấy",
+  "companionMenuVoiceHint": "Dùng giọng nói có sẵn trên điện thoại để đọc những gì cô ấy nói",
+  "companionVoiceHello": "Chào bạn, đây là giọng của em. Thích thì cứ để vậy nhé.",
+  "companionVoiceUnavailable": "Điện thoại này không có giọng tiếng Trung nào dùng được. Có thể cài thêm trong mục “Chuyển văn bản thành giọng nói” ở cài đặt hệ thống.",
+  "companionWidgetWaiting": "Đang chờ bạn trong phòng",
+  "companionVoiceOn": "Để cô ấy nói",
+  "companionVoiceOffHint": "Bật lên, cô ấy sẽ chào trước bằng giọng đã chọn.",
+  "companionVoiceOff": "Tắt",
+  "companionVoiceSource": "Nguồn giọng",
+  "companionVoiceSystem": "Có sẵn trên điện thoại",
+  "companionVoiceSystemHint": "Chuyển văn bản thành giọng nói của hệ thống, không cần mạng cũng dùng được",
+  "companionVoiceOpenai": "API tương thích OpenAI",
+  "companionVoiceOpenaiHint": "OpenAI, SiliconFlow, và hầu hết dịch vụ GPT-SoVITS, CosyVoice, edge-tts tự host",
+  "companionVoiceCustom": "HTTP tuỳ chỉnh",
+  "companionVoiceCustomHint": "API khác: tự điền định dạng yêu cầu và trả về",
+  "companionVoiceApi": "API",
+  "companionVoiceBase": "Địa chỉ",
+  "companionVoiceBaseHelper": "Nhập tới /v1, app sẽ nối thêm /audio/speech",
+  "companionVoiceKeyHelper": "Lưu trong bộ nhớ bảo mật của điện thoại này",
+  "companionVoiceModel": "Mô hình",
+  "companionVoiceVoice": "Giọng",
+  "companionVoiceVoiceHelper": "Tên giọng mà dịch vụ cung cấp, ví dụ alloy, hoặc tên nhân vật trong dịch vụ tự host của bạn",
+  "companionVoiceRequest": "Yêu cầu",
+  "companionVoiceUrl": "URL yêu cầu",
+  "companionVoiceUrlHelper": "Trong URL cũng dùng được {text}",
+  "companionVoiceMethod": "Phương thức",
+  "companionVoiceHeaders": "Header yêu cầu",
+  "companionVoiceHeadersHelper": "Mỗi dòng một header; sẽ lưu vào bộ nhớ bảo mật",
+  "companionVoiceBody": "Body yêu cầu",
+  "companionVoiceBodyHelper": "{text} sẽ được thay bằng những gì cô ấy nói",
+  "companionVoiceField": "Trường âm thanh",
+  "companionVoiceFieldHelper": "Khi trả về JSON, âm thanh nằm ở trường nào (base64 hoặc link), ví dụ data.audio; trả trực tiếp âm thanh thì để trống",
+  "companionVoicePrivacy": "Những gì cô ấy nói sẽ được gửi tới dịch vụ mà bạn nhập.",
+  "companionVoicePreview": "Nghe thử",
+  "companionVoicePreviewing": "Đang yêu cầu…",
+  "companionVoicePreviewOk": "Dùng được, bạn nghe thấy không?",
+  "companionVoicePreviewFailed": "Không thành công: {reason}",
+  "@companionVoicePreviewFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "companionVoiceNotSetUp": "Điền địa chỉ ở trên trước đã.",
+  "companionVoiceFallback": "Giọng ngoài lần này không kết nối được, đã dùng tạm giọng có sẵn trên điện thoại",
+  "companionGreetFirstNameless": "Chào bạn, từ nay em ở đây nhé, mong được giúp đỡ.",
+  "companionRenamed": "“{name}”…… được, từ nay em sẽ tên như vậy.",
+  "@companionRenamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionVoicePreset": "Dịch vụ phổ biến",
+  "companionVoicePresetHint": "Xiaomi MiMo, OpenAI, SiliconFlow, Alibaba Model Studio: nhập Key là dùng được",
+  "companionVoiceService": "Dịch vụ",
+  "companionVoiceKeyWhere": "Xin ở {site}; lưu trong bộ nhớ bảo mật của điện thoại này",
+  "@companionVoiceKeyWhere": {
+    "placeholders": {
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "companionVoiceVoiceCustomHelper": "Chọn một cái, hoặc nhập trực tiếp ID giọng mà dịch vụ cung cấp",
+  "companionVoiceStyle": "Phong cách nói",
+  "companionVoiceStyleHelper": "Mô tả giọng điệu khi cô ấy nói, dịch vụ sẽ đọc theo; để trống dùng giọng nữ dịu dàng mặc định",
+  "companionVoiceFemale": "Giọng nữ",
+  "companionVoiceMale": "Giọng nam",
+  "companionClonePreset": "Giọng preset",
+  "companionCloneMine": "Nhân bản giọng nói",
+  "companionVoicePresetVoice": "Giọng preset",
+  "companionCloneRecording": "Bản ghi âm",
+  "companionCloneHelper": "Tệp mp3 hoặc wav 5–30 giây, chỉ một người nói, không có tiếng nền, tối đa 7 MB. Chỉ dùng giọng của chính bạn, hoặc giọng đã được chủ nhân đồng ý. Mỗi câu cô ấy nói đều gửi kèm bản ghi âm này tới Xiaomi.",
+  "companionCloneNone": "Chưa có bản ghi âm",
+  "companionCloneReady": "Đã tải lên · {detail}",
+  "@companionCloneReady": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCloneSeconds": "{n} giây",
+  "@companionCloneSeconds": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "companionClonePick": "Chọn một bản ghi âm",
+  "companionCloneReplace": "Đổi bản khác",
+  "companionCloneTooLarge": "Bản ghi âm quá lớn, tối đa 7 MB. Cắt ngắn rồi thử lại.",
+  "companionCloneNotAudio": "Chỉ hỗ trợ bản ghi âm định dạng mp3 hoặc wav.",
+  "companionCloneFailed": "Không đọc được bản ghi âm này.",
+  "companionMenuPersona": "Tính cách của cô ấy",
+  "companionPersonaName": "Tên",
+  "companionPersonaNameHelper": "Để trống sẽ dùng tên trong gói tài nguyên",
+  "companionPersonaCallMe": "Cô ấy gọi bạn là gì",
+  "companionPersonaCallMeHint": "Ví dụ: An",
+  "companionPersonaCallMeHelper": "Để trống thì không gọi riêng gì cả",
+  "companionPersonaText": "Nhân cách",
+  "companionPersonaTextLabel": "Cô ấy là ai, nói chuyện thế nào",
+  "companionPersonaTextHelper": "Tính cách, thân phận, cách nói, những câu không nói, đều viết ở đây, xóa sửa tuỳ bạn. Chỉ định dạng dấu hiệu biểu cảm, hành động là app tự thêm.",
+  "companionPersonaReset": "Khôi phục mặc định",
+  "companionPersonaFooter": "Chế độ gọn nhẹ thì câu tiếp theo có hiệu lực; chế độ đầy đủ sẽ nói với cô ấy tính cách mới trong tin nhắn tiếp theo của bạn.",
+  "companionMenuMoves": "Hành động và biểu cảm",
+  "companionMovesHint": "Những thứ này đi kèm mô hình. Những cái đang bật sẽ đưa cho AI (biểu cảm, hành động mỗi loại tối đa 24 cái, theo thứ tự danh sách), cô ấy sẽ tự dùng khi trả lời; chạm vào tên để đổi cách gọi dễ hiểu hơn, chạm ▶ để thử trước trên cô ấy.",
+  "companionMovesNone": "Mô hình này không có biểu cảm và hành động riêng, cô ấy dùng những cái có sẵn.",
+  "companionMovesRename": "Đổi cách gọi",
+  "companionMovesTry": "Thử xem",
+  "companionPackLegacyModel": "Đây là mô hình Cubism 2 cũ (.moc và model.json), runtime trên điện thoại chỉ nhận .moc3 từ Cubism 3 trở lên. Mở bằng Cubism Editor rồi xuất thành moc3 rồi nhập lại là được.",
+  "companionFailedMocVersion": "Mô hình này được xuất bằng Cubism phiên bản mới hơn (phiên bản moc {version}), runtime trên điện thoại chỉ nhận tối đa tới {latest}. Xuất thành phiên bản cũ hơn trong Cubism Editor rồi nhập lại là được.",
+  "@companionFailedMocVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "latest": {
+        "type": "String"
+      }
+    }
+  },
+  "companionMenuAdapt": "Tuỳ chỉnh cho mô hình này",
+  "companionAdaptHint": "Dùng mô hình bạn đã cấu hình (Key của bạn, tính phí theo lần gọi) xem qua nhân vật này, khớp việc quay đầu, chớp mắt, biểu cảm và chạm vào đâu. Những gì sẽ gửi đi: tên mô hình, danh sách tham số, tên biểu cảm, hành động và bộ phận, những gì bạn viết dưới đây và bảng tuỳ chỉnh hiện tại; tệp mô hình và texture không gửi.",
+  "companionAdaptOffer": "Mô hình này cần tuỳ chỉnh: dùng mô hình bạn đã cấu hình xem qua danh sách tham số và tên biểu cảm, hành động của nó (không gửi tệp mô hình), sẽ dùng Key của bạn gọi một lần. Các mô hình mới sau này sẽ tự tuỳ chỉnh, tắt được trong menu.",
+  "companionAdaptOfferYes": "Tuỳ chỉnh",
+  "companionAdaptOfferNo": "Không cần",
+  "companionAdaptNote": "Chỗ nào chưa đúng? (có thể không điền)",
+  "companionAdaptNoteHint": "Ví dụ: xoa đầu không phản ứng, lúc vui mặt lại tối",
+  "companionAdaptRun": "Để AI tuỳ chỉnh",
+  "companionAdaptUndo": "Hoàn tác tuỳ chỉnh",
+  "companionAdaptAuto": "Tự tuỳ chỉnh khi nhập mô hình mới",
+  "companionAdaptStart": "Để em làm quen với cơ thể mới này……",
+  "companionAdaptDone": "Xong rồi, cơ thể này em dùng được rồi.",
+  "companionAdaptDoneNote": "Xong rồi, cơ thể này em dùng được rồi. {note}",
+  "@companionAdaptDoneNote": {
+    "placeholders": {
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "companionAdaptUndone": "Ừ, em về lại như trước rồi.",
+  "companionAdaptNoKey": "Muốn dùng mô hình của bạn giúp em tuỳ chỉnh, nhập API Key trong cài đặt trước.",
+  "companionAdaptFailed": "Lần này chưa thích nghi được ({reason}), thử lại trong mục “Tuỳ chỉnh cho mô hình này” ở menu.",
+  "@companionAdaptFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "companionAdaptUnreadable": "Không hiểu câu trả lời của mô hình",
+  "companionAdaptEmpty": "Mô hình không tìm được gì khớp",
+  "companionAdaptNetwork": "Không có mạng"
+}

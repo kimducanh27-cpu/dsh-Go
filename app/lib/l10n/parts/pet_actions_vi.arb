@@ -1,0 +1,12 @@
+{
+  "@@locale": "vi",
+  "petActionSending": "Đang gửi…",
+  "petActionTargetChanged": "Máy chủ đã đổi, mở lại mục “Hỏi nhanh”; văn bản đã giữ nguyên",
+  "petActionSendFailed": "Không gửi được, văn bản đã giữ nguyên, thử lại nhé",
+  "petActionBusy": "Trò chuyện này đang bận, chọn “Trò chuyện mới”",
+  "petActionVoiceMissing": "Tải mô hình giọng nói offline trong app trước",
+  "petActionVoiceTitle": "Hỏi nhanh bằng giọng nói",
+  "petActionVoiceReturn": "Về thú cưng",
+  "petActionVoiceStop": "Kết thúc ghi âm",
+  "petActionVoiceStart": "Ghi âm"
+}

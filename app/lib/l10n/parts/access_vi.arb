@@ -1,0 +1,139 @@
+{
+  "@@locale": "vi",
+  "accessPickTitle": "Bạn muốn DSH Go giúp việc gì",
+  "accessPickMessage": "Chọn xong rồi bật từng mục",
+  "accessPickConfirm": "Bật các mục đã chọn",
+  "accessSkip": "Bỏ qua",
+  "accessFeatureFiles": "Đọc và ghi tệp trên điện thoại",
+  "accessFeatureFilesNeeds": "Cần quyền truy cập tệp",
+  "accessFeaturePet": "Thú cưng và cửa sổ nổi",
+  "accessFeaturePetNeeds": "Cần quyền cửa sổ nổi",
+  "accessFeaturePhone": "Điều khiển điện thoại",
+  "accessFeaturePhoneNeeds": "Cần quyền trợ năng và thông báo",
+  "accessFeatureBackground": "Chạy nền liên tục",
+  "accessFeatureBackgroundNeeds": "Xong việc sẽ báo cho bạn, cần quyền thông báo và chạy nền",
+  "accessFeatureVoice": "Nhập bằng giọng nói",
+  "accessFeatureVoiceNeeds": "Cần quyền micro",
+  "accessFeatureAlerts": "Nhắc khi có trả lời",
+  "accessFeatureAlertsNeeds": "Cần quyền thông báo",
+  "accessVoiceModel": "Nhận dạng ngoại tuyến, cần tải mô hình giọng nói khoảng {size} MB",
+  "@accessVoiceModel": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "accessVoiceMetered": "Bạn đang dùng dữ liệu di động, tải xuống sẽ tốn dữ liệu",
+  "accessFilesRiskBody": "AI có thể đọc và sửa ảnh, tệp tải về, tài liệu và các tệp khác trên điện thoại.",
+  "accessStepCount": "{index} / {total}",
+  "@accessStepCount": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "accessTurnOn": "Đi bật",
+  "accessOpenSettings": "Mở cài đặt",
+  "accessItsSet": "Xong rồi",
+  "accessOpenAgain": "Mở lại lần nữa",
+  "accessIsOn": "Đã bật",
+  "accessNotOnYet": "Chưa bật",
+  "accessDidYouSet": "Bạn đã bật ở trang đó chưa?",
+  "accessWhere": "Vị trí: {path}",
+  "@accessWhere": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "accessOpenFailed": "Không mở được cài đặt hệ thống",
+  "accessMicTitle": "Cho phép dùng micro",
+  "accessMicWhy": "Cần cho nhập bằng giọng nói",
+  "accessStorageTitle": "Cho phép truy cập tệp",
+  "accessStorageWhy": "Để AI đọc/ghi ảnh, tệp tải về và tài liệu",
+  "accessNotifyTitle": "Cho phép thông báo",
+  "accessNotifyWhy": "Báo khi xong việc hoặc cần bạn xác nhận",
+  "accessBatteryTitle": "Cho phép chạy nền",
+  "accessBatteryWhy": "Chuyển sang app khác thì việc vẫn chạy tiếp",
+  "accessVendorBackgroundWhy": "Khóa màn hình hoặc chuyển app khác cũng không bị hệ thống ngắt mạng hay dọn dẹp",
+  "accessAutostartTitle": "Cho phép tự khởi động",
+  "accessAutostartWhy": "Bị hệ thống dọn thì tự chạy lại được",
+  "accessVivoAutostartPath": "Quản lý quyền › Tự khởi động › {app}",
+  "@accessVivoAutostartPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessXiaomiAutostartPath": "Quản lý ứng dụng › {app} › Tự khởi động",
+  "@accessXiaomiAutostartPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessA11yTitle": "Bật trợ năng",
+  "accessA11yWhy": "Điều khiển điện thoại dùng nó để đọc màn hình và chạm",
+  "accessPopupTitle": "Cho phép hiện giao diện khi chạy nền",
+  "accessPopupWhy": "Điều khiển điện thoại xong sẽ quay lại DSH Go",
+  "accessVivoPopupPath": "Quản lý quyền › {app} › Hiện giao diện khi chạy nền",
+  "@accessVivoPopupPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessXiaomiPopupPath": "Quản lý ứng dụng › {app} › Quyền khác › Hiện cửa sổ nổi khi đang chạy nền",
+  "@accessXiaomiPopupPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessOverlayTitle": "Cho phép hiển thị trên các ứng dụng khác",
+  "accessOverlayWhy": "Thú cưng mới hiện được trên app khác",
+  "accessOverlayGreyed": "Nút gạt bị mờ?",
+  "accessRestrictedTitle": "Bật “Cài đặt bị hạn chế” trước",
+  "accessRestrictedTap": "Trong Trợ năng, chạm “Điều khiển điện thoại DSH”, khi hiện “Cài đặt bị hạn chế” thì chạm OK",
+  "accessRestrictedMenu": "Trong Thông tin ứng dụng, chạm dấu ba chấm ở góc trên bên phải rồi chọn “Cho phép cài đặt bị hạn chế”",
+  "accessRestrictedAdvanced": "Trong “Cài đặt nâng cao” của Thông tin ứng dụng, bật “Cho phép cài đặt bị hạn chế”",
+  "accessRestrictedBack": "Quay lại Trợ năng rồi bật “Điều khiển điện thoại DSH”",
+  "accessRestrictedHelp": "Xem hình minh họa",
+  "accessOpenA11y": "Mở Trợ năng",
+  "accessOpenAppInfo": "Mở Thông tin ứng dụng",
+  "accessStateOn": "Đã bật",
+  "accessStateOff": "Chưa bật",
+  "accessStateVisited": "Đã vào cài đặt",
+  "accessStateUnknown": "Đi cài đặt",
+  "accessSummaryAllSet": "Đã bật hết rồi",
+  "accessSummaryLeft": "Còn {count} mục chưa bật",
+  "@accessSummaryLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "accessSummaryMessage": "Có thể bật bổ sung bất cứ lúc nào trong “Cài đặt › Chung › Quyền hệ thống”",
+  "accessFinishFailed": "Không hoàn tất được cài đặt",
+  "accessVoiceDownload": "Mô hình giọng nói (khoảng {size} MB) sẽ bắt đầu tải khi engine sẵn sàng, xem tiến độ trong “Cài đặt › Chung › Nhập bằng giọng nói”",
+  "@accessVoiceDownload": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "accessPageTitle": "Quyền hệ thống",
+  "accessPageSubtitle": "Quyền hệ thống mà từng tính năng cần"
+}

@@ -1,0 +1,51 @@
+{
+  "@@locale": "vi",
+  "webTitle": "DSH Web",
+  "webSshAppOnly": "Link qua tunnel SSH chỉ mở được trong app",
+  "webRelayUnavailable": "Không mở được bản web khi qua DSH Remote, hãy mở trên máy tính đó",
+  "webSshHost": "Máy chủ SSH",
+  "webLocalAppOnly": "Link của máy này có token khởi động, chỉ mở được trong app",
+  "webEngineStatus": "Trạng thái Engine",
+  "webEngineStarting": "Đang khởi động Engine",
+  "webEngineStartFailed": "Không khởi động được Engine",
+  "webEngineNotRunning": "Engine chưa chạy",
+  "webEngineProblem": "Engine gặp sự cố",
+  "webStartingSoon": "Chờ một lát, bản web sắp xong",
+  "webStartToOpen": "Bản web do Engine trên máy này cung cấp, khởi động xong là mở được",
+  "webRestart": "Khởi động lại",
+  "webStartEngine": "Khởi động Engine",
+  "webSwitchToWeb": "Chuyển sang giao diện web",
+  "webNativeFeatures": "Tính năng native",
+  "webSwitchToNative": "Quay lại giao diện native",
+  "webAppSettings": "Cài đặt app",
+  "webSwitchHost": "Đổi máy chủ",
+  "webAttachmentTooLarge": "Tệp đính kèm quá lớn, không đưa vào bản web được",
+  "webTextCopied": "Đã sao chép văn bản, dán vào ô nhập là được",
+  "webAttachmentFailed": "Không đưa được tệp đính kèm vào bản web",
+  "webHostUnavailable": "Máy chủ này không mở được bản web",
+  "webChatGone": "Trò chuyện này không còn nữa",
+  "webPageClosed": "Đã đóng trang web",
+  "webChatsWorkspaces": "Trò chuyện và không gian làm việc",
+  "webRefresh": "Làm mới",
+  "webOpenInBrowser": "Mở trong trình duyệt",
+  "webBrowserUnavailable": "Không mở được trong trình duyệt",
+  "webReopen": "Mở lại",
+  "webPageNotOpened": "Không mở được trang",
+  "webCheckConnection": "Kiểm tra mạng hoặc trạng thái Engine rồi thử lại",
+  "webTargetSessionMissing": "Không tìm thấy trò chuyện này trong bản web, đang ở trang chủ",
+  "webTargetNotLoaded": "Bản web chưa tải xong",
+  "webTargetSettingsMissing": "Không tìm thấy trang cài đặt này, có thể cần đăng nhập trước hoặc bật plugin tương ứng",
+  "webTargetPluginMissing": "Không tìm thấy plugin này, có thể nó không có trong cấu hình hiện tại",
+  "webTargetSidebarFailed": "Không mở được thanh bên, mở trò chuyện này trong bản web trước rồi thử lại",
+  "webTargetCordisMissing": "Không tìm thấy bảng Cordis, plugin có thể đã bị gỡ",
+  "webTargetNewChatFailed": "Không tạo được trò chuyện mới, đang ở trang chủ bản web",
+  "webTargetPageFailed": "Không mở trực tiếp được trang này, đang ở trang chủ bản web",
+  "webConnectHostFirst": "Chưa kết nối tới “{name}”, kết nối xong rồi mở bản web",
+  "@webConnectHostFirst": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

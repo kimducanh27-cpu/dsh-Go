@@ -1,0 +1,341 @@
+{
+  "@@locale": "vi",
+  "hubSessionDetails": "Chi tiết trò chuyện",
+  "hubTerminal": "Terminal",
+  "hubSessionNoTurns": "Chưa có lượt hoàn chỉnh nào",
+  "hubSessionElapsed": "Thời gian",
+  "hubSessionSteps": "Bước",
+  "hubSessionChangedFiles": "Tệp đã đổi",
+  "hubSessionTrajectoryHint": "Các bước và thời gian của từng lượt sẽ xếp ở đây",
+  "hubSessionLoadEarlier": "Tải các lượt trước đó",
+  "hubSessionError": "Lỗi",
+  "hubSessionInterrupted": "Đã bị ngắt",
+  "hubSessionOutputLimit": "Đã tới giới hạn đầu ra",
+  "hubSessionNoChanges": "Chưa sửa tệp nào",
+  "hubSessionShellChangesHint": "Tệp đổi bằng lệnh shell không hiện ở đây",
+  "hubSessionChanges": "Thay đổi trong trò chuyện",
+  "hubSessionChangesNote": "Chỉ tính các thay đổi bằng công cụ ghi và sửa trong lịch sử đã tải",
+  "hubSessionNoGoal": "Chưa có mục tiêu hay việc cần làm",
+  "hubSessionGoalHint": "Với nhiệm vụ phức tạp, AI sẽ liệt kê việc cần làm, tiến độ xem ở đây",
+  "hubSessionGoal": "Mục tiêu",
+  "hubSessionPlanMode": "Chế độ lập kế hoạch",
+  "hubSessionPlanSwitching": "Đang chuyển chế độ lập kế hoạch",
+  "hubSessionPlanHint": "AI đưa ra phương án trước, không sửa tệp",
+  "hubSessionTodos": "Việc cần làm",
+  "hubSessionNotStarted": "Chưa bắt đầu",
+  "hubSessionTurnUsage": "Mức dùng theo lượt",
+  "hubSessionNoSubagents": "Chưa gửi Subagent nào",
+  "hubSessionDelegations": "Lịch sử giao việc",
+  "hubTabTrajectory": "Quá trình",
+  "hubTabChanges": "Thay đổi",
+  "hubTabFiles": "Tệp",
+  "hubTabProgress": "Tiến độ",
+  "hubTabContext": "Ngữ cảnh",
+  "hubTabSubagents": "Subagent",
+  "hubPlugins": "Plugin",
+  "hubSettingsFullAccessTitle": "Bật quyền đầy đủ?",
+  "hubSettingsFullAccessBody": "AI sẽ không hỏi trước khi chạy lệnh hay sửa tệp nữa.",
+  "hubSettingsStorageTitle": "Để AI truy cập tệp điện thoại?",
+  "hubSettingsStorageAllow": "Cho phép đọc/ghi",
+  "hubSettingsStorageDenied": "Chưa được cấp quyền lưu trữ. Vào cài đặt hệ thống cấp cho DSH Go quyền “Truy cập mọi file” rồi thử lại",
+  "hubSettingsRestartRequired": "Có hiệu lực sau khi khởi động lại Engine",
+  "hubSettingsRestartNow": "Khởi động lại ngay",
+  "hubSettingsInterface": "Giao diện",
+  "hubSettingsChat": "Trò chuyện",
+  "hubSettingsAutoCommands": "Tự chạy lệnh",
+  "hubSettingsPhoneFiles": "Truy cập tệp điện thoại",
+  "hubSettingsPhoneFilesHint": "AI có thể đọc/ghi bộ nhớ điện thoại",
+  "hubSettingsVisualReplies": "Trả lời trực quan",
+  "hubSettingsVisualRepliesHint": "Biểu đồ, thẻ so sánh và lựa chọn chạm được",
+  "hubSettingsPhoneControl": "Điều khiển điện thoại",
+  "hubSettingsPhoneControlHint": "Xem màn hình, chạm giúp bạn",
+  "hubSettingsPreferences": "Sở thích cá nhân",
+  "hubSettingsAppearance": "Giao diện",
+  "hubSettingsChatTextSize": "Cỡ chữ trò chuyện",
+  "hubSettingsCollapseSteps": "Thu gọn quá trình khi xong",
+  "hubSettingsCollapseStepsHint": "Suy nghĩ và lệnh công cụ thu thành một dòng",
+  "hubSettingsWebPhoneLayout": "Bố cục bản web trên điện thoại",
+  "hubSettingsWebPhoneLayoutHint": "Sắp xếp lại bản web cho màn hình điện thoại",
+  "hubSettingsEngineExtensions": "Engine và tiện ích mở rộng",
+  "hubSettingsEngine": "Engine trên máy",
+  "hubSettingsProviders": "Mô hình",
+  "hubSettingsEngineSettings": "Tham số Engine",
+  "hubSettingsShareConfig": "Chia sẻ cấu hình",
+  "hubSettingsAllFeatures": "Tất cả tính năng",
+  "hubSettingsAbout": "Giới thiệu",
+  "hubSettingsCommunity": "Cộng đồng",
+  "hubSettingsLicenses": "Giấy phép mã nguồn mở",
+  "hubSettingsAccount": "Tài khoản DeepSeek",
+  "hubSettingsSigningIn": "Đang đăng nhập…",
+  "hubSettingsInvalidKey": "Key không hợp lệ, không tra được số dư",
+  "hubSettingsNoApiKey": "Chưa đặt API Key",
+  "hubSettingsApiKeyHint": "Nhập Key xong là trò chuyện được",
+  "hubSettingsSignInAccount": "Đăng nhập tài khoản DeepSeek",
+  "hubSettingsOrApiKey": "Hoặc nhập API Key",
+  "hubPluginShare": "Chia sẻ Plugin",
+  "hubPluginDetails": "Chi tiết Plugin",
+  "hubPluginFeatured": "Được đề xuất trên dshfind",
+  "hubPluginWebOnly": "Chỉ bản web",
+  "hubPluginStars": "Sao",
+  "hubPluginSource": "Nguồn",
+  "hubPluginInstalledVersion": "Phiên bản đã cài",
+  "hubPluginRequiresDsh": "Cần DSH",
+  "hubPluginPackageName": "Tên gói",
+  "hubPluginHomepage": "Trang chủ",
+  "hubPluginRepository": "Kho code",
+  "hubPluginManageTitle": "Quản lý Plugin",
+  "hubPluginManage": "Quản lý",
+  "hubPluginSafeModeInstall": "Chế độ an toàn không cài được",
+  "hubPluginInstallCommand": "Lấy lệnh cài đặt",
+  "hubPluginInstallComputer": "Cài trên máy tính",
+  "hubPluginInstalling": "Đang cài…",
+  "hubPluginAllowBuilds": "Cho phép script build rồi thử lại",
+  "hubPluginRetryInstall": "Thử cài lại",
+  "hubPluginOfficial": "DSH chính thức",
+  "hubPluginNotLoaded": "Không tải đúng cách",
+  "hubPluginComponents": "Thành phần",
+  "hubPluginSafeModeRemove": "Chế độ an toàn không gỡ được",
+  "hubPluginRemoveCommand": "Lấy lệnh gỡ",
+  "hubPluginRemoveComputer": "Gỡ trên máy tính",
+  "hubPluginUninstall": "Gỡ cài đặt",
+  "hubSessionTurns": "Tổng cộng {count} lượt",
+  "@hubSessionTurns": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionTurnsRunning": "Tổng cộng {count} lượt · Đang chạy",
+  "@hubSessionTurnsRunning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionStepCount": "{count} bước",
+  "@hubSessionStepCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionWaitTime": "Đã chờ bạn {duration}",
+  "@hubSessionWaitTime": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSessionTurn": "Lượt thứ {turn}",
+  "@hubSessionTurn": {
+    "placeholders": {
+      "turn": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionFileCount": "Đã đổi {count} tệp",
+  "@hubSessionFileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionEditCount": "Đã sửa {count} lần",
+  "@hubSessionEditCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionTurnOf": "Lượt {turn} / {total}",
+  "@hubSessionTurnOf": {
+    "placeholders": {
+      "turn": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "hubSessionCacheHit": "Trúng cache {percent}",
+  "@hubSessionCacheHit": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSessionBlocked": "Bị chặn",
+  "hubSessionBlockedReason": "Bị chặn: {reason}",
+  "@hubSessionBlockedReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSessionTodoSemantics": "{content}, {status}",
+  "@hubSessionTodoSemantics": {
+    "placeholders": {
+      "content": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSettingsStorageBody": "AI có thể đọc và sửa ảnh, tệp tải về, tài liệu và các tệp khác trên điện thoại, Engine sẽ khởi động lại một lần.",
+  "hubSettingsBalance": "Số dư {amount}",
+  "@hubSettingsBalance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSettingsBalanceLow": "Số dư {amount} · Số dư thấp",
+  "@hubSettingsBalanceLow": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSettingsAccountSemantics": "Tài khoản: {title}, {subtitle}",
+  "@hubSettingsAccountSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "subtitle": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSettingsHostSemantics": "Máy chủ từ xa: {name}, {status}",
+  "@hubSettingsHostSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "hubSettingsApiKey": "DeepSeek API Key",
+  "hubPluginBrowserFailed": "Không mở được trình duyệt, truy cập thủ công {address}",
+  "@hubPluginBrowserFailed": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "hubPluginYearMonth": "Tháng {month} năm {year}",
+  "@hubPluginYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "hubPluginUpdateTo": "Cập nhật lên {version}",
+  "@hubPluginUpdateTo": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "hubPluginInstallOn": "Cài lên {host}",
+  "@hubPluginInstallOn": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "hubPluginComponentCount": "{count} thành phần",
+  "@hubPluginComponentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubPluginComponentSeparator": ", ",
+  "hubGroupAi": "AI",
+  "hubGroupCapabilities": "Khả năng",
+  "hubGroupGeneral": "Chung",
+  "hubGroupHosts": "Máy chủ",
+  "hubGroupHelp": "Trợ giúp và giới thiệu",
+  "hubPersonalization": "Cá nhân hóa",
+  "hubPersonalizationAboutYou": "Về bạn",
+  "hubPersonalizationReplies": "Câu trả lời",
+  "hubPersonalizationWorkStyle": "Cách làm việc",
+  "hubPrivacy": "Riêng tư và chia sẻ",
+  "hubPrivacySharing": "Chia sẻ",
+  "hubInterfaceHome": "Trang chủ",
+  "hubInterfaceWebHint": "Bản web chính thức của DSH",
+  "hubInterfaceOpenWeb": "Mở bản web",
+  "hubInterfacePhoneLayout": "Bố cục điện thoại",
+  "hubTableTint": "Màu nền bảng",
+  "hubTableTintFollow": "Theo theme",
+  "hubTableTintFill": "Tô màu cả bảng",
+  "hubTableTintNone": "Không màu nền",
+  "hubTableTintFillHint": "Các hàng xen kẽ nhạt một bậc, bảng dài dễ đọc hơn",
+  "hubTableTintFollowHint": "Chỉ tiêu đề có màu nền nhạt, phần thân theo văn bản",
+  "hubTableTintNoneHint": "Chỉ còn đường lưới, nhẹ nhất",
+  "hubAbout": "Về DSH Go",
+  "hubAboutAuthor": "Tác giả gốc của DSH Go",
+  "hubAboutBilibili": "Trang Bilibili",
+  "hubAboutX": "Trang X",
+  "hubAboutGithub": "Trang GitHub",
+  "hubAboutNewVersion": "Có phiên bản mới",
+  "hubValueSet": "Đã đặt",
+  "hubValueOff": "Chưa bật",
+  "hubValueOneStep": "Còn một bước",
+  "hubValueAllowed": "Đã cho phép",
+  "hubValueNeedsSetup": "Cần thiết lập",
+  "hubValueHosts": "{count} máy chủ",
+  "@hubValueHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubValueNoHosts": "Chưa thêm",
+  "hubValuePlugins": "{count} plugin",
+  "@hubValuePlugins": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubEngineStartup": "Khởi động",
+  "hubThemeLightDark": "Sáng/tối",
+  "hubPermissionPhone": "Điện thoại",
+  "hubPermissionPhoneConfirm": "Xác nhận điều khiển điện thoại",
+  "hubHardwareEnterSends": "Bàn phím ngoài nhấn Enter để gửi",
+  "hubHardwareEnterSendsHint": "Bật xong, Shift+Enter để xuống dòng. Bàn phím màn hình vẫn xuống dòng; Ctrl/⌘+Enter luôn gửi được.",
+  "hubQuickPanel": "Lối tắt vuốt trái",
+  "hubQuickPanelSwipe": "Vuốt trái để mở",
+  "hubQuickPanelSwipeHint": "Trong trò chuyện, vuốt từ phải sang trái. Khối code, bảng và nội dung cuộn ngang khác không bị ảnh hưởng.",
+  "hubQuickPanelItems": "Các mục hiển thị",
+  "hubQuickPanelItemsNone": "Chưa chọn mục nào, vuốt trái sẽ không mở"
+}

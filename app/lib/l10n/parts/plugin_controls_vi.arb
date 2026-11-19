@@ -1,0 +1,80 @@
+{
+  "@@locale": "vi",
+  "plugInputRequired": "Vui lòng điền mục này",
+  "plugInputInvalidValue": "Giá trị ở đây không hợp lệ",
+  "plugInputNumber": "Vui lòng nhập số hợp lệ",
+  "plugInputBounds": "Vui lòng nhập giá trị từ {min}–{max}",
+  "@plugInputBounds": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "plugInputLength": "Độ dài phải từ {min}–{max} ký tự",
+  "@plugInputLength": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugInputPattern": "Định dạng không đúng",
+  "plugInputDate": "Vui lòng chọn ngày hợp lệ",
+  "plugInputTime": "Vui lòng chọn giờ hợp lệ",
+  "plugInputUnavailable": "Không hỗ trợ thành phần này ở đây",
+  "plugInputNoPassword": "Plugin không được dùng ô nhập mật khẩu",
+  "plugInputBadBinding": "Ràng buộc đầu vào phải là đường dẫn trường trong data",
+  "plugInputDuplicateBinding": "Mỗi trường chỉ được gắn với một thành phần nhập",
+  "plugInputNamedPattern": "Chỉ hỗ trợ mẫu kiểm tra định dạng có sẵn",
+  "plugInputNestedForm": "Không được lồng biểu mẫu",
+  "plugInputSubmitMissing": "Biểu mẫu thiếu hành động gửi",
+  "plugInputTooLarge": "Nội dung quá dài, hãy rút ngắn rồi thử lại",
+  "plugInputCheckFields": "Vui lòng kiểm tra các mục đã đánh dấu",
+  "plugInputFailed": "Chưa lưu, vui lòng thử lại",
+  "plugInputSubmit": "Lưu",
+  "plugInputChoose": "Chọn",
+  "plugInputPrevious": "Trang trước",
+  "plugInputNext": "Trang sau",
+  "plugInputDecrease": "Giảm {label}",
+  "@plugInputDecrease": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "plugInputIncrease": "Tăng {label}",
+  "@plugInputIncrease": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "plugInputRating": "{label}: {value} điểm trên {max} điểm",
+  "@plugInputRating": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugInputFormula": "Công thức không hợp lệ hoặc vượt giới hạn",
+  "plugInputDatePicker": "Ngày của Plugin",
+  "plugInputTimePicker": "Giờ của Plugin",
+  "plugInputChoices": "Lựa chọn của Plugin",
+  "plugInputGestureRequired": "Hiệu ứng này cần người dùng chạm"
+}

@@ -1,0 +1,91 @@
+{
+  "@@locale": "vi",
+  "remotePairEntry": "Quét mã để ghép nối máy tính",
+  "remotePairEntryHint": "Quét mã QR mà Plugin Remote hiển thị trên máy tính, không cần đăng ký tài khoản Remote (cần đăng nhập DeepSeek trước)",
+  "remotePairAddComputer": "Quét mã để thêm máy tính",
+  "remotePairTitle": "Quét mã để ghép nối máy tính",
+  "remotePairSubtitle": "Không cần đăng ký tài khoản Remote, cũng không gửi mật khẩu DeepSeek hay thông tin đăng nhập",
+  "remotePairNeedsDeepSeek": "Đăng nhập tài khoản DeepSeek trước",
+  "remotePairNeedsDeepSeekBody": "Ghép nối bằng quét mã cần đăng nhập tài khoản DeepSeek trong DSH Go trước. Khi ghép nối chỉ kèm ID tài khoản để gắn nhãn cho điện thoại này, không gửi mật khẩu, Cookie hay Token.",
+  "remotePairScanHint": "Hướng camera vào mã QR ghép nối mà Plugin Remote hiển thị trên máy tính",
+  "remotePairPasteLink": "Dán liên kết ghép nối",
+  "remotePairPasteEmpty": "Trong bộ nhớ tạm không có liên kết ghép nối",
+  "remotePairScannerFailed": "Trình nhận diện mã QR không khả dụng. Có thể dán liên kết ghép nối để tiếp tục.",
+  "remotePairFromImage": "Nhận diện từ ảnh",
+  "remotePairImageNoCode": "Không tìm thấy mã QR trong ảnh này",
+  "remotePairCameraDenied": "Chưa có quyền camera. Có thể bật trong cài đặt hệ thống, hoặc dùng “Nhận diện từ ảnh” hay “Dán liên kết ghép nối”",
+  "remotePairCameraFailed": "Không mở được camera. Có thể dùng “Nhận diện từ ảnh” hoặc “Dán liên kết ghép nối”",
+  "remotePairSystemScan": "Quét mã",
+  "remotePairSystemScanHint": "Mở trình quét mã của hệ thống, trong đó cũng có thể chọn ảnh chụp màn hình từ thư viện",
+  "remotePairReading": "Đang đọc thông tin ghép nối…",
+  "remotePairConfirmTitle": "Kết nối tới máy tính này?",
+  "remotePairComputer": "Máy tính",
+  "remotePairServer": "Máy chủ",
+  "remotePairFingerprint": "Dấu vân tay máy tính",
+  "remotePairFingerprintHint": "Đối chiếu khớp với dấu vân tay hiển thị trên Plugin Remote của máy tính rồi mới tiếp tục.",
+  "remotePairConfirm": "Đúng máy này, bắt đầu ghép nối",
+  "remotePairNotThis": "Không phải máy này, quét lại",
+  "remotePairClaiming": "Đang tạo mã xác minh…",
+  "remotePairCodeTitle": "Nhập mã 8 số này trên máy tính",
+  "remotePairCodeSemantics": "Mã xác minh {digits}",
+  "@remotePairCodeSemantics": {
+    "placeholders": {
+      "digits": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePairCodeHint": "Nhập vào Plugin Remote trên máy tính, rồi nhấn “Xác nhận liên kết”. Điện thoại không cần thao tác thêm.",
+  "remotePairOneAttempt": "Chỉ có một lần: nhập sai thì lần ghép nối này hủy, phải tạo lại mã QR trên máy tính rồi quét lại.",
+  "remotePairWaiting": "Đang đợi máy tính xác nhận · Còn {countdown}",
+  "@remotePairWaiting": {
+    "placeholders": {
+      "countdown": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePairApproved": "Máy tính đã xác nhận, đang hoàn tất liên kết…",
+  "remotePairCodeExpired": "Mã xác minh đã hết hạn, hãy tạo lại mã QR trên máy tính",
+  "remotePairConnecting": "Đã ghép nối, đang kết nối tới {name}…",
+  "@remotePairConnecting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePairFailedTitle": "Không ghép nối được",
+  "remotePairOtherServerBody": "Mã QR này thuộc {server}, khác với máy chủ Remote mà DSH Go đang dùng. Chuyển qua đó để tiếp tục? Đăng nhập của hai máy chủ được giữ riêng.",
+  "@remotePairOtherServerBody": {
+    "placeholders": {
+      "server": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePairSwitchServer": "Chuyển máy chủ và tiếp tục",
+  "remotePairScanAgain": "Quét mã lại",
+  "remotePairErrInvalidCode": "Đây không phải mã QR ghép nối của DSH Go",
+  "remotePairErrOtherServer": "Mã QR này thuộc một máy chủ Remote khác",
+  "remotePairErrUnsupported": "Máy chủ Remote này chưa hỗ trợ ghép nối bằng quét mã",
+  "remotePairErrExpired": "Mã QR đã hết hạn hoặc đã dùng rồi. Hãy tạo lại mã QR trên máy tính",
+  "remotePairErrCodeRejected": "Mã xác minh nhập trên máy tính không đúng, lần ghép nối này đã hủy. Hãy tạo lại mã QR trên máy tính rồi quét lại",
+  "remotePairErrCancelled": "Đã hủy ghép nối",
+  "remotePairErrAccountConflict": "Điện thoại này đã đăng nhập một tài khoản Remote khác, không khớp với tài khoản của máy tính. Đăng nhập cũ được giữ nguyên; muốn đổi liên kết hãy đăng xuất khỏi Remote trước",
+  "remotePairErrIdentity": "Thông tin ghép nối không khớp với máy tính này hay điện thoại này, đã dừng lại. Hãy tạo lại mã QR trên máy tính",
+  "remotePairErrHostLimit": "Tài khoản này đã liên kết đủ số máy tính tối đa",
+  "remotePairErrNetwork": "Không kết nối được máy chủ Remote, hãy kiểm tra mạng rồi thử lại",
+  "remotePairErrFailed": "Ghép nối chưa hoàn tất, hãy quét mã lại",
+  "remotePairSwitchFailedTitle": "Đã ghép nối với {name}",
+  "@remotePairSwitchFailedTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePairSwitchFailedBody": "Nhưng chưa chuyển được sang máy tính này. Có thể thử lại, hoặc quay lại “Máy chủ từ xa” rồi nhấn vào máy tính này.",
+  "remotePairDone": "Xong",
+  "remotePairErrPinSave": "Đã ghép nối, nhưng không lưu được dấu vân tay của máy tính này trên điện thoại. Hãy tạo lại mã QR trên máy tính, rồi quét lại một lần nữa"
+}

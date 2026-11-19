@@ -1,0 +1,68 @@
+{
+  "@@locale": "vi",
+  "linuxTitle": "Môi trường Linux",
+  "linuxSubtitle": "Chạy công cụ dòng lệnh như gh, Python, git trên điện thoại",
+  "linuxSwitch": "Bật Linux",
+  "linuxStatus": "Trạng thái",
+  "linuxFirstHint": "Lần đầu bật sẽ tải hệ thống cơ bản khoảng 3.5 MB và cài đặt, mất khoảng một hai phút; lần sau mở chỉ vài giây.",
+  "linuxMemoryNote": "Khi bật Linux, app tốn thêm khoảng trên 100 MB RAM; tắt công tắc sẽ trả phần đó lại cho hệ thống, sau đó phải mở lại app mới bật lại được.",
+  "linuxStateOn": "Đã bật",
+  "linuxStateOff": "Chưa bật",
+  "linuxStateInstalling": "Đang chuẩn bị",
+  "linuxStateStopping": "Đang tắt",
+  "linuxStateFailed": "Bị lỗi",
+  "linuxStateUnavailable": "Tạm thời không dùng được",
+  "linuxStageDownload": "Đang tải hệ thống cơ bản",
+  "linuxStageDisk": "Đang chuẩn bị đĩa",
+  "linuxStageBoot": "Đang khởi động",
+  "linuxStageTools": "Đang cài công cụ",
+  "linuxEngineOffline": "Engine trên máy chưa chạy, hãy khởi động Engine rồi quay lại bật.",
+  "linuxRequestFailed": "Không liên lạc được với Engine, hãy thử lại sau.",
+  "linuxRestartRequired": "Linux đã dừng, mở lại app rồi mới bật lại được.",
+  "linuxReopenApp": "Mở lại app",
+  "linuxReopenFailed": "Không tự mở lại được, hãy tự thóat app rồi mở lại.",
+  "linuxErrorWithCode": "Không bật được: {code}",
+  "@linuxErrorWithCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linuxReinstall": "Cài lại Linux",
+  "linuxReinstallHint": "Xóa toàn bộ nội dung trong Linux, lần bật sau sẽ cài mới hoàn toàn",
+  "linuxReinstallAfterRestart": "Lần chạy này đã khởi động Linux rồi: thóat hẳn và mở lại app rồi mới cài lại được",
+  "linuxReinstallTitle": "Cài lại Linux?",
+  "linuxReinstallBody": "Sẽ xóa toàn bộ nội dung trong Linux: phần mềm và gói Python đã cài, tệp chỉ có trong Linux, và tài khoản đã đăng nhập trong Linux (ví dụ gh). Tệp trong không gian làm việc của cuộc trò chuyện không bị ảnh hưởng.\n\nCông tắc vẫn tắt; lần sau bật sẽ tải và cài lại.",
+  "linuxRetainedRefused": "Dữ liệu Linux cũ không dùng tiếp được (thường gặp sau khi cập nhật app), app sẽ không tự ghi đè lên nó. Bấm “Cài lại Linux” để xóa rồi bật lại, sẽ cài mới hoàn toàn. ({code})",
+  "@linuxRetainedRefused": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linuxReinstallRestart": "Lần chạy này đã khởi động Linux, dữ liệu có thể vẫn đang bị chiếm. Thóat hẳn và mở lại app, rồi bấm “Cài lại Linux”.",
+  "linuxReinstallFailed": "Không cài lại được: {code}",
+  "@linuxReinstallFailed": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linuxProxyTitle": "Proxy mạng",
+  "linuxProxyFooter": "Chỉ áp dụng cho lệnh trong Linux. Nguồn trong nước như gitee, Huawei Cloud luôn kết nối trực tiếp.",
+  "linuxProxyMode": "Cách dùng",
+  "linuxProxyInherit": "Theo app",
+  "linuxProxyDirect": "Không dùng proxy",
+  "linuxProxyManual": "Thủ công",
+  "linuxProxyHttp": "Proxy HTTP",
+  "linuxProxyHttps": "Proxy HTTPS",
+  "linuxProxyNoProxy": "Địa chỉ không qua proxy",
+  "linuxProxyUnset": "Chưa đặt",
+  "linuxProxySameAsHttp": "Giống HTTP",
+  "linuxProxyLoopbackNote": "127.0.0.1 là điện thoại này, không phải máy tính.",
+  "linuxProxyUrlInvalid": "Hãy nhập địa chỉ bắt đầu bằng http:// hoặc https://, ví dụ http://127.0.0.1:7890",
+  "searchKwLinux": "Linux,terminal,dòng lệnh,máy ảo,gh,GitHub CLI,python,pip,proxy"
+}

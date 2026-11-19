@@ -1,0 +1,719 @@
+{
+  "@@locale": "vi",
+  "engineNewChatDefaultsLast": "Mặc định trò chuyện mới (lần chọn trước)",
+  "engineNewChatDefaultsFixed": "Mặc định trò chuyện mới (cố định)",
+  "engineNewChatUseLast": "Dùng lại lần trước",
+  "engineNewChatUseFixed": "Mặc định cố định",
+  "engineNewChatDefaultsHint": "Lưu trên máy chủ hiện tại, chỉ ảnh hưởng mô hình và độ sâu suy nghĩ của trò chuyện mới. Quyền vẫn dùng mặc định riêng, không kế thừa quyền đã cấp tạm thời.",
+  "engineNewChatDefaultsLegacy": "Engine này chỉ hỗ trợ dùng lại lần chọn trước; không hỗ trợ mặc định cố định, cũng không xác nhận được khi chuyển thì giá trị mặc định đã lưu thành công chưa.",
+  "engineNewChatDefaultsUnsupported": "Máy chủ này không có cài đặt mô hình mặc định để chỉnh",
+  "engineNewChatDefaultsSelectionUnavailable": "Mô hình hoặc độ sâu suy nghĩ này không còn khả dụng, hãy chọn lại.",
+  "engineNewChatDefaultsInheritedEffort": "Cấu hình cơ bản của máy chủ đã chỉ định độ sâu suy nghĩ, không thể xóa ở đây cho mô hình không suy nghĩ. Hãy điều chỉnh cấu hình máy chủ trước.",
+  "engineNewChatDefaultsSaving": "Đang lưu và xác nhận giá trị mặc định…",
+  "engineNewChatDefaultsUnconfirmed": "Không xác nhận được đầy đủ giá trị mặc định, hãy làm mới rồi kiểm tra mô hình và độ sâu suy nghĩ. Cấu hình cơ bản của máy chủ hoặc client khác có thể đã thay đổi chúng.",
+  "engineModelDefaultSaveFailed": "Mô hình của trò chuyện hiện tại đã đổi, nhưng mặc định trò chuyện mới chưa lưu. Hãy vào Cài đặt › Mô hình để kiểm tra và thử lại.",
+  "engineAccountSignedIn": "Đã đăng nhập tài khoản DeepSeek",
+  "engineAccountSignOutTitle": "Thóat tài khoản DeepSeek?",
+  "engineAccountSignOutBusy": "Có nhiệm vụ đang dùng mô hình tài khoản, thóat sẽ ngắt chúng ngay. Trò chuyện và tệp đều được giữ lại.",
+  "engineAccountSignOutBody": "Mô hình tài khoản sẽ không dùng được. Trò chuyện, tệp và API Key đều được giữ lại, lúc nào cũng có thể đăng nhập lại.",
+  "engineAccountSignOutUnknown": "Không xác nhận được có nhiệm vụ nào đang dùng mô hình tài khoản không; nếu có, thóat sẽ ngắt chúng.",
+  "engineAccountSignOutFailed": "Không thóat được, hãy thử lại sau",
+  "engineAccountTitle": "Tài khoản",
+  "engineAccountRefresh": "Làm mới",
+  "engineAccountDeepSeek": "Tài khoản DeepSeek",
+  "engineAccountProfileUnavailable": "Tạm thời không đọc được hồ sơ",
+  "engineAccountBalance": "Số dư",
+  "engineAccountBalanceHint": "Phí mô hình tài khoản được trừ vào số dư",
+  "engineAccountBalanceEngineOff": "Engine chưa chạy, khởi động xong sẽ hiện số dư",
+  "engineAccountTopUp": "Đi nạp tiền",
+  "engineAccountUsageDetails": "Chi tiết mức dùng",
+  "engineAccountToppedUpBalance": "Số dư đã nạp",
+  "engineAccountGrantedBalance": "Số dư được tặng",
+  "engineAccountBalanceUnavailable": "Tạm thời không đọc được số dư",
+  "engineAccountNoKeyNeeded": "Đăng nhập rồi thì không cần API Key",
+  "engineAccountUnsupported": "Engine hiện tại không hỗ trợ đăng nhập tài khoản",
+  "engineAccountSignInDeepSeek": "Đăng nhập bằng tài khoản DeepSeek",
+  "engineAccountAutoStart": "Engine chưa chạy, khi đăng nhập sẽ tự khởi động",
+  "engineAccountReplaceKey": "Đổi Key",
+  "engineAccountClearKeyTitle": "Xóa API Key?",
+  "engineAccountClearKeyBody": "Xóa Key đã lưu trong App. Khi Engine trên máy đang chạy, Key trong Engine cũng sẽ bị xóa cùng.",
+  "engineAccountBrowserFailed": "Không mở được trình duyệt",
+  "engineAccountSignInSuccess": "Đăng nhập thành công",
+  "engineAccountAlmostReady": "Sắp xong rồi",
+  "engineAccountStartingEngine": "Đang khởi động Engine",
+  "engineAccountOpenSignInNext": "Sắp mở trang đăng nhập",
+  "engineAccountPreparingSignIn": "Đang chuẩn bị đăng nhập",
+  "engineAccountOpenDeepSeekNext": "Sắp mở trang đăng nhập DeepSeek",
+  "engineAccountFinishInBrowser": "Hoàn tất đăng nhập trong trình duyệt",
+  "engineAccountReturnToDsh": "Đăng nhập xong hãy quay lại DSH Go",
+  "engineAccountFinishingSignIn": "Đang hoàn tất đăng nhập",
+  "engineAccountSavingSignIn": "Đang lưu thông tin đăng nhập",
+  "engineAccountAwaitingResult": "Chưa nhận được kết quả đăng nhập",
+  "engineAccountCopySignInLink": "Sao chép liên kết đăng nhập",
+  "engineAccountReopenSignIn": "Mở lại trang đăng nhập",
+  "engineAccountCancelSignIn": "Hủy đăng nhập",
+  "engineAccountSignInLinkCopied": "Đã sao chép liên kết đăng nhập",
+  "engineAccountSigningIn": "Đang đăng nhập",
+  "engineAccountSignedOut": "Chưa đăng nhập",
+  "engineAccountUsageFact": "Mức dùng được trừ vào số dư tài khoản",
+  "engineAccountBrowserFact": "Đăng nhập trong trình duyệt, mật khẩu không đi qua DSH",
+  "engineAccountCredentialsFact": "Thông tin đăng nhập chỉ lưu trên máy",
+  "engineSubagentTitle": "Subagent",
+  "engineAgentLoopTitle": "Vòng lặp Agent",
+  "engineShellTitle": "Chạy lệnh",
+  "engineSearchTitle": "Tìm kiếm trên mạng",
+  "engineSearchNewApiBadge": "API mới",
+  "engineGeneralTitle": "Cài đặt chung",
+  "engineSettingsTitle": "Tham số Engine",
+  "engineSettingsReadFailed": "Không đọc được cài đặt",
+  "engineSettingsRun": "Chạy",
+  "engineSettingsPlugins": "Plugin",
+  "engineSettingsPluginInventory": "Danh sách Plugin",
+  "engineSettingsPluginStopped": "Plugin không đang chạy",
+  "engineSettingsEnablePlugin": "Bật rồi quay lại cài đặt",
+  "engineSettingsNoEditableFields": "Không có cài đặt nào sửa được ở đây",
+  "engineFieldRestoreDefault": "Khôi phục mặc định",
+  "engineFieldDecrease": "Giảm",
+  "engineFieldIncrease": "Tăng",
+  "engineFieldRemove": "Xóa",
+  "engineFieldShow": "Hiển thị",
+  "engineFieldFromEnvironment": "Do môi trường khởi động cung cấp",
+  "engineFieldItem": "mục",
+  "engineFieldAlreadyAdded": "Đã thêm rồi",
+  "engineFieldEnterName": "Nhập tên",
+  "engineFieldEnterNumber": "Nhập số",
+  "engineFieldValue": "Giá trị",
+  "engineFieldNew": "Mới",
+  "engineFieldRequired": "Bắt buộc",
+  "engineGeneralMissing": "Máy chủ này không có cài đặt chung",
+  "engineSettingsVersionRequired": "Cần DSH 0.2.1 trở lên",
+  "engineGeneralWebDisplay": "Hiển thị bản web",
+  "engineGeneralWebSending": "Gửi bản web",
+  "engineGeneralWebOnlyHint": "Nhóm cài đặt này chỉ ảnh hưởng bản web của máy chủ hiện tại, không thay đổi trò chuyện gốc.",
+  "engineGeneralData": "Dữ liệu",
+  "engineSubagentModelsTitle": "Mô hình Subagent",
+  "engineChatLogTitle": "Nhật ký trò chuyện",
+  "engineThinkingTranslationTitle": "Dịch quá trình suy nghĩ",
+  "enginePluginIndexesTitle": "Chỉ mục chợ Plugin",
+  "enginePermissionTitle": "Quyền",
+  "engineAgentPresetsTitle": "Preset Agent",
+  "engineDefaultModelTitle": "Mô hình mặc định",
+  "engineWebAppearanceTitle": "Giao diện bản web",
+  "engineLanguageTitle": "Ngôn ngữ",
+  "engineFieldCommandTimeout": "Hết thời gian lệnh",
+  "engineFieldMaxOutput": "Giới hạn đầu ra",
+  "engineFieldMaxTimeout": "Thời gian chờ tối đa có thể xin",
+  "engineFieldMaxSpill": "Giới hạn chuyển tệp",
+  "engineFieldGracePeriod": "Thời gian chờ khi kết thúc",
+  "engineFieldDefaultCwd": "Thư mục làm việc mặc định",
+  "engineFieldFollowChat": "Theo trò chuyện",
+  "engineSubagentMaxDepth": "Độ sâu đệ quy tối đa",
+  "engineFieldLayersUnit": "lớp",
+  "engineSubagentMaxActive": "Giới hạn chạy đồng thời",
+  "engineFieldCountUnit": "cái",
+  "engineSubagentAllowModelChoice": "Cho phép AI chọn mô hình cho Subagent",
+  "engineSubagentAllowedModels": "Mô hình có thể chọn",
+  "engineAgentMaxParallelCalls": "Giới hạn gọi công cụ song song mỗi bước",
+  "engineFieldSearchProvider": "Dịch vụ tìm kiếm",
+  "engineFieldFetchProvider": "Dịch vụ lấy trang web",
+  "engineFieldBaseUrl": "Địa chỉ dịch vụ",
+  "engineSearchMaxUses": "Số lần tìm kiếm tối đa mỗi yêu cầu",
+  "engineFieldTimesUnit": "lần",
+  "engineSearchHelperModel": "Mô hình hỗ trợ",
+  "engineFieldApiVersion": "Phiên bản API",
+  "engineFieldMaxTokens": "Độ dài đầu ra tối đa",
+  "engineSearchResultsPerSearch": "Số kết quả mỗi lần tìm",
+  "engineFieldResultsUnit": "kết quả",
+  "engineSearchSendOriginalQuestion": "Khi tìm kiếm, kèm câu hỏi gốc của người dùng",
+  "engineChatLogUpload": "Tải nhật ký trò chuyện lên DeepSeek",
+  "engineTranslationProvider": "Dịch vụ dịch",
+  "engineTranslationAccountPaid": "Tài khoản DeepSeek (trả phí)",
+  "engineTranslationApiPaid": "DeepSeek API (trả phí)",
+  "engineTranslationTargetLanguage": "Ngôn ngữ đích",
+  "engineTranslationFollowLanguage": "Theo ngôn ngữ giao diện",
+  "engineTranslationLanguageHint": "Điền auto hoặc mã ngôn ngữ, ví dụ zh, en, ja",
+  "enginePluginIndexSources": "Nguồn chỉ mục",
+  "enginePluginIndexUrl": "Địa chỉ chỉ mục",
+  "engineFieldHttpUrlHint": "Địa chỉ bắt đầu bằng http:// hoặc https://",
+  "enginePermissionNewChat": "Quyền mặc định cho trò chuyện mới",
+  "engineAgentDefaultPreset": "Agent mặc định",
+  "engineProviderTitle": "Kênh",
+  "engineModelTitle": "Mô hình",
+  "engineFieldReasoningEffort": "Độ sâu suy nghĩ",
+  "engineGeneralShowCodingView": "Hiển thị khung làm việc code",
+  "engineGeneralWorkDetails": "Hiển thị bước làm việc",
+  "engineFieldCompact": "Gọn",
+  "engineFieldStandard": "Chuẩn",
+  "engineFieldDetailed": "Chi tiết",
+  "engineFieldVerbose": "Mở rộng hoàn toàn",
+  "engineGeneralCollapseTiming": "Thời điểm thu gọn bước làm việc",
+  "engineGeneralOnCompletion": "Sau khi trả lời xong",
+  "engineGeneralOnNewMessage": "Khi có tin nhắn mới",
+  "engineGeneralPerformanceUsage": "Hiệu năng và mức dùng",
+  "engineGeneralLinkOpening": "Cách mở liên kết",
+  "engineGeneralAppSidebar": "Thanh bên trong ứng dụng",
+  "engineGeneralDefaultBrowser": "Trình duyệt mặc định",
+  "engineGeneralBusySend": "Gửi khi AI đang làm việc",
+  "engineGeneralQueueSend": "Gửi xếp hàng",
+  "engineGeneralSteerSend": "Gửi khi chen ngang",
+  "engineFieldTheme": "Chủ đề",
+  "engineFieldFontSize": "Cỡ chữ",
+  "engineFieldCodeFontSize": "Cỡ chữ code",
+  "engineFieldTerminalFontSize": "Cỡ chữ terminal",
+  "engineFieldTextFont": "Phông chữ văn bản",
+  "engineFieldCodeFont": "Phông chữ code",
+  "engineFieldTerminalFont": "Phông chữ terminal",
+  "engineFieldInterfaceLanguage": "Ngôn ngữ giao diện",
+  "engineFieldSecondsUnit": "giây",
+  "engineFieldBytesUnit": "byte",
+  "engineFieldGreaterThanZero": "Lớn hơn 0",
+  "engineFieldEnterNumeric": "Hãy nhập số",
+  "engineFieldEnterInteger": "Hãy nhập số nguyên",
+  "engineFieldInvalidFormat": "Sai định dạng",
+  "engineFieldAddress": "Địa chỉ",
+  "engineFieldToken": "Token",
+  "engineFieldService": "Dịch vụ",
+  "engineFieldTimeout": "Hết thời gian",
+  "engineFieldQuantity": "Số lượng",
+  "engineFieldMaxUses": "Số lần tối đa",
+  "engineFieldMaxRetries": "Số lần thử lại tối đa",
+  "engineFieldConcurrency": "Số lượng đồng thời",
+  "engineFieldInterval": "Khoảng cách",
+  "engineFieldPrompt": "Prompt",
+  "engineFieldSystemPrompt": "Prompt hệ thống",
+  "engineFieldTemperature": "Nhiệt độ",
+  "engineFieldDebugMode": "Chế độ gỡ lỗi",
+  "engineFieldVerboseLogs": "Nhật ký chi tiết",
+  "engineFieldPath": "Đường dẫn",
+  "engineFieldCwd": "Thư mục làm việc",
+  "engineFieldCommand": "Lệnh",
+  "engineFieldArguments": "Tham số",
+  "engineFieldEnvironment": "Biến môi trường",
+  "engineFieldHeaders": "Tiêu đề yêu cầu",
+  "engineFieldProxy": "Proxy",
+  "engineFieldAuto": "Tự động",
+  "engineFieldEnabled": "Đã bật",
+  "engineFieldOn": "Bật",
+  "engineFieldOff": "Tắt",
+  "engineFieldLow": "Thấp",
+  "engineFieldMedium": "Vừa",
+  "engineFieldHigh": "Cao",
+  "engineFieldMax": "Cao nhất",
+  "engineFieldNone": "Không có",
+  "engineFieldModified": "Đã sửa",
+  "engineFieldLocked": "Đã cố định trong tệp cấu hình",
+  "engineFieldSharedWithModel": "Dùng chung với mô hình",
+  "engineFieldNotConfigured": "Chưa cấu hình",
+  "engineFieldConfigured": "Đã cấu hình",
+  "engineSettingsMissing": "Máy chủ này không có cài đặt này",
+  "engineSettingsPluginDisabled": "Plugin liên quan chưa bật",
+  "engineSettingsReadOnly": "Cài đặt Engine chỉ đọc, ở đây chỉ xem được",
+  "engineSubagentSavedUnavailable": "Đã lưu nhưng hiện không khả dụng",
+  "engineSubagentKeepOneModel": "Giữ lại ít nhất một mô hình",
+  "engineSubagentLimits": "Giới hạn chạy",
+  "engineSubagentModelSelection": "Chọn mô hình",
+  "engineSubagentPickFirstModel": "Chọn một mô hình rồi mới có hiệu lực",
+  "engineSubagentReadModelsFailed": "Không đọc được mô hình",
+  "engineSubagentNoModels": "Chưa có mô hình nào để chọn",
+  "engineSubagentConnectModel": "Kết nối mô hình",
+  "engineSearchDeepSeek": "Tìm kiếm DeepSeek",
+  "engineSearchNewApi": "API tìm kiếm mới",
+  "engineProviderDeleteBody": "Kênh và API Key của nó sẽ bị xóa cùng, trò chuyện dùng nó cần đổi sang mô hình khác.",
+  "engineProviderReadFailed": "Không đọc được kênh",
+  "engineProviderGone": "Kênh này không còn nữa",
+  "engineProviderProtocol": "Giao thức",
+  "engineProviderEnterKey": "Nhập API Key",
+  "engineProviderIssues": "Vấn đề",
+  "engineProviderRejectedConfig": "Engine đã từ chối một phần cấu hình",
+  "engineProviderConnection": "Kết nối",
+  "engineProviderHeaders": "Tiêu đề yêu cầu (không bắt buộc)",
+  "engineProviderHeadersWarning": "Tiêu đề yêu cầu được lưu dạng văn bản thuần, không tham gia khử nhạy cảm trong nhật ký. Thông tin đăng nhập nhạy cảm hãy dùng API Key hoặc tham chiếu thông tin đăng nhập.",
+  "engineProviderHeaderName": "Tên",
+  "engineProviderHeaderValue": "Giá trị",
+  "engineProviderHeaderAdd": "Thêm tiêu đề yêu cầu",
+  "engineProviderHeaderInvalidName": "Tên tiêu đề yêu cầu chỉ được chứa chữ cái tiếng Anh, số hoặc ký tự đánh dấu HTTP, không được chứa khoảng trắng hay dấu hai chấm",
+  "engineProviderHeaderReserved": "User-Agent do Engine đặt, hãy xóa tiêu đề yêu cầu này",
+  "engineProviderHeaderLocked": "Do Engine quản lý, giữ cấu hình hiện có",
+  "engineProviderHeaderDuplicate": "Tên tiêu đề yêu cầu bị trùng (không phân biệt hoa thường)",
+  "engineProviderHeaderInvalidValue": "Giá trị tiêu đề yêu cầu chỉ được chứa văn bản Latin-1 một dòng, không hỗ trợ xuống dòng hay ký tự điều khiển (trừ ký tự tab)",
+  "engineProviderDefaultUrl": "Địa chỉ mặc định",
+  "engineProviderKeyNotRequired": "Không cần",
+  "engineProviderNoModels": "Chưa có mô hình",
+  "engineProviderWebConfigured": "Kênh này được cấu hình trên bản web, ở đây chỉ xem và xóa được",
+  "engineProviderDelete": "Xóa kênh",
+  "engineProviderConfigFile": "Do tệp cấu hình của Engine cung cấp, không thể xóa ở đây",
+  "engineProviderTesting": "Đang kiểm tra",
+  "engineProviderTestConnection": "Kiểm tra kết nối",
+  "engineProviderKeyFirst": "Nhập API Key trước",
+  "engineProviderNoDiscoveredModels": "Dịch vụ không liệt kê mô hình, hãy thêm thủ công",
+  "engineProviderNeedModel": "Thêm ít nhất một mô hình",
+  "engineProviderEdit": "Sửa kênh",
+  "engineProviderAdd": "Thêm kênh",
+  "engineProviderBasicInfo": "Thông tin cơ bản",
+  "engineProviderNameHint": "Ví dụ: Cổng của tôi",
+  "engineProviderCompatibleProtocol": "Giao thức tương thích",
+  "engineProviderKeepStoredKey": "Đã lưu, để trống sẽ không sửa",
+  "engineProviderSaving": "Đang lưu",
+  "engineProviderWaitingEngine": "Đang đợi kết nối Engine",
+  "engineProviderFetchingModels": "Đang lấy mô hình",
+  "engineProviderFetchModels": "Lấy mô hình",
+  "engineProviderAddManually": "Thêm thủ công",
+  "engineProviderManualModel": "Thêm mô hình thủ công",
+  "engineProviderModelId": "ID mô hình",
+  "engineProviderSelectModels": "Chọn mô hình",
+  "engineProviderSearchModels": "Tìm mô hình",
+  "engineProviderDeselectAll": "Bỏ chọn tất cả",
+  "engineProviderSelectAll": "Chọn tất cả",
+  "engineProviderNoMatchingModels": "Không có mô hình phù hợp",
+  "engineProviderAlreadyAdded": "Đã thêm",
+  "engineProviderReady": "Khả dụng",
+  "engineProviderMissingKey": "Thiếu API Key",
+  "engineProviderMisconfigured": "Cấu hình sai",
+  "engineProviderInactive": "Chưa bật",
+  "engineProviderConfiguredInWeb": "Đã cấu hình trên bản web",
+  "engineProvidersTitle": "Mô hình",
+  "engineProvidersNotConnected": "Chưa kết nối Engine",
+  "engineProvidersStartEngine": "Sau khi Engine chạy mới thêm được kênh",
+  "engineProvidersUnsupported": "Máy chủ này không hỗ trợ kênh tuỳ chỉnh",
+  "engineProvidersNotConfiguredHere": "Chưa cấu hình trên máy chủ này",
+  "engineProvidersSigningIn": "Đang đăng nhập…",
+  "engineProvidersSignInOrKey": "Đăng nhập tài khoản hoặc nhập API Key",
+  "engineProvidersOfficial": "Chính thức",
+  "engineProvidersSubscription": "Đăng ký",
+  "engineProvidersCustom": "Tuỳ chỉnh",
+  "engineProvidersCompatibleHint": "Dịch vụ tương thích OpenAI, Anthropic",
+  "engineProvidersReadOnly": "Cài đặt Engine chỉ đọc, không thể thêm",
+  "engineSubscriptionSignOutBody": "Mô hình của nó sẽ bị xóa khỏi phần chọn mô hình.",
+  "engineSubscriptionNoModels": "Tạm thời không có mô hình",
+  "engineSubscriptionModelsFailed": "Không đọc được mô hình",
+  "engineSubscriptionPreparing": "Đang chuẩn bị…",
+  "engineSubscriptionCancelled": "Đã hủy đăng nhập",
+  "engineSubscriptionIncomplete": "Đăng nhập chưa hoàn tất",
+  "engineSubscriptionWaitingSignIn": "Đang đợi đăng nhập…",
+  "engineSubscriptionReopen": "Mở lại",
+  "engineSubscriptionCode": "Mã xác minh",
+  "engineSubscriptionWaitingVerification": "Đang đợi xác minh…",
+  "engineSubscriptionCopyCode": "Sao chép mã xác minh",
+  "engineSubscriptionOpenVerification": "Mở trang xác minh",
+  "engineSubscriptionPasteRedirect": "Dán liên kết sau khi chuyển hướng",
+  "engineSubscriptionPasteCode": "Dán mã uỷ quyền",
+  "engineSubscriptionPasteHere": "Dán vào đây",
+  "engineSubscriptionConfirm": "Xác nhận",
+  "engineSubscriptionTryAgain": "Thử lại",
+  "engineAccountWelcome": "Chào mừng, {name}",
+  "@engineAccountWelcome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "engineLayerCount": "{count} lớp",
+  "@engineLayerCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldDefaultValue": "Mặc định {value}",
+  "@engineFieldDefaultValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldDefaultValueUnit": "Mặc định {value} {unit}",
+  "@engineFieldDefaultValueUnit": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldCurrentValue": "Hiện tại {value}",
+  "@engineFieldCurrentValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldRemoveItem": "Xóa {name}",
+  "@engineFieldRemoveItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldAddItem": "Thêm{item}",
+  "@engineFieldAddItem": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldItemIndex": "Mục thứ {index}",
+  "@engineFieldItemIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldByteCount": "{count} byte",
+  "@engineFieldByteCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldHours": "{value} giờ",
+  "@engineFieldHours": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMinutes": "{value} phút",
+  "@engineFieldMinutes": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldSeconds": "{value} giây",
+  "@engineFieldSeconds": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMilliseconds": "{value} mili giây",
+  "@engineFieldMilliseconds": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldPositiveMax": "Lớn hơn 0, không vượt quá {max}",
+  "@engineFieldPositiveMax": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMin": "Không nhỏ hơn {min}",
+  "@engineFieldMin": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMaxBound": "Không vượt quá {max}",
+  "@engineFieldMaxBound": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldBelowMin": "Không được nhỏ hơn {min}",
+  "@engineFieldBelowMin": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldAboveMax": "Không được lớn hơn {max}",
+  "@engineFieldAboveMax": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMultiple": "Phải là bội số của {step}",
+  "@engineFieldMultiple": {
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMinCharacters": "Ít nhất {count} ký tự",
+  "@engineFieldMinCharacters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldMaxCharacters": "Tối đa {count} ký tự",
+  "@engineFieldMaxCharacters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineSubagentUnavailableProvider": "{provider} · Hiện không khả dụng",
+  "@engineSubagentUnavailableProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProviderDeleteTitle": "Xóa “{name}”?",
+  "@engineProviderDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProviderDeleteFailed": "Không xóa được: {error}",
+  "@engineProviderDeleteFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProviderModelCount": "Mô hình · {count}",
+  "@engineProviderModelCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineProviderContext": "Ngữ cảnh {size}",
+  "@engineProviderContext": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProviderTestPassed": "Kết nối bình thường · Đã liệt kê {count} mô hình",
+  "@engineProviderTestPassed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineProviderCompletedUrl": "Đã bổ sung thành {url}",
+  "@engineProviderCompletedUrl": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProviderSaveFailed": "Không lưu được: {error}",
+  "@engineProviderSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProviderCandidateCount": "Tổng {count}",
+  "@engineProviderCandidateCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineProviderAddModels": "Thêm {count} mô hình",
+  "@engineProviderAddModels": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineProviderModels": "{count} mô hình",
+  "@engineProviderModels": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineProvidersSummary": "{total} kênh · {ready} kênh khả dụng",
+  "@engineProvidersSummary": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "ready": {
+        "type": "int"
+      }
+    }
+  },
+  "engineProvidersAccount": "Tài khoản · {name}",
+  "@engineProvidersAccount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "engineProvidersSignedInAccount": "Đã đăng nhập · {account}",
+  "@engineProvidersSignedInAccount": {
+    "placeholders": {
+      "account": {
+        "type": "String"
+      }
+    }
+  },
+  "engineSubscriptionSignIn": "Đăng nhập {provider}",
+  "@engineSubscriptionSignIn": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "engineSubscriptionSignOutTitle": "Thóat {provider}?",
+  "@engineSubscriptionSignOutTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "engineSubscriptionSignOutFailed": "Không thóat được: {error}",
+  "@engineSubscriptionSignOutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "engineSubscriptionCodeSemantics": "Mã xác minh {code}",
+  "@engineSubscriptionCodeSemantics": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldItemCount": "{count} mục",
+  "@engineFieldItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldUseCount": "{count} lần",
+  "@engineFieldUseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldResultCount": "{count} kết quả",
+  "@engineFieldResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "engineFieldMinCharactersDecimal": "Ít nhất {bound} ký tự",
+  "@engineFieldMinCharactersDecimal": {
+    "placeholders": {
+      "bound": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldMaxCharactersDecimal": "Tối đa {bound} ký tự",
+  "@engineFieldMaxCharactersDecimal": {
+    "placeholders": {
+      "bound": {
+        "type": "String"
+      }
+    }
+  },
+  "engineLayerValue": "{value} lớp",
+  "@engineLayerValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldEnterPositiveRange": "Hãy nhập số lớn hơn 0, không vượt quá {max}",
+  "@engineFieldEnterPositiveRange": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "engineFieldEnterBoundedRange": "Hãy nhập số trong khoảng {min}–{max}",
+  "@engineFieldEnterBoundedRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "engineModelTokenLimits": "Giới hạn Token",
+  "engineModelContextLength": "Độ dài ngữ cảnh",
+  "engineModelContextOverrideHint": "Để trống sẽ dùng giá trị trong danh mục của kênh; tăng lên thì Engine tính mức chiếm ngữ cảnh và nén theo giá trị mới.",
+  "engineModelMaxOutput": "Đầu ra tối đa",
+  "engineModelDefaultSize": "Mặc định {size}",
+  "@engineModelDefaultSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "engineModelCapabilities": "Khả năng",
+  "engineModelInputType": "Loại đầu vào",
+  "engineModelInputText": "Văn bản",
+  "engineModelInputTextImage": "Văn bản và hình ảnh",
+  "engineModelThinking": "Suy nghĩ",
+  "engineModelVision": "Nhận diện hình ảnh",
+  "engineModelLevels": "Các mức có thể chọn",
+  "engineModelNeedLevel": "Chọn ít nhất một mức",
+  "engineFieldEditOnWeb": "Chỉnh mục này trên bản web",
+  "engineSettingsHostChanged": "Đã đổi máy chủ, hãy mở lại cài đặt rồi chỉnh.",
+  "engineSecretTargetChanged": "Mục này đã thay đổi, hãy mở lại rồi chỉnh.",
+  "engineSettingsGroupCount": "{count} mục",
+  "@engineSettingsGroupCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

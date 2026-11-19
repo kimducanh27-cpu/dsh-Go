@@ -1,0 +1,1073 @@
+{
+  "@@locale": "vi",
+  "remoteDshMode": "Quản lý instance",
+  "remoteManaged": "Khởi động do App quản lý",
+  "remoteAttachOnly": "Chỉ kết nối",
+  "remoteManagedHelp": "Tự khởi động hoặc dùng lại DSH do App quản lý; sẽ không tự thay instance đang sống nhưng không dùng lại được.",
+  "remoteAttachOnlyHelp": "Chỉ chuyển tiếp tới cổng cố định 127.0.0.1 trên máy xa; không khởi động, dừng hay khởi động lại DSH.",
+  "remoteDshPort": "Cổng DSH trên máy xa",
+  "remoteDshToken": "Token đăng nhập DSH",
+  "remoteDshTokenHelp": "Nhập token trong liên kết khởi động của instance hiện có, chỉ lưu trong bộ nhớ an toàn của điện thoại này.",
+  "remoteAttachWorkingDirectoryHelp": "Instance hiện có không tự dò thư mục; hãy nhập đường dẫn tuyệt đối trên máy xa, để trống sẽ dùng thư mục mặc định của DSH.",
+  "remoteSshCompression": "Nén SSH",
+  "remoteSshCompressionHelp": "Mặc định bật; sau khi xác thực với máy chủ sẽ nén, nếu không hỗ trợ thì truyền không nén.",
+  "remoteRestartManaged": "Khởi động lại DSH do App quản lý",
+  "remoteRestartManagedWarning": "Thao tác này sẽ dừng DSH trên máy xa mà App đã ghi lại rồi khởi động lại, có thể làm gián đoạn client khác và trò chuyện đang diễn ra. Hãy xác nhận không còn ai khác đang dùng rồi mới tiếp tục. Kiểm tra kết nối thông thường sẽ không làm việc này.",
+  "remoteErrSharedInstance": "DSH do App quản lý trên máy xa vẫn đang chạy, nhưng lệnh khởi động khác hoặc thiếu nhật ký khởi động hợp lệ. Để bảo vệ instance dùng chung, đã không tự khởi động lại; hãy kiểm tra cấu hình, chuyển sang “Chỉ kết nối”, hoặc trong phần sửa máy chủ chọn rõ “Khởi động lại DSH do App quản lý”.",
+  "remoteErrAttachSettings": "Hãy nhập cổng DSH trên máy xa và token đăng nhập hợp lệ",
+  "remoteDshAttached": "Đã kết nối DSH hiện có",
+  "remoteStartupSection": "Khởi động",
+  "remoteAutoConnectOnStartup": "Kết nối máy chủ dùng lần trước",
+  "remoteAutoConnectOnStartupHint": "Tắt rồi sẽ bắt đầu từ máy này",
+  "remoteStepConnect": "Kết nối máy chủ",
+  "remoteStepVerifyHostKey": "Xác minh dấu vân tay máy chủ",
+  "remoteStepStartDsh": "Khởi động DSH",
+  "remoteStepTunnel": "Tạo đường hầm",
+  "remoteConnecting": "Đang kết nối",
+  "remoteConnected": "Đã kết nối",
+  "remoteReconnecting": "Đang kết nối lại",
+  "remoteReconnectAttempt": "Đang kết nối lại · Lần thứ {count}",
+  "@remoteReconnectAttempt": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteErrInvalidServer": "Địa chỉ máy chủ không hợp lệ",
+  "remoteErrEmailPassword": "Email hoặc mật khẩu không đúng",
+  "remoteErrHostNotInAccount": "Không tìm thấy máy chủ này trong tài khoản",
+  "remoteHostFallback": "Máy chủ này",
+  "remoteErrHostOffline": "Máy chủ hiện không trực tuyến",
+  "remoteErrHostRemoved": "{name} không còn trong tài khoản DSH Remote của bạn",
+  "@remoteErrHostRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrRelaySignInExpired": "Đăng nhập DSH Remote đã hết hạn",
+  "remoteErrIdentityKeyChanged": "Khóa danh tính máy chủ khác với lần trước",
+  "remoteErrIdentityUnconfirmed": "Chưa xác nhận dấu vân tay danh tính máy chủ",
+  "remoteErrConnectionReplaced": "Kết nối từ xa đã bị thay thế",
+  "remoteErrHostRejected": "Máy chủ đã từ chối kết nối",
+  "remoteErrHostNotOwned": "Máy chủ không thuộc tài khoản DSH Remote của bạn",
+  "remoteErrUpdateNeeded": "Phiên bản không khớp, hãy cập nhật DSH Go và Plugin Remote trên máy chủ",
+  "remoteErrVersionIncompatible": "DSH hoặc Plugin Remote trên máy chủ cần cập nhật",
+  "remoteErrSignInTimeout": "Đăng nhập hết thời gian",
+  "remoteSignInCancelled": "Đã hủy đăng nhập",
+  "remoteErrBrowserSignInUnsupported": "Máy chủ không hỗ trợ đăng nhập bằng trình duyệt",
+  "remoteErrTooManyRequests": "Yêu cầu quá thường xuyên",
+  "remoteErrHostUnreachable": "Không kết nối được máy chủ từ xa",
+  "remoteErrRemoteConnection": "Kết nối từ xa thất bại",
+  "remoteOnline": "Trực tuyến",
+  "remoteOffline": "Ngoại tuyến",
+  "remoteUnavailable": "Tạm thời không khả dụng",
+  "remoteErrHostNotFound": "Không tìm thấy máy chủ này",
+  "remoteConnectionStopped": "Kết nối từ xa đã dừng",
+  "remoteBootstrapReusePort": "Dùng lại DSH đang chạy (cổng {port})",
+  "@remoteBootstrapReusePort": {
+    "placeholders": {
+      "port": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteBootstrapStarting": "Đang khởi động DSH trên máy xa…",
+  "remoteErrCommandNotFound": "Trên máy xa không tìm thấy “{command}”",
+  "@remoteErrCommandNotFound": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrDshMissing": "Máy chủ chưa có dsh, cài xong rồi thử lại, hoặc nhập đường dẫn đầy đủ trong lệnh khởi động",
+  "remoteStartCommandExample": "Ví dụ lệnh khởi động: ~/.nvm/versions/node/v22.0.0/bin/dsh web",
+  "remoteErrDshStartTimeout": "DSH trên máy xa khởi động hết thời gian",
+  "remoteErrDshExited": "DSH trên máy xa thóat ngay sau khi khởi động",
+  "remoteErrDshStart": "Không khởi động được DSH trên máy xa",
+  "remoteExitCode": "Mã thóat {code}",
+  "@remoteExitCode": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteErrNoShell": "Máy chủ không có sh, chỉ hỗ trợ Linux và macOS",
+  "remoteErrFingerprintChanged": "Dấu vân tay máy chủ khác với lần trước, đã ngắt kết nối",
+  "remoteErrFingerprintUnconfirmed": "Chưa xác nhận dấu vân tay máy chủ",
+  "remoteHostTrustCancelled": "Đã hủy tin tưởng máy chủ",
+  "remoteCheckingDsh": "Đang kiểm tra DSH trên máy xa…",
+  "remoteErrDshPort": "Không kết nối được cổng DSH trên máy xa",
+  "remoteDshReused": "Đã dùng lại DSH đang chạy trên máy xa",
+  "remoteDshStarted": "Đã khởi động DSH trên máy xa",
+  "remoteErrDshTokenRejected": "DSH trên máy xa đã từ chối token đăng nhập, không tự khởi động lại; hãy kiểm tra token, hoặc trong phần sửa máy chủ chọn khởi động lại instance do App quản lý",
+  "remoteErrDshSignIn": "Không đăng nhập được DSH trên máy xa",
+  "remoteErrDshTunnel": "Không kết nối được DSH qua đường hầm",
+  "remoteErrDshSignInExpired": "Đăng nhập DSH trên máy xa đã hết hạn",
+  "remoteErrDshStopped": "DSH trên máy xa đã dừng chạy",
+  "remoteErrSshDisconnected": "Kết nối SSH đã ngắt",
+  "remoteErrSshUnresponsive": "Kết nối SSH không phản hồi",
+  "remoteRetryCount": "Đã thử lại {count} lần",
+  "@remoteRetryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteErrSshNetworkChanged": "Sau khi mạng thay đổi, kết nối SSH đã ngắt",
+  "remoteErrReadFingerprint": "Không đọc được dấu vân tay máy chủ",
+  "remoteErrNoFingerprint": "Máy chủ không cung cấp dấu vân tay máy chủ",
+  "remoteErrPasswordMissing": "Chưa nhập mật khẩu",
+  "remoteErrAddressUnresponsive": "{host}:{port} không phản hồi",
+  "@remoteErrAddressUnresponsive": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      },
+      "port": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteErrPrivateKeyMissing": "Chưa nhập khóa riêng",
+  "remoteErrKeyNeedsPassword": "Khóa riêng này cần mật khẩu",
+  "remoteErrKeyPassword": "Mật khẩu khóa riêng không đúng",
+  "remoteErrKeyUnreadable": "Không đọc được khóa riêng",
+  "remotePrivateKeyFormats": "Hỗ trợ khóa riêng Ed25519, RSA, ECDSA định dạng OpenSSH và PEM.\n{error}",
+  "@remotePrivateKeyFormats": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrAddressRejected": "{address} đã từ chối kết nối",
+  "@remoteErrAddressRejected": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrSshHostNotFound": "Không tìm thấy máy chủ {host}",
+  "@remoteErrSshHostNotFound": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrSshAddressUnresponsive": "{address} không phản hồi",
+  "@remoteErrSshAddressUnresponsive": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrUsernamePassword": "Tên người dùng hoặc mật khẩu không đúng",
+  "remoteErrPrivateKeyRejected": "Máy chủ không chấp nhận khóa riêng này",
+  "remoteAuthorizedKeysHelp": "Hãy xác nhận khóa công khai đã được thêm vào ~/.ssh/authorized_keys của {username}.\n{error}",
+  "@remoteAuthorizedKeysHelp": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrFingerprintUntrusted": "Dấu vân tay máy chủ chưa được tin tưởng",
+  "remoteErrSshHandshakeTimeout": "Bắt tay SSH hết thời gian",
+  "remoteErrSshInterrupted": "Kết nối SSH đã bị ngắt",
+  "remoteErrSshConnection": "Kết nối SSH thất bại",
+  "remoteErrCommandTimeout": "Lệnh trên máy xa hết thời gian",
+  "remoteHostedErrNetwork": "Không kết nối được dịch vụ chia sẻ, hãy kiểm tra mạng rồi thử lại",
+  "remoteHostedErrTooLarge": "Trò chuyện quá lớn, không tạo được liên kết",
+  "remoteHostedErrRateLimited": "Chia sẻ quá thường xuyên, hãy thử lại sau",
+  "remoteHostedErrCreate": "Không tạo được liên kết",
+  "remoteHostedErrUnavailable": "Dịch vụ chia sẻ tạm thời không khả dụng, hãy thử lại sau",
+  "remoteHostedErrGone": "Liên kết đã hết hạn hoặc bị xóa",
+  "remoteHostedErrForbidden": "Không có quyền xóa liên kết này",
+  "remoteHostedErrBroken": "Liên kết không đầy đủ hoặc đã hỏng",
+  "remoteChat": "Trò chuyện",
+  "remoteHostedTtlWeek": "7 ngày",
+  "remoteHostedTtlMonth": "30 ngày",
+  "remoteHostedTtlForever": "Vĩnh viễn",
+  "remoteForumSignIn": "Đăng nhập diễn đàn",
+  "remoteForumSignInBenefits": "Đăng bài, trả lời, thích",
+  "remoteForumFinishSignIn": "Hoàn tất đăng nhập trong trình duyệt",
+  "remoteReopenBrowser": "Mở lại trình duyệt",
+  "remoteForumSettings": "Cài đặt diễn đàn",
+  "remoteForumAccount": "Tài khoản diễn đàn",
+  "remoteForumTopic": "Chủ đề",
+  "remoteForumLikesReceived": "Lượt thích nhận được",
+  "remoteForumDaysVisited": "Số ngày đã truy cập",
+  "remoteForumNotifications": "Thông báo",
+  "remoteForumUnreadCount": "{count} chưa đọc",
+  "@remoteForumUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumErrAddress": "Địa chỉ không đúng",
+  "remoteForumAddress": "Địa chỉ diễn đàn",
+  "remoteForumDefaultAddress": "Mặc định: {host}",
+  "@remoteForumDefaultAddress": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteRestoreDefault": "Khôi phục mặc định",
+  "remoteForumUploadingImage": "Đang tải ảnh lên…",
+  "remoteForumErrUploadImage": "Ảnh chưa tải lên được",
+  "remoteForumTitleRequired": "Hãy viết tiêu đề trước",
+  "remoteForumCategoryRequired": "Chọn một chuyên mục",
+  "remoteForumBodyRequired": "Viết nội dung rồi mới đăng",
+  "remoteForumReplyCaption": "Trả lời @{username} · {title}",
+  "@remoteForumReplyCaption": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNewTopic": "Chủ đề mới",
+  "remoteForumTitle": "Tiêu đề",
+  "remoteForumComposerHint": "Viết gì đó, hỗ trợ Markdown",
+  "remoteForumPublish": "Đăng",
+  "remoteForumImage": "Hình ảnh",
+  "remoteForumAttachShareCode": "Đính kèm mã chia sẻ",
+  "remoteForumPendingApproval": "Đã gửi, sẽ hiển thị sau khi duyệt",
+  "remoteForumLatest": "Mới nhất",
+  "remoteForumTop": "Nổi bật",
+  "remoteForumErrOpen": "Không mở được diễn đàn",
+  "remoteForumNoTopics": "Chưa có chủ đề nào",
+  "remoteForumPost": "Đăng bài",
+  "remoteForum": "Diễn đàn",
+  "remoteForumNotificationsUnread": "Thông báo, {count} chưa đọc",
+  "@remoteForumNotificationsUnread": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumSearch": "Tìm kiếm",
+  "remoteForumSearchHint": "Tìm chủ đề và bài viết",
+  "remoteForumSignedIn": "Đã đăng nhập diễn đàn",
+  "remoteForumSignInForNotifications": "Đăng nhập để xem thông báo",
+  "remoteForumErrNotifications": "Không đọc được thông báo",
+  "remoteForumNoNotifications": "Chưa có thông báo nào",
+  "remoteForumMarkAllRead": "Đánh dấu tất cả đã đọc",
+  "remoteForumSomeone": "Có người",
+  "remoteForumNotificationMention": "{who} đã nhắc tới bạn",
+  "@remoteForumNotificationMention": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationGroupMention": "{who} đã nhắc tới nhóm của bạn",
+  "@remoteForumNotificationGroupMention": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationReply": "{who} đã trả lời bạn",
+  "@remoteForumNotificationReply": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationQuote": "{who} đã trích dẫn bạn",
+  "@remoteForumNotificationQuote": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationEdit": "{who} đã sửa bài viết của bạn",
+  "@remoteForumNotificationEdit": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationLikes": "{who} và những người khác đã thích bạn ({count} người)",
+  "@remoteForumNotificationLikes": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumNotificationLike": "{who} đã thích bạn",
+  "@remoteForumNotificationLike": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationLikedPosts": "{who} đã thích {count} bài viết của bạn",
+  "@remoteForumNotificationLikedPosts": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumNotificationReaction": "{who} đã phản hồi bạn",
+  "@remoteForumNotificationReaction": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationMessage": "{who} đã gửi tin nhắn riêng",
+  "@remoteForumNotificationMessage": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationMessageInvite": "{who} đã mời bạn tham gia tin nhắn riêng",
+  "@remoteForumNotificationMessageInvite": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationTopicInvite": "{who} đã mời bạn tham gia chủ đề",
+  "@remoteForumNotificationTopicInvite": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationNewReply": "{who} đã đăng trả lời mới",
+  "@remoteForumNotificationNewReply": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationNewTopic": "{who} đã đăng chủ đề mới",
+  "@remoteForumNotificationNewTopic": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationLink": "{who} đã liên kết tới bài viết của bạn",
+  "@remoteForumNotificationLink": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationBadge": "Nhận huy hiệu “{badge}”",
+  "@remoteForumNotificationBadge": {
+    "placeholders": {
+      "badge": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNotificationMoved": "{who} đã di chuyển bài viết của bạn",
+  "@remoteForumNotificationMoved": {
+    "placeholders": {
+      "who": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumBookmarkReminder": "Nhắc dấu trang",
+  "remoteForumTopicReminder": "Nhắc chủ đề",
+  "remoteForumPostApproved": "Bài viết của bạn đã được duyệt",
+  "remoteForumAdminProblems": "Diễn đàn có vấn đề cần xử lý",
+  "remoteForumNewNotification": "Thông báo mới",
+  "remoteForumUnread": "Chưa đọc",
+  "remoteForumErrShareCode": "Không mở được mã chia sẻ",
+  "remoteForumPoll": "Bình chọn",
+  "remoteForumVideo": "Video",
+  "remoteForumEmbed": "Nội dung nhúng",
+  "remoteForumVoteOnWeb": "Bình chọn trên bản web",
+  "remoteForumErrSearch": "Không tìm kiếm được",
+  "remoteForumNoSearchResults": "Không tìm thấy “{term}”",
+  "@remoteForumNoSearchResults": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumBookmarkRemoved": "Đã hủy dấu trang",
+  "remoteForumBookmarkAdded": "Đã thêm dấu trang",
+  "remoteLinkCopied": "Đã sao chép liên kết",
+  "remoteForumErrTopic": "Không mở được chủ đề này",
+  "remoteForumTopicClosed": "Chủ đề đã đóng",
+  "remoteForumReplyHint": "Viết trả lời…",
+  "remoteForumSignInToReply": "Đăng nhập để trả lời",
+  "remoteForumReplyTo": "Trả lời @{username}",
+  "@remoteForumReplyTo": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumPostDeleted": "Bài viết đã bị xóa",
+  "remoteForumPostHidden": "Bài viết đã bị ẩn",
+  "remoteForumUnlike": "Bỏ thích",
+  "remoteForumLike": "Thích",
+  "remoteForumRemoveBookmark": "Hủy dấu trang",
+  "remoteForumBookmark": "Dấu trang",
+  "remoteForumActionPinned": "Đã ghim chủ đề",
+  "remoteForumActionUnpinned": "Đã bỏ ghim",
+  "remoteForumActionClosed": "Đã đóng chủ đề",
+  "remoteForumActionReopened": "Đã mở lại chủ đề",
+  "remoteForumActionAutoClosed": "Chủ đề đã tự đóng",
+  "remoteForumActionAutoOpened": "Chủ đề đã tự mở",
+  "remoteForumActionArchived": "Đã lưu trữ chủ đề",
+  "remoteForumActionUnarchived": "Đã bỏ lưu trữ",
+  "remoteForumActionListed": "Đã công khai chủ đề",
+  "remoteForumActionUnlisted": "Đã ẩn chủ đề",
+  "remoteForumActionSplit": "Đã tách chủ đề",
+  "remoteForumActionBanner": "Đã đặt làm biểu ngữ",
+  "remoteForumActionRemoveBanner": "Đã bỏ biểu ngữ",
+  "remoteForumActionUpdated": "Đã cập nhật chủ đề",
+  "remoteLoading": "Đang tải",
+  "remoteForumJustNow": "Vừa xong",
+  "remoteForumMinutesAgo": "{count} phút trước",
+  "@remoteForumMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumHoursAgo": "{count} giờ trước",
+  "@remoteForumHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumDaysAgo": "{count} ngày trước",
+  "@remoteForumDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumReplyCount": "{count} trả lời",
+  "@remoteForumReplyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumNewReplyCount": "{count} trả lời mới",
+  "@remoteForumNewReplyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumNew": "Mới",
+  "remoteForumErrorRetry": "{error} · Thử lại",
+  "@remoteForumErrorRetry": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumNoMore": "Không còn nữa",
+  "remoteHostKeyTrustTitle": "Tin tưởng máy chủ này?",
+  "remoteHostKeyFirstConnection": "Lần đầu kết nối tới “{name}” ({address}). Hãy đối chiếu dấu vân tay, xác nhận đây là máy chủ của bạn.",
+  "@remoteHostKeyFirstConnection": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteHostKeyTrustConnect": "Tin tưởng và kết nối",
+  "remoteHostKeyChangedTitle": "Dấu vân tay danh tính đã thay đổi",
+  "remoteRelayKeyChangedBody": "Khóa danh tính của “{name}” khác với lần trước. Chỉ tiếp tục khi đã xác nhận máy chủ này đã cài lại Plugin Remote, nếu không có thể có người mạo danh nó.",
+  "@remoteRelayKeyChangedBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteRelayKeyFirstBody": "Lần đầu kết nối tới “{name}”. Hãy đối chiếu dấu vân tay danh tính, khớp với dấu vân tay mà Plugin Remote hiển thị trên máy chủ rồi mới tiếp tục.",
+  "@remoteRelayKeyFirstBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteHostKeyChangeWarning": "Về sau, một khi dấu vân tay thay đổi, App sẽ từ chối kết nối.",
+  "remoteHostKeyTrustAgain": "Tin tưởng lại",
+  "remoteHostKeyReading": "Đang đọc dấu vân tay máy chủ…",
+  "remoteHostSwitcherSemantics": "Máy chủ hiện tại: {name}, {status}. Chuyển máy chủ",
+  "@remoteHostSwitcherSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteSwitchHost": "Chuyển máy chủ",
+  "remoteThisPhoneDsh": "DSH trên điện thoại này",
+  "remoteRemoteLabel": "Từ xa",
+  "remoteRemotePlatform": "Từ xa · {platform}",
+  "@remoteRemotePlatform": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteRelaySwitchWarning": "DSH Remote mỗi lần chỉ kết nối một máy chủ, chuyển sẽ ngắt máy trước",
+  "remoteConnectComputer": "Kết nối máy tính hoặc máy chủ",
+  "remoteManageHosts": "Quản lý máy chủ từ xa",
+  "remoteConnectionMethods": "Qua SSH hoặc DSH Remote",
+  "remoteRelayLoginRequired": "Nhập địa chỉ máy chủ, email và mật khẩu",
+  "remoteErrSignIn": "Không đăng nhập được",
+  "remoteSelfHostedServer": "Máy chủ tự dựng",
+  "remoteSelfHostedSignInHelp": "Nhập địa chỉ máy chủ, có thể đăng nhập bằng email và mật khẩu, hoặc dùng máy chủ này trước rồi chọn cách đăng nhập khác.",
+  "remoteUseServer": "Dùng máy chủ này",
+  "remoteServerAddress": "Địa chỉ máy chủ",
+  "remoteEmail": "Email",
+  "remotePassword": "Mật khẩu",
+  "remoteRestoreServer": "Đổi về máy chủ mặc định dsh.r2049.cn",
+  "remoteConsole": "Bảng điều khiển từ xa",
+  "remoteHostsIntro": "Tiếp tục dùng DSH trên máy tính hoặc máy chủ ngay trên điện thoại",
+  "remoteSshHosts": "Máy chủ SSH",
+  "remoteSshRequirements": "Cần máy chủ đó đang bật SSH và đã cài DSH",
+  "remoteAddSshHost": "Thêm máy chủ SSH",
+  "remoteSshDirect": "Không qua máy chủ bên thứ ba",
+  "remoteOtherMethods": "Cách khác",
+  "remoteWebConsole": "Bảng điều khiển từ xa bản web",
+  "remoteWebConsoleProvider": "dsh.r2049.cn · Trang bên thứ ba",
+  "remoteActiveHost": "Đang dùng “{name}”",
+  "@remoteActiveHost": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteSwitchToPhone": "Chuyển về máy này",
+  "remoteSignInAgain": "Đăng nhập lại",
+  "remoteHostSettings": "Cài đặt máy chủ",
+  "remoteReconnect": "Kết nối lại",
+  "remoteReconnectingEllipsis": "Đang kết nối lại…",
+  "remoteReconnectReason": "Đang kết nối lại · {reason}",
+  "@remoteReconnectReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteConnectedEncrypted": "Đã kết nối · Mã hóa đầu cuối",
+  "remoteConnectedVia": "Đã kết nối · {path} · Mã hóa đầu cuối",
+  "@remoteConnectedVia": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePathDirect": "Kết nối trực tiếp",
+  "remotePathTurn": "TURN",
+  "remotePathRelay": "Relay",
+  "remoteConnectedSsh": "Đã kết nối · SSH {address}",
+  "@remoteConnectedSsh": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrRefreshHosts": "Không làm mới được danh sách máy chủ",
+  "remoteSwitchWarning": "Mỗi lần chỉ kết nối một máy chủ, chuyển sẽ ngắt máy trước",
+  "remoteRefreshHosts": "Làm mới danh sách máy chủ",
+  "remoteSignOut": "Đăng xuất",
+  "remoteErrHostsRetry": "Không lấy được danh sách máy chủ · Nhấn để thử lại",
+  "remoteNoHosts": "Chưa có máy chủ nào",
+  "remoteRelaySetupHelp": "Cài Plugin Remote trong DSH trên máy chủ rồi đăng nhập",
+  "remoteRelaySignOutTitle": "Đăng xuất DSH Remote?",
+  "remoteRelaySignOutBody": "Điện thoại này sẽ bị gỡ khỏi tài khoản. DSH và trò chuyện trên máy chủ không bị ảnh hưởng, lúc nào cũng có thể đăng nhập lại.",
+  "remoteRelaySignInTitle": "Đăng nhập DSH Remote",
+  "remoteRelaySignInHelp": "Không cần cấu hình mạng, kết nối được mã hóa đầu cuối",
+  "remoteBrowserSignIn": "Đăng nhập trong trình duyệt",
+  "remoteSignInWithProvider": "Đăng nhập bằng {provider}",
+  "@remoteSignInWithProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteComingSoon": "Sắp có",
+  "remoteSelfHostedEmailSignIn": "Máy chủ tự dựng · Đăng nhập bằng email",
+  "remoteBrowserSignInPending": "Đang hoàn tất đăng nhập trong trình duyệt…",
+  "remoteCopySignInLink": "Sao chép liên kết đăng nhập",
+  "remoteSshAddressRequired": "Nhập địa chỉ máy chủ (IP hoặc tên miền)",
+  "remoteSshUsernameRequired": "Nhập tên người dùng đăng nhập",
+  "remoteSshPasswordRequired": "Nhập mật khẩu SSH, hoặc dùng khóa riêng",
+  "remoteSshKeyRequired": "Dán khóa riêng (toàn bộ đoạn văn bản bắt đầu bằng -----BEGIN)",
+  "remoteHostKeyResetTitle": "Đặt lại dấu vân tay máy chủ?",
+  "remoteHostKeyResetBody": "Chỉ làm vậy khi đã xác nhận máy chủ này đã cài lại hoặc thay đổi. Lần kết nối sau sẽ yêu cầu đối chiếu dấu vân tay lại.",
+  "remoteReset": "Đặt lại",
+  "remoteDeleteHostTitle": "Xóa “{name}”?",
+  "@remoteDeleteHostTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteDeleteHostBody": "Cài đặt của máy chủ này và mật khẩu, khóa riêng đã lưu trên điện thoại sẽ bị xóa. DSH và trò chuyện trên máy chủ không bị ảnh hưởng.",
+  "remoteErrReadKey": "Không đọc được: {error}",
+  "@remoteErrReadKey": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrPublicKeyFile": "Đây không phải tệp khóa riêng, hãy chọn tệp không có .pub (ví dụ id_ed25519)",
+  "remotePrivateKeyImported": "Đã nhập khóa riêng, có thể xóa tệp gốc",
+  "remoteEditHost": "Sửa máy chủ",
+  "remoteSshHostIntro": "Kết nối DSH trên máy tính hoặc máy chủ của bạn",
+  "remoteHostBasicInfo": "Thông tin cơ bản",
+  "remoteHostNameHint": "Ví dụ: máy tính, Mac ở nhà",
+  "remoteHost": "Máy chủ",
+  "remoteHostAddressHint": "192.168.1.20 hoặc example.com",
+  "remoteUsername": "Tên người dùng",
+  "remotePort": "Cổng",
+  "remoteAuthentication": "Cách đăng nhập",
+  "remotePasswordStorageHelp": "Chỉ lưu trên điện thoại này, được mã hóa bằng Android Keystore",
+  "remoteKeyStorageHelp": "Chỉ lưu trên điện thoại này, được mã hóa bằng Android Keystore. Hỗ trợ Ed25519, RSA, ECDSA",
+  "remotePasswordStorageHelpIos": "Chỉ lưu trên điện thoại này, được mã hóa bằng Chuỗi khóa hệ thống",
+  "remoteKeyStorageHelpIos": "Chỉ lưu trên điện thoại này, được mã hóa bằng Chuỗi khóa hệ thống. Hỗ trợ Ed25519, RSA, ECDSA",
+  "remotePrivateKey": "Khóa riêng",
+  "remoteShow": "Hiển thị",
+  "remoteImportKeyFile": "Nhập từ tệp",
+  "remotePrivateKeyPassword": "Mật khẩu khóa riêng (không bắt buộc)",
+  "remoteStartCommand": "Lệnh khởi động",
+  "remoteStartCommandHelp": "Nếu cài bằng nvm thì có thể nhập đường dẫn đầy đủ",
+  "remoteWorkingDirectory": "Thư mục làm việc (không bắt buộc)",
+  "remoteWorkingDirectoryHelp": "Trò chuyện mới mặc định ở đây, hỗ trợ ~/",
+  "remoteHostFingerprint": "Dấu vân tay máy chủ",
+  "remoteHostKeyNotConfirmed": "Chưa xác nhận",
+  "remoteHostKeyFirstCheck": "Lần kết nối đầu tiên sẽ yêu cầu đối chiếu dấu vân tay",
+  "remoteDeleteHost": "Xóa máy chủ này",
+  "remoteTesting": "Đang kiểm tra",
+  "remoteTestConnection": "Kiểm tra kết nối",
+  "remoteHostedUpdateRequired": "Cần cập nhật App mới mở được",
+  "remoteHostedCannotOpen": "Không mở được liên kết này",
+  "remoteOpening": "Đang mở…",
+  "remoteHostedNeverExpires": "Có hiệu lực vĩnh viễn",
+  "remoteHostedExpired": "Đã hết hạn",
+  "remoteHostedExpiresToday": "Hết hạn hôm nay",
+  "remoteHostedExpiresTomorrow": "Hết hạn ngày mai",
+  "remoteHostedExpiresOn": "Hết hạn {date}",
+  "@remoteHostedExpiresOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteHostedDeleteTitle": "Xóa liên kết này?",
+  "remoteHostedDeleteBody": "Liên kết của “{title}” sẽ hết hiệu lực ngay",
+  "@remoteHostedDeleteBody": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteHostedLinkDeleted": "Đã xóa liên kết",
+  "remoteUndo": "Hoàn tác",
+  "remoteHostedMyLinks": "Liên kết chia sẻ của tôi",
+  "remoteHostedNoLinks": "Chưa có liên kết chia sẻ nào",
+  "remoteHostedErrDeleteNetwork": "Không xóa được, hãy kiểm tra mạng rồi thử lại",
+  "remoteHostedErrDelete": "Không xóa được, hãy thử lại sau",
+  "remoteDirectoryPickerTitle": "Chọn thư mục",
+  "remoteDirectoryChoose": "Chọn",
+  "remoteDirectoryDefault": "Thư mục làm việc mặc định",
+  "remoteDirectoryHome": "Thư mục chính",
+  "remoteDirectoryPhoneStorage": "Bộ nhớ điện thoại",
+  "remoteDirectoryDownloads": "Tải xuống",
+  "remoteDirectoryDownloadsPath": "Bộ nhớ điện thoại/Download",
+  "remoteDirectoryDocuments": "Tài liệu",
+  "remoteDirectoryDocumentsPath": "Bộ nhớ điện thoại/Documents",
+  "remoteDirectoryLocations": "Vị trí",
+  "remoteDirectoryRecent": "Gần đây",
+  "remoteDirectoryEnterPath": "Nhập đường dẫn",
+  "remoteDirectoryGo": "Đi tới",
+  "remoteDirectoryAbsolutePath": "Viết đường dẫn đầy đủ, ví dụ /root/workspace hoặc C:/Users/me",
+  "remoteDirectoryNewFolder": "Thư mục mới",
+  "remoteDirectoryParentCaption": "Trong “{name}”",
+  "@remoteDirectoryParentCaption": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteDirectoryFolderName": "Tên thư mục",
+  "remoteDirectoryRoot": "Thư mục gốc",
+  "remoteDirectoryErrCreate": "Không tạo được thư mục mới",
+  "remoteDirectoryNoSubfolders": "Ở đây không có thư mục con",
+  "remoteDirectoryHideHidden": "Thu gọn thư mục ẩn",
+  "remoteDirectoryShowHidden": "Hiển thị {count} thư mục ẩn",
+  "@remoteDirectoryShowHidden": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteDirectoryTruncated": "Quá nhiều thư mục, chỉ liệt kê một phần đầu",
+  "remoteWorkspaceAdd": "Thêm không gian làm việc",
+  "remoteWorkspaceAdded": "Đã thêm “{name}”",
+  "@remoteWorkspaceAdded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteWorkspaceErrAdd": "Không thêm được không gian làm việc",
+  "remoteWorkspaceNoChats": "Không có trò chuyện",
+  "remoteWorkspaceChatCount": "{count} trò chuyện",
+  "@remoteWorkspaceChatCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteWorkspaceErrRename": "Không đổi tên được",
+  "remoteWorkspaceRemoved": "Đã gỡ “{name}”",
+  "@remoteWorkspaceRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteWorkspaceErrRemove": "Không gỡ được không gian làm việc",
+  "remoteWorkspaceRename": "Đổi tên không gian làm việc",
+  "remoteWorkspaceName": "Tên không gian làm việc",
+  "remoteWorkspaceNameRequired": "Đặt một cái tên",
+  "remoteWorkspaceRemoveTitle": "Gỡ “{name}”?",
+  "@remoteWorkspaceRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteWorkspaceRemoveBody": "Thư mục và trò chuyện đều được giữ lại",
+  "remoteWorkspaceRemove": "Gỡ",
+  "remoteWorkspace": "Không gian làm việc",
+  "remoteWorkspaceNewChatHere": "Tạo trò chuyện mới tại đây",
+  "remoteWorkspaceUnpin": "Bỏ ghim",
+  "remoteWorkspaceGroup": "Nhóm",
+  "remoteWorkspaceUngrouped": "Chưa nhóm",
+  "remoteWorkspaceRemoveAction": "Gỡ không gian làm việc",
+  "remoteWorkspaceNewGroup": "Nhóm mới",
+  "remoteWorkspaceGroupName": "Tên nhóm",
+  "remoteDirectoryPhonePath": "Bộ nhớ điện thoại/{path}",
+  "@remoteDirectoryPhonePath": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteDirectoryInvalidName": "Tên không được chứa “/”",
+  "remoteWorkspaceErrNameConflict": "Đã có không gian làm việc cùng tên",
+  "remoteWorkspaceErrInvalidPath": "Thư mục này không dùng làm không gian làm việc được",
+  "remoteWorkspaceErrNotFound": "Không gian làm việc này không còn nữa",
+  "remoteDirectoryErrUnreadable": "Không mở được thư mục này",
+  "remoteDirectoryErrExists": "Đã có thư mục cùng tên",
+  "remoteDirectoryErrUnavailable": "Máy chủ này không duyệt được thư mục tại đây",
+  "remoteWorkspaceErrUnsupported": "Máy chủ này không hỗ trợ thao tác này",
+  "remoteWorkspaceAllChats": "Tất cả trò chuyện",
+  "remoteWorkspaceSwitcherSemantics": "Không gian làm việc: {name}. Chuyển không gian làm việc",
+  "@remoteWorkspaceSwitcherSemantics": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteWorkspaceManage": "Quản lý không gian làm việc",
+  "remoteWorkspaceErrLoad": "Không đọc được không gian làm việc",
+  "remoteWorkspaceEmpty": "Chưa có không gian làm việc nào",
+  "remoteWorkspaceEmptyHint": "Thêm các thư mục hay dùng vào",
+  "remoteWorkspaceCount": "{count} không gian làm việc",
+  "@remoteWorkspaceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteDirectoryConfirmFolder": "{action}“{name}”",
+  "@remoteDirectoryConfirmFolder": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteHostKeyMismatchDetail": "Sau khi xác nhận máy chủ đã cài lại hoặc thay đổi, có thể đặt lại dấu vân tay trong cài đặt máy chủ.\nĐã lưu: {saved}\nLần này nhận: {received} ({type})",
+  "@remoteHostKeyMismatchDetail": {
+    "placeholders": {
+      "saved": {
+        "type": "String"
+      },
+      "received": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumCompactReplies": "{count, plural, other{{label} trả lời}}",
+  "@remoteForumCompactReplies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumCompactViews": "{count, plural, other{{label} lượt xem}}",
+  "@remoteForumCompactViews": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumYearDate": "Ngày {day} tháng {month} năm {year}",
+  "@remoteForumYearDate": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteHostedMonthDate": "Ngày {day} tháng {month}",
+  "@remoteHostedMonthDate": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteHostedYearDate": "Ngày {day} tháng {month} năm {year}",
+  "@remoteHostedYearDate": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "String"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteForumTenThousands": "{value} chục nghìn",
+  "@remoteForumTenThousands": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteForumSemanticsSeparator": ", ",
+  "remoteHostKeyVerifyCommand": "Chạy {command} trên máy chủ đó sẽ thấy cùng dấu vân tay. Về sau, một khi dấu vân tay thay đổi, App sẽ từ chối kết nối.",
+  "@remoteHostKeyVerifyCommand": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteSshInstallCommand": "Chưa cài DSH? Chạy {command} trên máy chủ",
+  "@remoteSshInstallCommand": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteRelayProvider": "Dịch vụ do {project} cung cấp",
+  "@remoteRelayProvider": {
+    "description": "Under the DSH Remote card; project is the upstream GitHub project (liguobao/ds-harness-remote), drawn as a link.",
+    "placeholders": {
+      "project": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteRelayProviderServer": "Dịch vụ do {project} cung cấp · Máy chủ hiện tại {server}",
+  "@remoteRelayProviderServer": {
+    "placeholders": {
+      "project": {
+        "type": "String"
+      },
+      "server": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteQuotedHostName": "“{name}”",
+  "@remoteQuotedHostName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "remoteErrorDetail": "{message} ({detail})",
+  "@remoteErrorDetail": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      },
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "remotePathLan": "LAN",
+  "remotePathP2p": "P2P",
+  "remoteNetworkDetails": "Chi tiết mạng",
+  "remoteNetworkAutomatic": "Tự thử lần lượt LAN → P2P → TURN → Relay, toàn bộ kết nối được mã hóa đầu cuối.",
+  "remoteNetworkCurrentPath": "Đường đi hiện tại",
+  "remoteNetworkConnectDuration": "Thời gian kết nối",
+  "remoteNetworkRoundTripTime": "Độ trễ khứ hồi (RTT)",
+  "remoteNetworkUnmeasured": "Chưa đo",
+  "remoteNetworkUnknownPath": "Chưa xác nhận",
+  "remoteNetworkMilliseconds": "{value} mili giây",
+  "@remoteNetworkMilliseconds": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "remoteNetworkMeasure": "Làm mới thông tin mạng / Đo độ trễ",
+  "remoteNetworkMeasuring": "Đang đo…",
+  "remoteNetworkMeasureFailed": "Tạm thời không đo được, có thể thử lại sau",
+  "remoteNetworkDisconnected": "Kết nối đã ngắt, kết nối lại rồi mới đo được",
+  "remoteNetworkFallback": "Lý do chuyển sang đường khác",
+  "remoteNetworkFallbackUnknown": "Không tạo được kết nối trực tiếp, đã tự dùng đường đi khả dụng",
+  "remoteNetworkFallbackWebrtcUnavailable": "Thiết bị tạm thời không hỗ trợ WebRTC, đã dùng Relay",
+  "remoteNetworkFallbackDirectFailed": "Kết nối trực tiếp LAN / P2P không thành công, đã tự thử đường tiếp theo",
+  "remoteNetworkFallbackDirectTimeout": "Kết nối trực tiếp LAN / P2P hết thời gian, đã tự thử đường tiếp theo",
+  "remoteNetworkFallbackDirectRecentlyFailed": "Gần đây kết nối trực tiếp không thành công, lần này dùng rơ-le khả dụng trước",
+  "remoteNetworkFallbackTurnUnavailable": "Dịch vụ TURN tạm thời không khả dụng, đã dùng Relay",
+  "remoteNetworkFallbackTurnFailed": "TURN không kết nối được, đã dùng Relay",
+  "remoteNetworkFallbackTurnTimeout": "Kết nối TURN hết thời gian, đã dùng Relay",
+  "remoteNetworkFallbackPathUnverified": "Chưa xác nhận loại đường WebRTC",
+  "remoteNetworkSnapshotHint": "Hiển thị đường đi và độ trễ đã xác nhận gần nhất, làm mới để kiểm tra lại.",
+  "remoteNetworkObservedAt": "Lần quan sát gần nhất",
+  "remoteHostedLoadFailed": "Không đọc được liên kết chia sẻ đã lưu, hãy thử lại.",
+  "remoteHostedSaveFailed": "Thay đổi liên kết chia sẻ chưa được lưu, hãy thử lại.",
+  "remoteHostedDeleteSaveFailed": "Chưa xóa xong, liên kết vẫn còn hiệu lực. Hãy thử lại.",
+  "remoteHostedUndoUnsaved": "Lần xóa này đã hủy, nhưng việc hoàn tác chưa được lưu. Sau khi khởi động lại có thể tiếp tục xóa, hãy vào “Liên kết chia sẻ của tôi” để thử lưu lại.",
+  "remoteHostedUndoFailed": "Không khôi phục được chia sẻ, có thể việc xóa đã bắt đầu. Hãy kiểm tra “Liên kết chia sẻ của tôi”.",
+  "remoteHostedCreatedUnsaved": "Liên kết đã tạo, có thể sao chép để dùng, nhưng chưa lưu vào máy. Hãy giữ liên kết, và vào “Liên kết chia sẻ của tôi” để thử lưu lại.",
+  "remoteHostedStopFailed": "Không dừng được chia sẻ, liên kết vẫn còn hiệu lực. Hãy thử lại.",
+  "remoteNetworkLocalIpVersion": "Phiên bản ICE IP của điện thoại",
+  "remoteNetworkRemoteIpVersion": "Phiên bản ICE IP của máy chủ",
+  "remoteNetworkIceProtocol": "Giao thức ICE",
+  "remoteTransferSettings": "Truyền tải từ xa",
+  "remoteCompactHistory": "Lịch sử rút gọn",
+  "remoteErrHistoryModeChanged": "Máy chủ không còn hỗ trợ lịch sử rút gọn, hãy chuyển sang máy chủ khác rồi kết nối lại, hoặc khởi động lại App để tải lại lịch sử",
+  "remoteCompactHistoryHint": "Máy chủ DSH Remote được hỗ trợ sẽ rút gọn chi tiết công cụ trong lịch sử, trả lời trực tiếp và phê duyệt không đổi. Có hiệu lực sau khi chuyển máy chủ hoặc khởi động lại App; máy chủ cũ vẫn truyền đầy đủ lịch sử.",
+  "searchKwRemoteCompactHistory": "rút gọn gọn nhẹ lịch sử công cụ truyền tải lưu lượng từ xa compact slim lite"
+}

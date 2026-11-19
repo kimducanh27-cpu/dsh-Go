@@ -1,0 +1,200 @@
+{
+  "@@locale": "vi",
+  "tavernPacks": "Gói chơi",
+  "tavernPacksSubtitle": "Các gói chơi đã cài. Cài không có nghĩa là bật: phải thêm vào toàn cục, nhân vật hoặc đoạn trò chuyện mới có hiệu lực.",
+  "tavernPacksEmpty": "Chưa có gói chơi nào",
+  "tavernPacksEmptyNote": "Nhập tệp .dshpack. Nhập chỉ để lưu, không bật và không tạo nhân vật.",
+  "tavernPackImport": "Nhập gói chơi",
+  "tavernPackInstalled": "Đã nhập “{title}” {version}",
+  "@tavernPackInstalled": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackAlreadyInstalled": "“{title}” {version} đã được cài với cùng nội dung",
+  "@tavernPackAlreadyInstalled": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackVersionCount": "{n} phiên bản",
+  "@tavernPackVersionCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackWithdrawnShort": "{version} (đã rút xuống)",
+  "@tavernPackWithdrawnShort": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackWithdrawnLabel": "Đã rút xuống",
+  "tavernPackShowWithdrawn": "Hiện các phiên bản đã rút xuống",
+  "tavernPackScopeGlobal": "Bật mọi nơi",
+  "tavernPackScopeGlobalSubtitle": "Gói chơi mọi đoạn trò chuyện đều dùng",
+  "tavernPackScopeCharacter": "Gói chơi của nhân vật này",
+  "tavernPackScopeChat": "Gói chơi của đoạn trò chuyện này",
+  "tavernPackForCardSubtitle": "Mọi đoạn trò chuyện với thẻ này đều dùng",
+  "tavernPackBindingsSubtitle": "Sửa xong bấm lưu mới có hiệu lực; xem trước để thấy kết quả kết hợp",
+  "tavernPackOrderNote": "Kết hợp theo thứ tự từ trên xuống, trường nào có hiệu lực thì xem ở bản xem trước. Chạm một dòng để đổi phiên bản, thứ tự hoặc nhân vật liên kết.",
+  "tavernPackAdd": "Thêm gói chơi",
+  "tavernPackUnsaved": "Chưa lưu",
+  "tavernPackResetPending": "Đặt lại trạng thái dùng một lần khi lưu",
+  "tavernPackCastMappedCount": "Đã liên kết {n} nhân vật",
+  "@tavernPackCastMappedCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackRemovedBindings": "Đã gỡ",
+  "tavernPackPickVersion": "Đổi phiên bản",
+  "tavernPackMoveUp": "Dời lên",
+  "tavernPackMoveDown": "Dời xuống",
+  "tavernPackResetOnce": "Đặt lại trạng thái dùng một lần",
+  "tavernPackRestore": "Khôi phục",
+  "tavernPackRemoveBinding": "Gỡ",
+  "tavernPackSaved": "Đã lưu",
+  "tavernPackUnanswered": "Không nhận được kết quả: {reason}. Bấm lưu lại sẽ thử lại cùng thao tác",
+  "@tavernPackUnanswered": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackVersion": "Phiên bản",
+  "tavernPackAddGlobal": "Bật mọi nơi",
+  "tavernPackAddNote": "Chỉ dùng cho một nhân vật hoặc đoạn trò chuyện thì thêm từ trang nhân vật hoặc bảng sân khấu của đoạn trò chuyện",
+  "tavernPackCast": "Nhân vật",
+  "tavernPackCastNote": "Nhập sẽ tạo nhân vật mới, không sửa thẻ gốc và không tự thêm vào nhóm chat",
+  "tavernPackCastFromCard": "Thẻ nhân vật đầy đủ",
+  "tavernPackCastImportAction": "Nhập thành nhân vật",
+  "tavernPackCastImportTitle": "Nhập “{name}” thành nhân vật mới?",
+  "@tavernPackCastImportTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackCastImportNote": "Một nhân vật mới sẽ được tạo trong thư viện. Sau này đổi phiên bản của gói chơi này sẽ không thay thế nhân vật đó.",
+  "tavernPackCastImported": "Đã nhập “{name}”",
+  "@tavernPackCastImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackCastNotAdopted": "Lần này không tạo nhân vật",
+  "tavernPackCastUnknown": "Kết quả chưa được xác nhận ({state}), lát nữa xem trong thư viện nhân vật",
+  "@tavernPackCastUnknown": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackCastMapping": "Nhân vật liên kết",
+  "tavernPackCastMapped": "Đã liên kết",
+  "tavernPackResources": "Tài nguyên",
+  "tavernPackIssueCount": "{n} ghi chú",
+  "@tavernPackIssueCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackDeclaration": "Kiểm tra khai báo",
+  "tavernPackDeclarationNote": "Kết quả kiểm tra lúc nhập. Đã cài không có nghĩa mọi khối đều chạy; phần ghi conditional hoặc opaque thì tùy trường hợp.",
+  "tavernPackNothingNoted": "Không có ghi chú",
+  "tavernPackExportOriginal": "Xuất tệp gốc",
+  "tavernPackWithdraw": "Rút phiên bản này xuống",
+  "tavernPackWithdrawTitle": "Rút {version} xuống?",
+  "@tavernPackWithdrawTitle": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackWithdrawNote": "Sau khi rút xuống sẽ không chọn mới được phiên bản này; nơi nào đang dùng thì giữ nguyên. Tệp gốc và hồ sơ vẫn được giữ và vẫn xuất được.",
+  "tavernPackPreview": "Xem trước bản kết hợp",
+  "tavernPackPreviewSubtitle": "Kết hợp theo thay đổi hiện tại, không lưu và không chạy",
+  "tavernPackPreviewSources": "Nguồn",
+  "tavernPackPreviewDefinitions": "Định nghĩa",
+  "tavernPackPreviewConflicts": "Xung đột kết hợp",
+  "tavernPackPreviewFields": "Nguồn trường",
+  "tavernPackPreviewState": "Giá trị hiện tại",
+  "tavernPackPreviewNote": "Chỉ xem trước: không lưu liên kết, không khởi tạo biến, không gửi yêu cầu mô hình.",
+  "tavernPackStateUnavailable": "Đoạn trò chuyện hiện tại chưa có trạng thái để xem",
+  "tavernPackStateNotValidated": "Lần này chưa xác thực giá trị hiện tại, hãy xem định nghĩa và chẩn đoán kết hợp",
+  "tavernPackStateValid": "Giá trị hiện tại khớp với định nghĩa sau khi kết hợp",
+  "tavernPackStateInvalid": "Giá trị hiện tại không khớp với định nghĩa sau khi kết hợp",
+  "tavernPackStateMissing": "Đoạn trò chuyện hiện tại không có giá trị này",
+  "tavernPackCardExport": "Xuất (kèm gói chơi)",
+  "tavernPackCardExportMenuSubtitle": "Gộp tài nguyên gói chơi đã chọn vào thẻ",
+  "tavernPackCardExportSubtitle": "Xem trước, xác nhận không còn mục chặn rồi mới xuất",
+  "tavernPackExportFormat": "Định dạng",
+  "tavernPackExportCopyMedia": "Kèm hình ảnh trong thẻ",
+  "tavernPackExportFlattenNote": "Sau khi gộp tài nguyên vào một thẻ, phạm vi, thứ tự, ngân sách và thời gian có thể khác với khi chơi ở đây",
+  "tavernPackExportNoResources": "Các gói chơi đang bật cho thẻ này không có tài nguyên nào gộp vào thẻ được",
+  "tavernPackExportFindings": "Kết quả xem trước",
+  "tavernPackExportMappings": "Đã viết lại {ids} định danh, {resources} tài nguyên",
+  "@tavernPackExportMappings": {
+    "placeholders": {
+      "ids": {
+        "type": "int"
+      },
+      "resources": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackExportGo": "Xuất",
+  "tavernPackExportPreviewFirst": "Xem trước đã",
+  "tavernPackExportBlocked": "Có mục chặn, không thể xuất",
+  "tavernPackDraftExport": "Xuất thành gói chơi",
+  "tavernPackDraftExportSubtitle": "Tạo .dshpack mới từ định nghĩa nhân vật của bản nháp này và tất cả {n} thay đổi",
+  "@tavernPackDraftExportSubtitle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackDraftId": "ID gói",
+  "tavernPackDraftRoots": "Đường dẫn trạng thái cần kèm",
+  "tavernPackDraftRootsHint": "Ví dụ /hp /items, để trống sẽ kèm toàn bộ",
+  "tavernPackInstallMade": "Cài vào máy này",
+  "tavernPackCommitted": "Thay đổi đã có hiệu lực, nhưng thông báo sau đó bị lỗi",
+  "tavernPackVersionConflict": "ID gói và tên phiên bản này đã tồn tại với nội dung khác, hãy dùng tên phiên bản mới",
+  "tavernPackRevisionConflict": "Cấu hình đã đổi ở nơi khác, đã làm mới, hãy xác nhận lại thay đổi này",
+  "tavernPackOperationConflict": "Thao tác này trùng ID với một thao tác trước, hãy làm lại",
+  "tavernPackVersionNotFound": "Không tìm thấy phiên bản này",
+  "tavernPackVersionRemoved": "Phiên bản này đã bị rút xuống, không thể chọn mới",
+  "tavernPackTimerConflict": "Lần nâng cấp này đổi cài đặt dính hoặc hồi chiêu: hãy đặt lại trạng thái dùng một lần cùng lúc, hoặc thêm một thực thể mới",
+  "tavernPackTargetGone": "Nhân vật, đoạn trò chuyện hoặc liên kết cần sửa đã không còn",
+  "tavernPackAuthorityConflict": "Nguồn của nhân vật đã đổi, hãy làm mới rồi xác nhận lại",
+  "tavernPackCastUnproven": "Không xác nhận được nhân vật này được nhập từ gói này",
+  "tavernPackCastOtherVersion": "Nhân vật liên kết đến từ phiên bản khác của gói này",
+  "tavernPackExportChanged": "Nguồn hoặc tùy chọn xuất đã đổi, hãy xem trước lại"
+}

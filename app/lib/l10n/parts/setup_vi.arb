@@ -1,0 +1,28 @@
+{
+  "@@locale": "vi",
+  "setupAppearanceTitle": "Chọn giao diện",
+  "setupAppearanceMessage": "Bạn có thể đổi lại bất cứ lúc nào trong Cài đặt",
+  "setupLightMode": "Chế độ gọn nhẹ",
+  "setupCapsulePreparing": "Đang chuẩn bị môi trường chạy",
+  "setupCapsuleProgress": "Môi trường chạy {percent}%",
+  "@setupCapsuleProgress": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "setupCapsuleProgressSemantics": "Đang chuẩn bị môi trường chạy, đã xong {percent}%",
+  "@setupCapsuleProgressSemantics": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "setupCapsuleReady": "Môi trường chạy đã sẵn sàng",
+  "setupCapsuleFailed": "Cài đặt chưa xong",
+  "setupWaitingBody": "Xong sẽ tự vào",
+  "setupNotifyWhenDone": "Xong sẽ báo cho bạn",
+  "setupAwaitSignIn": "Sẵn sàng sẽ tự mở đăng nhập DeepSeek"
+}

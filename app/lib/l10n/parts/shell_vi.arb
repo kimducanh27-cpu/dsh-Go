@@ -1,0 +1,606 @@
+{
+  "@@locale": "vi",
+  "shellApiKeyPrefixWarning": "Key DeepSeek thường bắt đầu bằng sk-, kiểm tra xem có sao chép nhầm không",
+  "shellApiKeyIncompleteWarning": "Key có vẻ chưa đầy đủ, kiểm tra đã sao chép hết chưa",
+  "shellBrowserUrlCopied": "Không mở được trình duyệt, đã sao chép đường link",
+  "shellSaveTryAgain": "Chưa lưu được, thử lại nhé",
+  "shellApiKeyUpdated": "Đã cập nhật API Key",
+  "shellReplaceApiKey": "Đổi API Key",
+  "shellEnterApiKey": "Nhập API Key",
+  "shellApiKeyBilling": "Phí do nền tảng mở DeepSeek tính theo mức dùng",
+  "shellSaving": "Đang lưu",
+  "shellSaveContinue": "Lưu và tiếp tục",
+  "shellSetUpLater": "Để sau cài đặt",
+  "shellClearField": "Xóa",
+  "shellShow": "Hiện",
+  "shellApiKeyEncrypted": "Đã mã hóa và lưu trên máy này",
+  "shellGetApiKey": "Lấy API Key",
+  "shellConnectDeepSeek": "Kết nối DeepSeek",
+  "shellConnectDeepSeekMessage": "Đăng nhập tài khoản DeepSeek là bắt đầu được, không cần API Key",
+  "shellAccountSignInUnsupported": "Engine hiện tại không hỗ trợ đăng nhập tài khoản",
+  "shellSignInDeepSeek": "Đăng nhập bằng tài khoản DeepSeek",
+  "shellUseApiKey": "Dùng API Key",
+  "shellOtherProviders": "Kênh mô hình khác",
+  "shellOnboardingStep": "Bước {step} trên {steps} bước",
+  "@shellOnboardingStep": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      }
+    }
+  },
+  "shellRuntimeUpdating": "Đang cập nhật môi trường chạy",
+  "shellRuntimePreparing": "Đang chuẩn bị môi trường chạy",
+  "shellRuntimeReady": "Đã sẵn sàng",
+  "shellRuntimeIncomplete": "Cài đặt chưa xong",
+  "shellRuntimeFilesKept": "Trò chuyện và tệp đều được giữ lại",
+  "shellRuntimeFirstSetup": "Lần chuẩn bị đầu tiên mất khoảng một hai phút",
+  "shellRuntimeContinuing": "Sắp tiếp tục",
+  "shellRuntimeRestoreFailed": "Không khôi phục được nội dung đã giữ",
+  "shellRuntimeExtractFailed": "Lỗi khi giải nén",
+  "shellInstallLogs": "Nhật ký cài đặt",
+  "shellRuntimeLocalOnly": "Toàn bộ làm trên máy này",
+  "shellRuntimeContinueWithoutKept": "Không giữ lại, tiếp tục cài đặt",
+  "shellRuntimeAlmostDone": "Sắp xong rồi",
+  "shellRuntimeSecondsRemaining": "Khoảng {count} giây",
+  "@shellRuntimeSecondsRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellRuntimeMinutesRemaining": "Khoảng {count} phút",
+  "@shellRuntimeMinutesRemaining": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellEngineLogs": "Nhật ký engine",
+  "shellWelcomeMessage": "Trợ lý DeepSeek\ntrong túi bạn",
+  "shellGetStarted": "Bắt đầu",
+  "shellSearchChats": "Tìm trò chuyện",
+  "shellCollapseChatList": "Thu gọn danh sách trò chuyện",
+  "shellExpandChatList": "Mở rộng danh sách trò chuyện",
+  "shellChatList": "Danh sách trò chuyện",
+  "shellChatDetails": "Chi tiết trò chuyện",
+  "shellCollapseDetails": "Thu gọn chi tiết",
+  "shellExpand": "Mở rộng",
+  "shellUndo": "Hoàn tác",
+  "shellFolderDeleted": "Đã xóa “{name}”",
+  "@shellFolderDeleted": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellMovedToFolder": "Đã chuyển tới “{name}”",
+  "@shellMovedToFolder": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellMovedOutOfFolder": "Đã chuyển ra khỏi thư mục",
+  "shellUnpinFailed": "Không bỏ ghim được, thử lại sau nhé",
+  "shellPinFailed": "Không ghim được, thử lại sau nhé",
+  "shellChatsUnpinned": "Đã bỏ ghim {count} trò chuyện",
+  "@shellChatsUnpinned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellChatsPinned": "Đã ghim {count} trò chuyện",
+  "@shellChatsPinned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellArchiveFailed": "Không lưu trữ được, thử lại sau nhé",
+  "shellChatsStoppedArchived": "Đã dừng và lưu trữ {count} trò chuyện",
+  "@shellChatsStoppedArchived": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellChatsArchived": "Đã lưu trữ {count} trò chuyện",
+  "@shellChatsArchived": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellFilterLabel": "Lọc: {label}",
+  "@shellFilterLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "shellFolders": "Thư mục",
+  "shellNoRunningChats": "Không có trò chuyện nào đang chạy",
+  "shellNoPendingChats": "Không có trò chuyện nào đang chờ xác nhận",
+  "shellNoUnreadChats": "Không có trò chuyện chưa đọc",
+  "shellNoChatsYet": "Chưa có trò chuyện nào",
+  "shellFolderLabel": "Thư mục “{name}”",
+  "@shellFolderLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellFolderChatCount": "Thư mục “{name}”, {count} trò chuyện",
+  "@shellFolderChatCount": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellSort": "Sắp xếp",
+  "shellRecentActivity": "Hoạt động gần đây",
+  "shellCreatedTime": "Ngày tạo",
+  "shellNewFolder": "Thư mục mới",
+  "shellManageFolders": "Quản lý thư mục",
+  "shellMultiSelect": "Chọn nhiều",
+  "shellFolderNameExists": "Đã có thư mục trùng tên",
+  "shellEditFolder": "Sửa thư mục",
+  "shellFolderMark": "Đánh dấu",
+  "shellFolderColor": "Màu {number}",
+  "@shellFolderColor": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "shellMoveToFolder": "Chuyển vào thư mục",
+  "shellMoveOutOfFolder": "Chuyển ra khỏi thư mục",
+  "shellDeleteFolder": "Xóa thư mục",
+  "shellDragToReorder": "Kéo để sắp xếp lại",
+  "shellSelectChats": "Chọn trò chuyện",
+  "shellSelectedCount": "Đã chọn {count}",
+  "@shellSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellDeselectAll": "Bỏ chọn tất cả",
+  "shellSelectAll": "Chọn tất cả",
+  "shellUnpin": "Bỏ ghim",
+  "shellArchive": "Lưu trữ",
+  "shellCurrentlyRunning": "Đang chạy",
+  "shellUnread": "Chưa đọc",
+  "shellPinned": "Đã ghim",
+  "shellEngineNotRunning": "Engine chưa chạy",
+  "shellHostNotConnected": "Chưa kết nối tới “{name}”",
+  "@shellHostNotConnected": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellSearchAfterConnecting": "Kết nối rồi mới tìm được",
+  "shellChatsLoadFailed": "Không tải được danh sách trò chuyện",
+  "shellSearchHostChats": "Tìm trò chuyện trên “{name}”",
+  "@shellSearchHostChats": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellSearchTitlesHint": "Tìm theo tiêu đề, gồm cả trò chuyện đã lưu trữ",
+  "shellSearchContentHint": "Tìm theo tiêu đề và nội dung, gồm cả trò chuyện đã lưu trữ",
+  "shellLoadingChatsEllipsis": "Đang tải trò chuyện…",
+  "shellNoMatchingChats": "Không có trò chuyện liên quan",
+  "shellSearchDifferentKeywords": "Thử từ khóa khác, hoặc dùng dấu cách để tách nhiều từ",
+  "shellArchived": "Đã lưu trữ",
+  "shellRestoreBeforeOpening": "Trò chuyện đã lưu trữ cần khôi phục trước mới mở được",
+  "shellRestoreAndOpen": "Khôi phục và mở",
+  "shellRestoreFailed": "Không khôi phục được, thử lại sau nhé",
+  "shellSearchingMessages": "Đang tìm trong nội dung tin nhắn…",
+  "shellHostTitleSearchOnly": "Máy chủ này chỉ hỗ trợ tìm theo tiêu đề",
+  "shellContentSearchFailed": "Tìm theo nội dung chưa được, chỉ hiện kết quả khớp tiêu đề.",
+  "shellContentSearchLimit": "Tìm theo nội dung chỉ liệt kê 20 trò chuyện liên quan nhất",
+  "shellMoveToOtherFolder": "Chuyển sang thư mục khác",
+  "shellArchiveStopsTurn": "Lượt đang chạy sẽ dừng",
+  "shellRenameFailed": "Không đổi tên được, thử lại sau nhé",
+  "shellChatStoppedArchived": "Đã dừng và lưu trữ “{title}”",
+  "@shellChatStoppedArchived": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "shellChatArchived": "Đã lưu trữ “{title}”",
+  "@shellChatArchived": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "shellRenameChat": "Đổi tên trò chuyện",
+  "shellChatTitle": "Tiêu đề trò chuyện",
+  "shellUnreadCount": "{count} chưa đọc",
+  "@shellUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellLoadingChats": "Đang tải trò chuyện",
+  "shellWorkspaceNoChats": "Ở đây chưa có trò chuyện nào",
+  "shellWorkspaceNewChatsHint": "Trò chuyện mới sẽ vào không gian làm việc này. Trò chuyện cũ không tự chuyển vào, tìm trong “Tất cả trò chuyện”.",
+  "shellNewChatsHint": "Trò chuyện mới sẽ hiện ở đây",
+  "shellEngineStarting": "Engine đang khởi động",
+  "shellChatsAfterStarting": "Khởi động xong sẽ hiện trò chuyện của bạn",
+  "shellStartEngine": "Khởi động Engine",
+  "shellEngineStatusHint": "Xem trạng thái trong “Engine”",
+  "shellHostUnreachable": "Không kết nối được “{name}”",
+  "@shellHostUnreachable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellHostReconnecting": "Đang kết nối lại “{name}”…",
+  "@shellHostReconnecting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellRetryNow": "Thử lại ngay",
+  "shellHostConnecting": "Đang kết nối “{name}”…",
+  "@shellHostConnecting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "shellHostChatsAfterConnecting": "Kết nối xong sẽ hiện trò chuyện trên máy chủ này",
+  "shellCurrentHostLabel": "Máy chủ hiện tại: {name}, {view}. Đổi máy chủ",
+  "@shellCurrentHostLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "view": {
+        "type": "String"
+      }
+    }
+  },
+  "shellChatGone": "Trò chuyện này không còn nữa",
+  "shellAccentMist": "Xanh sương",
+  "shellAccentDaiqing": "Xanh chàm",
+  "shellAccentDusk": "Tím chiều",
+  "shellAccentTurquoise": "Xanh ngọc",
+  "shellAccentAmber": "Hổ phách",
+  "shellAccentGraphite": "Xám than",
+  "shellHideTurnFooter": "Chú thích cuối lượt",
+  "shellHideTokenCount": "Số token",
+  "shellHideReasoning": "Quá trình suy nghĩ",
+  "shellHideActivityStrip": "Thanh hoạt động",
+  "shellHideWhaleTail": "Đuôi cá voi",
+  "shellHideTodoPill": "Thanh việc cần làm",
+  "shellHideGoalBar": "Thanh mục tiêu",
+  "shellToday": "Hôm nay",
+  "shellThisWeek": "Tuần này",
+  "shellEarlier": "Trước đó",
+  "shellSeatNative": "Gốc",
+  "shellSeatIsland": "Web nhúng",
+  "shellSeatWeb": "Mở bằng bản web",
+  "shellPlugins": "Plugin",
+  "shellHeaderActions": "Nút trên thanh đầu",
+  "shellAllHidden": "Đã ẩn hết",
+  "shellSettingCount": "{count} mục",
+  "@shellSettingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellQuickActions": "Thao tác nhanh",
+  "shellSuggestionCards": "Thẻ gợi ý",
+  "shellSuggestionCardCount": "{count} thẻ",
+  "@shellSuggestionCardCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellDrawerGroups": "Nhóm trong ngăn kéo",
+  "shellDrawerSort": "Thứ tự ngăn kéo",
+  "shellDrawerFilter": "Bộ lọc ngăn kéo",
+  "shellPending": "Đang chờ xác nhận",
+  "shellAll": "Tất cả",
+  "shellDensity": "Độ thưa",
+  "shellCompact": "Gọn",
+  "shellSpacious": "Thóang",
+  "shellThemeMode": "Chế độ giao diện",
+  "shellAccentColor": "Màu nhấn",
+  "shellPet": "Thú cưng",
+  "shellConfigured": "Đã đặt",
+  "shellShortcuts": "Phím tắt",
+  "shellConfigFileTooLarge": "Tệp vượt quá 64 KiB",
+  "shellConfigRootNotObject": "Cấp cao nhất phải là object",
+  "shellConfigVersionMissing": "Thiếu version",
+  "shellConfigVersionNotInt": "version phải là số nguyên",
+  "shellConfigVersionTooLow": "version bắt đầu từ 1",
+  "shellConfigVersionTooHigh": "Cần cập nhật app để dùng version {version}",
+  "@shellConfigVersionTooHigh": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "shellConfigNotObject": "Phải là object",
+  "shellConfigNotArray": "Phải là mảng",
+  "shellConfigNotString": "Phải là chuỗi",
+  "shellConfigNotBool": "Phải là true hoặc false",
+  "shellConfigEmpty": "Không được để trống",
+  "shellConfigUnknownKey": "Khóa chưa biết, đã bỏ qua",
+  "shellConfigDuplicateKey": "Khóa trùng lặp, chỉ nhận khóa cuối cùng",
+  "shellConfigDuplicateItem": "Đã trùng lặp, đã bỏ qua",
+  "shellConfigMissing": "Thiếu {key}",
+  "@shellConfigMissing": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "shellConfigTruncated": "Vượt quá {count} ký tự, đã cắt ngắn",
+  "@shellConfigTruncated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellConfigTooLong": "Vượt quá {count} ký tự",
+  "@shellConfigTooLong": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellConfigTooMany": "Tối đa {count} mục, phần thừa đã bỏ qua",
+  "@shellConfigTooMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellConfigValueNoun": "giá trị",
+  "shellConfigUnsupportedValue": "Không hỗ trợ {noun} “{value}”",
+  "@shellConfigUnsupportedValue": {
+    "placeholders": {
+      "noun": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "shellConfigHeaderItem": "Phải là id nút hoặc object",
+  "shellConfigHeaderId": "id chỉ dùng chữ cái, chữ số và -, bắt đầu bằng chữ thường",
+  "shellConfigIdTaken": "id đã trùng",
+  "shellConfigCommandSlash": "Tên lệnh không có /, đã bỏ đi",
+  "shellConfigCommandName": "Tên lệnh chỉ dùng chữ cái, chữ số và : . _ -",
+  "shellConfigNoNewline": "Không được xuống dòng",
+  "shellConfigHttpsOnly": "Chỉ hỗ trợ liên kết https",
+  "shellConfigBadUrl": "Định dạng liên kết sai",
+  "shellConfigAccentFormat": "Màu phải viết dạng #RRGGBB",
+  "shellConfigAccentBoth": "Chọn một trong hai với accentPreset, đã dùng accentPreset",
+  "shellConfigPetId": "id chỉ dùng chữ thường, chữ số và -",
+  "shellConfigKeysFormat": "Viết sai định dạng, ví dụ ctrl+k",
+  "shellConfigSystemKey": "Không dùng được phím hệ thống",
+  "shellConfigNeedModifier": "Cần có ctrl hoặc alt",
+  "shellConfigReservedKey": "Đã bị hệ thống hoặc bộ gõ chiếm",
+  "shellConfigDuplicateShortcut": "Trùng với {pointer}",
+  "@shellConfigDuplicateShortcut": {
+    "placeholders": {
+      "pointer": {
+        "type": "String"
+      }
+    }
+  },
+  "shellConfigSlotName": "Định dạng tên slot sai",
+  "shellConfigUnknownSlot": "DSH hiện tại chưa có slot này, giữ lại sau dùng",
+  "shellConfigUnseatableSlot": "Vị trí này không đặt plugin",
+  "shellConfigPackageName": "Định dạng tên gói sai",
+  "shellConfigActionNoun": "hành động",
+  "shellConfigPageNoun": "trang",
+  "shellConfigButtonNoun": "nút",
+  "shellConfigIconNoun": "biểu tượng",
+  "shellConfigNotTextFile": "Không phải tệp văn bản",
+  "shellJsonPosition": "Dòng {line} cột {column}: {reason}",
+  "@shellJsonPosition": {
+    "placeholders": {
+      "line": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "shellJsonEmptyFile": "Tệp trống",
+  "shellJsonExtraContent": "Còn nội dung thừa ở cuối",
+  "shellJsonIncompleteFile": "Tệp chưa đầy đủ",
+  "shellJsonCommentsUnsupported": "Không hỗ trợ chú thích",
+  "shellJsonDoubleQuotes": "Chuỗi phải dùng dấu ngoặc kép",
+  "shellJsonMissingValue": "Thiếu một giá trị ở đây",
+  "shellJsonUnknownContent": "Nội dung không nhận ra “{value}”",
+  "@shellJsonUnknownContent": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "shellJsonTooDeep": "Lồng nhau quá sâu",
+  "shellJsonExtraComma": "Dấu phẩy thừa",
+  "shellJsonQuotedKey": "Khóa phải đặt trong dấu ngoặc kép",
+  "shellJsonExpectedKey": "Ở đây phải là một khóa",
+  "shellJsonMissingColon": "Thiếu dấu hai chấm sau khóa",
+  "shellJsonMissingComma": "Thiếu dấu phẩy ở đây",
+  "shellJsonUnexpectedContent": "Không nên có “{value}” ở đây",
+  "@shellJsonUnexpectedContent": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "shellJsonUnterminatedString": "Chuỗi chưa kết thúc",
+  "shellJsonBadEscape": "Ký tự escape trong chuỗi sai",
+  "shellJsonStringNewline": "Chuỗi không được xuống dòng trực tiếp",
+  "shellJsonControlCharacter": "Chuỗi có ký tự điều khiển",
+  "shellJsonBadNumber": "Định dạng số sai",
+  "shellSkillInstallPrompt": "Hãy cài kỹ năng giao diện {skill} của DSH Go trên máy chủ này:",
+  "@shellSkillInstallPrompt": {
+    "placeholders": {
+      "skill": {
+        "type": "String"
+      }
+    }
+  },
+  "shellSkillInstallDirectory": "1. Thư mục đích là `$DSH_HOME/skills/{skill}/` (nếu chưa đặt DSH_HOME thì là `~/.dsh/skills/{skill}/`), chưa có thì tạo trước.",
+  "@shellSkillInstallDirectory": {
+    "placeholders": {
+      "skill": {
+        "type": "String"
+      }
+    }
+  },
+  "shellSkillInstallFiles": "2. Ghi từng tệp dưới đây đúng theo đường dẫn tương đối đã cho, nội dung không sửa một chữ nào.",
+  "shellSkillInstallConfirm": "4. Báo cho tôi biết khi cài xong.",
+  "shellSkillInstallFile": "Tệp `{path}`:",
+  "@shellSkillInstallFile": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "shellFromUiJson": "Từ ui.json",
+  "shellViewSource": "Xem nguồn",
+  "shellSourcePosition": "Vị trí",
+  "shellRestoreDefaults": "Khôi phục mặc định",
+  "shellConfigNotApplied": "Chưa có hiệu lực",
+  "shellConfigDroppedCount": "{count} chỗ chưa có hiệu lực",
+  "@shellConfigDroppedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellConfigAppliedCount": "Đã áp dụng {count} mục",
+  "@shellConfigAppliedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shellInterfaceConfig": "Cấu hình giao diện",
+  "shellSkillNotInstalled": "Chưa cài kỹ năng",
+  "shellInstallInterfaceSkill": "Cài kỹ năng giao diện",
+  "shellInstallInterfaceSkillMessage": "Cài xong, bạn có thể nhờ AI chỉnh giao diện app theo ý mình",
+  "shellNoUiJson": "Không có ui.json",
+  "shellConfigUsingPrevious": "Chưa có hiệu lực, vẫn đang dùng cấu hình trước đó",
+  "shellConfigDroppedHeading": "Chưa có hiệu lực",
+  "shellConfigNotesHeading": "Lưu ý",
+  "shellConfigAppliedHeading": "Đã áp dụng",
+  "shellConfigValueOptions": "Không hỗ trợ {noun} “{value}”, có thể chọn: {options}",
+  "@shellConfigValueOptions": {
+    "placeholders": {
+      "noun": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      },
+      "options": {
+        "type": "String"
+      }
+    }
+  },
+  "shellListSeparator": ", ",
+  "shellSkillInstallCheck": "3. Ghi xong chạy {command}, chạy được là đã cài xong (thông báo chưa có ui.json là bình thường).",
+  "@shellSkillInstallCheck": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "shellSemanticsSeparator": ", ",
+  "shellChatsArchivedPartial": "Đã lưu trữ {count} trò chuyện, {failed} trò chuyện chưa lưu trữ được",
+  "@shellChatsArchivedPartial": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "shellPanelOverview": "Thông tin",
+  "shellPanelWorkspace": "Không gian làm việc",
+  "shellPanelModel": "Mô hình",
+  "shellPanelHost": "Máy chủ",
+  "shellPanelOpenFull": "Mở trang đầy đủ",
+  "shellPanelNoPlugins": "Trò chuyện này chưa có bảng plugin",
+  "shellQuickPanel": "Lối tắt nhanh",
+  "shellQuickPanelHint": "Chỉnh trong “{path}”",
+  "@shellQuickPanelHint": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  }
+}

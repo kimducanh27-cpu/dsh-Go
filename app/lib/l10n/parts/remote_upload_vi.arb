@@ -1,0 +1,10 @@
+{
+  "@@locale": "vi",
+  "stateWorkspaceFilesHint": "Các tệp đã tải lên không gian làm việc hiện tại:",
+  "stateRemoteUploadNameInvalid": "Tên tệp không được máy chủ hỗ trợ, hãy bỏ ký tự đặc biệt hoặc rút ngắn rồi thử lại",
+  "stateRemoteUploadWorkspaceUnavailable": "Trò chuyện hiện tại không có thư mục làm việc có thể ghi",
+  "stateRemoteUploadWorkspaceChanged": "Thư mục làm việc đã thay đổi, hãy xác nhận rồi tải lên lại",
+  "stateRemoteUploadLimit": "Máy chủ đã từ chối tải lên, hãy kiểm tra kích thước tệp hoặc thử lại sau",
+  "stateRemoteUploadUnsupported": "Máy chủ này không hỗ trợ tải tệp lên, hãy cập nhật Plugin Remote trên máy chủ rồi kết nối lại",
+  "stateRemoteUploadTooLarge": "Tệp vượt giới hạn kích thước của giao thức tải lên từ xa"
+}

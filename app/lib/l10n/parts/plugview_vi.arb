@@ -1,0 +1,178 @@
+{
+  "@@locale": "vi",
+  "plugViewInvalid": "Giao diện Plugin bị lỗi",
+  "plugViewEmpty": "Chưa có dữ liệu",
+  "plugViewImageUnavailable": "Không hiển thị được hình ảnh",
+  "plugViewUnavailableList": "Không hiển thị được danh sách",
+  "plugViewUnavailableKeyValue": "Không hiển thị được thông tin",
+  "plugViewUnavailableProgress": "Không hiển thị được tiến độ",
+  "plugViewUnavailableTable": "Không hiển thị được bảng",
+  "plugViewUnavailableActions": "Không hiển thị được nút",
+  "plugViewFrom": "Từ {name}",
+  "@plugViewFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewUnknownTone": "tone {value} không xác định, đã bỏ qua; có thể dùng: good, warn, bad, info, muted",
+  "@plugViewUnknownTone": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewBadActionId": "id hành động {value} không hợp lệ, phần tử này không nhấn được",
+  "@plugViewBadActionId": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewBadAction": "Hành động phải là chuỗi id hoặc {shape}, đã bỏ qua",
+  "@plugViewBadAction": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewArgsLimit": "Tham số hành động vượt quá {limit} byte, đã bỏ qua",
+  "@plugViewArgsLimit": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewUnknownIcon": "Biểu tượng {value} không xác định, đã vẽ biểu tượng mặc định",
+  "@plugViewUnknownIcon": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewExpectedItems": "Phải là mảng, mỗi mục là {shape}",
+  "@plugViewExpectedItems": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewSkippedItem": "Phải là {shape}, đã bỏ qua mục này",
+  "@plugViewSkippedItem": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewBadMax": "max phải là số lớn hơn 0, đang dùng 100",
+  "plugViewColumnLimit": "{first} cột, vượt giới hạn {second}",
+  "@plugViewColumnLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewFirstColumns": "Chỉ hiển thị {limit} cột đầu",
+  "@plugViewFirstColumns": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewFirstRows": "Chỉ hiển thị {limit} hàng đầu",
+  "@plugViewFirstRows": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewOnePrimary": "Một giao diện chỉ có một nút chính, nút này được vẽ dạng nút thường",
+  "plugViewBadImageSource": "Hình ảnh chỉ nhận tài nguyên Plugin asset:<đường dẫn> (png, jpg, webp, gif) hoặc data:image/…",
+  "plugViewBadAspect": "aspect phải là số từ 0.25 đến 4, đã bỏ qua",
+  "plugViewImageTooLarge": "Ảnh data: vượt quá {limit} byte",
+  "@plugViewImageTooLarge": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewImageDecode": "Không giải mã được hình ảnh (chỉ nhận PNG, JPEG, WebP, GIF)",
+  "plugViewImagePixels": "Hình ảnh vượt giới hạn kích thước: tối đa 4096 mỗi cạnh, tổng 4 triệu điểm ảnh",
+  "plugViewTooDeep": "JSON lồng nhau quá {limit} tầng",
+  "@plugViewTooDeep": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewV2Content": "Nội dung Plugin",
+  "plugViewVersionFallback": "Chưa hỗ trợ phiên bản giao diện {version}, đang dùng chế độ hiển thị tương thích",
+  "@plugViewVersionFallback": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewStyleInvalid": "Kiểu không hợp lệ, hỗ trợ {values}",
+  "@plugViewStyleInvalid": {
+    "placeholders": {
+      "values": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewStyleReserved": "Kiểu này do App giữ riêng, đã bỏ qua",
+  "plugViewStyleContainerOnly": "Kiểu này chỉ dùng cho stack và row",
+  "plugViewStyleTextOnly": "Kiểu này chỉ dùng cho text, metric và callout",
+  "plugViewContrastAdjusted": "{mode}: {before} đã chỉnh thành {after}, độ tương phản tối thiểu {minimum}:1",
+  "@plugViewContrastAdjusted": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "before": {
+        "type": "String"
+      },
+      "after": {
+        "type": "String"
+      },
+      "minimum": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewRichLimit": "Văn bản phong phú vượt giới hạn, đã cắt ngắn",
+  "plugViewBadTrend": "trend cần 2–{max} số (có thể có null), đã bỏ qua",
+  "@plugViewBadTrend": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewGalleryPicture": "Ảnh thứ {index}",
+  "@plugViewGalleryPicture": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  }
+}

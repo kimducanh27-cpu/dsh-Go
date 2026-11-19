@@ -1,0 +1,10 @@
+{
+  "@@locale": "vi",
+  "modeSheetTitle": "Chế độ",
+  "modeKeyTooltip": "Đổi chế độ",
+  "modeWork": "Làm việc",
+  "modeWorkSubtitle": "Cùng DSH làm việc",
+  "modeCompanionShort": "Bạn đồng hành",
+  "modeTavernSubtitle": "Nhập thẻ nhân vật, bắt đầu một câu chuyện",
+  "modeStartup": "Mở khi khởi động"
+}

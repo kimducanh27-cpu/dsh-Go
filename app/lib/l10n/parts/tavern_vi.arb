@@ -1,0 +1,2216 @@
+{
+  "@@locale": "vi",
+  "tavernTitle": "Tavern",
+  "tavernImport": "Nhập",
+  "tavernEmptyTitle": "Chưa có nhân vật nào",
+  "tavernEmptyMessage": "Đưa đoạn trò chuyện từ DeepSeek về, hoặc nhập một thẻ nhân vật",
+  "tavernContinue": "Tiếp tục",
+  "tavernCharacters": "Nhân vật",
+  "tavernImported": "Đã nhập “{name}”",
+  "@tavernImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportLorebook": "Đây là một cuốn sổ thế giới, không phải thẻ nhân vật",
+  "tavernImportFailed": "Không đọc được thẻ này",
+  "tavernCharacterGone": "Nhân vật này đã không còn",
+  "tavernDeleteCharacter": "Xóa nhân vật",
+  "tavernDeleteCharacterTitle": "Xóa “{name}”?",
+  "@tavernDeleteCharacterTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDeleteCharacterMessage": "Đoạn trò chuyện của nhân vật cũng sẽ bị xóa cùng.",
+  "tavernGreeting": "Lời mở đầu",
+  "tavernGreetingOf": "Lời mở đầu {index}/{count}",
+  "@tavernGreetingOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStart": "Bắt đầu",
+  "tavernContinueLast": "Tiếp tục lần trước",
+  "tavernStartNew": "Bắt đầu trò chuyện mới với lời mở đầu này",
+  "tavernChats": "Trò chuyện",
+  "tavernMessageCount": "{count} tin nhắn",
+  "@tavernMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernCreatorNotes": "Ghi chú của tác giả",
+  "tavernDefinition": "Thiết lập",
+  "tavernComposerHint": "Nói gì đó với {name}…",
+  "@tavernComposerHint": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReplying": "Đang trả lời…",
+  "tavernReady": "Sẵn sàng",
+  "tavernPreviewStatus": "Xem trước · câu trả lời mẫu, chưa kết nối mô hình",
+  "tavernRegenerate": "Tạo lại",
+  "tavernContinueReply": "Viết tiếp",
+  "tavernDeleteFrom": "Xóa từ tin này trở đi",
+  "tavernPrevious": "Câu trả lời trước",
+  "tavernNext": "Câu trả lời sau",
+  "tavernErrorNoKey": "Hãy nhập DeepSeek API Key trong Cài đặt trước",
+  "tavernKeyMissing": "Chưa nhập DeepSeek API Key, nhập xong là bắt đầu được.",
+  "tavernKeyMissingAction": "Đi nhập",
+  "tavernErrorBadKey": "API Key không đúng, kiểm tra lại trong Cài đặt",
+  "tavernErrorBusy": "Mô hình đang bận, thử lại sau",
+  "tavernErrorNetwork": "Không kết nối được, kiểm tra mạng rồi thử lại",
+  "tavernErrorTooLong": "Đoạn trò chuyện quá dài, vượt quá ngữ cảnh của mô hình",
+  "tavernCutShort": "Câu trả lời đã chạm giới hạn độ dài nên dừng tại đây. Có thể viết tiếp, hoặc tăng giới hạn trong Cài đặt Tavern › Tạo nội dung.",
+  "tavernFiltered": "Một phần câu trả lời này đã bị bộ lọc nội dung của mô hình chặn.",
+  "tavernErrorBalance": "Số dư tài khoản DeepSeek không đủ, nạp thêm rồi thử lại",
+  "tavernErrorParameters": "Mô hình không chấp nhận tham số của yêu cầu lần này",
+  "tavernErrorParametersDetail": "Mô hình không chấp nhận tham số của yêu cầu lần này: {detail}",
+  "@tavernErrorParametersDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernErrorDetail": "Đã xảy ra lỗi: {detail}",
+  "@tavernErrorDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSettings": "Cài đặt Tavern",
+  "tavernSettingsModel": "Mô hình",
+  "tavernModelFlash": "Flash",
+  "tavernModelPro": "V4 Pro",
+  "tavernThinking": "Suy nghĩ",
+  "tavernThinkingSubtitle": "Suy nghĩ trước khi trả lời",
+  "tavernApiKey": "DeepSeek API Key",
+  "tavernApiKeySet": "Đã nhập",
+  "tavernApiKeyMissing": "Chưa nhập",
+  "tavernDeleteChat": "Xóa đoạn trò chuyện",
+  "tavernDeleteChatTitle": "Xóa đoạn trò chuyện này?",
+  "tavernDeleteChatMessage": "Xóa rồi sẽ không lấy lại được.",
+  "tavernDeleteFromTitle": "{count, plural, =1{Xóa tin nhắn này?} other{Xóa {count} tin nhắn này?}}",
+  "@tavernDeleteFromTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteFromMessage": "Từ tin này đến tin mới nhất, cùng các câu trả lời thay thế và nhánh của chúng. Xóa rồi sẽ không lấy lại được.",
+  "tavernSwitchedBranch": "Đã chuyển sang nhánh khác",
+  "tavernUndo": "Hoàn tác",
+  "tavernSettingsDisplay": "Hiển thị",
+  "tavernPresets": "Preset",
+  "tavernPresetImport": "Nhập Preset",
+  "tavernPresetStDefault": "Preset mặc định của SillyTavern",
+  "tavernPresetStDefaultNote": "Dùng khi chưa chọn Preset nào",
+  "tavernPresetDefault": "Mặc định",
+  "tavernPresetSetDefault": "Đặt làm mặc định",
+  "tavernPresetUnsetDefault": "Không dùng làm mặc định nữa",
+  "tavernPresetExport": "Xuất Preset",
+  "tavernPresetDelete": "Xóa Preset",
+  "tavernPresetDeleteTitle": "Xóa Preset “{name}”?",
+  "@tavernPresetDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetDeleteMessage": "Đoạn trò chuyện dùng Preset này sẽ chuyển sang Preset mặc định. Xóa rồi sẽ không lấy lại được.",
+  "tavernPresetImported": "Đã nhập “{name}”",
+  "@tavernPresetImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetImportedWithIssues": "Đã nhập “{name}”, có {count} ghi chú",
+  "@tavernPresetImportedWithIssues": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPresetImportFailed": "Không nhập được: {reason}",
+  "@tavernPresetImportFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetNotText": "Tệp này không phải văn bản",
+  "tavernPresetsEmpty": "Chưa có Preset nào",
+  "tavernPresetsEmptyMessage": "Preset JSON do SillyTavern xuất và gói chia sẻ của dsh-preset-enhance đều nhập được.",
+  "tavernPresetEnvelope": "Gói chia sẻ",
+  "tavernPresetCount": "{count} mục",
+  "tavernRegex": "Regex",
+  "tavernRegexImport": "Nhập Regex",
+  "tavernRegexOn": "Bật",
+  "tavernRegexOff": "Tắt",
+  "tavernRegexEnable": "Bật",
+  "tavernRegexDisable": "Tắt",
+  "tavernRegexExport": "Xuất Regex",
+  "tavernRegexDelete": "Xóa Regex",
+  "tavernRegexDeleteTitle": "Xóa Regex “{name}”?",
+  "@tavernRegexDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRegexImported": "Đã nhập {count} quy tắc Regex",
+  "@tavernRegexImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRegexIncompatible": "Không chạy được ở đây, đã bỏ qua",
+  "tavernRegexEmpty": "Chưa có Regex toàn cục nào",
+  "tavernRegexEmptyMessage": "Regex JSON do SillyTavern xuất (một quy tắc hoặc một danh sách) đều nhập được. Regex toàn cục áp dụng cho mọi đoạn trò chuyện; Regex đi kèm thẻ và Preset sẽ đi theo chúng.",
+  "tavernRegexUnnamed": "Chưa đặt tên",
+  "tavernRegexCount": "{count} quy tắc",
+  "tavernLorebooks": "Sổ thế giới",
+  "tavernLorebookImport": "Nhập sổ thế giới",
+  "tavernLorebookGlobal": "Toàn cục",
+  "tavernLorebookBindGlobal": "Áp dụng cho mọi đoạn trò chuyện",
+  "tavernLorebookUnbindGlobal": "Không áp dụng cho mọi đoạn trò chuyện nữa",
+  "tavernLorebookExport": "Xuất sổ thế giới",
+  "tavernLorebookDelete": "Xóa sổ thế giới",
+  "tavernLorebookDeleteTitle": "Xóa sổ thế giới “{name}”?",
+  "@tavernLorebookDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookDeleteMessage": "Nơi nào đã gắn nó sẽ bỏ qua nó. Xóa rồi sẽ không lấy lại được.",
+  "tavernLorebookImported": "Đã nhập “{name}”, {count} mục",
+  "@tavernLorebookImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLorebooksEmpty": "Chưa có sổ thế giới riêng nào",
+  "tavernLorebooksEmptyMessage": "Sổ thế giới JSON do SillyTavern xuất đều nhập được. Đặt làm toàn cục thì áp dụng cho mọi đoạn trò chuyện; sổ thế giới của thẻ sẽ đi theo thẻ.",
+  "tavernLorebookCount": "{count} cuốn",
+  "@tavernLorebookCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@tavernRegexCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPresetEdit": "Sửa Preset",
+  "tavernPresetParams": "Thông số",
+  "tavernPresetPrompts": "Prompt (theo thứ tự gửi)",
+  "tavernPresetMarker": "Placeholder",
+  "tavernPresetPromptsEmpty": "Preset này không ghi thứ tự Prompt, khi gửi sẽ dùng thứ tự mặc định của SillyTavern.",
+  "tavernReport": "Kiểm tra khi nhập",
+  "tavernVerdictUsable": "Dùng được",
+  "tavernVerdictPartial": "Dùng được một phần",
+  "tavernVerdictPreserve": "Chỉ giữ lại, không chạy",
+  "tavernReportChecked": "Đã kiểm tra lúc {time}",
+  "@tavernReportChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReportStale": "Dữ liệu đã đổi, bản kiểm tra này đã cũ",
+  "tavernReportRecheck": "Kiểm tra lại",
+  "tavernReportNone": "Chưa kiểm tra",
+  "tavernReportNoneMessage": "Dữ liệu này được nhập trước khi có kiểm tra, kiểm tra ngay là có.",
+  "tavernReportCheckNow": "Kiểm tra ngay",
+  "tavernReportRender0": "Cách hiển thị gợi ý: gốc",
+  "tavernReportRender1": "Cách hiển thị gợi ý: trang web trong một tin nhắn",
+  "tavernReportRender2": "Cách hiển thị gợi ý: canvas toàn trang",
+  "tavernReportCounts": "Bên trong có",
+  "tavernReportFindings": "Chưa chạy hoặc cần lưu ý",
+  "tavernReportNoFindings": "Không có gì cần lưu ý",
+  "tavernPresetForChat": "Preset đoạn trò chuyện này dùng",
+  "tavernPresetFollow": "Theo mặc định",
+  "tavernPresetFollowDefault": "Theo mặc định ({name})",
+  "@tavernPresetFollowDefault": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetPickerEmpty": "Nhập Preset trong Thư viện › Preset rồi mới đổi Preset cho đoạn trò chuyện này.",
+  "@tavernPresetCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernSectionShelf": "Kệ sách",
+  "tavernSectionChats": "Trò chuyện",
+  "tavernSectionLibrary": "Thư viện",
+  "tavernSectionMe": "Của tôi",
+  "tavernNoChats": "Chưa có đoạn trò chuyện nào",
+  "tavernNoChatsMessage": "Mở một nhân vật trong kệ sách để bắt đầu đoạn trò chuyện đầu tiên.",
+  "tavernSettingsGeneration": "Tạo nội dung",
+  "tavernMaxContext": "Giới hạn ngữ cảnh",
+  "tavernMaxReply": "Giới hạn câu trả lời",
+  "tavernTemperature": "Nhiệt độ",
+  "tavernGenerationNote": "Ngữ cảnh càng dài, nhân vật nhớ càng nhiều và mỗi lượt càng tốn kém; số liệu tính bằng token. Chỗ này sửa Preset mặc định, đoạn trò chuyện có Preset riêng thì dùng Preset của nó.",
+  "tavernLayout": "Bố cục",
+  "tavernLayoutBubble": "Bong bóng",
+  "tavernLayoutNovel": "Tiểu thuyết",
+  "tavernYou": "Bạn",
+  "tavernSearchHint": "Tìm nhân vật, tác giả, thẻ",
+  "tavernAllTags": "Tất cả",
+  "tavernNoMatch": "Không có nhân vật phù hợp",
+  "tavernLayoutVisualNovel": "Visual novel",
+  "tavernCharacterDetails": "Chi tiết nhân vật",
+  "tavernChatLayout": "Bố cục của đoạn trò chuyện này",
+  "tavernFollowSettings": "Theo cài đặt Tavern",
+  "tavernLog": "Nhật ký",
+  "tavernEditCharacter": "Sửa nhân vật",
+  "tavernNameNeeded": "Tên không được để trống",
+  "tavernFieldsBasics": "Cơ bản",
+  "tavernFieldNickname": "Biệt danh",
+  "tavernFieldNicknameHelp": "Nếu đã điền, đoạn trò chuyện sẽ gọi nhân vật bằng tên này",
+  "tavernFieldTags": "Thẻ",
+  "tavernFieldTagsHelp": "Ngăn cách bằng dấu phẩy",
+  "tavernFieldCreator": "Tác giả",
+  "tavernFieldVersion": "Phiên bản",
+  "tavernFieldDescription": "Mô tả",
+  "tavernFieldPersonality": "Tính cách",
+  "tavernFieldScenario": "Bối cảnh",
+  "tavernGreetingNumber": "Lời mở đầu {n}",
+  "@tavernGreetingNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernFieldGreetingsNote": "Đoạn trò chuyện mới có thể bắt đầu từ bất kỳ lời mở đầu nào.",
+  "tavernAddGreeting": "Thêm một lời mở đầu",
+  "tavernMoreFields": "Thêm trường",
+  "tavernMoreFieldsSubtitle": "Đoạn đối thoại mẫu, Prompt hệ thống, hướng dẫn sau lịch sử",
+  "tavernFieldExamples": "Đoạn đối thoại mẫu",
+  "tavernFieldExamplesHelp": "Mỗi đoạn mẫu bắt đầu bằng một dòng <START>",
+  "tavernFieldPrompts": "Prompt",
+  "tavernFieldPromptsNote": "Điền vào sẽ thay thế đoạn tương ứng trong Preset; để trống sẽ dùng Preset.",
+  "tavernFieldSystemPrompt": "Prompt hệ thống",
+  "tavernFieldPostHistory": "Hướng dẫn sau lịch sử",
+  "tavernFieldNotesNote": "Viết cho người xem thẻ, không gửi cho mô hình.",
+  "tavernEditKeeps": "Thẻ còn {count} nội dung không sửa được ở đây (sổ thế giới, tiện ích mở rộng…), khi lưu sẽ giữ nguyên; đoạn trò chuyện đã có cũng không đổi.",
+  "@tavernEditKeeps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernEditKeepsChats": "Sau khi lưu, đoạn trò chuyện đã có sẽ không đổi.",
+  "tavernPersonas": "Nhân cách",
+  "tavernPersona": "Nhân cách",
+  "tavernPersonaNew": "Nhân cách mới",
+  "tavernPersonasEmpty": "Chưa có nhân cách nào",
+  "tavernPersonasEmptyMessage": "Nhân cách là người mà bạn đóng vai trong đoạn trò chuyện: một cái tên và vài dòng giới thiệu để nhân vật biết bạn là ai.",
+  "tavernPersonasNote": "Nhấn giữ để đặt làm mặc định hoặc xóa. Đoạn trò chuyện chưa chọn nhân cách riêng sẽ dùng mặc định.",
+  "tavernPersonaUnsetDefault": "Không dùng làm mặc định nữa",
+  "tavernPersonaSetDefault": "Đặt làm nhân cách mặc định",
+  "tavernPersonaDeleteTitle": "Xóa “{name}”?",
+  "@tavernPersonaDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPersonaDeleteMessage": "Đoạn trò chuyện dùng nhân cách này sẽ chuyển sang nhân cách mặc định, nội dung đã viết không đổi.",
+  "tavernPersonaEdit": "Sửa nhân cách",
+  "tavernPersonaPickAvatar": "Đổi ảnh đại diện",
+  "tavernPersonaRemoveAvatar": "Gỡ ảnh đại diện",
+  "tavernPersonaAvatarFailed": "Không dùng được ảnh này",
+  "tavernPersonaNameHint": "Nhân vật gọi bạn thế nào",
+  "tavernPersonaDescriptionHelp": "Mô hình sẽ đọc đoạn này: bạn là ai, trông thế nào, và có quan hệ gì với nhân vật.",
+  "tavernPersonaDescriptionHint": "Ví dụ: bác sĩ mới đến thị trấn, ít nói, lúc nào cũng xách một chiếc vali da cũ.",
+  "tavernPersonaDefaultSubtitle": "Đoạn trò chuyện mới và đoạn trò chuyện chưa chọn nhân cách riêng đều dùng nhân cách này",
+  "tavernPersonaDelete": "Xóa nhân cách",
+  "tavernPersonaNone": "Không có nhân cách",
+  "tavernPersonaAs": "Với vai “{name}”",
+  "@tavernPersonaAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPersonaForChat": "Trong đoạn trò chuyện này bạn là",
+  "tavernPersonaFollowDefault": "Theo mặc định",
+  "tavernPersonasManage": "Quản lý nhân cách",
+  "tavernSettingsYou": "Bạn",
+  "tavernDefaultPersona": "Nhân cách mặc định",
+  "tavernPersonaNotSet": "Chưa đặt",
+  "tavernFieldName": "Tên",
+  "tavernOpenFailed": "Không mở được Tavern",
+  "tavernOpenFailedMessage": "Không mở được dữ liệu lưu nhân vật và đoạn trò chuyện. Thử lại; vẫn không được thì khởi động lại App rồi thử.",
+  "tavernExportPng": "Xuất thẻ nhân vật (PNG)",
+  "tavernExportPngSubtitle": "Thiết lập giấu trong ảnh, SillyTavern và các Tavern khác đều nhập được",
+  "tavernExportJson": "Xuất dạng JSON",
+  "tavernExportFailed": "Không xuất được thẻ này",
+  "tavernInspectTitle": "Lượt này đã gửi gì",
+  "tavernInspectMenu": "Xem đã gửi gì",
+  "tavernInspectLatest": "Lượt trước đã gửi gì",
+  "tavernInspectNone": "Tin này không có bản ghi",
+  "tavernInspectNoneMessage": "Lời mở đầu, tin nhắn trước khi nối Engine và câu trả lời mẫu không có bản ghi kiểm tra.",
+  "tavernInspectSummary": "Tổng quan",
+  "tavernInspectKind": "Loại",
+  "tavernTurnSend": "Gửi",
+  "tavernTurnImpersonate": "Viết hộ",
+  "tavernInspectStatus": "Kết quả",
+  "tavernInspectPreparing": "Đang chuẩn bị",
+  "tavernInspectReady": "Đã gửi",
+  "tavernInspectCompleted": "Hoàn thành",
+  "tavernInspectFailed": "Thất bại",
+  "tavernInspectPrompt": "Prompt",
+  "tavernTokens": "{count} token",
+  "@tavernTokens": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernTokensAbout": "Khoảng {count} token",
+  "@tavernTokensAbout": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectBudget": "Ngân sách ngữ cảnh còn lại",
+  "tavernInspectUsage": "Lượng dùng mô hình đã báo cáo",
+  "tavernInspectNoUsage": "Chưa báo cáo",
+  "tavernInspectUsageValue": "Đầu vào {prompt} (cache {hit}) · Đầu ra {completion}",
+  "@tavernInspectUsageValue": {
+    "placeholders": {
+      "prompt": {
+        "type": "int"
+      },
+      "hit": {
+        "type": "int"
+      },
+      "completion": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCost": "Chi phí ước tính",
+  "tavernInspectCostPeak": "Theo giá chính thức của DeepSeek, giờ cao điểm",
+  "tavernInspectCostOffPeak": "Theo giá chính thức của DeepSeek, giờ thấp điểm (nửa giá)",
+  "tavernInspectSegments": "Đã gửi {count} đoạn",
+  "@tavernInspectSegments": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectSegmentsNote": "Theo thứ tự gửi. Chạm để xem toàn văn, nhấn giữ để sao chép.",
+  "tavernInspectWorld": "Sổ thế giới khớp {count} mục",
+  "@tavernInspectWorld": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectWorldKey": "Từ khóa “{key}”",
+  "@tavernInspectWorldKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernInspectExcluded": "{count} đoạn chưa gửi",
+  "@tavernInspectExcluded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernExcludeDisabled": "Đang tắt",
+  "tavernExcludeTrigger": "Không thuộc kiểu tạo nội dung này",
+  "tavernExcludeHidden": "Ẩn với mô hình",
+  "tavernExcludeSystem": "Tin nhắn hệ thống",
+  "tavernExcludeHistoryBudget": "Vượt ngân sách ngữ cảnh",
+  "tavernExcludeExampleBudget": "Ví dụ vượt ngân sách",
+  "tavernRoleSystem": "Hệ thống",
+  "tavernRoleUser": "Bạn",
+  "tavernRoleCharacter": "Nhân vật",
+  "tavernSourcePreset": "Preset",
+  "tavernSourceCard": "Thẻ nhân vật",
+  "tavernSourceWorld": "Sổ thế giới",
+  "tavernSourcePersona": "Nhân cách",
+  "tavernSourceHistory": "Trò chuyện",
+  "tavernSourceControl": "Điều khiển",
+  "tavernWriteForMe": "Viết hộ tôi",
+  "tavernHide": "Ẩn với mô hình",
+  "tavernUnhide": "Cho mô hình xem",
+  "tavernHiddenFromModel": "Mô hình không thấy tin này",
+  "tavernTrySample": "Thử thẻ mẫu",
+  "tavernImportChats": "Nhập lịch sử trò chuyện",
+  "tavernImportChatsSubtitle": "Tệp .jsonl của SillyTavern, có thể chọn nhiều tệp cùng lúc",
+  "tavernOnlyJsonl": "Chỉ nhập được lịch sử trò chuyện .jsonl",
+  "tavernImportChatsFailed": "Không nhập được: {detail}",
+  "@tavernImportChatsFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportedChats": "Đã nhập {count} đoạn trò chuyện",
+  "@tavernImportedChats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernImportNoticesTitle": "Lưu ý khi nhập",
+  "tavernExportChat": "Xuất đoạn trò chuyện",
+  "tavernExportChatFailed": "Không xuất được đoạn trò chuyện này",
+  "tavernLorebook": "Sổ thế giới",
+  "tavernLorebookSubtitle": "Các mục thiết lập đi kèm thẻ này",
+  "tavernLorebookEntries": "{count} mục",
+  "@tavernLorebookEntries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLorebookNote": "Khi đoạn trò chuyện nhắc đến từ khóa, mục tương ứng sẽ được đưa vào Prompt; mục “Luôn có” thì lần nào cũng đưa vào.",
+  "tavernLorebookKeys": "Từ khóa: {keys}",
+  "@tavernLorebookKeys": {
+    "placeholders": {
+      "keys": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookConstant": "Luôn đưa vào",
+  "tavernLorebookOff": "Đã tắt",
+  "tavernLorebookEmpty": "Thẻ này không có sổ thế giới",
+  "tavernImportFromFile": "Từ tệp",
+  "tavernImportFromFileSubtitle": "Thẻ nhân vật, Preset, sổ thế giới, Regex, câu trả lời nhanh hoặc lịch sử trò chuyện, tự nhận diện",
+  "tavernImportFromLink": "Từ liên kết",
+  "tavernImportFromLinkSubtitle": "Trang nhân vật Chub, RisuRealm, hoặc liên kết trực tiếp tới tệp thẻ",
+  "tavernLinkInvalid": "Đây không phải địa chỉ web",
+  "tavernLinkFailed": "Không tải xuống được, kiểm tra mạng hoặc liên kết",
+  "tavernLinkStatus": "Không tải xuống được (HTTP {status})",
+  "@tavernLinkStatus": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLinkIsPage": "Đây là trang web, không phải tệp thẻ. Trang nhân vật Chub và RisuRealm dán trực tiếp là được; trang khác thì mở trang web tìm mục “Tải xuống”, lấy liên kết .png hoặc .json rồi thử lại.",
+  "tavernLinkSiteMissing": "Trang web không có nhân vật này, có thể đã bị xóa hoặc chưa công khai",
+  "tavernQuickReplies": "Câu trả lời nhanh",
+  "tavernQuickRepliesEmpty": "Chưa có câu trả lời nhanh nào",
+  "tavernQuickRepliesNote": "Chúng hiện phía trên ô nhập trong đoạn trò chuyện: chạm để gửi ngay, nhấn giữ để đưa vào ô nhập rồi sửa.",
+  "tavernQuickReplyAdd": "Thêm một câu",
+  "tavernQuickReplyHint": "Ví dụ: *nhìn quanh xem có ai khác không*",
+  "tavernQuickReplyCount": "{count} dòng",
+  "@tavernQuickReplyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernEditMessage": "Sửa tin nhắn",
+  "tavernBackground": "Ảnh nền",
+  "tavernBackgroundNone": "Không có",
+  "tavernBackgroundChange": "Đổi ảnh khác",
+  "tavernBackgroundRemove": "Gỡ ảnh nền",
+  "tavernDice": "Tung xúc xắc",
+  "tavernDiceCount": "Số lượng",
+  "tavernDiceModifier": "Điểm cộng",
+  "tavernDiceFewer": "Bớt một xúc xắc",
+  "tavernDiceMore": "Thêm một xúc xắc",
+  "tavernDiceModifierDown": "Điểm cộng giảm 1",
+  "tavernDiceModifierUp": "Điểm cộng tăng 1",
+  "tavernDiceRoll": "Tung",
+  "tavernDiceAgain": "Tung lại lần nữa",
+  "tavernDiceUse": "Đưa vào ô nhập",
+  "tavernDiceLine": "🎲 {notation} tung được {total}{working}",
+  "@tavernDiceLine": {
+    "placeholders": {
+      "notation": {
+        "type": "String"
+      },
+      "total": {
+        "type": "int"
+      },
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceWorking": "({working})",
+  "@tavernDiceWorking": {
+    "placeholders": {
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybook": "Sách truyện",
+  "tavernStorybookMenu": "Xuất thành sách truyện",
+  "tavernStorybookTitle": "Tên sách",
+  "tavernStorybookDefaultTitle": "Câu chuyện của {name}",
+  "@tavernStorybookDefaultTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybookByline": "{character} và {you}",
+  "@tavernStorybookByline": {
+    "placeholders": {
+      "character": {
+        "type": "String"
+      },
+      "you": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybookWhole": "Toàn bộ",
+  "tavernStorybookWholeNote": "Tổng cộng {count} câu, tin nhắn ẩn không được đưa vào. EPUB mở được bằng WeChat Read, Apple Books và các app đọc sách khác.",
+  "@tavernStorybookWholeNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookEpub": "Sách điện tử (EPUB)",
+  "tavernStorybookText": "Văn bản thuần (TXT)",
+  "tavernStorybookImage": "Ảnh dài",
+  "tavernStorybookLatest": "Đặt đoạn mới nhất",
+  "tavernStorybookLines": "{count} câu",
+  "@tavernStorybookLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookSave": "Lưu vào thư viện ảnh",
+  "tavernStorybookShare": "Chia sẻ ảnh dài",
+  "tavernStorybookEarlier": "Phía trước còn {count} câu chưa đưa vào hình, muốn xem toàn bộ hãy xuất sách điện tử.",
+  "@tavernStorybookEarlier": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookEarlierShort": "…… Phía trước còn {count} câu ……",
+  "@tavernStorybookEarlierShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookMadeWith": "Viết bằng Tavern của DSH Go",
+  "tavernStorybookContents": "Mục lục",
+  "tavernStorybookChapter": "Chương {n}",
+  "@tavernStorybookChapter": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookSaved": "Đã lưu vào thư viện ảnh",
+  "tavernStorybookFailed": "Không xuất được, thử lại lần nữa",
+  "tavernLive2d": "Nhân vật Live2D",
+  "tavernLive2dSubtitle": "Dùng thay ảnh thẻ trong bố cục Visual novel, nhân vật cử động và mở miệng khi nói",
+  "tavernLive2dNone": "Chưa nhập",
+  "tavernLive2dSet": "Đã nhập",
+  "tavernLive2dImported": "Đã nhập xong, chuyển sang bố cục Visual novel là thấy.",
+  "tavernLive2dReplace": "Đổi nhân vật khác",
+  "tavernLive2dRemove": "Gỡ nhân vật Live2D",
+  "tavernLive2dNoRuntime": "Điện thoại chưa có thư viện chạy Live2D: hãy cài một nhân vật trong phòng Bạn đồng hành trước, hoặc nhập gói tài nguyên đầy đủ.",
+  "tavernTextSize": "Cỡ chữ",
+  "tavernTextSmall": "Nhỏ",
+  "tavernTextMedium": "Vừa",
+  "tavernTextLarge": "Lớn",
+  "tavernTextHuge": "Rất lớn",
+  "tavernLineHeight": "Khoảng cách dòng",
+  "tavernLineTight": "Khít",
+  "tavernLineNormal": "Vừa",
+  "tavernLineLoose": "Rộng",
+  "tavernReadingSample": "*Cô đẩy chén sành về phía bạn, ánh lửa nhảy nhót trong mắt cô.*\n\n“Muộn thế này còn đi đường? Tuyết đêm nay không ngớt đâu, nếu vội đi thì tốt nhất đợi trời sáng.”",
+  "tavernPalette": "Bảng màu",
+  "tavernPalettePlain": "Trơn",
+  "tavernPaletteEmber": "Ấm",
+  "tavernPaletteOcean": "Lạnh",
+  "tavernPaletteRose": "Hồng",
+  "tavernTextSpeed": "Tốc độ hiện chữ",
+  "tavernTextSlow": "Chậm",
+  "tavernTextNormal": "Vừa",
+  "tavernTextFast": "Nhanh",
+  "tavernTextInstant": "Ngay lập tức",
+  "tavernVnAuto": "Tự động",
+  "tavernVnSkip": "Bỏ qua",
+  "tavernStage": "Sân khấu",
+  "tavernStageSession": "Trò chuyện này",
+  "tavernSessionUsing": "Đang dùng",
+  "tavernSessionLook": "Giao diện",
+  "tavernSessionMore": "Xem thêm",
+  "tavernAudio": "Nhạc và hiệu ứng âm thanh",
+  "tavernAudioBgm": "Nhạc nền",
+  "tavernAudioAmbient": "Hiệu ứng âm thanh",
+  "tavernAudioNothing": "Không phát gì",
+  "tavernAudioPlay": "Phát",
+  "tavernAudioPause": "Tạm dừng",
+  "tavernAudioMode": "Cách phát",
+  "tavernAudioModeOne": "Một bài",
+  "tavernAudioModeAll": "Danh sách",
+  "tavernAudioModeShuffle": "Ngẫu nhiên",
+  "tavernAudioModeOnce": "Phát một bài",
+  "tavernAudioVolume": "Âm lượng",
+  "tavernAudioAllow": "Cho thẻ nhân vật phát nhạc",
+  "tavernAudioAdd": "Thêm một bản nhạc nền",
+  "tavernAudioAddTitle": "Liên kết nhạc nền",
+  "tavernAudioAddNote": "Điền địa chỉ web của tệp âm thanh (mp3, ogg…), thêm vào danh sách nhạc nền của đoạn trò chuyện này, cùng với nhạc của thẻ.",
+  "tavernAudioAddConfirm": "Thêm",
+  "tavernAudioAddInvalid": "Phải bắt đầu bằng http:// hoặc https://",
+  "tavernStageState": "Trạng thái",
+  "tavernStageDirector": "Đạo diễn",
+  "tavernStageTurn": "Lượt này",
+  "tavernStageStateEmpty": "Thẻ này chưa có trạng thái",
+  "tavernStageStateNote": "Sau khi thẻ định nghĩa trạng thái, thiện cảm, thuộc tính, đồ đạc, thời gian và địa điểm đều hiện ở đây, mỗi lượt đổi gì sẽ được đánh dấu (“+5”), bạn cũng có thể sửa trực tiếp. Thẻ cũ chưa định nghĩa sẽ liệt kê các biến của nó tại đây.",
+  "tavernStageDirectorEmpty": "Đạo diễn chưa xuất hiện",
+  "tavernStageDirectorNote": "Khi bật đạo diễn, sau mỗi lượt nó sẽ đọc cốt truyện ở chế độ nền: để lại một gợi ý ẩn cho lượt sau, ghi chú riêng của nó (mặc định ẩn vì sợ lộ cốt truyện), và đưa ba gợi ý trả lời phía trên ô nhập. Nó không nói thay bạn và không viết nội dung chính.",
+  "tavernStageTurnNone": "Chưa có lượt nào để xem",
+  "tavernStageTokensIn": "Prompt",
+  "tavernStageCache": "Trúng cache",
+  "tavernStageTokensOut": "Câu trả lời",
+  "tavernStageWorld": "Sổ thế giới dùng trong lượt này",
+  "tavernStageWorldNone": "Lượt này không có mục nào được kích hoạt",
+  "tavernStageInspect": "Xem bản kiểm tra đầy đủ",
+  "tavernLorebookNone": "Không có",
+  "tavernLorebooksBound": "Sổ thế giới đã gắn",
+  "tavernLorebooksBoundCharacter": "Mọi đoạn trò chuyện với nhân vật này đều dùng",
+  "tavernLorebooksBoundPersona": "Đoạn trò chuyện dùng nhân cách này đều dùng",
+  "tavernLorebookForChat": "Sổ thế giới của đoạn trò chuyện này",
+  "tavernLorebookForCharacter": "Sổ thế giới của “{name}”",
+  "@tavernLorebookForCharacter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookForPersona": "Sổ thế giới khi dùng “{name}”",
+  "@tavernLorebookForPersona": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookChatNote": "Chỉ dùng trong đoạn trò chuyện này. Mục ghi “Toàn cục” vốn đã có hiệu lực với mọi đoạn trò chuyện.",
+  "tavernLorebookCharacterNote": "Mọi đoạn trò chuyện với nhân vật này đều dùng, sổ thế giới đi kèm thẻ vẫn dùng chung như thường.",
+  "tavernLorebookPersonaNote": "Khi bạn dùng nhân cách này, mọi đoạn trò chuyện đều dùng.",
+  "tavernLorebookPickEmpty": "Thư viện chưa có sổ thế giới nào",
+  "tavernLorebookOpenLibrary": "Vào thư viện để nhập",
+  "tavernLorebookMissing": "Sổ thế giới đã bị xóa",
+  "tavernLorebookMissingSubtitle": "Vẫn đang gắn, khi tạo nội dung sẽ bị bỏ qua; tắt đi sẽ gỡ gắn",
+  "tavernPresetOrder": "Sắp xếp lại thứ tự",
+  "tavernPresetOrderNote": "Nhấn giữ tay cầm bên phải để kéo. Prompt được gửi cho mô hình theo thứ tự này; mục đang tắt vẫn giữ nguyên vị trí.",
+  "tavernPresetPromptOff": "Đã tắt",
+  "tavernPrefill": "Điền trước",
+  "tavernPrefillOn": "Câu trả lời bắt đầu từ đoạn này",
+  "tavernPrefillOnSubtitle": "Mô hình viết tiếp từ đoạn này",
+  "tavernPrefillText": "Chữ mở đầu",
+  "tavernPrefillTextEmpty": "Chưa viết",
+  "tavernPrefillTarget": "Đặt ở",
+  "tavernPrefillContent": "Nội dung trả lời",
+  "tavernPrefillReasoning": "Suy nghĩ",
+  "tavernPrefillNote": "Khi bật, đoạn chữ này được gửi cho mô hình làm phần mở đầu của câu trả lời, mô hình sẽ viết tiếp từ đó. Đặt ở “Suy nghĩ” chỉ có hiệu lực khi đã bật suy nghĩ, chưa bật thì đưa vào nội dung trả lời. Lượt “Viết tiếp” không dùng nó.",
+  "tavernPresetPromptEmpty": "Để trống",
+  "tavernThinkingSeconds": "{seconds} giây",
+  "@tavernThinkingSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeletedCount": "{count, plural, =1{Đã xóa 1 tin nhắn} other{Đã xóa {count} tin nhắn}}",
+  "@tavernDeletedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteFromUndoable": "Từ tin này đến tin mới nhất, cùng các câu trả lời thay thế và nhánh của chúng. Xóa xong vài giây vẫn hoàn tác được.",
+  "tavernUndoFailed": "Không hoàn tác được",
+  "tavernShowUsage": "Hiện lượng dùng và chi phí dưới mỗi câu trả lời",
+  "tavernShowUsageSubtitle": "Số token vào, ra do mô hình báo cáo; với mô hình DeepSeek sẽ ước tính thêm chi phí theo giá chính thức, chia giờ cao điểm và thấp điểm",
+  "tavernUsageLine": "Vào {input} · Ra {output}",
+  "@tavernUsageLine": {
+    "placeholders": {
+      "input": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "output": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "tavernUsageLineCached": "Đầu vào {input} (trúng cache {cached}) · Đầu ra {output}",
+  "@tavernUsageLineCached": {
+    "placeholders": {
+      "input": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "cached": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "output": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "tavernUsageCost": "Khoảng {usd}",
+  "@tavernUsageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernUsageCostUnder": "Dưới {usd}",
+  "@tavernUsageCostUnder": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernCostAlert": "Nhắc nhở chi phí mỗi lượt",
+  "tavernCostAlertSubtitle": "Khi chi phí một lượt tính theo giá chính thức của DeepSeek vượt mức này, sẽ nhắc phía trên ô nhập; mô hình khác không ước tính",
+  "tavernCostAlertOff": "Tắt",
+  "tavernCostAlertNotice": "Lượt này tốn {cost}, đã vượt mức nhắc {line}",
+  "@tavernCostAlertNotice": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSearchChat": "Tìm trong đoạn trò chuyện",
+  "tavernSearchChatHint": "Một câu, một từ",
+  "tavernSearchChatIdle": "Tìm trong mọi nhánh của đoạn trò chuyện này, kể cả tin nhắn ẩn; không tìm trong quá trình suy nghĩ. Chạm một kết quả để đọc toàn văn.",
+  "tavernSearchChatNone": "Không tìm thấy “{query}”",
+  "@tavernSearchChatNone": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSearchChatFound": "{count, plural, =1{Tìm thấy 1 tin nhắn} other{Tìm thấy {count} tin nhắn, tin mới nhất trước}}",
+  "@tavernSearchChatFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteOne": "Chỉ xóa tin này",
+  "tavernDeleteOneTitle": "Chỉ xóa tin nhắn này?",
+  "tavernDeleteOneMessage": "Các tin nhắn sau vẫn giữ nguyên và nối vào tin trước nó. Cách xóa này không hoàn tác được.",
+  "tavernLorebookAdd": "Thêm một mục",
+  "tavernLorebookStart": "Thẻ này chưa có sổ thế giới riêng. Thêm một mục, khi đoạn trò chuyện nhắc đến từ khóa của nó, nội dung sẽ được đưa vào Prompt.",
+  "tavernLorebookEntryNew": "Mục mới",
+  "tavernLorebookEntryEdit": "Sửa mục",
+  "tavernLorebookFieldName": "Tên mục",
+  "tavernLorebookFieldNameHelp": "Chỉ để bạn xem cho dễ tìm, không gửi cho mô hình.",
+  "tavernLorebookFieldKeys": "Từ khóa",
+  "tavernLorebookFieldKeysHelp": "Khi đoạn trò chuyện nhắc đến bất kỳ từ nào trong số này, nội dung sẽ được đưa vào Prompt. Ngăn cách bằng dấu phẩy.",
+  "tavernLorebookFieldSecondary": "Từ khóa phụ",
+  "tavernLorebookFieldSecondaryHelp": "Nếu đã điền, mục sẽ được lọc thêm theo mục “Cách tính từ khóa phụ” bên dưới rồi mới đưa vào.",
+  "tavernLorebookFieldContent": "Nội dung",
+  "tavernLorebookFieldConstantSubtitle": "Dù có nhắc đến từ khóa hay không, lần nào cũng đưa vào",
+  "tavernLorebookFieldEnabled": "Bật",
+  "tavernLorebookFieldPosition": "Vị trí đưa vào",
+  "tavernLorebookBeforeChar": "Trước phần thiết lập nhân vật",
+  "tavernLorebookAfterChar": "Sau phần thiết lập nhân vật",
+  "tavernLorebookFieldOrder": "Thứ tự",
+  "tavernLorebookFieldOrderHelp": "Số lớn xếp trước và được đưa vào trước.",
+  "tavernLorebookEntryDelete": "Xóa mục này",
+  "tavernLorebookEntryDeleteTitle": "Xóa mục “{name}”?",
+  "@tavernLorebookEntryDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookEntryDeleteMessage": "Mục này sẽ bị xóa khỏi thẻ, xóa rồi sẽ không lấy lại được.",
+  "tavernNarrator": "Lời dẫn",
+  "tavernSendOptions": "Gửi kiểu khác",
+  "tavernSendOnly": "Chỉ gửi, không trả lời",
+  "tavernSendOnlySubtitle": "Câu này đưa vào câu chuyện, nhân vật chưa trả lời ngay",
+  "tavernNarrate": "Gửi dưới dạng lời dẫn",
+  "tavernNarrateSubtitle": "Chèn vào câu chuyện dưới dạng lời kể, không tính là lời bạn nói",
+  "tavernSendFailed": "Không gửi được",
+  "tavernStateVariables": "Biến",
+  "tavernStateVariablesNote": "Biến mà các macro như {{setvar}} đã lưu trong thẻ và đoạn trò chuyện này, tính đến tin nhắn hiện tại. Chạm một mục để xem toàn bộ hoặc sửa trực tiếp.",
+  "tavernData": "Dữ liệu",
+  "tavernBackup": "Sao lưu toàn bộ Tavern",
+  "tavernBackupSubtitle": "Thẻ nhân vật, đoạn trò chuyện, Preset, sổ thế giới, nhân cách và cài đặt, gói thành một tệp zip",
+  "tavernBackingUp": "Đang sao lưu…",
+  "tavernBackedUp": "Đã sao lưu xong: {count} tệp, {size}",
+  "@tavernBackedUp": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBackupFailed": "Không sao lưu được: {error}",
+  "@tavernBackupFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRestore": "Khôi phục từ bản sao lưu",
+  "tavernRestoreSubtitle": "Dùng một bản sao lưu để thay thế Tavern hiện tại",
+  "tavernRestoreTitle": "Dùng bản sao lưu này để thay thế Tavern hiện tại?",
+  "tavernRestoreMessage": "Nhân vật, đoạn trò chuyện, Preset và cài đặt hiện tại sẽ được thay bằng bản sao lưu. Muốn giữ lại hiện tại, hãy sao lưu một bản trước. Bản sao lưu sai hoặc hỏng sẽ không làm thay đổi dữ liệu hiện tại.",
+  "tavernRestoreAction": "Khôi phục",
+  "tavernRestoring": "Đang khôi phục…",
+  "tavernRestored": "Đã khôi phục xong: {count} tệp",
+  "@tavernRestored": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRestoreFailed": "Không khôi phục được, dữ liệu hiện tại không đổi: {error}",
+  "@tavernRestoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreTest": "Thử ngay",
+  "tavernLoreTestTitle": "Thử sổ thế giới",
+  "tavernLoreTestInput": "Nói một câu",
+  "tavernLoreTestHint": "Ví dụ câu bạn nói mà bạn mong nó sẽ gợi ra một mục",
+  "tavernLoreTestNote": "Chỉ xét câu này, cộng các mục luôn có; đoạn trò chuyện trước đó, tính dính và hồi chiêu đều không tính. Không gọi mô hình.",
+  "tavernLoreTestHits": "Sẽ đưa vào Prompt ({count})",
+  "@tavernLoreTestHits": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLoreTestNone": "Câu này sẽ không gợi ra mục nào.",
+  "tavernLoreTestOverflow": "Đã vượt ngân sách sổ thế giới, các mục xếp sau không được đưa vào.",
+  "tavernLoreTestFailed": "Không thử được: {error}",
+  "@tavernLoreTestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreReasonKeys": "Từ khóa {keys}",
+  "@tavernLoreReasonKeys": {
+    "placeholders": {
+      "keys": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreReasonSticky": "Đang dính, vẫn còn hiệu lực",
+  "tavernLoreReasonDecorator": "Decorator",
+  "tavernLoreAtDepth": "Tại tin nhắn thứ {depth} tính từ cuối",
+  "@tavernLoreAtDepth": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLoreNearNote": "Bên cạnh ghi chú của tác giả",
+  "tavernLoreNearExamples": "Bên cạnh đoạn đối thoại mẫu",
+  "tavernLoreOutlet": "Đầu ra",
+  "tavernLoreOrder": "Thứ tự {order}",
+  "@tavernLoreOrder": {
+    "placeholders": {
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranches": "Nhánh",
+  "tavernBranchesNote": "Mỗi dòng là một đoạn trò chuyện không rẽ nhánh. Dòng thụt vào là một lối khác rẽ ra từ cuối dòng phía trên. Chạm một dòng để chuyển qua hoặc đặt tên; nhánh không đang đi vẫn xóa được.",
+  "tavernBranchesEmpty": "Đoạn trò chuyện này chưa có tin nhắn.",
+  "tavernBranchCount": "{count} tin nhắn",
+  "@tavernBranchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernBranchUntil": "đến “{text}”",
+  "@tavernBranchUntil": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranchCurrent": "Đang xem",
+  "tavernBranchSwitch": "Chuyển sang nhánh này",
+  "tavernBranchSwitchSubtitle": "Tiếp tục từ nơi nhánh này dừng lại lần trước",
+  "tavernBranchName": "Đặt tên cho nhánh này",
+  "tavernBranchRename": "Đổi tên",
+  "tavernBranchNameHint": "Ví dụ: nhánh đi xuống tầng hầm",
+  "tavernBranchNameCaption": "Chỉ để bạn xem cho dễ tìm; để trống sẽ gỡ tên.",
+  "tavernBranchSwitched": "Đã chuyển sang nhánh này",
+  "tavernBranchFailed": "Không thực hiện được: {error}",
+  "@tavernBranchFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernCardTheme": "Dùng kiểu của thẻ",
+  "tavernCardThemeSubtitle": "Màu nhấn, màu tên, bố cục mặc định và ảnh nền mà thẻ đã ghi; tắt đi thì dùng cài đặt ở đây",
+  "tavernShelfSort": "Sắp xếp",
+  "tavernShelfOrderRecent": "Mới trò chuyện gần đây",
+  "tavernShelfOrderName": "Tên",
+  "tavernShelfOrderImported": "Mới nhập gần đây",
+  "tavernFavorite": "Yêu thích",
+  "tavernUnfavorite": "Bỏ yêu thích",
+  "tavernFavorited": "Đã yêu thích",
+  "tavernChatSearchHint": "Tìm đoạn trò chuyện: nhân vật, tiêu đề, câu cuối",
+  "tavernNoChatMatch": "Không có đoạn trò chuyện phù hợp",
+  "tavernCharacterTabChats": "Trò chuyện",
+  "tavernCharacterTabCard": "Thiết lập",
+  "tavernCharacterTabSetup": "Cấu hình",
+  "tavernCharacterNoDefinition": "Thẻ này chưa viết thiết lập và ghi chú.",
+  "tavernNovelIndent": "Thụt đầu dòng đoạn văn kiểu tiểu thuyết",
+  "tavernNovelIndentSubtitle": "Như trong sách, mỗi đoạn mở đầu thụt vào hai ký tự",
+  "tavernShelfSelect": "Chọn",
+  "tavernShelfPicked": "Đã chọn {count} mục",
+  "@tavernShelfPicked": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernShelfExport": "Xuất các thẻ nhân vật đã chọn",
+  "tavernDeleteCharactersTitle": "Xóa {count} nhân vật này?",
+  "@tavernDeleteCharactersTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernQuickRepliesAll": "Tất cả",
+  "tavernQuickRepliesManage": "Quản lý câu trả lời nhanh",
+  "tavernSpeakNext": "Để {name} nói tiếp",
+  "@tavernSpeakNext": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSettingsConnection": "Mô hình và kết nối",
+  "tavernDefaultPreset": "Preset mặc định",
+  "tavernDefaultPresetPick": "Preset đoạn trò chuyện mới dùng",
+  "tavernGenerationInPreset": "Sửa tham số của “{name}”",
+  "@tavernGenerationInPreset": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGenerationPresetNote": "Đoạn trò chuyện mới dùng “{name}”: ngữ cảnh, độ dài câu trả lời và nhiệt độ sửa trong Preset này. Đoạn trò chuyện có Preset riêng thì dùng Preset của nó.",
+  "@tavernGenerationPresetNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorage": "Dung lượng lưu trữ",
+  "tavernStorageCounting": "Đang tính…",
+  "tavernStorageCharacters": "Thẻ nhân vật",
+  "tavernStorageChats": "Đoạn trò chuyện, Preset và nhân cách",
+  "tavernStorageLive2d": "Nhân vật Live2D",
+  "tavernStorageOther": "Ảnh nền, sổ thế giới, Regex và cài đặt",
+  "tavernStorageNote": "Tất cả chỉ nằm trên thiết bị này; trước khi đổi điện thoại hoặc gỡ cài đặt, hãy “Sao lưu toàn bộ Tavern” trước.",
+  "tavernDefaultPresetEmpty": "Nhập Preset trong Thư viện › Preset rồi mới đổi sang Preset khác.",
+  "tavernQuickRepliesAdded": "Đã thêm {count} câu trả lời nhanh",
+  "@tavernQuickRepliesAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernQuickRepliesAddedSkipped": "Đã thêm {count} câu trả lời nhanh; {skipped} câu là lệnh gạch chéo của ST nên không thêm",
+  "@tavernQuickRepliesAddedSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernImportChatNoName": "Lịch sử trò chuyện này không ghi là của nhân vật nào, hãy nhập nó từ trang nhân vật",
+  "tavernImportChatNoCharacter": "Không tìm thấy “{name}” duy nhất trên kệ sách, hãy nhập đoạn trò chuyện này từ trang nhân vật",
+  "@tavernImportChatNoCharacter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportedChatsTo": "Đã nhập {count} đoạn trò chuyện vào “{name}”",
+  "@tavernImportedChatsTo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportUnknown": "Không nhận ra {name} là tệp gì",
+  "@tavernImportUnknown": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportFileFailed": "{name} không nhập được: {reason}",
+  "@tavernImportFileFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernIslands": "Trang web trong tin nhắn",
+  "tavernIslandsSubtitle": "HTML và kiểu dáng thẻ viết trong tin nhắn (thanh trạng thái, bảng) được đưa riêng vào một trang web để hiển thị; tắt đi sẽ hiện dạng chữ",
+  "tavernSettingsSafety": "An toàn",
+  "tavernIslandNoScripts": "Không chạy tập lệnh của thẻ trong trang web",
+  "tavernIslandNoScriptsSubtitle": "JavaScript có sẵn của thẻ không chạy; thanh trạng thái cần tập lệnh để động sẽ đứng yên",
+  "tavernIslandOffline": "Trang web không lên mạng",
+  "tavernIslandOfflineSubtitle": "Chỉ dùng hình ảnh và phông chữ có sẵn trong thẻ, không tải gì từ mạng",
+  "tavernSessionUsage": "Lượng dùng của lượt này",
+  "tavernSessionUsageNote": "Tổng của {count} câu trả lời trên nhánh hiện tại; câu trả lời thay thế đã bị thay không tính",
+  "@tavernSessionUsageNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernSessionUsageNone": "Mô hình chưa báo cáo lượng dùng",
+  "tavernSessionUsageCost": "Khoảng {usd}, tính theo giá chính thức của DeepSeek, chia giờ cao điểm và thấp điểm; ngày nghỉ lễ theo quy định cả ngày đều tính giá thấp điểm nên những ngày đó ở đây sẽ tính cao hơn một chút",
+  "@tavernSessionUsageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSessionUsageUnpriced": "{count} câu trả lời dùng mô hình không có trong bảng giá nên chưa tính vào chi phí",
+  "@tavernSessionUsageUnpriced": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernComposerNoKey": "Nhập Key xong là bắt đầu được",
+  "tavernWriteOwn": "Tự viết một nhân vật",
+  "tavernWriteOwnSubtitle": "Bắt đầu từ một thẻ trống, tự điền tên, thiết lập và lời mở đầu",
+  "tavernNewCharacterName": "Nhân vật mới",
+  "tavernSearchGoTo": "Đến tin đó trong đoạn trò chuyện",
+  "tavernBookmarks": "Dấu trang",
+  "tavernBookmarkAdd": "Thêm dấu trang",
+  "tavernBookmarkRemove": "Gỡ dấu trang",
+  "tavernBookmarkAdded": "Đã thêm dấu trang, tìm trong Sân khấu › Lượt này › Dấu trang",
+  "tavernBookmarkRemoved": "Đã gỡ dấu trang",
+  "tavernBookmarksEmpty": "Chưa có dấu trang nào",
+  "tavernBookmarksEmptyMessage": "Nhấn giữ một tin nhắn, chọn “Thêm dấu trang”",
+  "tavernBookmarkGone": "Tin đó đã không còn, dấu trang đã được gỡ",
+  "tavernUsageStats": "Thống kê lượng dùng",
+  "tavernUsageStatsSubtitle": "Mỗi đoạn trò chuyện đã dùng bao nhiêu token và tốn khoảng bao nhiêu",
+  "tavernUsageAllNote": "Tổng các câu trả lời trên nhánh hiện tại của mọi đoạn trò chuyện; câu trả lời thay thế đã bị thay không tính",
+  "tavernUsageChatReplies": "{count} câu trả lời · đã trả lời {completion}",
+  "@tavernUsageChatReplies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSlashNoReply": "Chưa có câu trả lời nào để làm việc này",
+  "tavernRegexTest": "Thử ngay",
+  "tavernRegexTestFind": "Tìm",
+  "tavernRegexTestReplace": "Thay bằng",
+  "tavernRegexTestInput": "Một đoạn chữ",
+  "tavernRegexTestHint": "Dán một câu trả lời vào để thử",
+  "tavernRegexTestNote": "Chỉ thử quy tắc này trên máy, không gửi cho mô hình; dù quy tắc thường áp dụng ở đâu và có bật hay không, ở đây vẫn chạy.",
+  "tavernRegexTestMacros": "Macro như {{char}} ở đây không được mở rộng, tính theo nghĩa đen.",
+  "tavernRegexTestNone": "Không khớp, chữ giữ nguyên",
+  "tavernRegexTestResult": "Sau khi thay ({count} chỗ)",
+  "@tavernRegexTestResult": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRegexTestFailed": "Không thử được: {reason}",
+  "@tavernRegexTestFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStateNote": "Trạng thái do thẻ định nghĩa, tính đến tin nhắn hiện tại. Lượt này đổi gì được đánh dấu kiểu “+5”; chạm một mục để xem toàn bộ, cũng có thể sửa trực tiếp, thay đổi được ghi trên tin nhắn này, đổi câu trả lời hay chuyển nhánh sẽ hoàn tác cùng.",
+  "tavernStatePreview": "Chưa bắt đầu ghi, dưới đây là giá trị ban đầu do thẻ đưa ra.",
+  "tavernStateChanged": "Đã đổi",
+  "tavernStateHidden": "Tiết lộ nội dung · chạm để xem",
+  "tavernStateWhole": "Toàn bộ",
+  "tavernStateEdit": "Sửa",
+  "tavernStateEditText": "Đoạn chữ này được lưu nguyên văn",
+  "tavernStateEditJson": "Viết JSON: số, true / false, “chữ trong dấu ngoặc kép”, […], {…}",
+  "tavernStateEditBad": "Đây không phải JSON hợp lệ, chưa sửa gì",
+  "tavernStateEditSaved": "Đã sửa xong",
+  "tavernStateEditSame": "Giá trị không đổi",
+  "tavernStateEditRefused": "Không sửa được: {reason}",
+  "@tavernStateEditRefused": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDirectorAuto": "Đạo diễn tự động",
+  "tavernDirectorAutoNote": "Chỉ cho đoạn trò chuyện này. Bật lên thì cứ vài lượt, sau khi viết xong câu trả lời, mô hình sẽ được hỏi thêm một lần: nhịp tiếp theo đi đâu, và ba việc bạn có thể làm. Mỗi lần sẽ tốn thêm một ít.",
+  "tavernDirectorRun": "Để đạo diễn suy nghĩ",
+  "tavernDirectorRunning": "Đạo diễn đang suy nghĩ…",
+  "tavernDirectorBeat": "Nhịp tiếp theo",
+  "tavernDirectorSuggestions": "Bạn có thể…",
+  "tavernDirectorSuggestionsNote": "Chạm một mục để đưa vào ô nhập, sửa hay gửi là tùy bạn.",
+  "tavernDirectorNotes": "Ghi chú của đạo diễn",
+  "tavernDirectorStale": "Đây là suy nghĩ cho tình huống trước đó, giờ chưa chắc còn phù hợp, chỉ để tham khảo.",
+  "tavernDirectorFailed": "Lần trước không nghĩ ra được: {reason}",
+  "@tavernDirectorFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDirectorRunFailed": "Không làm được: {reason}",
+  "@tavernDirectorRunFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranchHere": "Rẽ nhánh từ đây",
+  "tavernBranchedHere": "Đã quay lại tin này, nội dung phía sau được giữ trong “Nhánh”",
+  "tavernBranchHereFailed": "Không quay lại được tin này",
+  "tavernStateItems": "{count} mục",
+  "@tavernStateItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStateSearch": "Tìm biến",
+  "tavernStateNoMatch": "Không có mục phù hợp",
+  "tavernRuns": "Nhật ký nền",
+  "tavernRunsNote": "Mọi thay đổi trạng thái do bạn, mô hình và quy tắc của thẻ thực hiện, cùng mỗi lần chạy của đạo diễn, sự kiện của thẻ và cốt truyện, đều ghi ở đây; mới nhất ở trên, tối đa 100 mục. Chạm một mục để xem bản ghi gốc.",
+  "tavernRunsEmpty": "Chưa có bản ghi nào",
+  "tavernRunsEmptyMessage": "Sau khi đổi trạng thái hoặc đạo diễn chạy, bản ghi sẽ xuất hiện ở đây.",
+  "tavernRunUser": "Bạn sửa",
+  "tavernRunModel": "Mô hình sửa",
+  "tavernRunRules": "Quy tắc của thẻ",
+  "tavernRunStopped": "Lượt bị ngắt",
+  "tavernRunDirector": "Đạo diễn",
+  "tavernRunDirectorFailed": "Đạo diễn thất bại",
+  "tavernRunEvent": "Sự kiện của thẻ",
+  "tavernRunStory": "Cốt truyện",
+  "tavernRunSecret": "Bí mật",
+  "tavernRunNotKept": "Không giữ lại",
+  "tavernRunGone": "Tin nhắn đó đã bị xóa",
+  "tavernRunMore": "và {count} chỗ nữa",
+  "@tavernRunMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCache": "Cache",
+  "tavernInspectCacheKept": "Cùng tiền tố với lượt trước",
+  "tavernInspectCacheBroken": "Đã đổi từ đoạn thứ {index}",
+  "@tavernInspectCacheBroken": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCacheMiss": "Đoạn này và khoảng {tokens} token sau nó sẽ không trúng cache, phần trước giống lượt trước. Thường do mục sổ thế giới ở gần đầu đã đổi trong lượt này.",
+  "@tavernInspectCacheMiss": {
+    "placeholders": {
+      "tokens": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCacheBreak": "Cache ngắt tại đây",
+  "tavernPaletteSt": "ST",
+  "tavernStTheme": "Chủ đề ST: {name}",
+  "@tavernStTheme": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStThemeNote": "Khi chọn bảng màu “ST”, lời thoại trong dấu ngoặc kép và *hành động* dùng màu của chủ đề; màu quá nhạt hoặc quá đậm khó đọc sẽ được chỉnh cho đọc được.",
+  "tavernStThemeImport": "Nhập chủ đề ST",
+  "tavernStThemeImportNote": "Lấy màu dấu ngoặc kép và màu in nghiêng, cùng CSS tùy chỉnh, từ tệp chủ đề do SillyTavern xuất.",
+  "tavernStThemeCss": "Dùng CSS tùy chỉnh của nó",
+  "tavernStThemeCssSubtitle": "Khi chọn bảng màu “ST”, CSS này được thêm vào canvas toàn trang và ghi đè kiểu mặc định, như trong ST. Nếu bố cục bị rối thì tắt đi, màu vẫn dùng.",
+  "tavernStThemeRemove": "Gỡ",
+  "tavernStThemeImported": "Đã đổi sang bảng màu của chủ đề ST “{name}”",
+  "@tavernStThemeImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStThemeNoColors": "“{name}” không có màu dấu ngoặc kép, màu in nghiêng hay CSS tùy chỉnh dùng được",
+  "@tavernStThemeNoColors": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPromptContent": "Nội dung",
+  "tavernPromptRole": "Ai nói",
+  "tavernPromptRoleSystem": "Hệ thống",
+  "tavernPromptRoleUser": "Người dùng",
+  "tavernPromptRoleAssistant": "Trợ lý",
+  "tavernPromptPosition": "Vị trí",
+  "tavernPromptRelative": "Theo thứ tự",
+  "tavernPromptInChat": "Trong trò chuyện",
+  "tavernPromptDepth": "Độ sâu",
+  "tavernPromptDepthNote": "Chèn vào lịch sử trò chuyện, trước tin nhắn thứ {depth} tính từ cuối (0 là cuối cùng), giống mục “Trong trò chuyện” của ST.",
+  "@tavernPromptDepthNote": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPromptRelativeNote": "Đặt theo thứ tự của Preset, giống mục “Tương đối” của ST.",
+  "tavernPromptPlace": "Trong trò chuyện · Độ sâu {depth}",
+  "@tavernPromptPlace": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPromptOrder": "Thứ tự ở cùng độ sâu",
+  "tavernPromptOrderNote": "Khi có nhiều mục ở cùng độ sâu, số nhỏ hơn đứng trước (mặc định 100).",
+  "tavernPromptForbid": "Không cho thẻ nhân vật ghi đè",
+  "tavernPromptForbidMain": "Prompt hệ thống có sẵn của thẻ nhân vật sẽ không thay thế mục này.",
+  "tavernPromptForbidJailbreak": "Hướng dẫn sau lịch sử có sẵn của thẻ nhân vật sẽ không thay thế mục này.",
+  "tavernLoreCommon": "Thường dùng",
+  "tavernLoreMore": "Xem thêm",
+  "tavernLorePosAnTop": "Trước ghi chú tác giả",
+  "tavernLorePosAnBottom": "Sau ghi chú tác giả",
+  "tavernLorePosExampleTop": "Trước đoạn mẫu",
+  "tavernLorePosExampleBottom": "Sau đoạn mẫu",
+  "tavernLorePosOutlet": "Đầu ra",
+  "tavernLoreLogic": "Cách tính từ khóa phụ",
+  "tavernLoreLogicAndAny": "Chứa bất kỳ từ nào",
+  "tavernLoreLogicAndAll": "Chứa tất cả",
+  "tavernLoreLogicNotAny": "Không chứa từ nào",
+  "tavernLoreLogicNotAll": "Không chứa tất cả",
+  "tavernLoreProbability": "Xác suất kích hoạt",
+  "tavernLoreCase": "Phân biệt chữ hoa/thường",
+  "tavernLoreWhole": "Khớp nguyên từ",
+  "tavernLoreDefault": "Mặc định",
+  "tavernLoreYes": "Có",
+  "tavernLoreNo": "Không",
+  "tavernLorePosDepth": "Theo độ sâu",
+  "tavernLibraryBookOpen": "Xem và sửa mục",
+  "tavernLibraryBookNote": "Thay đổi được ghi lại vào cuốn sổ này; nơi nào đã gắn nó sẽ dùng nội dung mới từ lượt sau.",
+  "tavernBranchDelete": "Xóa nhánh này",
+  "tavernBranchDeleteTitle": "Xóa nhánh này?",
+  "tavernBranchDeleteMessage": "{count} tin nhắn trên nhánh này, cùng các nhánh rẽ ra từ nó, sẽ bị xóa; xóa xong vài giây vẫn hoàn tác được. Nhánh đang đi không bị ảnh hưởng.",
+  "@tavernBranchDeleteMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLetterFrom": "Thư từ {from}",
+  "@tavernLetterFrom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLetter": "Một lá thư",
+  "tavernComponentMore": "Mở rộng",
+  "tavernComponentLess": "Thu gọn",
+  "tavernItemTaken": "Nhận được",
+  "tavernClue": "Manh mối",
+  "tavernPhoneFrom": "{from} đã gửi tin nhắn",
+  "@tavernPhoneFrom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPhoneMessage": "Một tin nhắn",
+  "tavernRollCheck": "Kiểm tra: {skill}",
+  "@tavernRollCheck": {
+    "placeholders": {
+      "skill": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRoll": "Tung xúc xắc",
+  "tavernRollSuccess": "Thành công",
+  "tavernRollFailure": "Thất bại",
+  "tavernGameHere": "Có một trò chơi nhỏ ở đây, hiện chưa chơi được tại đây",
+  "tavernCanvasReplied": "{name} đã trả lời",
+  "@tavernCanvasReplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernMvuIssues": "Cập nhật biến của thẻ này gặp vấn đề",
+  "tavernMvuUnfinished": "Biến ở lớp này chưa cập nhật xong, nội dung đã được giữ lại",
+  "tavernRegexEdit": "Sửa quy tắc",
+  "tavernRegexFieldName": "Tên",
+  "tavernRegexFieldFindHelp": "Cú pháp SillyTavern: /mẫu/cờ, ví dụ /(chào buổi sáng|chúc ngủ ngon)/gi",
+  "tavernRegexFieldReplaceHelp": "$1 là nhóm thứ nhất, {{match}} là toàn bộ đoạn khớp",
+  "tavernRegexFieldTrim": "Chữ bỏ đi trước",
+  "tavernRegexFieldTrimHelp": "Mỗi dòng một mục; xóa khỏi đoạn khớp trước khi thay thế",
+  "tavernRegexPlacement": "Áp dụng cho",
+  "tavernRegexPlaceUser": "Tin nhắn của bạn",
+  "tavernRegexPlaceAi": "Câu trả lời",
+  "tavernRegexPlaceSlash": "Lệnh gạch chéo",
+  "tavernRegexPlaceWorld": "Sổ thế giới",
+  "tavernRegexPlaceReasoning": "Suy nghĩ",
+  "tavernRegexPhase": "Sửa bản nào",
+  "tavernRegexPhaseWrite": "Văn bản gốc",
+  "tavernRegexPhaseDisplay": "Chỉ đổi hiển thị",
+  "tavernRegexPhasePrompt": "Chỉ đổi nội dung gửi",
+  "tavernRegexPhaseBoth": "Đổi cả hiển thị và nội dung gửi",
+  "tavernRegexPhaseNote": "Văn bản gốc: viết lại trực tiếp tin nhắn đã lưu. Chỉ đổi hiển thị: bản lưu không đổi, chỉ khác khi xem. Chỉ đổi nội dung gửi: chỉ đổi bản gửi cho mô hình.",
+  "tavernRegexMinDepth": "Từ độ sâu",
+  "tavernRegexMaxDepth": "Tới độ sâu",
+  "tavernRegexDepthHelp": "Để trống là không giới hạn; 0 là tin nhắn mới nhất",
+  "tavernRegexSubstitute": "Macro trong mẫu tìm",
+  "tavernRegexSubstituteNone": "Không mở rộng",
+  "tavernRegexSubstituteRaw": "Mở rộng nguyên văn",
+  "tavernRegexSubstituteEscaped": "Mở rộng sau khi thóat ký tự",
+  "tavernRegexRunOnEdit": "Chạy cả khi sửa tin nhắn",
+  "tavernRegexFieldEnabled": "Bật quy tắc này",
+  "tavernRegexSavedIncompatible": "Đã lưu. Quy tắc này không chạy được ở đây, sẽ bị bỏ qua khi dùng",
+  "tavernRegexGone": "Quy tắc này đã không còn, quay lại danh sách để làm mới",
+  "tavernRegexDeferred": "Dùng macro, chỉ biết có chạy được không khi thực thi",
+  "tavernRegexTryDraft": "Thử với nội dung đã điền",
+  "tavernRegexDepthAny": "Không giới hạn",
+  "tavernCanvas": "Canvas toàn trang (thử nghiệm)",
+  "tavernCardScriptsHint": "Thẻ này có {count} tập lệnh, chỉ chạy khi bật “Canvas toàn trang (thử nghiệm)”",
+  "@tavernCardScriptsHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernCardScriptsHintAction": "Bật",
+  "tavernRender": "Cách hiển thị",
+  "tavernRenderSubtitle": "Chỉ áp dụng cho trò chuyện riêng với nhân vật này: thanh trạng thái và trang trí trong thẻ chỉ hiện khi chọn trang web hoặc canvas, tập lệnh chỉ chạy trong canvas",
+  "tavernRenderText": "Chữ",
+  "tavernRenderIslands": "Trang tin nhắn",
+  "tavernRenderCanvas": "Canvas toàn trang",
+  "tavernCanvasSubtitle": "Toàn bộ đoạn trò chuyện được đưa vào một trang web, sắp xếp theo cấu trúc SillyTavern, để kiểu dáng ST của thẻ có hiệu lực trên nhiều tin nhắn. Tập lệnh trong thẻ sẽ chạy; nếu không muốn, hãy bật “Không chạy tập lệnh của thẻ trong trang web”. Visual novel không dùng tính năng này.",
+  "tavernCanvasReloaded": "Trang đã tải lại",
+  "tavernGroupSpeaking": "{name} đang nói",
+  "@tavernGroupSpeaking": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupThen": "Tiếp theo là {names}",
+  "@tavernGroupThen": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupNoSpeakers": "Lượt này không ai lên tiếng. Chạm tên phía trên để chọn người nói.",
+  "tavernGroupSpeakNext": "Để mọi người nói tiếp",
+  "tavernGroupNew": "Tạo trò chuyện nhóm mới",
+  "tavernGroupMembers": "Ai ở trong",
+  "tavernGroupMembersNote": "Xếp theo thứ tự đã chọn; người đầu tiên là người dẫn, trạng thái dùng chung của câu chuyện được lưu trên thẻ của người đó.",
+  "tavernGroupHost": "Người dẫn",
+  "tavernGroupTitle": "Tên nhóm",
+  "tavernGroupActivation": "Cách luân phiên nói",
+  "tavernGroupNatural": "Tự nhiên",
+  "tavernGroupListOrder": "Theo thứ tự",
+  "tavernGroupRandom": "Ngẫu nhiên",
+  "tavernGroupManual": "Thủ công",
+  "tavernGroupDirector": "Đạo diễn",
+  "tavernGroupNaturalNote": "Như SillyTavern: người được gọi tên nói trước, còn lại tùy mức độ hay nói của mỗi người; số người nói tối đa mỗi lượt đổi trong cài đặt nhóm.",
+  "tavernGroupListOrderNote": "Mỗi lượt đi hết danh sách từ đầu (bỏ qua người đã tắt tiếng).",
+  "tavernGroupRandomNote": "Mỗi lượt chọn ngẫu nhiên một người chưa nói trong lượt này.",
+  "tavernGroupManualNote": "Không ai tự lên tiếng; chạm tên phía trên ô nhập để chọn người nói.",
+  "tavernGroupDirectorNote": "Đạo diễn gọi tên người tiếp theo theo cốt truyện.",
+  "tavernGroupPickTwo": "Chọn ít nhất hai nhân vật",
+  "tavernGroupCreate": "Tạo nhóm ({count} người)",
+  "@tavernGroupCreate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernGroupCreateFailed": "Không tạo được nhóm: {reason}",
+  "@tavernGroupCreateFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupTag": "Nhóm chat",
+  "tavernGroupMemberCount": "{count} người",
+  "@tavernGroupMemberCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernGroupSettings": "Cài đặt trò chuyện nhóm",
+  "tavernGroupMaxSpeakers": "Số người nói tối đa mỗi lượt",
+  "tavernGroupSelfResponses": "Có thể nói tiếp",
+  "tavernGroupSelfResponsesNote": "Người nói câu trước vẫn có thể được ưu tiên trong lượt này.",
+  "tavernGroupHostNote": "Người dẫn là “{name}”: trạng thái dùng chung của câu chuyện, đạo diễn và bí mật được lưu trên thẻ của người đó; người đó không nhất thiết phải có trong danh sách người nói.",
+  "@tavernGroupHostNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupMuted": "Tắt tiếng",
+  "tavernGroupMutedNote": "Không tự lên tiếng; vẫn nói khi được gọi tên.",
+  "tavernGroupTalkativeness": "Mức độ hay nói",
+  "tavernGroupTalkativenessNote": "Khi luân phiên “Tự nhiên”, càng cao càng dễ lên tiếng.",
+  "tavernGroupHelperModel": "Dùng mô hình phụ",
+  "tavernGroupHelperModelNote": "Nói bằng mô hình phụ (tự động: DeepSeek dùng flash và không suy nghĩ, kênh khác dùng mô hình chính), phù hợp cho nhân vật phụ.",
+  "tavernGroupMoveUp": "Dời lên",
+  "tavernGroupMoveDown": "Dời xuống",
+  "tavernGroupRemove": "Xóa khỏi trò chuyện nhóm",
+  "tavernGroupAdd": "Thêm một nhân vật",
+  "tavernGroupNoOthers": "Mọi nhân vật trên kệ sách đã ở trong nhóm",
+  "tavernGroupUnavailable": "Thẻ nhân vật đã không còn",
+  "tavernGroupSaveFailed": "Không lưu được: {reason}",
+  "tavernGroupErrorNotGroup": "Đây không còn là trò chuyện nhóm nữa",
+  "tavernGroupErrorCharacterNotFound": "Thẻ của nhân vật này đã không còn",
+  "tavernGroupErrorMemberExists": "Nhân vật này đã ở trong nhóm",
+  "tavernGroupErrorMemberNotFound": "Nhân vật này đã không còn trong nhóm",
+  "tavernGroupErrorInvalidMembers": "Thành viên không được trùng lặp, nhóm cần ít nhất một nhân vật",
+  "tavernGroupErrorInvalidTalkativeness": "Mức độ hay nói phải từ 0 đến 1",
+  "tavernGroupErrorInvalidLimit": "Mỗi lượt cần ít nhất một người nói",
+  "tavernGroupErrorInvalidOrder": "Thứ tự đã xếp không khớp với thành viên trong nhóm, hãy mở lại và xếp lại",
+  "tavernGroupErrorHostInUse": "Nhân vật này là chủ của một trò chuyện nhóm, hãy xóa trò chuyện nhóm đó trước",
+  "tavernGroupErrorInvalidTitle": "Tên trò chuyện nhóm không được chỉ gồm khoảng trắng",
+  "tavernToolRollUnsettled": "🎲 {dice}: kết quả chưa được xác nhận",
+  "@tavernToolRollUnsettled": {
+    "placeholders": {
+      "dice": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolRollNotDone": "🎲 {dice}: chưa tung",
+  "@tavernToolRollNotDone": {
+    "placeholders": {
+      "dice": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolRollPass": "Mục tiêu {target}, thành công",
+  "@tavernToolRollPass": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolRollFail": "Mục tiêu {target}, không đạt",
+  "@tavernToolRollFail": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolMemory": "Muốn nhớ: “{text}”",
+  "@tavernToolMemory": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryAccept": "Nhớ",
+  "tavernToolMemoryReject": "Không cần",
+  "tavernToolMemoryStaged": "Đợi lượt này viết xong rồi quyết định",
+  "tavernToolMemoryIneligible": "Hiện chưa thể xác nhận: {reason}",
+  "@tavernToolMemoryIneligible": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryAccepted": "Đã nhớ",
+  "tavernToolMemoryAuto": "Đã nhớ theo cài đặt tự động",
+  "tavernToolMemoryRejected": "Không nhớ",
+  "tavernToolMemoryInactive": "Lượt này chưa viết xong bình thường, không ghi nhớ",
+  "tavernToolMemoryWaiting": "Quyết định lần trước chưa được xác nhận",
+  "tavernToolMemoryNotApplied": "Không nhớ được: {reason}",
+  "@tavernToolMemoryNotApplied": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryFailed": "Không xác nhận được: {detail}",
+  "@tavernToolMemoryFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolReasonRevision": "Nó đã thay đổi, làm mới rồi quyết định lại",
+  "tavernToolReasonResolved": "Đã quyết định rồi",
+  "tavernToolReasonContext": "Đoạn trò chuyện đã thay đổi",
+  "tavernToolReasonDeleted": "Câu trả lời đó đã bị xóa",
+  "tavernToolReasonChanged": "Câu trả lời đó đã bị sửa",
+  "tavernToolReasonBranch": "Không nằm trên nhánh hiện tại",
+  "tavernToolReasonInactive": "Đã hết hiệu lực",
+  "tavernToolReasonUnknown": "Không rõ lý do",
+  "tavernToolPolicy": "Công cụ",
+  "tavernToolPolicyRoll": "Cho nhân vật tung xúc xắc",
+  "tavernToolPolicyRollSubtitle": "Khi câu trả lời cần tung xúc xắc, Tavern sẽ tung và ghi lại kết quả",
+  "tavernToolPolicyRemember": "Cho nhân vật ghi nhớ",
+  "tavernToolPolicyRememberSubtitle": "Những điều nhân vật thấy đáng nhớ sẽ được ghi vào bộ nhớ theo cách dưới đây",
+  "tavernToolPolicyMode": "Cách ghi nhớ",
+  "tavernToolPolicyModeAsk": "Hỏi tôi trước",
+  "tavernToolPolicyModeAuto": "Tự động",
+  "tavernToolPolicyDiagnostics": "Một phần cài đặt không đọc được, công cụ tương ứng tạm thời tắt",
+  "tavernToolPolicyNote": "Chỉ dùng trong câu trả lời khi dùng DeepSeek và không bật suy nghĩ; thay đổi có hiệu lực từ lượt sau, thẻ nhân vật cũng có thể tắt chúng",
+  "tavernToolPolicyFailed": "Không đổi được: {detail}",
+  "@tavernToolPolicyFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChatTools": "Công cụ trong lượt này",
+  "tavernChatToolFollow": "Theo cài đặt",
+  "tavernChatToolOn": "Bật",
+  "tavernChatToolOff": "Tắt",
+  "tavernChatToolNow": "Thực tế trong lượt này: tung xúc xắc {roll}, ghi nhớ {remember}",
+  "@tavernChatToolNow": {
+    "placeholders": {
+      "roll": {
+        "type": "String"
+      },
+      "remember": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChatToolHeld": "Mục đã tắt trong cài đặt Tavern thì bật ở đây cũng không tính",
+  "tavernInspectRequests": "{count} yêu cầu",
+  "@tavernInspectRequests": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectUsageTotals": "Đầu vào {prompt} (cache {hit}) · Đầu ra {completion}",
+  "@tavernInspectUsageTotals": {
+    "placeholders": {
+      "prompt": {
+        "type": "String"
+      },
+      "hit": {
+        "type": "String"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsagePrompt": "Vào",
+  "tavernReqUsageCache": "Cache",
+  "tavernReqUsageCompletion": "Ra",
+  "tavernReqUsageLine": "{field}: {parts}",
+  "@tavernReqUsageLine": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      },
+      "parts": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsageJoin": ", ",
+  "tavernReqUsageKnown": "Đã rõ {known}",
+  "@tavernReqUsageKnown": {
+    "placeholders": {
+      "known": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsageUnknown": "{count} yêu cầu chưa rõ",
+  "@tavernReqUsageUnknown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernReqUsageMissing": "{count} yêu cầu chưa báo cáo",
+  "@tavernReqUsageMissing": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernReqUsageInvalid": "{count} yêu cầu báo cáo sai số",
+  "@tavernReqUsageInvalid": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolFailBudget": "Lượt này đã dùng hết số lần dùng công cụ, dừng tại đây; xúc xắc đã tung trước đó vẫn được tính",
+  "tavernToolFailBatch": "Mô hình yêu cầu quá nhiều công cụ cùng lúc, loạt này không được thực thi",
+  "tavernToolFailProtocol": "Lệnh gọi công cụ của mô hình sai định dạng, không được thực thi",
+  "tavernToolFailSnapshot": "Câu trả lời của mô hình này không thể tiếp tục dùng công cụ, dừng tại đây",
+  "tavernToolFailReceipt": "Kết quả công cụ chưa lưu được, hãy xem lại lượt này sau",
+  "tavernToolFailAnchor": "Đoạn trò chuyện đã đổi giữa lượt này nên không viết tiếp",
+  "tavernToolFail": "Đã xảy ra lỗi khi dùng công cụ",
+  "tavernToolFailDetail": "Đã xảy ra lỗi khi dùng công cụ: {detail}",
+  "@tavernToolFailDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceUnsettled": "Kết quả chưa được xác nhận, có thể kiểm tra lại",
+  "tavernDicePending": "Lần tung xúc xắc trước chưa được xác nhận",
+  "tavernDiceRecheck": "Kiểm tra lại",
+  "tavernDiceForget": "Bỏ lần này",
+  "tavernDiceBusy": "Đang bận, đợi lượt này viết xong rồi tung",
+  "tavernDiceOff": "Đã tắt tung xúc xắc trong cài đặt Tavern",
+  "tavernDiceFailed": "Không tung được: {detail}",
+  "@tavernDiceFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceNotSaved": "Không xác nhận được: {detail}",
+  "@tavernDiceNotSaved": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "@tavernGroupSaveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannel": "Kênh",
+  "tavernChannelDeepSeek": "DeepSeek chính thức",
+  "tavernChannelDeepSeekNote": "Dùng DeepSeek Key đã nhập trong App",
+  "tavernChannelAdd": "Thêm kênh",
+  "tavernChannelEdit": "Sửa kênh",
+  "tavernChannelsNote": "Dịch vụ nào tương thích giao diện OpenAI đều thêm được: trạm trung chuyển, OpenRouter, mô hình chạy trên máy tính của bạn. Key chỉ lưu trong bộ nhớ an toàn của điện thoại này. Ước tính chi phí chỉ dùng giá chính thức của DeepSeek, kênh khác chỉ hiện số token.",
+  "tavernChannelName": "Tên",
+  "tavernChannelNameHint": "Để trống sẽ dùng địa chỉ web",
+  "tavernChannelBaseUrlInvalid": "Phải bắt đầu bằng http:// hoặc https://",
+  "tavernChannelKeyOptional": "Dịch vụ nội bộ không cần Key thì có thể để trống",
+  "tavernChannelKeyKept": "Đã lưu Key, để trống sẽ giữ nguyên",
+  "tavernChannelFetchModels": "Lấy danh sách",
+  "tavernChannelFetching": "Đang lấy…",
+  "tavernChannelFetchFailed": "Không lấy được danh sách mô hình ({detail}), có thể nhập trực tiếp tên mô hình",
+  "@tavernChannelFetchFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannelNoModels": "Dịch vụ này không liệt kê mô hình, cứ nhập trực tiếp tên mô hình",
+  "tavernChannelModelHint": "Tên mô hình do nhà cung cấp đặt",
+  "tavernChannelModelMissing": "Nhập tên mô hình",
+  "tavernChannelPickModel": "Chọn mô hình",
+  "tavernChannelSearchModels": "Tìm mô hình",
+  "tavernChannelDeepSeekApi": "Gửi theo giao diện DeepSeek",
+  "tavernChannelDeepSeekApiNote": "Dùng cách viết tiếp và công tắc suy nghĩ của DeepSeek. Chỉ bật với DeepSeek chính thức hoặc trạm trung chuyển chuyển tiếp nguyên văn.",
+  "tavernChannelDelete": "Xóa kênh",
+  "tavernChannelDeleteTitle": "Xóa “{name}”?",
+  "@tavernChannelDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannelDeleteMessage": "Key của nó cũng sẽ bị xóa cùng. Nếu đang dùng, sẽ quay lại DeepSeek chính thức.",
+  "tavernChannelCopyFromApp": "Sao chép từ kênh của App",
+  "tavernModelName": "Tên mô hình",
+  "tavernNumberCustom": "Tùy chỉnh",
+  "tavernNumberType": "Nhập số",
+  "tavernNumberRange": "Nhập số từ {min} đến {max}",
+  "@tavernNumberRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernNumberRangeWhole": "Nhập số nguyên từ {min} đến {max}",
+  "@tavernNumberRangeWhole": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernTopP": "Top P",
+  "tavernPresencePenalty": "Phạt hiện diện",
+  "tavernFrequencyPenalty": "Phạt tần suất",
+  "tavernPresetSampling": "Lấy mẫu",
+  "tavernChannelHeaders": "Tiêu đề yêu cầu (tùy chọn)",
+  "tavernChannelHeadersNote": "Mỗi dòng một mục, viết dạng “Tên: giá trị”. Lưu trong bộ nhớ an toàn của điện thoại này như Key.",
+  "tavernChannelHeadersInvalid": "Viết mỗi dòng dạng “Tên: giá trị”",
+  "tavernAuxiliary": "Mô hình phụ",
+  "tavernAuxiliaryNote": "Dùng cho các yêu cầu nền như đạo diễn, chọn người nói trong trò chuyện nhóm, bí mật",
+  "tavernAuxiliaryAuto": "Tự động",
+  "tavernAuxiliaryAutoNote": "Theo kênh chính: DeepSeek dùng Flash, kênh khác dùng cùng mô hình",
+  "tavernAuxiliaryDeepSeek": "DeepSeek Flash",
+  "tavernChannelKeyClear": "Xóa",
+  "tavernChannelKeyCleared": "Key sẽ bị xóa khi lưu",
+  "tavernDrafts": "Bản nháp",
+  "tavernDraftsSubtitle": "Thay đổi được giữ trong bản nháp, chọn xong mới áp dụng vào thẻ thật",
+  "tavernDraftsForCard": "Dùng AI sửa thẻ này",
+  "tavernDraftsForCardSubtitle": "Sửa trong bản nháp, chọn xong mới áp dụng",
+  "tavernDraftsEmpty": "Chưa có bản nháp nào",
+  "tavernDraftsEmptyOwn": "Tạo bản nháp mới và nói với AI muốn sửa thẻ này thế nào.",
+  "tavernDraftsEmptyAll": "Mở bản nháp từ trang nhân vật, hoặc bắt đầu từ tệp: tệp sẽ thành bản nháp trước, không nhập trực tiếp.",
+  "tavernDraftNew": "Bản nháp mới",
+  "tavernDraftFromFile": "Bắt đầu từ tệp",
+  "tavernDraftSeedUnsupported": "{name} không phải thẻ nhân vật hay sổ thế giới, không thể bắt đầu nháp",
+  "@tavernDraftSeedUnsupported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraft": "Bản nháp",
+  "tavernDraftSubtitle": "Thay đổi trong bản nháp chưa áp dụng vào thẻ thật",
+  "tavernDraftGone": "Bản nháp này đã không còn",
+  "tavernDraftKindCharacter": "Thẻ nhân vật",
+  "tavernDraftKindPreset": "Preset",
+  "tavernDraftNewSource": "{name} (chưa lưu)",
+  "@tavernDraftNewSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftGreetings": "Lời mở đầu dự phòng",
+  "tavernDraftEntry": "Mục thứ {n}",
+  "@tavernDraftEntry": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftNoChanges": "Chưa có thay đổi nào",
+  "tavernDraftNoChangesHint": "Nói với AI bên dưới muốn sửa thế nào",
+  "tavernDraftBefore": "Trước đây",
+  "tavernDraftAfter": "Đổi thành",
+  "tavernDraftAbsent": "(không có)",
+  "tavernDraftRemoved": "Đã xóa",
+  "tavernDraftAppliedChange": "Đã áp dụng",
+  "tavernDraftDependsOn": "Cần dùng cùng {n} thay đổi trước nó",
+  "@tavernDraftDependsOn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRemoveChange": "Bỏ chỗ này khỏi bản nháp",
+  "tavernDraftApply": "Áp dụng {n} chỗ",
+  "@tavernDraftApply": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftSaveNew": "Lưu thành bản mới",
+  "tavernDraftSavedNew": "Đã lưu thành bản mới",
+  "tavernDraftChecked": "Đã kiểm tra, không thấy vấn đề",
+  "tavernDraftCannotApply": "Bản nháp Regex và Preset tạm thời chỉ xem trước được, chưa áp dụng được",
+  "tavernDraftApplied": "Đã áp dụng vào “{name}”",
+  "@tavernDraftApplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftNoChange": "Giống hệt hiện tại, không có gì cần đổi",
+  "tavernDraftNotApplied": "Không áp dụng được: {reason}",
+  "@tavernDraftNotApplied": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftUnconfirmed": "Kết quả ghi chưa được xác nhận. Đừng bấm lặp lại, lát nữa kiểm tra trong lịch sử phiên bản.",
+  "tavernDraftApplyUnknown": "Không nhận được kết quả ({reason}), bấm lại sẽ tiếp tục cùng thao tác",
+  "@tavernDraftApplyUnknown": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftBehind": "“{name}” đã đổi sau khi bắt đầu nháp (có thể vừa mới áp dụng). Tiếp tục với phiên bản hiện tại và xem lại các thay đổi.",
+  "@tavernDraftBehind": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftCatchUp": "Tiếp tục với phiên bản hiện tại",
+  "tavernDraftChangedMeanwhile": "Bản nháp vừa được sửa, đã làm mới",
+  "tavernDraftPending": "Lần ghi trước chưa được xác nhận, tạm thời chưa áp dụng lại được",
+  "tavernDraftDelete": "Xóa bản nháp",
+  "tavernDraftDeleteTitle": "Xóa bản nháp này?",
+  "tavernDraftDeleteBody": "Chỉ xóa bản nháp, những gì đã áp dụng vào thẻ không bị ảnh hưởng.",
+  "tavernDraftAskHint": "Muốn sửa thế nào? Ví dụ: lời mở đầu lạnh lùng hơn",
+  "tavernDraftAiSend": "Để AI sửa",
+  "tavernDraftAiStop": "Dừng",
+  "tavernDraftAiTitle": "AI",
+  "tavernDraftAiRunning": "Đang sửa…",
+  "tavernDraftAiDone": "Sửa xong, thay đổi ở phía trên, chọn xong rồi áp dụng",
+  "tavernDraftAiStopped": "Đã dừng",
+  "tavernDraftAiConflict": "Bản nháp đã bị sửa trong lúc đó, AI đã dừng",
+  "tavernDraftAiBudget": "Đã dùng hết bốn yêu cầu, tạm dừng tại đây",
+  "tavernDraftAiFailed": "Đã xảy ra lỗi",
+  "tavernDraftAiInterrupted": "Đã bị ngắt (App đã tắt)",
+  "tavernDraftEarlier": "Đã hỏi trước đây",
+  "tavernDraftRunReceipts": "Đã sửa {changes} lần · {requests} yêu cầu",
+  "@tavernDraftRunReceipts": {
+    "placeholders": {
+      "changes": {
+        "type": "int"
+      },
+      "requests": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftHistory": "Lịch sử phiên bản",
+  "tavernDraftHistoryEmpty": "Chưa có phiên bản nào được ghi",
+  "tavernDraftHistoryNote": "Quay lại một phiên bản sẽ lưu thành phiên bản mới, các phiên bản sau vẫn còn; hình ảnh và đoạn trò chuyện không bị ảnh hưởng.",
+  "tavernDraftVersion": "Phiên bản thứ {n}",
+  "@tavernDraftVersion": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftVersionCurrent": "Hiện tại",
+  "tavernDraftRestore": "Quay lại phiên bản này",
+  "tavernDraftRestoreTitle": "Quay lại phiên bản thứ {n}?",
+  "@tavernDraftRestoreTitle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRestoreBody": "Sẽ được lưu thành phiên bản mới.",
+  "tavernDraftRestored": "Đã quay lại phiên bản thứ {n}",
+  "@tavernDraftRestored": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRestoreMoved": "Trong lúc đó lại có thay đổi, làm mới rồi thử lại",
+  "tavernDraftPrompt": "Xem Prompt bằng bản nháp",
+  "tavernDraftPromptSubtitle": "Đưa các thay đổi đã chọn vào để xem lượt sau sẽ gửi gì; không gửi gì cả",
+  "tavernDraftPromptFrom": "Tiếp nối đoạn trò chuyện nào",
+  "tavernDraftPromptFirst": "Câu đầu tiên của trò chuyện mới",
+  "tavernDraftPromptText": "Câu tiếp theo (không bắt buộc)",
+  "tavernDraftPromptTextHint": "Câu bạn sẽ nói",
+  "tavernDraftPromptShow": "Xem Prompt",
+  "tavernDraftPromptComplete": "Prompt",
+  "tavernDraftPromptUnsupported": "Một số nội dung của thẻ này không thể ghép đúng như thật trong bản xem trước",
+  "tavernDraftPromptNote": "Tập lệnh trong thẻ không chạy trong bản xem trước.",
+  "tavernDraftUsagePartial": "Đã báo cáo: vào {prompt} · ra {completion} (có yêu cầu chưa báo cáo lượng dùng)",
+  "@tavernDraftUsagePartial": {
+    "placeholders": {
+      "prompt": {
+        "type": "String"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftTrial": "Chơi thử",
+  "tavernDraftTrialSubtitle": "Dùng bản nháp trò chuyện vài câu trong đoạn trò chuyện tạm, đoạn trò chuyện thật không bị ảnh hưởng",
+  "tavernDraftTrialNote": "Sẽ gọi mô hình thật và tính phí theo lượng dùng thực tế; tối đa bốn câu.",
+  "tavernDraftTrialLine": "Câu thứ {n}",
+  "@tavernDraftTrialLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftTrialMore": "Thêm một câu",
+  "tavernDraftTrialPlay": "Bắt đầu chơi thử",
+  "tavernDraftTrialRunning": "Đang thử…",
+  "tavernDraftTrialDone": "Thử xong",
+  "tavernDraftTrialUnsupported": "Bản nháp này tạm thời chưa chơi thử được",
+  "tavernImportFromDeepSeek": "Đưa về từ DeepSeek",
+  "tavernImportFromDeepSeekSubtitle": "Xuất toàn bộ lịch sử trò chuyện trong cài đặt DeepSeek rồi chọn tệp ZIP đó",
+  "tavernDeepSeekTitle": "Đưa đoạn trò chuyện DeepSeek về",
+  "tavernDeepSeekFound": "Tìm thấy {count} đoạn trò chuyện, đoạn trò chuyện nhiều nhất xếp trước. Chọn đoạn muốn trò chuyện tiếp.",
+  "@tavernDeepSeekFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekMessages": "{count} tin nhắn",
+  "@tavernDeepSeekMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekUntitled": "Đoạn trò chuyện không có tiêu đề",
+  "tavernDeepSeekAlready": "Đã đưa về rồi, chạm để tiếp tục",
+  "tavernDeepSeekMore": "Hiện thêm (còn {count} đoạn)",
+  "@tavernDeepSeekMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekTake": "Đưa về ({count})",
+  "@tavernDeepSeekTake": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekTaking": "Đang đưa về…",
+  "tavernDeepSeekNotExport": "Đây không phải đoạn trò chuyện do DeepSeek xuất",
+  "tavernDeepSeekNotExportMessage": "Hãy chọn tệp ZIP nhận được sau khi xuất toàn bộ lịch sử trò chuyện trong DeepSeek",
+  "tavernDeepSeekFailed": "Chưa đưa về được, thử lại lần nữa",
+  "tavernDeepSeekTaken": "Đã đưa về {count} đoạn, phần còn lại ở danh sách trò chuyện",
+  "@tavernDeepSeekTaken": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

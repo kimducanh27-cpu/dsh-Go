@@ -1,0 +1,14 @@
+{
+  "@@locale": "vi",
+  "phoneStartupFailureStopping": "Khởi động thất bại, đang dừng",
+  "phoneStartupFailureStoppingDetail": "Khởi động thất bại, đang dừng. {reason}",
+  "@phoneStartupFailureStoppingDetail": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneStartupTokenTimeout": "Khởi động quá thời gian chờ (không nhận được tín hiệu khởi động trong 180 giây), hãy xem nhật ký",
+  "phoneStartupPortNotReady": "Đã nhận tín hiệu khởi động nhưng cổng dịch vụ trên máy chưa sẵn sàng, hãy xem nhật ký"
+}

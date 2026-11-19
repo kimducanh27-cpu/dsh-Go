@@ -1,0 +1,60 @@
+{
+  "@@locale": "vi",
+  "workshopInstalledEmptyTitle": "Chưa cài gì từ Workshop",
+  "workshopInstalledEmptyMessage": "Thú cưng và bạn đồng hành cài từ mục “Khám phá” sẽ hiện ở đây.",
+  "workshopInstalledEmptyAction": "Khám phá",
+  "workshopInstalledLoadFailedTitle": "Không đọc được nội dung đã cài",
+  "workshopInstalledLoadStale": "Không đọc lại được, đang hiện kết quả lần trước.",
+  "workshopInstalledCatalogStale": "Thông tin cập nhật và rút lại có thể không mới nhất.",
+  "workshopInstalledCatalogUnknown": "Tạm thời không tra được thông tin cập nhật và rút lại.",
+  "workshopInstalledStatusUpdate": "Có bản cập nhật",
+  "workshopInstalledStatusWithdrawn": "Phiên bản này đã bị rút lại",
+  "workshopInstalledStatusOtherOrigin": "Từ Workshop khác",
+  "workshopInstalledStatusNotListed": "Hiện không tìm thấy trong Workshop",
+  "workshopInstalledStatusCompanionOff": "Mục bạn đồng hành tạm thời đang tắt",
+  "workshopInstalledStatusRewritten": "Không khớp với cùng phiên bản trong Workshop",
+  "workshopInstalledStatusRemoving": "Đang gỡ cài đặt…",
+  "workshopInstalledStatusRemoveFailed": "Không gỡ được",
+  "workshopInstalledStatusRemoved": "Đã gỡ",
+  "workshopInstalledIssueBroken": "Gói này bị hỏng",
+  "workshopInstalledIssueUnreadable": "Không đọc được gói này",
+  "workshopInstalledIssueRecord": "Bản ghi cài đặt không khớp",
+  "workshopInstalledIssueOther": "Mục này có vấn đề",
+  "workshopInstalledNoteBroken": "Gói này bị hỏng, có thể không dùng được.",
+  "workshopInstalledNoteUnreadable": "Không đọc được tệp của gói này.",
+  "workshopInstalledNoteRecord": "Bản ghi cài đặt của nó không khớp.",
+  "workshopInstalledNoteOther": "Mục này có vấn đề, không đọc thêm được thông tin.",
+  "workshopInstalledNoteUntrusted": "Bản ghi cài đặt không đáng tin, không gỡ được nó từ đây.",
+  "workshopInstalledNoteOtherOrigin": "Cài từ Workshop khác, không tra được cập nhật của nó ở đây.",
+  "workshopInstalledNoteNotListed": "Hiện không tìm thấy trong Workshop, bản trên máy này không bị ảnh hưởng.",
+  "workshopInstalledNoteRewritten": "Nội dung cùng phiên bản trong Workshop khác với trên máy, bản trên máy không bị thay đổi.",
+  "workshopInstalledNoteMinApp": "Phiên bản hiện tại trong Workshop cần cập nhật app mới cài được.",
+  "workshopInstalledNoteUnavailable": "Phiên bản hiện tại trong Workshop tạm thời không cài được.",
+  "workshopInstalledNoteGone": "Mục này không còn trên máy nữa.",
+  "workshopInstalledNoteUnread": "Tạm thời không đọc được bản ghi cài đặt trên máy, dưới đây là trạng thái vừa thấy.",
+  "workshopInstalledRemoveFailed": "Không gỡ được. {reason}",
+  "@workshopInstalledRemoveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledFactKind": "Loại",
+  "workshopInstalledFactId": "ID mục",
+  "workshopInstalledFactOrigin": "Từ",
+  "workshopInstalledFactLocalId": "ID trên máy",
+  "workshopInstalledRemoveTitle": "Gỡ “{title}”?",
+  "@workshopInstalledRemoveTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledRemoveMessage": "Sẽ xóa bản trên điện thoại này. Muốn dùng lại, quay lại Workshop lấy lại.",
+  "workshopInstalledRemoveNoReinstall": "Hiện không tìm thấy trong Workshop, gỡ xong có thể không cài lại được.",
+  "workshopInstalledRemovedRefreshIssue": "Đã gỡ, nhưng danh sách chưa làm mới được, kéo xuống làm mới lại.",
+  "workshopInstalledRemovedLocalIssue": "Đã gỡ, nhưng một số chỗ chưa cập nhật theo, mở lại app là được.",
+  "workshopInstalledDismissFailure": "Đã biết"
+}

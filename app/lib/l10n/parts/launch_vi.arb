@@ -1,0 +1,49 @@
+{
+  "@@locale": "vi",
+  "launchScreenTitle": "Màn hình khởi động",
+  "launchDefault": "Mặc định",
+  "launchCustom": "Tùy chỉnh",
+  "launchFit": "Vừa khung",
+  "launchFitFill": "Lấp đầy",
+  "launchFitCenter": "Căn giữa",
+  "launchFrame": "Chỉnh vị trí",
+  "launchBackground": "Màu nền",
+  "launchBackdropAuto": "Tự động",
+  "launchBackdropEdge": "Lấy từ ảnh",
+  "launchBackdropWhite": "Trắng",
+  "launchBackdropBlack": "Đen",
+  "launchReplace": "Thay ảnh hoặc video",
+  "launchPreview": "Xem trước",
+  "launchFooter": "Ảnh, ảnh động tối đa 8 MB, video tối đa 30 MB. Phát hết một lượt khi khởi động lạnh, chạm để bỏ qua",
+  "launchChanged": "Đã đổi màn hình khởi động",
+  "launchChangedSize": "Đã đổi màn hình khởi động · {size}",
+  "@launchChangedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "launchTooLarge": "Ảnh vượt quá 8 MB",
+  "launchOverLimit": "Tệp vượt quá 30 MB",
+  "launchUnsupported": "Hỗ trợ PNG, JPEG, WebP, GIF và MP4",
+  "launchUnreadable": "Không đọc được tệp này",
+  "launchUnavailable": "Không mở được thư viện ảnh",
+  "launchBroken": "Không đọc được",
+  "iconShortcutRow": "Lối tắt bằng ảnh",
+  "iconShortcutRowSubtitle": "Dùng ảnh của bạn để đặt một lối vào trên màn hình chính",
+  "iconShortcutPick": "Chọn ảnh",
+  "iconShortcutChange": "Đổi ảnh khác",
+  "iconShortcutHint": "Kéo hoặc chụm hai ngón để chỉnh vừa",
+  "iconShortcutName": "Tên",
+  "iconShortcutAdd": "Thêm vào màn hình chính",
+  "iconShortcutNote": "Hệ thống không cho đổi biểu tượng ứng dụng thành ảnh bất kỳ, nên đây sẽ là một lối tắt riêng để mở DSH Go; một số màn hình chính sẽ gắn huy hiệu nhỏ ở góc của nó",
+  "iconShortcutAdded": "Đã thêm vào màn hình chính",
+  "iconShortcutConfirm": "Xác nhận trong cửa sổ hiện ra",
+  "iconShortcutNoDialog": "Không thấy cửa sổ? Hãy cho phép DSH Go tạo lối tắt màn hình chính trong cài đặt hệ thống",
+  "iconShortcutSettings": "Đi tới cài đặt",
+  "iconShortcutUnsupported": "Màn hình chính này không hỗ trợ thêm lối tắt",
+  "iconShortcutFailed": "Không thêm được, thử lại sau",
+  "searchKwLaunchScreen": "màn hình khởi động,ảnh khởi động,hoạt hình khởi động,màn hình chào",
+  "searchKwIconShortcut": "lối tắt,biểu tượng tùy chỉnh,ảnh màn hình chính,đổi biểu tượng"
+}

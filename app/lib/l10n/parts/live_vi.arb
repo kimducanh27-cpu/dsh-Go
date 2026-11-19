@@ -1,0 +1,34 @@
+{
+  "@@locale": "vi",
+  "liveThinking": "Đang suy nghĩ",
+  "liveWorking": "Đang làm việc",
+  "liveJuggling": "Subagent đang hỗ trợ",
+  "liveSweeping": "Đang dọn dẹp",
+  "liveRunsCount": "{count} cuộc trò chuyện đang chạy",
+  "@liveRunsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "liveChipThinking": "Đang nghĩ",
+  "liveChipWorking": "Đang làm",
+  "liveChipJuggling": "Đang phối hợp",
+  "liveChipSweeping": "Đang dọn dẹp",
+  "liveChipApproval": "Chờ xác nhận",
+  "liveChipQuestion": "Chờ trả lời",
+  "liveChipDone": "Xong",
+  "liveChipFailed": "Lỗi",
+  "livePublicRunning": "DSH đang làm việc",
+  "livePublicWaiting": "DSH đang chờ bạn xử lý",
+  "livePublicDone": "DSH làm xong rồi",
+  "livePublicFailed": "DSH bị lỗi",
+  "liveSettingsTitle": "Hoạt động trực tiếp",
+  "liveSettingsSwitch": "Hiện hoạt động trực tiếp",
+  "liveSettingsSubtitle": "Khi đang làm việc, chờ bạn xử lý hay điều khiển điện thoại, sẽ hiện ở viên nang thanh trạng thái và màn hình khóa; điện thoại hỗ trợ sẽ đưa vào Dynamic Island",
+  "liveSettingsFooter": "Hoạt động trực tiếp (Live Updates) trên Android 16: Xiaomi HyperOS 3.1+, OPPO / OnePlus ColorOS 16, Honor MagicOS 10 và Pixel sẽ hiện; đảo nguyên tử của vivo và Now Bar của Samsung hiện chỉ mở cho app hợp tác với hãng.",
+  "liveUnsupported": "Hệ thống trên điện thoại này chưa hỗ trợ hoạt động trực tiếp",
+  "liveBlockedTitle": "Hệ thống chưa cho phép hoạt động trực tiếp",
+  "liveBlockedText": "Trong cài đặt hệ thống, bật “Hoạt động trực tiếp” cho DSH Go (có điện thoại gọi là “Hiện trong đám mây linh hoạt”)"
+}

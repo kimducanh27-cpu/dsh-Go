@@ -1,0 +1,5 @@
+{
+  "@@locale": "vi",
+  "hostDetailsConnectionType": "Cách kết nối",
+  "hostDetailsSshNetworkHint": "Kết nối qua đường hầm SSH. Kết nối này không hỗ trợ phát hiện đường LAN / P2P hay đo độ trễ."
+}

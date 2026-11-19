@@ -1,0 +1,19 @@
+{
+  "@@locale": "vi",
+  "a11yRestoreTitle": "Tự khôi phục trợ năng",
+  "searchKwA11yRestore": "trợ năng,khôi phục,kết nối lại,tự khôi phục,mất kết nối,ủy quyền,ADB,Shizuku,Sui,root",
+  "a11yRestoreNeedsGrant": "Cần cấp quyền",
+  "a11yRestoreNotice": "Bật rồi, nếu bạn tắt trợ năng trong cài đặt hệ thống thì sẽ tự bật lại; muốn tắt điều khiển điện thoại, hãy tắt trong DSH Go.",
+  "a11yRestoreForceStop": "Sau khi bị dừng bắt buộc, mở lại DSH Go mới khôi phục được.",
+  "a11yRestoreGrant": "Cấp quyền và bật",
+  "a11yRestoreGrantShizuku": "Cấp quyền qua Shizuku",
+  "a11yRestoreGrantShizukuPermission": "Cấp quyền cho Shizuku trước, rồi mới cấp quyền này",
+  "a11yRestoreGrantAdb": "Cấp quyền qua ADB tự kết nối",
+  "a11yRestoreRootNote": "Qua kết nối root đã được cấp quyền, chỉ cấp riêng quyền này.",
+  "a11yRestoreSetup": "Cấu hình Shizuku hoặc gỡ lỗi không dây",
+  "a11yRestoreWaiting": "Hãy cho phép cấp quyền trong Shizuku",
+  "a11yRestoreWaitingSui": "Hãy cho phép cấp quyền trong Sui",
+  "a11yRestoreComputer": "Hoặc kết nối máy tính, chạy một lần:",
+  "a11yRestoreCopy": "Sao chép lệnh cấp quyền",
+  "a11yRestoreCopied": "Đã sao chép lệnh cấp quyền"
+}

@@ -1,0 +1,84 @@
+{
+  "@@locale": "vi",
+  "phoneModeTitle": "Chọn cách xác nhận",
+  "phoneModeMessage": "Đổi được bất cứ lúc nào trong cài đặt",
+  "phoneModeAsk": "Bước quan trọng hỏi tôi trước",
+  "phoneModeAskHint": "Hỏi trước khi vào app mới, gửi, xóa, thanh toán",
+  "phoneModeAuto": "Tự động toàn bộ",
+  "phoneModeAutoHint": "Không hỏi nữa, không làm phiền suốt quá trình",
+  "phoneModeAutoNoteTitle": "Những việc này vẫn do bạn làm",
+  "phoneModeAutoNote": "Trang cài đặt và quyền hệ thống, mật khẩu và mã xác minh, chính DSH Go vẫn do bạn làm; app ngân hàng, thanh toán mặc định không chạm vào, đổi được trong cài đặt.",
+  "phoneModeAutoUnlockNote": "Nếu muốn AI thao tác cài đặt hệ thống, mật khẩu… hãy bật ở Cài đặt › Điều khiển điện thoại › Gỡ bỏ giới hạn.",
+  "phoneModeConfirmAuto": "Bật tự động toàn bộ",
+  "phoneYoursTitle": "Những việc này do bạn làm",
+  "phoneYoursSystem": "Trang cài đặt và quyền hệ thống",
+  "phoneYoursSecrets": "Mật khẩu và mã xác minh",
+  "phoneYoursOwnApp": "Chính DSH Go",
+  "phoneYoursDenyList": "App trong danh sách “không chạm”, mặc định gồm app ngân hàng, thanh toán",
+  "phoneUnlockTitle": "Gỡ bỏ giới hạn",
+  "phoneUnlockSubtitle": "Để AI làm những việc mặc định do bạn làm",
+  "phoneUnlockSystem": "Cài đặt hệ thống",
+  "phoneUnlockSystemHint": "Gồm trang quyền, trình cài đặt, trung tâm bảo mật, thanh thông báo",
+  "phoneUnlockSecrets": "Mật khẩu và mã xác minh",
+  "phoneUnlockSecretsHint": "Điền mật khẩu, mã xác minh và mật khẩu thanh toán",
+  "phoneUnlockOwnApp": "Chính DSH Go",
+  "phoneUnlockOwnAppHint": "Bấm và nhập trong DSH Go",
+  "phoneUnlockBusy": "Đang có tác vụ chạy, xong mới bật được",
+  "phoneUnlockFootnote": "Bật rồi thì hậu quả do bạn chịu. Chỉ nên bật khi cần, dùng xong tắt.",
+  "phoneUnlockBanks": "App ngân hàng, thanh toán",
+  "phoneUnlockBanksHint": "Điều chỉnh trong danh sách app",
+  "phoneUnlockNone": "Chưa bật gì",
+  "phoneUnlockCount": "{count, plural, other{Đã bật {count} mục}}",
+  "@phoneUnlockCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneUnlockedBadge": "Đã gỡ bỏ giới hạn",
+  "phoneUnlockConfirmSystemTitle": "Cho phép AI thao tác cài đặt hệ thống?",
+  "phoneUnlockConfirmSecretsTitle": "Cho phép AI điền mật khẩu và mã xác minh?",
+  "phoneUnlockConfirmOwnAppTitle": "Cho phép AI thao tác chính DSH Go?",
+  "phoneUnlockCanTitle": "Bật rồi, AI có thể",
+  "phoneUnlockRiskTitle": "Có thể xảy ra chuyện gì",
+  "phoneUnlockDisclaimerTitle": "Miễn trừ trách nhiệm",
+  "phoneUnlockSystemCan1": "Mở và đổi cài đặt hệ thống, gồm quyền, trợ năng và tùy chọn nhà phát triển",
+  "phoneUnlockSystemCan2": "Cài đặt, cập nhật hoặc gỡ app trong trình cài đặt",
+  "phoneUnlockSystemCan3": "Bấm trong trung tâm bảo mật và thanh thông báo, kể cả nút trên thông báo",
+  "phoneUnlockSystemRisk1": "Lệnh độc hại trong trang web, tin nhắn hoặc tệp có thể dụ AI tắt bảo vệ, cấp quyền cho app khác hoặc cài app",
+  "phoneUnlockSystemRisk2": "Đổi sai cài đặt mạng, tài khoản hoặc bảo mật thì bạn phải tự sửa lại",
+  "phoneUnlockSecretsCan1": "Nhập vào ô mật khẩu, mã xác minh và mật khẩu thanh toán",
+  "phoneUnlockSecretsCan2": "Dùng mã xác minh thấy trong trò chuyện, tin nhắn hoặc thông báo để đăng nhập hoặc xác minh",
+  "phoneUnlockSecretsCan3": "Lịch sử thao tác chỉ hiện ••••, không ghi lại nội dung đã điền",
+  "phoneUnlockSecretsRisk1": "Lệnh độc hại có thể dụ AI điền mã xác minh sang chỗ khác, để người khác đăng nhập tài khoản của bạn",
+  "phoneUnlockSecretsRisk2": "Có thể hoàn tất khoản thanh toán hoặc chuyển tiền mà bạn không muốn",
+  "phoneUnlockOwnAppCan1": "Bấm và nhập trong DSH Go, kể cả đổi cài đặt",
+  "phoneUnlockOwnAppCan2": "Đọc cuộc trò chuyện và cài đặt trên giao diện DSH Go",
+  "phoneUnlockOwnAppRisk1": "Lệnh độc hại có thể dụ AI phê duyệt thao tác do chính nó khởi xướng, hoặc tắt xác nhận",
+  "phoneUnlockOwnAppRisk2": "Nội dung trên các giao diện này sẽ gửi cho mô hình",
+  "phoneUnlockDisclaimer1": "Bật rồi, AI có thể thực hiện các thao tác trên mà không cần ai xác nhận.",
+  "phoneUnlockDisclaimer2": "AI có thể bị nội dung trong trang web, tin nhắn hoặc tệp đánh lạc hướng.",
+  "phoneUnlockDisclaimer3": "Tổn thất về tài khoản, tiền bạc, dữ liệu hoặc thiết bị do đó gây ra do bạn tự chịu, DSH Go và nhà phát triển không chịu trách nhiệm.",
+  "phoneUnlockDisclaimer4": "Chỉ nên bật tạm thời khi cần, dùng xong tắt.",
+  "phoneUnlockDisclaimer5": "Không nên bật trên thiết bị có thông tin thanh toán hoặc ngân hàng.",
+  "phoneUnlockHold": "Tôi hiểu rủi ro, bật",
+  "phoneUnlockHoldHint": "Giữ nút khoảng 1,5 giây",
+  "phoneUnlockOnNotice": "Đã bật “{name}”",
+  "@phoneUnlockOnNotice": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneUnlockOffNotice": "Đã tắt “{name}”",
+  "@phoneUnlockOffNotice": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchKwPhoneUnlock": "gỡ bỏ giới hạn,mở giới hạn,mật khẩu,mã xác minh,cài đặt hệ thống,chính app,rủi ro,miễn trừ trách nhiệm"
+}

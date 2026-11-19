@@ -1,0 +1,240 @@
+{
+  "@@locale": "vi",
+  "plugslotsSurfaceComposerTools": "Công cụ bảng dấu cộng",
+  "plugslotsSurfaceSessionActions": "Thao tác trò chuyện",
+  "plugslotsSurfaceTurnNote": "Ghi chú cuối lượt",
+  "plugslotsSurfaceComposerActions": "Nút ở ô nhập",
+  "plugslotsSurfaceMessageActions": "Menu tin nhắn",
+  "plugslotsSurfaceComposerStrip": "Thanh trạng thái",
+  "plugslotsSurfacePanel": "Bảng",
+  "plugslotsNativeUi": "Giao diện gốc",
+  "plugslotsIssueCount": "{count} mục lỗi",
+  "@plugslotsIssueCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsAllGood": "Bình thường",
+  "plugslotsViewSize": "Giao diện {size}",
+  "@plugslotsViewSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsInvokeMs": "Phản hồi {ms} ms",
+  "@plugslotsInvokeMs": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsLastView": "Giao diện gần nhất",
+  "plugslotsLastInvoke": "Phản hồi gần nhất",
+  "plugslotsProblems": "Vấn đề",
+  "plugslotsNoProblems": "Không có vấn đề",
+  "plugslotsWantsDraft": "«{plugin}» muốn đọc bản nháp",
+  "@plugslotsWantsDraft": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsWantsClipboard": "«{plugin}» muốn đọc khay nhớ tạm",
+  "@plugslotsWantsClipboard": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsWantsBoth": "«{plugin}» muốn đọc bản nháp và khay nhớ tạm",
+  "@plugslotsWantsBoth": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsWantsWhen": "Chỉ đọc khi bạn chạm vào nó",
+  "plugslotsAllow": "Cho phép",
+  "plugslotsNoResponse": "«{plugin}» không phản hồi",
+  "@plugslotsNoResponse": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsFailed": "«{plugin}» bị lỗi",
+  "@plugslotsFailed": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsNeedsChat": "Mở một cuộc trò chuyện trước",
+  "plugslotsFromPlugin": "Từ «{plugin}»",
+  "@plugslotsFromPlugin": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsPanelOffline": "Không kết nối được Plugin",
+  "plugslotsIssueTooMany": "Tối đa {max} mục, phần còn lại không hiển thị",
+  "@plugslotsIssueTooMany": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsIssueTrimmed": "Quá {max} ký tự, đã cắt ngắn",
+  "@plugslotsIssueTrimmed": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsIssueNeedsApp": "Cần DSH Go {version} trở lên",
+  "@plugslotsIssueNeedsApp": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueNewerProtocol": "Cần cập nhật App",
+  "plugslotsIssueUnknownIcon": "Biểu tượng không xác định, đã dùng biểu tượng mặc định",
+  "plugslotsIssueUnknownEffect": "Hiệu ứng không hỗ trợ «{name}»",
+  "@plugslotsIssueUnknownEffect": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueLate": "Trả về sau 3 giây kể từ lúc chạm, đã bỏ qua",
+  "plugslotsIssueHttps": "Chỉ hỗ trợ liên kết https",
+  "plugslotsIssueUnknownPage": "Không có trang «{page}»",
+  "@plugslotsIssueUnknownPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueThrottled": "Thông báo quá thường xuyên, đã bỏ qua",
+  "plugslotsIssueInvoke": "Gọi thất bại: {message}",
+  "@plugslotsIssueInvoke": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueStream": "Dữ liệu lỗi: {message}",
+  "@plugslotsIssueStream": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueMissing": "Thiếu mục bắt buộc",
+  "plugslotsIssueDuplicate": "id trùng, đã bỏ qua",
+  "plugslotsIssueNoPlacement": "Không có vị trí để hiển thị",
+  "plugslotsWantsMessage": "«{plugin}» muốn đọc trả lời này",
+  "@plugslotsWantsMessage": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsCodeInvalidManifest": "Bản khai báo lỗi, phần gốc đã tắt",
+  "plugslotsCodeInvalidField": "Định dạng sai, đã bỏ qua",
+  "plugslotsCodeUnknownField": "Trường không xác định, đã bỏ qua",
+  "plugslotsCodeUnknownSurface": "Vị trí này chưa hỗ trợ, đã bỏ qua",
+  "plugslotsCodeTooMany": "Vượt số lượng, phần thừa không hiển thị",
+  "plugslotsCodeTooLong": "Chữ quá dài, đã cắt ngắn",
+  "plugslotsCodeNoHandler": "Plugin chưa xử lý mục này, tạm không hiển thị",
+  "plugslotsCodeUndeclared": "Đã đăng ký mục không có trong danh sách, đã bỏ qua",
+  "plugslotsCodeViewFile": "Không đọc được tệp giao diện",
+  "plugslotsCodeBadEffect": "Định dạng hành động sai, đã bỏ qua",
+  "plugslotsCodeViolation": "Lỗi {count} lần",
+  "@plugslotsCodeViolation": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsCodeDegraded": "Lỗi quá nhiều, đã tắt tới lần khởi động sau",
+  "plugslotsCodeTimeout": "Plugin không phản hồi kịp",
+  "plugslotsCodeRateLimited": "Chạm quá nhanh",
+  "plugslotsCodeNotFound": "Plugin đã tắt hoặc không tìm thấy",
+  "plugslotsCodePluginError": "Plugin bị lỗi",
+  "plugslotsCodeInvalidView": "Giao diện bị lỗi",
+  "plugslotsCodeLimit": "Đăng ký quá nhiều",
+  "plugslotsCodeOther": "Vấn đề khác",
+  "plugslotsCodeUnknownEffect": "Hành động không hỗ trợ, đã bỏ qua",
+  "plugslotsNotDone": "Chưa xong",
+  "plugslotsWorking": "Đang làm",
+  "plugslotsTapToCancel": "Chạm để hủy",
+  "plugslotsCodeTooManyPending": "Còn hai việc chưa xong",
+  "plugslotsCodeNoStream": "Mất kết nối",
+  "plugslotsVoiceAsk": "Cho phép «{plugin}» nghe bạn nói?",
+  "@plugslotsVoiceAsk": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsVoiceWhen": "Đang đọc sẽ dừng ngay khi bạn lên tiếng. Giọng nói chỉ được xử lý trên điện thoại, không lưu, không tải lên",
+  "plugslotsVoiceDeny": "Không cho phép",
+  "plugslotsVoiceSwitch": "Nghe bạn nói",
+  "plugslotsPickerUnavailable": "Thiết bị này tạm chưa hỗ trợ chọn tệp",
+  "plugslotsPickerBusy": "Hoàn tất lần chọn tệp hiện tại trước",
+  "plugslotsPickerLimit": "Tối đa {count} tệp, mỗi tệp 8 MiB, tổng 16 MiB",
+  "@plugslotsPickerLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsPickerFailed": "Không đưa được tệp cho Plugin, thử lại",
+  "plugslotsWebPlacesTitle": "Giao diện bản web",
+  "plugslotsPlaceBesideComposer": "Bên cạnh ô nhập",
+  "plugslotsPlaceHeader": "Thanh trên cùng của trò chuyện",
+  "plugslotsPlaceMessages": "Trong tin nhắn",
+  "plugslotsPlaceOverlay": "Lớp phủ",
+  "plugslotsPlaceSidebar": "Thanh bên",
+  "plugslotsPlaceRightbar": "Thanh bên phải",
+  "plugslotsPlaceFiles": "Xem trước tệp",
+  "plugslotsPlaceSettings": "Cài đặt",
+  "plugslotsPlacePlugins": "Trang Plugin",
+  "plugslotsPlaceNewChat": "Trang trò chuyện mới",
+  "plugslotsPlaceElsewhere": "Vị trí khác",
+  "plugslotsPlaceUnknown": "Giao diện web của nó",
+  "plugslotsChatEntry": "Plugin",
+  "plugslotsChatWebFrom": "Plugin web · {names}",
+  "@plugslotsChatWebFrom": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  }
+}

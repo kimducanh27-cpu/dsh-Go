@@ -1,0 +1,98 @@
+{
+  "@@locale": "vi",
+  "workshopMinePublish": "Gửi bài",
+  "workshopMinePublishHint": "Được duyệt xong sẽ hiện trong mục “Khám phá”",
+  "workshopMineSignInTitle": "Bài gửi gắn với tài khoản GitHub",
+  "workshopMineSignInMessage": "Đăng nhập để xem các tác phẩm mình đã gửi.",
+  "workshopMineConsentTitle": "Còn một bước xác nhận",
+  "workshopMineConsentMessage": "Workshop cần dùng thông tin đăng nhập GitHub của bạn để xác minh danh tính, đồng ý rồi mới xem được bài gửi của mình.",
+  "workshopMineConsentAction": "Xem chi tiết",
+  "workshopMineEmptyTitle": "Chưa có bài gửi nào",
+  "workshopMineEmptyMessage": "Làm thú cưng hay bạn đồng hành rồi thì gửi lên cho mọi người dùng nhé.",
+  "workshopMineEmptyFiltered": "Không có bài gửi nào ở trạng thái này",
+  "workshopMineLoadFailed": "Không tải được bài gửi",
+  "workshopMineStale": "Không lấy được nội dung mới nhất, dưới đây là nội dung đã tải trước đó.",
+  "workshopMineLoadMore": "Tải thêm",
+  "workshopMineStatusPending": "Đang chờ duyệt",
+  "workshopMineStatusApproved": "Đã duyệt",
+  "workshopMineStatusRejected": "Đã từ chối",
+  "workshopMineStatusWithdrawn": "Đã rút lại",
+  "workshopMineStatusDraft": "Bản nháp",
+  "workshopMineDetailTitle": "Chi tiết bài gửi",
+  "workshopMineRefreshOne": "Làm mới mục này",
+  "workshopMineAboutPending": "Đã gửi, đang chờ duyệt. Được duyệt sẽ hiện trong mục “Khám phá”.",
+  "workshopMineAboutApproved": "Đã được duyệt. Hiện có công khai hay không thì xem trong mục “Khám phá”.",
+  "workshopMineAboutRejected": "Không được duyệt.",
+  "workshopMineAboutWithdrawn": "Đã rút lại, không khôi phục được.",
+  "workshopMineAboutDraft": "Tệp chưa tải lên xong, chưa vào diện duyệt.",
+  "workshopMineReviewReason": "Ý kiến duyệt",
+  "workshopMineWithdrawReason": "Lý do rút lại",
+  "workshopMineWithdrawReasonHint": "Ví dụ: gửi nhầm tệp, muốn sửa rồi gửi lại",
+  "workshopMineCreatedAt": "Thời gian gửi",
+  "workshopMineUpdatedAt": "Cập nhật gần nhất",
+  "workshopMineDetailStale": "Mục này chưa làm mới được, đang hiện trạng thái đã tải trước đó.",
+  "workshopMineAccountChanged": "Tài khoản đã đổi",
+  "workshopMineAccountChangedMessage": "Bài gửi này thuộc tài khoản trước, không hiện nữa.",
+  "workshopMineWithdraw": "Rút bài gửi",
+  "workshopMineWithdrawConfirmTitle": "Rút bài gửi này?",
+  "workshopMineWithdrawConfirmMessage": "Rút xong không khôi phục được. Nếu “{title}” đã công khai, mọi người sẽ không tải được phiên bản này nữa, và không thể đăng lại cùng số phiên bản.",
+  "@workshopMineWithdrawConfirmMessage": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopMineWithdrawConfirm": "Rút lại",
+  "workshopMineWithdrawing": "Đang rút lại…",
+  "workshopMineWithdrawDone": "Đã rút bài gửi này",
+  "workshopMineWithdrawUnknown": "Không chắc đã rút thành công chưa. Kiểm tra kết quả trước, đừng rút lại.",
+  "workshopMineWithdrawQuery": "Kiểm tra kết quả",
+  "workshopMineWithdrawStill": "Kiểm tra thấy vẫn chưa rút. Nếu vẫn muốn thì rút lại một lần nữa.",
+  "workshopMineWithdrawReconciled": "Kiểm tra thấy hiện đã ở trạng thái rút lại.",
+  "workshopMineReasonEmpty": "Viết lý do trước đã.",
+  "workshopMineReasonTooLong": "Tối đa {max} ký tự, hiện đã vượt quá.",
+  "@workshopMineReasonTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopMineReasonBadChars": "Có ký tự không dùng được, xóa đi rồi thử lại.",
+  "workshopMineReasonRejected": "Lý do này không được chấp nhận, sửa lại rồi thử.",
+  "workshopReportTarget": "{title} · {version}",
+  "@workshopReportTarget": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopReportReason": "Lý do báo cáo",
+  "workshopReportReasonHint": "Nó có vấn đề gì, ví dụ vi phạm bản quyền, nội dung không phù hợp",
+  "workshopReportNote": "Người duyệt sẽ xem báo cáo này. Tác phẩm không tự động bị gỡ chỉ vì bị báo cáo.",
+  "workshopReportSubmit": "Gửi báo cáo",
+  "workshopReportSending": "Đang gửi…",
+  "workshopReportDone": "Đã nhận báo cáo, người duyệt sẽ xem.",
+  "workshopReportSignInTitle": "Báo cáo cần tài khoản GitHub",
+  "workshopReportSignInMessage": "Đăng nhập rồi mới gửi được báo cáo.",
+  "workshopReportConsentMessage": "Workshop cần dùng thông tin đăng nhập GitHub của bạn để xác minh danh tính, đồng ý rồi mới báo cáo được.",
+  "workshopReportUnknownTitle": "Không chắc đã gửi tới chưa",
+  "workshopReportUnknownMessage": "Báo cáo lần trước có thể đã nhận được, cũng có thể chưa, hiện không tra được kết quả. Gửi lại có thể thành báo cáo trùng.",
+  "workshopReportUnknownOther": "Lần đó báo cáo về {id} {version}.",
+  "@workshopReportUnknownOther": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopReportUnknownAgain": "Đã hiểu có thể trùng, viết lại"
+}

@@ -1,0 +1,55 @@
+{
+  "@@locale": "vi",
+  "selfUpdateTransport": "Tuyến cài đặt",
+  "selfUpdateSystem": "Cài đặt bình thường (mặc định)",
+  "selfUpdateShizuku": "Shizuku",
+  "selfUpdateAdb": "ADB trên máy",
+  "selfUpdateSecurityNote": "Mỗi tuyến vẫn chịu ràng buộc của chữ ký APK, Android và chính sách bảo mật của hãng, không đảm bảo bỏ qua quét. Không hỗ trợ root, cũng sẽ không tự đổi tuyến khi thất bại.",
+  "selfUpdateNativeConfirm": "Chỉ cài bản cập nhật của ứng dụng này đã được xác minh; lát nữa vẫn cần xác nhận cài đặt gốc. Cho phép Shizuku không có nghĩa là đồng ý cài đặt, không cần bật điều khiển điện thoại hay AI Shell.",
+  "selfUpdateAuthorize": "Xin quyền Shizuku để cập nhật",
+  "selfUpdateRefresh": "Làm mới trạng thái kênh",
+  "selfUpdateShizukuStatus": "Shizuku: {status}",
+  "@selfUpdateShizukuStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "selfUpdateReady": "Đã cấp quyền",
+  "selfUpdatePermissionRequired": "Hãy cài đặt, khởi động và cấp quyền Shizuku trước",
+  "selfUpdateUnsupportedIdentity": "Chỉ hỗ trợ shell UID 2000; root và các danh tính khác không được hỗ trợ",
+  "selfUpdateAdbHint": "Dùng danh tính gỡ lỗi không dây trên máy đã ghép nối; chỉ kết nối khi nhấn cài đặt. Nếu chưa ghép nối, có thể mở trang ghép nối Android Shell hiện có, không cần bật điều khiển điện thoại hay AI Shell. Mã ghép nối và cổng không được lưu, không ghi vào nhật ký.",
+  "selfUpdatePairing": "Mở hướng dẫn ghép nối Android Shell",
+  "selfUpdateAdbPaired": "ADB trên máy đã ghép nối",
+  "selfUpdateAdbNotPaired": "ADB trên máy chưa ghép nối",
+  "selfUpdatePendingTitle": "Đang xác minh kết quả cài đặt",
+  "selfUpdatePendingMessage": "Yêu cầu cài đặt có thể vẫn đang xử lý. Sẽ không tự thử lại hay đổi tuyến; hãy xem thông báo hệ thống, rồi đọc trạng thái cài đặt thực tế.",
+  "selfUpdateUnknownTitle": "Chưa rõ kết quả cài đặt",
+  "selfUpdateUnknownMessage": "Hết thời gian, mất liên lạc hay tiến trình thóat không chứng minh là thất bại. Sẽ không tự thử lại hay đổi tuyến; hãy đọc trạng thái cài đặt thực tế trước.",
+  "selfUpdateReadResult": "Đọc trạng thái cài đặt thực tế",
+  "selfUpdateVerifiedTitle": "Đã xác minh phiên bản đang cài",
+  "selfUpdateVerifiedVersion": "Phiên bản hiện tại {version} (bản dựng {code}), đã được lớp gốc xác minh.",
+  "@selfUpdateVerifiedVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "selfUpdateFailedTitle": "Cài đặt chưa hoàn tất",
+  "selfUpdateFailedMessage": "Lớp gốc báo lần cài đặt này thất bại. Hãy kiểm tra thông báo hệ thống và mã lỗi, rồi chọn rõ tuyến cài đặt.",
+  "selfUpdateErrorCode": "Mã lỗi: {code}",
+  "@selfUpdateErrorCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "selfUpdateEndWaiting": "Kết thúc lần chờ này",
+  "selfUpdateEndWaitingNote": "Chỉ kết thúc chờ khi đã xác nhận hệ thống không còn cài đặt. Xóa bản ghi lần này không có nghĩa là hủy cài đặt của hệ thống; sẽ không tự thử lại hay đổi tuyến, vẫn cần xác nhận cài đặt gốc lần nữa."
+}

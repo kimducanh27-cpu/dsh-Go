@@ -1,0 +1,9 @@
+{
+  "@@locale": "vi",
+  "seamsTitle": "Giao diện trong App",
+  "seamsOverlay": "Lớp phủ trang trò chuyện",
+  "seamsOverlayNote": "Luôn hiển thị trên khu vực trò chuyện, tự nhường chỗ khi bộ nhớ căng thẳng",
+  "seamsSidebarPage": "Mục ở thanh bên",
+  "seamsSettingsPage": "Trang cài đặt Plugin",
+  "seamsDetailPage": "Mở rộng chi tiết Plugin"
+}

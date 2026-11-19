@@ -1,0 +1,139 @@
+{
+  "@@locale": "vi",
+  "speechReadAloud": "Đọc to",
+  "speechReadAloudStop": "Dừng đọc to",
+  "speechReadSection": "Đọc to",
+  "speechReadFooter": "Nút đọc to dưới câu trả lời, phòng bạn đồng hành và cuộc gọi thoại đều dùng giọng này.",
+  "speechVoiceTitle": "Giọng đọc to",
+  "speechVoiceHello": "Xin chào, đây là giọng đọc to.",
+  "speechVoiceDeepseek": "DeepSeek",
+  "speechVoiceDeepseekHint": "Tài khoản DeepSeek đã đăng nhập trả phí; chưa đăng nhập, hoặc tài khoản không dùng được cho giọng nói, thì dùng API Key trong cài đặt. Không cần cấu hình thêm",
+  "speechVoiceDeepseekFooter": "Tính phí theo số chữ đọc, giá xem ở nền tảng mở DeepSeek. Trước khi đọc sẽ bỏ khối mã, bảng và địa chỉ liên kết.",
+  "speechVoiceStella": "Sao biển (giọng nữ)",
+  "speechVoiceTide": "Triều đen (giọng nam)",
+  "speechVoiceStellaShort": "Sao biển",
+  "speechVoiceTideShort": "Triều đen",
+  "speechVoiceFollow": "Giống giọng đọc to",
+  "speechVoiceFollowHint": "Dùng giọng đọc to trong Cài đặt › Giọng nói",
+  "speechNotSetUp": "Giọng đọc to chưa đặt xong, vào Cài đặt › Giọng nói xem",
+  "speechNoCredential": "Cần đăng nhập tài khoản DeepSeek trước, hoặc điền API Key trong cài đặt",
+  "speechAccountUnusable": "Tài khoản đã đăng nhập không trả được phí giọng nói DeepSeek ở đây: DSH đang kết nối có phiên bản cũ (cập nhật rồi sẽ được), hoặc đang qua kết nối chuyển tiếp DSH Remote chính thức. Điền API Key DeepSeek trong cài đặt là dùng được",
+  "speechSignIn": "Tài khoản DeepSeek không dùng được cho giọng nói (có thể đã hết phiên đăng nhập, hoặc giọng nói chỉ nhận API Key). Đăng nhập lại, hoặc điền API Key trong cài đặt",
+  "speechUnauthorized": "API Key DeepSeek không hợp lệ, hãy kiểm tra trong cài đặt",
+  "speechBalance": "Số dư DeepSeek không đủ",
+  "speechRateLimited": "Yêu cầu quá nhiều, thử lại sau",
+  "speechNothingToRead": "Câu trả lời này không có chữ để đọc to",
+  "speechNotHeard": "Không nghe rõ, nói lại lần nữa",
+  "speechTooLong": "Bản ghi âm dài quá, chia vài đoạn nói nhé",
+  "speechBusy": "Dịch vụ giọng nói đang bận, thử lại sau",
+  "speechNetwork": "Không kết nối được dịch vụ giọng nói, hãy kiểm tra mạng",
+  "speechReadFailed": "Đọc to thất bại",
+  "speechListenFailed": "Nhận dạng thất bại",
+  "speechCloudNotice": "Giọng nói sẽ gửi cho DeepSeek để nhận dạng. Muốn nhận dạng trên điện thoại, bạn có thể chuyển sang mô hình giọng nói.",
+  "speechCloudNotSetUp": "Chưa đặt dịch vụ nhận dạng đám mây",
+  "speechCallTile": "Gọi thoại",
+  "speechCallSection": "Gọi thoại",
+  "speechCallFooter": "Khi gọi, nói xong một câu dừng lại một chút là gửi đi; câu trả lời vừa viết vừa đọc.",
+  "speechCallBargeIn": "Chen ngang để ngắt lời",
+  "speechCallBargeInHint": "Khi AI đang nói mà bạn mở miệng, nó sẽ nói nhỏ lại; bạn nói “ừ” “đúng” thì nó nói tiếp, nói chuyện khác thì nó dừng lại nghe bạn",
+  "speechCallSpoken": "Trả lời bằng lời nói",
+  "speechCallSpokenHint": "Tin nhắn đầu tiên của cuộc gọi sẽ nhờ AI trả lời ngắn gọn, khẩu ngữ",
+  "speechCallSpeaker": "Mặc định loa ngoài",
+  "speechCallSpeakerHint": "Khi đã cắm tai nghe thì luôn dùng tai nghe",
+  "speechCallHint": "(Đây là cuộc gọi thoại, lời tôi nói được nhận dạng giọng nói chuyển thành chữ. Hãy trả lời ngắn gọn, khẩu ngữ bằng tiếng Việt, không dùng Markdown, danh sách, bảng và khối mã.)",
+  "speechCallCutNote": "(Bạn nói tới “{heard}” thì tôi ngắt lời bạn, phần sau tôi không nghe được.)",
+  "@speechCallCutNote": {
+    "placeholders": {
+      "heard": {
+        "type": "String"
+      }
+    }
+  },
+  "speechCallCutEarly": "(Bạn vừa mở miệng thì tôi đã ngắt lời bạn, câu trả lời này tôi không nghe được.)",
+  "speechCallCue": "Âm báo đang suy nghĩ",
+  "speechCallCueHint": "Khi câu trả lời một lúc chưa lên tiếng, sẽ kêu khẽ một tiếng để báo vẫn đang nghĩ",
+  "speechLiveSection": "Phụ đề trực tiếp",
+  "speechLiveName": "Mô hình nhận dạng trực tuyến",
+  "speechLiveSystemName": "Nhận dạng hệ thống (tiếng phổ thông)",
+  "speechLiveSystemReadyNote": "Do hệ thống HarmonyOS cung cấp, không cần tải mô hình, khi gọi sẽ tự dùng",
+  "speechLiveSystemBusy": "Đang dùng",
+  "speechLiveSystemBusyNote": "Nhập giọng nói hoặc một nhận dạng khác đang dùng nó, dùng xong bấm thử lại",
+  "speechLiveSystemFailedNote": "Điện thoại này hiện không dùng được nhận dạng hệ thống: {reason}",
+  "@speechLiveSystemFailedNote": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveSystemFooter": "Phụ đề và việc chen ngang do nhận dạng hệ thống HarmonyOS hoàn thành trên điện thoại; chữ gửi cho AI vẫn do cách nhận dạng bạn chọn ở trên đưa ra, chọn nhận dạng đám mây thì bản ghi âm sẽ tải lên.",
+  "speechLiveAbsentNote": "Tải về rồi, khi gọi vừa nói vừa hiện chữ, chen ngang cũng dừng nhanh hơn. Khoảng {mb}, chạy trên điện thoại",
+  "@speechLiveAbsentNote": {
+    "placeholders": {
+      "mb": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveReadyNote": "Đã chiếm {mb}, khi gọi sẽ tự dùng",
+  "@speechLiveReadyNote": {
+    "placeholders": {
+      "mb": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveBlocked": "Đã tắt",
+  "speechLiveBlockedNote": "Trên điện thoại này lúc chạy đã gặp sự cố, phụ đề trực tiếp đã tắt, cuộc gọi vẫn bình thường. Xóa rồi tải lại có thể thử lại.",
+  "speechLiveFooter": "Phụ đề và việc chen ngang hoàn thành trên điện thoại; chữ gửi cho AI vẫn do cách nhận dạng bạn chọn ở trên đưa ra, chọn nhận dạng đám mây thì bản ghi âm sẽ tải lên.",
+  "speechLiveDeleteTitle": "Xóa mô hình nhận dạng trực tuyến?",
+  "speechLiveDeleteBody": "Xóa rồi cuộc gọi sẽ không hiện phụ đề trực tiếp nữa, lúc nào cũng tải lại được.",
+  "speechCallStarting": "Đang kết nối",
+  "speechCallListening": "Đang nghe",
+  "speechCallHearing": "Bạn đang nói",
+  "speechCallThinking": "Nghĩ một chút",
+  "speechCallSpeaking": "Đang nói, chạm nhẹ quả cầu sáng để bỏ qua",
+  "speechCallMuted": "Đã tắt tiếng",
+  "speechCallEnded": "Cuộc gọi đã kết thúc",
+  "speechCallEndPermission": "Không có quyền mic",
+  "speechCallEndMicrophone": "Mic đang bị chiếm hoặc không mở được",
+  "speechCallEndNoRecognizerSignedIn": "Cuộc gọi cần nhận dạng được bản ghi âm. Tài khoản đã đăng nhập không trả được phí giọng nói DeepSeek ở đây (DSH đang kết nối có phiên bản cũ, hoặc qua chuyển tiếp DSH Remote): điền API Key DeepSeek trong cài đặt, hoặc tải mô hình giọng nói ở Cài đặt › Giọng nói",
+  "speechCallEndNoRecognizer": "Cuộc gọi cần một cách nhận dạng được bản ghi âm: đăng nhập tài khoản DeepSeek, điền API Key, hoặc tải mô hình giọng nói",
+  "speechCallEndBackground": "Chuyển sang nền thì cuộc gọi sẽ kết thúc",
+  "speechCallEndFailed": "Ghi âm bị lỗi, cuộc gọi đã kết thúc",
+  "speechCallSendFailed": "Không gửi được, nói lại lần nữa",
+  "speechCallSkipHint": "Bỏ qua đoạn trả lời này",
+  "speechCallTranscript": "Phụ đề",
+  "speechCallTranscriptHint": "Toàn bộ phụ đề của cuộc gọi này",
+  "speechCallTranscriptEmpty": "Chưa ai mở miệng. Những gì hai bên nói sẽ ghi từng câu ở đây.",
+  "speechCallTranscriptCut": "Bạn chen ngang ở đây",
+  "speechCallMute": "Tắt tiếng",
+  "speechCallUnmute": "Bật tiếng",
+  "speechCallHangUp": "Cúp máy",
+  "speechCallSpeakerOn": "Loa ngoài",
+  "speechCallEarpiece": "Loa trong",
+  "speechBackdropTitle": "Nền cuộc gọi",
+  "speechCallSettings": "Cài đặt cuộc gọi",
+  "speechCallPause": "Dừng bao lâu thì tính là nói xong",
+  "speechCallPauseQuick": "Nhanh",
+  "speechCallPauseNormal": "Vừa",
+  "speechCallPausePatient": "Kiên nhẫn",
+  "speechCallPauseHint": "Nói hay dừng, thường bị cô ấy cướp lời thì chọn “Kiên nhẫn”; thấy cô ấy trả lời chậm thì chọn “Nhanh”.",
+  "speechCallSpeechSection": "Giọng nói và nhận dạng",
+  "speechCallVoice": "Giọng của cô ấy",
+  "speechCallSpeechHint": "Đổi rồi có hiệu lực từ câu sau.",
+  "speechBackdropSea": "Biển sâu",
+  "speechBackdropImage": "Ảnh của tôi",
+  "speechBackdropImagePick": "Chọn một ảnh",
+  "speechBackdropCompanion": "Bạn đồng hành",
+  "speechBackdropHint": "Ảnh sẽ làm mờ, tối đi để đọc phụ đề rõ. Chọn bạn đồng hành thì cô ấy sẽ nói theo giọng.",
+  "speechBackdropHintChange": "Bấm lại “Ảnh của tôi” để đổi ảnh. Chọn bạn đồng hành thì cô ấy sẽ nói theo giọng.",
+  "speechBackdropNoCompanion": "Hãy mời cô ấy về ở trong phòng bạn đồng hành trước, rồi mới đưa cô ấy vào cuộc gọi được.",
+  "speechBackdropReplace": "Đổi ảnh khác",
+  "speechBackdropPickFailed": "Ảnh này không dùng được, đổi ảnh khác thử xem",
+  "speechCallVisual": "Hiệu ứng sáng",
+  "speechCallVisualRing": "Vòng sáng",
+  "speechCallVisualMono": "Đường mảnh",
+  "speechCallVisualGlass": "Quả cầu sáng",
+  "speechInsecure": "Địa chỉ của dịch vụ đám mây này không phải https, Key không được gửi đi như vậy"
+}

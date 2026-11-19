@@ -1,0 +1,905 @@
+{
+  "@@locale": "vi",
+  "featuresCordisSubtitle": "Plugin động · Xóa khi Engine khởi động lại",
+  "featuresCordisUnavailable": "Kết nối này không thấy Cordis",
+  "featuresCordisRemoteUnavailable": "Không dùng được khi chuyển tiếp qua DSH Remote",
+  "featuresCordisReadFailed": "Không đọc được Plugin",
+  "featuresCordisEmpty": "Chưa có Plugin động",
+  "featuresCordisEmptyHint": "Plugin tạo xong sẽ hiện ở đây",
+  "featuresCurrentChat": "Trò chuyện hiện tại",
+  "featuresOtherChats": "Trò chuyện khác",
+  "featuresPresetDefaultSet": "Trò chuyện mới sẽ dùng “{name}”",
+  "@featuresPresetDefaultSet": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresPresetDefaultFailed": "Không đặt làm mặc định được",
+  "featuresPresetDeleteTitle": "Xóa “{name}”?",
+  "@featuresPresetDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresPresetDeleteHint": "Trò chuyện mới sẽ không chọn được nó nữa. Trò chuyện đã bắt đầu không bị ảnh hưởng.",
+  "featuresDeleted": "Đã xóa",
+  "featuresDeleteFailed": "Không xóa được",
+  "featuresPresetAlreadyDefault": "Đã là mặc định cho trò chuyện mới",
+  "featuresPresetSetDefault": "Đặt làm mặc định cho trò chuyện mới",
+  "featuresPresetViewConfig": "Xem cấu hình",
+  "featuresPresetDuplicate": "Nhân bản thành preset mới",
+  "featuresPresetDefaultDeleteHint": "Hãy đặt một preset khác làm mặc định cho trò chuyện mới trước",
+  "featuresAgentPresets": "Preset Agent",
+  "featuresAgentPresetsSubtitle": "Công cụ và cách làm việc cho trò chuyện mới",
+  "featuresNew": "Tạo mới",
+  "featuresPresetsReadFailed": "Không đọc được Preset Agent",
+  "featuresLoadFailed": "Tải thất bại",
+  "featuresNewChatDefault": "Mặc định cho trò chuyện mới",
+  "featuresEmptyDocument": "(Trống)",
+  "featuresReadFailed": "Không đọc được",
+  "featuresTodayTime": "Hôm nay {time}",
+  "@featuresTodayTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresTomorrowTime": "Ngày mai {time}",
+  "@featuresTomorrowTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresYesterdayTime": "Hôm qua {time}",
+  "@featuresYesterdayTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresScheduleSummaryNext": "{rule} · Lần tới {time}",
+  "@featuresScheduleSummaryNext": {
+    "placeholders": {
+      "rule": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresEnded": "Đã kết thúc",
+  "featuresScheduleSummaryEnded": "Đã kết thúc · Đã chạy lúc {time}",
+  "@featuresScheduleSummaryEnded": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresJobElapsed": "Đã chạy {span}",
+  "@featuresJobElapsed": {
+    "placeholders": {
+      "span": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresJobDuration": "Mất {span}",
+  "@featuresJobDuration": {
+    "placeholders": {
+      "span": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresPermissionReadOnly": "Chỉ xem",
+  "featuresPermissionWorkspaceWrite": "Sửa trong không gian làm việc",
+  "featuresPermissionFullAccess": "Quyền đầy đủ",
+  "featuresPermissionAutoReview": "Tự động xét duyệt",
+  "featuresPermissionCustom": "Tùy chỉnh",
+  "featuresPermissionReadOnlyHint": "Chỉ xem tệp, không sửa đổi",
+  "featuresPermissionWorkspaceWriteHint": "Được sửa tệp trong không gian làm việc, vượt ra ngoài thì hỏi bạn trước",
+  "featuresPermissionFullAccessHint": "Không hỏi xác nhận nữa, thực hiện luôn",
+  "featuresPermissionAutoReviewHint": "Mô hình xét duyệt từng thao tác, chưa chắc thì hỏi bạn",
+  "featuresPresetStandard": "Chế độ Chuẩn",
+  "featuresPresetPtc": "Chế độ PTC",
+  "featuresPresetMinimal": "Chế độ Tối giản",
+  "featuresPresetCreator": "Chế độ Sáng tạo",
+  "featuresPresetStandardDescription": "Code, tệp và tài liệu, phù hợp hầu hết nhiệm vụ",
+  "featuresPresetPtcDescription": "Gọi công cụ hàng loạt, rồi lọc, thống kê, tổng hợp",
+  "featuresPresetMinimalDescription": "Chỉ dùng terminal và xem ảnh, phù hợp để thử nghiệm đối chiếu",
+  "featuresPresetCreatorDescription": "Để Agent viết Plugin, tùy biến chính DSH",
+  "featuresHostUnreachable": "Không kết nối được “{name}”",
+  "@featuresHostUnreachable": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresHostConnecting": "Đang kết nối tới “{name}”…",
+  "@featuresHostConnecting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresJobs": "Tác vụ nền",
+  "featuresJobsSubtitle": "Xóa khi Engine khởi động lại",
+  "featuresJobsReadFailed": "Không đọc được tác vụ nền",
+  "featuresJobsEmpty": "Không có tác vụ nền",
+  "featuresJobsEmptyHint": "Các lệnh như máy chủ phát triển sẽ hiện ở đây",
+  "featuresJobsEndedCount": "Đã kết thúc · {count}",
+  "@featuresJobsEndedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresJobStopTitle": "Dừng nhiệm vụ này?",
+  "featuresJobAlreadyEnded": "Nhiệm vụ đã kết thúc rồi",
+  "featuresJobStopFailed": "Không dừng được",
+  "featuresJobOutput": "Đầu ra nhiệm vụ",
+  "featuresOutput": "Đầu ra",
+  "featuresJobRecentLines": "{count} dòng gần nhất",
+  "@featuresJobRecentLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresJobOutputSubject": "Đầu ra nhiệm vụ DSH",
+  "featuresJobOutputReadFailed": "Không đọc được đầu ra",
+  "featuresJobOutputWaiting": "Đang chờ đầu ra…",
+  "featuresJobOutputEmpty": "Không có đầu ra",
+  "featuresPermissionAutoTitle": "Bật tự động xét duyệt?",
+  "featuresPermissionAutoWarning": "Mỗi thao tác do mô hình quyết định có cho qua hay không, có thể quyết sai.",
+  "featuresSwitchFailed": "Không chuyển được",
+  "featuresPermissions": "Quyền",
+  "featuresPermissionsSubtitle": "Trước khi chạy lệnh, sửa tệp thì có hỏi bạn không",
+  "featuresPermissionsReadFailed": "Không đọc được cài đặt quyền",
+  "featuresPermissionCustomHint": "Hiện đang dùng quyền tùy chỉnh, chọn preset sẽ thay thế nó",
+  "featuresModuleInstructions": "Nạp hướng dẫn không gian làm việc",
+  "featuresModuleTime": "Nhận biết thời gian",
+  "featuresModuleBash": "Công cụ lệnh Bash",
+  "featuresModulePersistentBash": "Công cụ Bash bền bỉ",
+  "featuresModulePowerShell": "Công cụ lệnh PowerShell",
+  "featuresModuleFiles": "Công cụ đọc/ghi tệp",
+  "featuresModuleFileSearch": "Công cụ tìm kiếm tệp",
+  "featuresModuleJobs": "Công cụ tác vụ nền",
+  "featuresModuleSchedule": "Công cụ nhiệm vụ tự động",
+  "featuresModuleLocalSkills": "Nạp kỹ năng cục bộ",
+  "featuresModuleSkillTool": "Công cụ nạp kỹ năng",
+  "featuresModuleGoalCommand": "Lệnh quản lý mục tiêu",
+  "featuresModuleGoalTool": "Công cụ quản lý mục tiêu",
+  "featuresModulePlan": "Chế độ Kế hoạch",
+  "featuresModuleCompaction": "Nén ngữ cảnh",
+  "featuresModuleCompactCommand": "Lệnh nén ngữ cảnh",
+  "featuresModuleAskUser": "Công cụ hỏi người dùng",
+  "featuresModuleTodo": "Công cụ danh sách việc cần làm",
+  "featuresModuleWeb": "Công cụ tìm kiếm và đọc web",
+  "featuresModulePresent": "Công cụ bàn giao tệp",
+  "featuresModuleCordis": "Công cụ tra cứu API Plugin",
+  "featuresModuleSubagent": "Công cụ ủy quyền Subagent",
+  "featuresModuleSubagentControl": "Công cụ điều khiển Subagent",
+  "featuresModuleWorkflow": "Công cụ quy trình làm việc",
+  "featuresModulePluginManager": "Công cụ quản lý Plugin",
+  "featuresModulePluginMarket": "Công cụ chợ Plugin",
+  "featuresModuleToolCalls": "Cách gọi công cụ",
+  "featuresModuleTerminal": "Dịch vụ terminal bền bỉ",
+  "featuresModulePersona": "Thiết lập vai trò Agent",
+  "featuresGroupDelegation": "Ủy quyền Subagent",
+  "featuresGroupTerminal": "Terminal bền bỉ",
+  "featuresPresetIdRequired": "Nhập mã định danh",
+  "featuresPresetIdLength": "Tối đa 40 ký tự",
+  "featuresPresetIdFormat": "Chỉ dùng chữ thường, số và dấu gạch ngang",
+  "featuresPresetIdTaken": "Mã định danh này đã được dùng",
+  "featuresPresetCopyName": "{name} (bản sao)",
+  "@featuresPresetCopyName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresPresetBasedOn": "Dựa trên",
+  "featuresNameRequired": "Nhập tên",
+  "featuresCreatorOpenFailed": "Không mở được chế độ Sáng tạo",
+  "featuresPresetNameHint": "Ví dụ: Rà soát code",
+  "featuresPresetId": "Mã định danh",
+  "featuresPresetIdHint": "Chữ thường, số và dấu gạch ngang",
+  "featuresPresetDescription": "Mô tả",
+  "featuresPresetDescriptionHint": "Một câu nói rõ nó dùng để làm gì",
+  "featuresPresetConfigReadFailed": "Không đọc được cấu hình preset",
+  "featuresPresetCreateTitle": "Tạo Preset Agent mới",
+  "featuresPresetDuplicateTitle": "Nhân bản Preset Agent",
+  "featuresPresetEditTitle": "Sửa Preset Agent",
+  "featuresCreatorOpening": "Đang mở chế độ Sáng tạo",
+  "featuresWaitingEngine": "Đang chờ kết nối Engine",
+  "featuresCreatorUnavailable": "Chế độ Sáng tạo không khả dụng",
+  "featuresPresetStartUpdate": "Bắt đầu cập nhật",
+  "featuresPresetStartCreate": "Bắt đầu tạo",
+  "featuresPresetSystemPrompt": "Prompt hệ thống",
+  "featuresPresetSystemPromptHint": "Bạn là ai, làm việc thế nào",
+  "featuresPresetReplaceSystemPrompt": "Thay toàn bộ Prompt hệ thống",
+  "featuresPresetTools": "Công cụ",
+  "featuresSkills": "Kỹ năng",
+  "featuresPresetContextModes": "Ngữ cảnh và chế độ",
+  "featuresCronMinute": "Phút",
+  "featuresCronHour": "Giờ",
+  "featuresDate": "Ngày",
+  "featuresCronMonth": "Tháng",
+  "featuresCronWeekday": "Thứ",
+  "featuresCronRequired": "Nhập biểu thức Cron đủ 5 trường",
+  "featuresCronWhitespace": "Đầu và cuối không được có khoảng trắng",
+  "featuresCronFieldCount": "Cần 5 trường, hiện có {count} trường",
+  "@featuresCronFieldCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresCronInvalidField": "Trường thứ {index} ({name}) viết không đúng",
+  "@featuresCronInvalidField": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresWeekdayMon": "Thứ Hai",
+  "featuresWeekdayTue": "Thứ Ba",
+  "featuresWeekdayWed": "Thứ Tư",
+  "featuresWeekdayThu": "Thứ Năm",
+  "featuresWeekdayFri": "Thứ Sáu",
+  "featuresWeekdaySat": "Thứ Bảy",
+  "featuresWeekdaySun": "Chủ nhật",
+  "featuresMonthJan": "Tháng 1",
+  "featuresMonthFeb": "Tháng 2",
+  "featuresMonthMar": "Tháng 3",
+  "featuresMonthApr": "Tháng 4",
+  "featuresMonthMay": "Tháng 5",
+  "featuresMonthJun": "Tháng 6",
+  "featuresMonthJul": "Tháng 7",
+  "featuresMonthAug": "Tháng 8",
+  "featuresMonthSep": "Tháng 9",
+  "featuresMonthOct": "Tháng 10",
+  "featuresMonthNov": "Tháng 11",
+  "featuresMonthDec": "Tháng 12",
+  "featuresWeekdayName": "{day}",
+  "@featuresWeekdayName": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronWeekdayRange": "{first} đến {last}",
+  "@featuresCronWeekdayRange": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronEveryDay": "Mỗi ngày{months}",
+  "@featuresCronEveryDay": {
+    "placeholders": {
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronMonthDays": "Hàng tháng vào ngày {days}{months}",
+  "@featuresCronMonthDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronMonthDaysAndWeekdays": "Hàng tháng vào ngày {days} và {weekdays}{months}",
+  "@featuresCronMonthDaysAndWeekdays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "weekdays": {
+        "type": "String"
+      },
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronMonthDaysOrWeekdays": "Hàng tháng vào ngày {days} hoặc {weekdays}{months}",
+  "@featuresCronMonthDaysOrWeekdays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "weekdays": {
+        "type": "String"
+      },
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronHourRange": "{first} đến {last}",
+  "@featuresCronHourRange": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresEveryMinute": "Mỗi phút",
+  "featuresCronEveryMinutes": "Mỗi {count} phút",
+  "@featuresCronEveryMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresEveryHour": "Mỗi giờ",
+  "featuresCronHourlyMinutes": "Vào phút thứ {minutes} của mỗi giờ",
+  "@featuresCronHourlyMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronHoursEveryMinute": "Mỗi phút trong giờ {hours}",
+  "@featuresCronHoursEveryMinute": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronHoursEveryMinutes": "Mỗi {count} phút trong giờ {hours}",
+  "@featuresCronHoursEveryMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresCronEveryHours": "Mỗi {count} giờ",
+  "@featuresCronEveryHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresCronHoursMinutes": "Vào phút thứ {minutes} trong giờ {hours}",
+  "@featuresCronHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRepeatDaily": "Hàng ngày",
+  "featuresRepeatWeekdays": "Ngày trong tuần",
+  "featuresRepeatWeekly": "Hàng tuần",
+  "featuresRepeatMonthly": "Hàng tháng",
+  "featuresRepeatInterval": "Khoảng cách",
+  "featuresRepeatOnce": "Chỉ một lần",
+  "featuresRepeatAdvanced": "Nâng cao",
+  "featuresRepeatCustom": "Tùy chỉnh",
+  "featuresIntervalSeconds": "Giây",
+  "featuresZoneUnavailable": "Múi giờ không khả dụng",
+  "featuresChooseDay": "Chọn ít nhất một ngày",
+  "featuresIntervalMinimum": "Khoảng cách tối thiểu là 1",
+  "featuresMinimumMinute": "Ít nhất 1 phút",
+  "featuresTimeDoesNotExist": "Thời gian này không tồn tại ở múi giờ đó",
+  "featuresChooseFutureTime": "Chọn một thời gian trong tương lai",
+  "featuresCronNeverRuns": "Biểu thức này sẽ không bao giờ chạy",
+  "featuresRuleDaily": "Hàng ngày lúc {time}",
+  "@featuresRuleDaily": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRuleWeekdays": "Mỗi ngày trong tuần lúc {time}",
+  "@featuresRuleWeekdays": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRuleWeekends": "Mỗi cuối tuần lúc {time}",
+  "@featuresRuleWeekends": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRuleWeekly": "Hàng tuần {days} lúc {time}",
+  "@featuresRuleWeekly": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRuleMonthly": "Hàng tháng ngày {days} lúc {time}",
+  "@featuresRuleMonthly": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRepeat": "Lặp lại",
+  "featuresChat": "Trò chuyện",
+  "featuresWorkspace": "Không gian làm việc",
+  "featuresInstructionRequired": "Nhập hướng dẫn",
+  "featuresScheduleSaveError": "Không lưu được: {reason}",
+  "@featuresScheduleSaveError": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresScheduleCreateError": "Không tạo được: {reason}",
+  "@featuresScheduleCreateError": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresScheduleNameHint": "Ví dụ: Nhắc họp đứng hàng ngày",
+  "featuresScheduleInstruction": "Hướng dẫn",
+  "featuresScheduleInstructionHint": "Ví dụ: Tổng hợp các commit hôm qua rồi gửi tôi bản tóm tắt",
+  "featuresScheduleRunTime": "Thời gian chạy",
+  "featuresScheduleOpenChat": "Vào trò chuyện xem",
+  "featuresScheduleEditTitle": "Sửa nhiệm vụ tự động",
+  "featuresScheduleCreateTitle": "Tạo nhiệm vụ tự động",
+  "featuresScheduleSaving": "Đang lưu",
+  "featuresScheduleCreating": "Đang tạo trong trò chuyện",
+  "featuresTime": "Thời gian",
+  "featuresNotSelected": "Chưa chọn",
+  "featuresMonthDaysLabel": "Ngày {days}",
+  "@featuresMonthDaysLabel": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresTimeZone": "Múi giờ",
+  "featuresScheduleRunLocation": "Chạy ở",
+  "featuresJustCreatedChat": "Trò chuyện vừa tạo",
+  "featuresModel": "Mô hình",
+  "featuresRequestRefused": "Engine không chấp nhận yêu cầu này",
+  "featuresScheduleNotFound": "Nhiệm vụ này không còn nữa",
+  "featuresScheduleEndedError": "Nhiệm vụ đã kết thúc, không sửa được nữa",
+  "featuresScheduleConflict": "Nhiệm vụ vừa bị sửa, quay lại rồi thử lại",
+  "featuresScheduleInvalidPrompt": "Tên và hướng dẫn không được để trống, tên tối đa 120 ký tự",
+  "featuresScheduleInvalidTime": "Thời gian chạy không đúng",
+  "featuresScheduleIntervalTooShort": "Khoảng cách tối thiểu 1 phút",
+  "featuresScheduleTimeOutOfRange": "Thời gian vượt ra ngoài phạm vi",
+  "featuresScheduleSubagentError": "Trò chuyện này không nhận được nhiệm vụ tự động",
+  "featuresEvery": "Mỗi",
+  "featuresCronExpression": "Biểu thức Cron",
+  "featuresCronFieldGuide": "Phút  Giờ  Ngày  Tháng  Thứ",
+  "featuresZoneTimeSuffix": " (giờ {city})",
+  "@featuresZoneTimeSuffix": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresScheduleNextLocal": "Tiếp theo (giờ trên máy này)",
+  "featuresScheduleNext": "Tiếp theo",
+  "featuresMonthDayChoice": "Ngày {day}",
+  "@featuresMonthDayChoice": {
+    "placeholders": {
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresZonesCommon": "Thường dùng",
+  "featuresZonesAll": "Tất cả",
+  "featuresZoneSearchHint": "Tìm thành phố, múi giờ hoặc độ lệch UTC",
+  "featuresZonesNoMatch": "Không có múi giờ khớp",
+  "featuresZoneUTC": "Giờ phối hợp quốc tế",
+  "featuresZoneShanghai": "Thượng Hải",
+  "featuresZoneUrumqi": "Urumqi",
+  "featuresZoneHongKong": "Hồng Kông",
+  "featuresZoneMacau": "Ma Cao",
+  "featuresZoneTaipei": "Đài Bắc",
+  "featuresZoneTokyo": "Tokyo",
+  "featuresZoneSeoul": "Seoul",
+  "featuresZoneSingapore": "Singapore",
+  "featuresZoneKualaLumpur": "Kuala Lumpur",
+  "featuresZoneBangkok": "Bangkok",
+  "featuresZoneHoChiMinh": "TP. Hồ Chí Minh",
+  "featuresZoneJakarta": "Jakarta",
+  "featuresZoneManila": "Manila",
+  "featuresZoneKolkata": "Kolkata",
+  "featuresZoneDubai": "Dubai",
+  "featuresZoneJerusalem": "Jerusalem",
+  "featuresZoneLondon": "London",
+  "featuresZoneDublin": "Dublin",
+  "featuresZoneLisbon": "Lisbon",
+  "featuresZoneParis": "Paris",
+  "featuresZoneBerlin": "Berlin",
+  "featuresZoneMadrid": "Madrid",
+  "featuresZoneRome": "Rome",
+  "featuresZoneAmsterdam": "Amsterdam",
+  "featuresZoneZurich": "Zurich",
+  "featuresZoneStockholm": "Stockholm",
+  "featuresZoneWarsaw": "Warsaw",
+  "featuresZoneAthens": "Athens",
+  "featuresZoneIstanbul": "Istanbul",
+  "featuresZoneMoscow": "Moscow",
+  "featuresZoneCairo": "Cairo",
+  "featuresZoneJohannesburg": "Johannesburg",
+  "featuresZoneLagos": "Lagos",
+  "featuresZoneNewYork": "New York",
+  "featuresZoneToronto": "Toronto",
+  "featuresZoneChicago": "Chicago",
+  "featuresZoneDenver": "Denver",
+  "featuresZonePhoenix": "Phoenix",
+  "featuresZoneLosAngeles": "Los Angeles",
+  "featuresZoneVancouver": "Vancouver",
+  "featuresZoneAnchorage": "Anchorage",
+  "featuresZoneMexicoCity": "Mexico City",
+  "featuresZoneBogota": "Bogota",
+  "featuresZoneLima": "Lima",
+  "featuresZoneSantiago": "Santiago",
+  "featuresZoneSaoPaulo": "Sao Paulo",
+  "featuresZoneBuenosAires": "Buenos Aires",
+  "featuresZoneHonolulu": "Honolulu",
+  "featuresZoneAuckland": "Auckland",
+  "featuresZoneSydney": "Sydney",
+  "featuresZoneMelbourne": "Melbourne",
+  "featuresZoneBrisbane": "Brisbane",
+  "featuresZonePerth": "Perth",
+  "featuresScheduleCreated": "Đã tạo",
+  "featuresSchedulesReadFailed": "Không đọc được nhiệm vụ tự động",
+  "featuresSchedulesEmpty": "Chưa có nhiệm vụ tự động",
+  "featuresSchedulesEmptyHint": "Đến giờ sẽ tự gửi vào trò chuyện và chạy giúp bạn",
+  "featuresScheduleNewTask": "Tạo nhiệm vụ mới",
+  "featuresSchedulesNoMatch": "Không có nhiệm vụ khớp",
+  "featuresSchedulesNoActive": "Không có nhiệm vụ đang bật",
+  "featuresSchedulesNoEnded": "Không có nhiệm vụ đã kết thúc",
+  "featuresSchedules": "Nhiệm vụ tự động",
+  "featuresSchedulesSubtitle": "Đến giờ tự gửi vào trò chuyện ban đầu",
+  "featuresSchedulesSearch": "Tìm nhiệm vụ",
+  "featuresSchedulesAllCount": "Tất cả {count}",
+  "@featuresSchedulesAllCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresScheduleUntitled": "Nhiệm vụ chưa đặt tên",
+  "featuresScheduleSent": "Đã gửi vào trò chuyện",
+  "featuresView": "Xem",
+  "featuresSendFailed": "Không gửi được",
+  "featuresScheduleDeleteTitle": "Xóa nhiệm vụ này?",
+  "featuresScheduleDeleteHint": "Các lần chạy sau sẽ dừng, và lịch sử chạy của nó sẽ bị xóa. Trò chuyện ban đầu không bị ảnh hưởng.",
+  "featuresScheduleDeleted": "Đã xóa nhiệm vụ",
+  "featuresScheduleActive": "Đã bật",
+  "featuresScheduleRun": "Chạy",
+  "featuresScheduleNextRun": "Lần tới",
+  "featuresScheduleLastRun": "Lần trước",
+  "featuresScheduleRule": "Quy tắc",
+  "featuresScheduleLinkedChat": "Trò chuyện liên kết",
+  "featuresScheduleChatDeleted": "Trò chuyện đã bị xóa",
+  "featuresScheduleEdit": "Sửa nhiệm vụ",
+  "featuresScheduleRunNow": "Chạy ngay",
+  "featuresScheduleHistory": "Lịch sử chạy",
+  "featuresScheduleNeverRun": "Chưa chạy lần nào",
+  "featuresScheduleHistoryUnavailable": "Không có lịch sử",
+  "featuresScheduleHistoryReadFailed": "Không đọc được lịch sử chạy",
+  "featuresScheduleDelete": "Xóa nhiệm vụ",
+  "featuresExportSavedTo": "Đã lưu vào {path}",
+  "@featuresExportSavedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresExportTitle": "Xuất nhật ký trò chuyện",
+  "featuresExportSubtitle": "Đóng gói thành một ZIP, để phản hồi hoặc sao lưu",
+  "featuresExportUnavailable": "Kết nối này không xuất được",
+  "featuresExportRemoteHint": "Qua DSH Remote chuyển tiếp thì không lấy được nhật ký, bạn có thể xuất từ bản web trên máy tính",
+  "featuresExportShareHint": "Đính kèm khi gửi phản hồi, hoặc gửi cho chính bạn",
+  "featuresExportSaveDownloads": "Lưu vào “Tải xuống”",
+  "featuresExportDownloadsHint": "Lưu vào Tải xuống/DSH-Go",
+  "featuresExportContents": "Gồm toàn bộ bản ghi và tệp đính kèm của trò chuyện này và các Subagent",
+  "featuresSkillUseHere": "Dùng trong trò chuyện",
+  "featuresSkillUseNew": "Trò chuyện mới",
+  "featuresSkillsCallHint": "Nhập /tên-kỹ-năng để gọi",
+  "featuresSkillsReadFailed": "Không đọc được kỹ năng",
+  "featuresSkillsEmpty": "Trò chuyện này chưa có kỹ năng",
+  "featuresSkillsEmptyHint": "Kỹ năng đặt trong .dsh/skills sẽ hiện ở đây",
+  "featuresSkillsSourceHint": "Từ thư mục skills trong dự án và ~/.dsh",
+  "featuresSkillUsage": "Dùng cho: {usage}",
+  "@featuresSkillUsage": {
+    "placeholders": {
+      "usage": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresSkillManual": "Chỉ dùng tay",
+  "featuresArtifactsSemantic": "Các tệp đã tạo, tổng {count} tệp, xem tất cả",
+  "@featuresArtifactsSemantic": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresArtifactsTitle": "Các tệp đã tạo",
+  "featuresArtifactsAllCount": "Tất cả {count} tệp",
+  "@featuresArtifactsAllCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresArtifactsCount": "{count} tệp",
+  "@featuresArtifactsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresArtifactsNoFiles": "Chưa có tệp nào",
+  "featuresArtifactsTotal": "{count} tệp · Đã bàn giao và đã tạo",
+  "@featuresArtifactsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresArtifactsEmpty": "Chưa có tệp nào được tạo",
+  "featuresArtifactsEmptyHint": "Tệp do AI bàn giao hoặc tạo sẽ hiện ở đây",
+  "featuresListSeparator": ", ",
+  "featuresErrorReason": "{title}: {reason}",
+  "@featuresErrorReason": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresYearDate": "{date} năm {year}",
+  "@featuresYearDate": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresDateWeekdayTime": "{week}, {date} {time}",
+  "@featuresDateWeekdayTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "week": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresDateWeekday": "{date} {day}",
+  "@featuresDateWeekday": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresOnceDescription": "{rule} · {date} {time}",
+  "@featuresOnceDescription": {
+    "placeholders": {
+      "rule": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresCronMonthSuffix": " ({months})",
+  "@featuresCronMonthSuffix": {
+    "placeholders": {
+      "months": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresRuleIntervalSeconds": "Mỗi {count} giây",
+  "@featuresRuleIntervalSeconds": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresRuleIntervalMinutes": "Mỗi {count} phút",
+  "@featuresRuleIntervalMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresRuleIntervalHours": "Mỗi {count} giờ",
+  "@featuresRuleIntervalHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresSchedulesActiveCount": "Đang bật {count}",
+  "@featuresSchedulesActiveCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresSchedulesEndedCount": "Đã kết thúc {count}",
+  "@featuresSchedulesEndedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresScheduleRetention": "Chỉ giữ {days} ngày gần nhất, tối đa {count} mục",
+  "@featuresScheduleRetention": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresScheduleRetentionUnknown": "Chỉ giữ {days} ngày gần nhất, không rõ giới hạn mục",
+  "@featuresScheduleRetentionUnknown": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresArtifactsDeliveredTurn": "Lượt {turn} · Đã bàn giao",
+  "@featuresArtifactsDeliveredTurn": {
+    "placeholders": {
+      "turn": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresArtifactsGeneratedTurn": "Lượt {turn} · Đã tạo",
+  "@featuresArtifactsGeneratedTurn": {
+    "placeholders": {
+      "turn": {
+        "type": "int"
+      }
+    }
+  },
+  "featuresPresetCreateRequest": "Tạo Preset Agent “{name}” ({id}): Viết hai tệp này y nguyên trong không gian làm việc, rồi dùng install_bundle của plugin_manager để cài thư mục `{directory}`. Chỉ làm vậy thôi.\n\n",
+  "@featuresPresetCreateRequest": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      },
+      "directory": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresPresetUpdateRequest": "Cập nhật Preset Agent “{name}” ({id}): Viết hai tệp này y nguyên trong không gian làm việc, dùng plugin_manager để gỡ gói `{replacing}` trước, rồi dùng install_bundle để cài thư mục `{directory}`. Chỉ làm vậy thôi.\n\n",
+  "@featuresPresetUpdateRequest": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "id": {
+        "type": "String"
+      },
+      "replacing": {
+        "type": "String"
+      },
+      "directory": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresZoneThisPhone": "{city} · Máy này",
+  "@featuresZoneThisPhone": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "featuresPermissionResetHint": "Quyền mặc định cho trò chuyện mới đã hết hiệu lực",
+  "featuresPermissionResetDefault": "Khôi phục mặc định"
+}

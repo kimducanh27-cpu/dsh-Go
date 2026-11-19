@@ -1,0 +1,926 @@
+{
+  "@@locale": "vi",
+  "phoneDiagnosticsCollecting": "Đang thu thập…",
+  "phoneDiagnosticsPacking": "Đang đóng gói…",
+  "phoneDiagnosticsSharing": "Đang mở bảng chia sẻ…",
+  "phoneDiagnosticsSaving": "Đang lưu vào “Tải xuống”…",
+  "phoneDiagnosticsShare": "Chia sẻ gói chẩn đoán",
+  "phoneDiagnosticsShareHint": "Đính kèm vào báo lỗi",
+  "phoneDiagnosticsSave": "Lưu vào “Tải xuống”",
+  "phoneDiagnosticsSaveHint": "Lưu vào Tải xuống/DSH-Go",
+  "phoneDiagnosticsNote": "Gồm phiên bản, thiết bị, nhật ký và lần crash gần nhất, không gồm Key và token",
+  "phoneDiagnosticsExport": "Xuất gói chẩn đoán",
+  "phoneSafeMode": "Chế độ an toàn",
+  "phoneEngineStartingSafeEllipsis": "Đang khởi động ở chế độ an toàn…",
+  "phoneEngineStartingEllipsis": "Đang khởi động…",
+  "phoneEngineTidyingFilesEllipsis": "Đang dọn dẹp tệp Plugin…",
+  "phoneEngineStoppingEllipsis": "Đang dừng…",
+  "phoneEngineStoppedNextSafe": "Đã dừng · Lần sau khởi động ở chế độ an toàn",
+  "phoneEngineInstallingRuntime": "Đang cài môi trường chạy…",
+  "phoneEngineRuntimeNotInstalled": "Chưa cài môi trường chạy",
+  "phoneEngineErrorSeeLogs": "Engine bị lỗi, xem chi tiết trong nhật ký",
+  "phoneEngineTitle": "Engine trên máy",
+  "phoneEngineLocal": "Engine của máy này",
+  "phoneEngineLogs": "Nhật ký",
+  "phoneEngineAutoStart": "Tự khởi động khi mở app",
+  "phoneEngineKeepAlive": "Chạy nền",
+  "phoneEngineKeepAliveHint": "Ngăn hệ thống tắt Engine",
+  "phoneEngineDiagnostics": "Chẩn đoán",
+  "phoneEngineDiagnosticsHint": "Thông tin chạy và báo lỗi",
+  "phoneEngineRuntime": "Môi trường chạy",
+  "phoneEngineArchitecture": "Kiến trúc",
+  "phoneEngineStopTitle": "Dừng Engine?",
+  "phoneEngineStopBody": "Cuộc trò chuyện đang chạy sẽ bị ngắt, lúc nào cũng khởi động lại được.",
+  "phoneEngineInstallRuntime": "Cài môi trường chạy",
+  "phoneEngineStartAgain": "Khởi động lại",
+  "phoneEngineStart": "Khởi động",
+  "phoneEngineRestart": "Khởi động lại",
+  "phoneEngineResetFailed": "Không đặt lại được",
+  "phoneEngineReset": "Đặt lại môi trường chạy",
+  "phoneEngineResetHint": "Xóa cuộc trò chuyện và tệp rồi giải nén lại",
+  "phoneEngineResetTitle": "Đặt lại môi trường chạy?",
+  "phoneResetAlsoDeletes": "Mọi thứ khác trong thư mục home (/root) cũng sẽ bị xóa cùng, gồm tệp trong không gian làm việc, AGENTS.md, và dữ liệu Plugin tự lưu (ví dụ bộ nhớ).",
+  "phoneEngineKeepUiSkills": "Giữ cấu hình giao diện và kỹ năng",
+  "phoneEngineKeepPluginsSettings": "Giữ Plugin đã cài và cài đặt",
+  "phoneEngineDeleteReset": "Xóa và đặt lại",
+  "phoneEngineNotInstalled": "Chưa cài",
+  "phoneEngineInstalling": "Đang cài",
+  "phoneEngineStoppedSafe": "Đã dừng · Chế độ an toàn",
+  "phoneEngineStartingSafe": "Đang khởi động ở chế độ an toàn",
+  "phoneEngineStarting": "Đang khởi động",
+  "phoneEngineTidyingFiles": "Đang dọn dẹp tệp Plugin",
+  "phoneEngineRunningProbation": "Đang chạy · Dùng thử",
+  "phoneEngineStartupFailed": "Khởi động thất bại",
+  "phoneEngineCrashed": "Đã crash",
+  "phoneEngineKilled": "Bị hệ thống tắt",
+  "phoneEngineError": "Bị lỗi",
+  "phoneEngineRuntimeCorrupt": "Gói môi trường chạy trong app đã hỏng, hãy cài lại app",
+  "phoneEngineExited": "Engine đã thóat bất ngờ",
+  "phoneEngineRuntimeMissing": "Môi trường chạy chưa được cài",
+  "phoneEngineSafeUnsupported": "Môi trường chạy phiên bản này không hỗ trợ chế độ an toàn, hãy cập nhật app",
+  "phoneEngineRuntimeIncomplete": "Gói môi trường chạy trong app chưa đầy đủ, hãy cài lại app",
+  "phoneLogEmpty": "Chưa có nhật ký",
+  "phoneLogShareTitle": "Nhật ký Engine DSH",
+  "phoneLogCopyAll": "Sao chép tất cả",
+  "phoneBackgroundAllow": "Cho phép truy cập",
+  "phoneToolScreen": "Xem màn hình",
+  "phoneToolCollect": "Cuộn để thu thập",
+  "phoneToolTap": "Chạm",
+  "phoneToolType": "Nhập",
+  "phoneToolScroll": "Vuốt",
+  "phoneToolKey": "Bấm phím",
+  "phoneToolTapCoordinates": "Chạm tọa độ",
+  "phoneToolHandoff": "Trả lại cho bạn",
+  "phoneToolOpenApp": "Mở app",
+  "phoneToolListApps": "Xem app",
+  "phoneToolIntent": "Hành động hệ thống",
+  "phoneToolNotify": "Gửi thông báo",
+  "phoneToolClipboard": "Bảng tạm",
+  "phoneToolAction": "Thao tác",
+  "phoneDecisionContinued": "Bạn đã bấm tiếp tục",
+  "phoneDecisionDone": "Đã thực hiện",
+  "phoneDecisionAllowed": "Bạn đã cho phép",
+  "phoneDecisionPauseExpired": "Tạm dừng quá lâu",
+  "phoneDecisionBlocked": "Đã chặn",
+  "phoneDecisionTimeout": "Hết thời gian",
+  "phoneDecisionUnavailable": "Không dùng được",
+  "phoneDecisionScreenChanged": "Màn hình đã đổi",
+  "phoneDecisionFailed": "Không thành công",
+  "phoneActionLogTitle": "Lịch sử thao tác",
+  "phoneActionLogSubtitle": "Chỉ ghi đã làm gì, không ghi nội dung màn hình",
+  "phoneActionLogRefresh": "Làm mới",
+  "phoneActionLogEmpty": "Chưa có ghi chép",
+  "phoneActionLogEmptyHint": "Mỗi bước DSH làm trên điện thoại của bạn đều ghi ở đây",
+  "phoneAppRuleDeny": "Không chạm",
+  "phoneAppRuleConfirm": "Xác nhận từng bước",
+  "phoneAppRuleNormal": "Bình thường",
+  "phoneAppRuleDenyHint": "Không đọc cũng không chạm, app ngân hàng, thanh toán mặc định như vậy",
+  "phoneAppRuleConfirmHint": "Được đọc, hỏi bạn trước khi chạm và nhập",
+  "phoneAppRuleNormalHint": "Chỉ hỏi bạn trước thao tác nhạy cảm như gửi",
+  "phoneAppRulesTitle": "Danh sách app",
+  "phoneAppRulesSubtitle": "App không có trong danh sách xử lý bình thường, thao tác nhạy cảm vẫn hỏi bạn trước",
+  "phoneAppRulesUnavailable": "Không đọc được danh sách app",
+  "phoneTryLater": "Thử lại sau",
+  "phoneAppRulesChanged": "Bình thường · Bạn đã đổi",
+  "phoneAppRulesAdd": "Thêm app",
+  "phoneAppRulesAddHint": "Thêm theo tên gói",
+  "phoneSensitiveActionsNote": "Mật khẩu, mã xác minh, thanh toán và cài đặt hệ thống đều do bạn làm",
+  "phoneAppRulesSaveFailed": "Không lưu được, thử lại sau",
+  "phoneAppRulesAcceptRisk": "Tôi biết rủi ro, vẫn sửa",
+  "phoneAppRulesPackage": "Tên gói",
+  "phoneAppRulesPackageHint": "Tìm được ở “Cài đặt → App → Thông tin app”",
+  "phoneAlwaysAllowTitle": "Luôn cho phép",
+  "phoneAlwaysAllowOff": "Chưa bật",
+  "phoneAlwaysAllowCount": "Đã cho phép {count} app",
+  "@phoneAlwaysAllowCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneAlwaysAllowSwitchHint": "Gửi nội dung tới app bạn chọn mà không hỏi nữa",
+  "phoneAlwaysAllowWarning": "Bật rồi, DSH có thể gửi nội dung tới các app này mà không hỏi nữa, gửi rồi không thu hồi được.",
+  "phoneAlwaysAllowConfirm": "Xác nhận bật",
+  "phoneAlwaysAllowAdd": "Thêm app",
+  "phoneAlwaysAllowEmpty": "Chưa cho phép app nào",
+  "phoneAlwaysAllowRemove": "Gỡ",
+  "phoneAlwaysAllowSaveFailed": "Lưu thất bại",
+  "phoneDndRequiresAndroid": "Cần Android 14 trở lên",
+  "phoneDndHiddenScreen": "Thao tác trên màn hình ẩn",
+  "phoneNotReadyYet": "Chưa sẵn sàng",
+  "phoneActionFailedLater": "Không thành công, thử lại sau",
+  "phoneDndDisabled": "Chế độ không làm phiền đã tắt",
+  "phoneDndEnabled": "Chế độ không làm phiền đã bật",
+  "phoneDndShizukuPermissionFailed": "Không lấy được quyền. Bạn có thể cấp quyền cho DSH Go trong “Quản lý app” của Shizuku",
+  "phoneDndPairedConnect": "Ghép nối thành công, bấm “Kết nối”",
+  "phoneDndTitle": "Chế độ không làm phiền",
+  "phoneDndSubtitle": "Thao tác trên màn hình ẩn, không làm phiền bạn dùng điện thoại",
+  "phoneDndUnsupported": "Điện thoại này không dùng được: cần Android 14 trở lên.",
+  "phoneDndRequirements": "Điều kiện dùng",
+  "phoneDndKeepUnlocked": "Giữ sáng màn hình, mở khóa.",
+  "phoneDndReactivate": "Khởi động lại điện thoại rồi kích hoạt lại.",
+  "phoneDndKeepDebugging": "Khi dùng Shizuku hoặc ADB tự kết nối, hãy kết nối Wi-Fi và giữ gỡ lỗi không dây bật.",
+  "phoneReady": "Dùng được rồi",
+  "phoneDndDirectAdb": "ADB tự kết nối",
+  "phoneDndChannels": "Cách kết nối",
+  "phoneDndShizukuFor": "Điện thoại đã cài app Shizuku",
+  "phoneDndSuiFor": "Magisk hoặc KernelSU đã cài mô-đun Sui",
+  "phoneDndRootFor": "Điện thoại đã root",
+  "phoneDndAdbFor": "Không cài app khác, dùng gỡ lỗi không dây",
+  "phoneDndStateInUse": "Đang dùng",
+  "phoneDndStateNotReady": "Chưa sẵn sàng",
+  "phoneDndStateUsable": "Dùng được",
+  "phoneDndStateNeedsGrant": "Chờ cấp quyền",
+  "phoneDndStateNotRunning": "Chưa chạy",
+  "phoneDndStateNotInstalled": "Chưa cài",
+  "phoneDndStateNotFound": "Không phát hiện",
+  "phoneDndStateViaSui": "Do Sui cung cấp",
+  "phoneDndStateWaiting": "Đang chờ cấp quyền",
+  "phoneDndStateDisconnected": "Chưa kết nối",
+  "phoneDndStateNotPaired": "Chưa ghép nối",
+  "phoneDndShizukuViaSui": "Giao diện Shizuku trên điện thoại này do Sui cung cấp, hãy dùng Sui.",
+  "phoneDndSuiMissing": "Không phát hiện Sui. Cài mô-đun Sui trong Magisk hoặc KernelSU và khởi động lại điện thoại, rồi quay lại đây.",
+  "phoneDndSuiRunning": "Giao diện Sui dùng được",
+  "phoneDndSuiStopped": "Giao diện Sui hiện không dùng được. Kiểm tra mô-đun Sui đã bật chưa, khởi động lại điện thoại rồi thử lại.",
+  "phoneDndSuiAllSet": "Sui đã chạy và được cấp quyền, tiếp theo kết nối màn hình nền.",
+  "phoneDndSuiPermissionFailed": "Không xin được quyền Sui. Kiểm tra mô-đun Sui đã bật chưa rồi thử lại.",
+  "phoneDndRootWaiting": "Đang chờ cấp quyền root, hãy chọn trong bảng của trình quản lý root.",
+  "phoneDndRootConnected": "Root đã kết nối. Ngắt rồi phải quay lại đây chọn lại; bật “Giữ kênh root” trong “Cài đặt thêm”, DSH Go mới tự xin lại quyền.",
+  "phoneDndRootConnectedKept": "Root đã kết nối. Ngắt rồi DSH Go sẽ tự xin lại quyền từ trình quản lý root.",
+  "phoneDndRootRetry": "Xin lại quyền root",
+  "phoneDndInstallShizuku": "Cài Shizuku trước (miễn phí, mã nguồn mở).",
+  "phoneDndOpenShizukuSite": "Mở trang web Shizuku",
+  "phoneDndStartShizuku": "Mở Shizuku, làm theo hướng dẫn “Khởi động qua gỡ lỗi không dây” trong đó (cần Wi-Fi). Quay lại đây sẽ tự làm mới.",
+  "phoneDndGrantShizukuHint": "Shizuku đang chạy, còn phải cấp quyền cho DSH Go.",
+  "phoneDndGrantShizuku": "Cấp quyền cho DSH Go",
+  "phoneDndShizukuAllSet": "Shizuku đã chạy và được cấp quyền, tiếp theo kết nối màn hình nền.",
+  "phoneDndShizukuInstalled": "Đã cài Shizuku",
+  "phoneDndShizukuRunning": "Shizuku đang chạy",
+  "phoneDndShizukuGranted": "Đã cấp quyền cho DSH Go",
+  "phoneDndShizukuCompatibility": "Phiên bản Android này có vấn đề tương thích với bản Shizuku chính thức.",
+  "phoneDndWirelessDebuggingOn": "Gỡ lỗi không dây đã bật",
+  "phoneDndPaired": "Đã ghép nối",
+  "phoneDndConnected": "Đã kết nối",
+  "phoneDndDeveloperOptionsStep": "Bật tùy chọn nhà phát triển: trong “Giới thiệu điện thoại”, bấm “Số phiên bản” 7 lần. Xiaomi thì trong “Thiết bị của tôi → Tất cả thông số” bấm “Phiên bản OS”, vivo bấm “Phiên bản phần mềm”.",
+  "phoneDndWirelessDebuggingStep": "Trong tùy chọn nhà phát triển, bật “Gỡ lỗi không dây”, phải kết nối Wi-Fi. Tùy chọn nhà phát triển thường ở “Hệ thống” hoặc “Cài đặt khác”.",
+  "phoneDndStartPairingStep": "Quay lại đây bấm “Bắt đầu ghép nối”, DSH sẽ gửi một thông báo.",
+  "phoneDndGetPairingCodeStep": "Trong “Gỡ lỗi không dây”, bấm “Ghép nối thiết bị bằng mã ghép nối”, màn hình sẽ hiện mã ghép nối 6 chữ số.",
+  "phoneDndEnterPairingCodeStep": "Kéo thanh thông báo xuống, điền mã ghép nối vào thông báo của DSH. Ghép nối xong bấm “Kết nối”.",
+  "phoneDndStartPairing": "Bắt đầu ghép nối",
+  "phoneDndPairingNotificationSent": "Đã gửi thông báo, vào “Gỡ lỗi không dây” lấy mã ghép nối",
+  "phoneDndManualEntry": "Điền tay",
+  "phoneDndConnect": "Kết nối",
+  "phoneDndManualEntryHint": "Khi thông báo không có ô nhập, dùng “Điền tay”",
+  "phoneDndXiaomiUsbHint": "Bật “Gỡ lỗi USB (cài đặt bảo mật)” cần lắp SIM và đăng nhập tài khoản Xiaomi.",
+  "phoneDndEnterCodeTitle": "Điền mã ghép nối",
+  "phoneDndCodeLabel": "Mã ghép nối 6 chữ số",
+  "phoneDndPortLabel": "Cổng (không bắt buộc)",
+  "phoneDndPortHint": "Số sau dấu hai chấm trong “Địa chỉ IP và cổng” dưới mã ghép nối",
+  "phoneDndPair": "Ghép nối",
+  "phoneConfirmAsk": "Hỏi mỗi lần",
+  "phoneConfirmTask": "Tác vụ này miễn xác nhận",
+  "phoneConfirmAlways": "Luôn miễn xác nhận",
+  "phoneConfirmAskHint": "Hỏi bạn trước khi vào app mới, gửi, xóa, thanh toán",
+  "phoneConfirmTaskHint": "Vòng này chỉ hỏi một lần",
+  "phoneConfirmAlwaysHint": "Không hỏi bao giờ, thao tác luôn",
+  "phoneConfirmTitle": "Cách xác nhận",
+  "phoneConfirmAlwaysTitle": "Luôn miễn xác nhận?",
+  "phoneConfirmAlwaysBody": "Mở app, chạm, gửi, xóa đều làm luôn, không hỏi bạn nữa.",
+  "phoneConfirmSaveFailed": "Không đổi được, thử lại sau",
+  "phoneEnableFailed": "Không bật được, thử lại sau",
+  "phoneDisableFailed": "Không tắt được, thử lại sau",
+  "phoneEnabled": "Đã bật",
+  "phoneDisabled": "Đã tắt",
+  "phoneOpenAccessibilityFailed": "Không mở được cài đặt hệ thống, hãy vào “Cài đặt → Trợ năng” tìm DSH",
+  "phoneOpenAppInfoFailed": "Không mở được thông tin app, hãy vào “Cài đặt → App” tìm DSH Go",
+  "phoneStopFailed": "Không dừng được, bạn có thể bấm “Dừng” trên thanh nổi hoặc thông báo",
+  "phoneControlTitle": "Điều khiển điện thoại",
+  "phoneControlSubtitle": "Xem màn hình, chạm giúp bạn, dừng được bất cứ lúc nào",
+  "phoneControlWorking": "Đang thao tác điện thoại",
+  "phoneControlTaskNoConfirmHint": "Tác vụ này miễn xác nhận · Trên thanh nổi cũng tạm dừng hoặc dừng được",
+  "phoneControlFloatingBarHint": "Trên thanh nổi cũng tạm dừng hoặc dừng được",
+  "phoneControlAdvanced": "Cài đặt thêm",
+  "phoneDndMoreChannels": "Thêm cách kết nối (Root / Sui)",
+  "phoneDndChangeChannel": "Đổi cách kết nối",
+  "phoneDndPairingHelp": "Trợ giúp ghép nối / Điền tay",
+  "phoneDndConnectHelp": "Không kết nối được?",
+  "phoneDndPairNext": "Bật “Gỡ lỗi không dây” trong tùy chọn nhà phát triển của hệ thống trước, rồi bấm “Bắt đầu ghép nối”, điền mã ghép nối theo thông báo.",
+  "phoneControlKeepAliveHint": "Ngăn hệ thống tắt trợ năng",
+  "phoneControlReadingEllipsis": "Đang đọc…",
+  "phoneControlNotReady": "Chưa sẵn sàng",
+  "phoneControlNotEnabled": "Chưa bật",
+  "phoneControlSafeModeNotLoaded": "Chế độ an toàn không tải",
+  "phoneControlLocalOnly": "Chỉ dùng được với Engine trên máy",
+  "phoneControlAfterEngineStarts": "Có hiệu lực sau khi Engine khởi động",
+  "phoneControlNeedsAccessibility": "Còn một bước: bật trợ năng",
+  "phoneControlReady": "Thao tác được điện thoại rồi",
+  "phoneControlSetup": "Chuẩn bị",
+  "phoneControlAccessibilityService": "Dịch vụ trợ năng",
+  "phoneControlAccessibilityReady": "Xem được màn hình, chạm giúp bạn rồi",
+  "phoneControlAccessibilityReconnect": "Dịch vụ chưa kết nối, tắt rồi bật lại một lần",
+  "phoneControlAccessibilityHint": "Xem màn hình và chạm đều nhờ nó",
+  "phoneControlGoSettings": "Đi tới cài đặt",
+  "phoneControlGoEnable": "Đi bật",
+  "phoneControlAccessibilityBlocked": "Công tắc trợ năng bấm không được?",
+  "phoneControlRestrictedAfterAttempt": "Có vẻ chưa bật được. App cài ngoài cần “Cho phép cài đặt bị hạn chế” trước",
+  "phoneControlRestrictedHint": "App cài ngoài cần “Cho phép cài đặt bị hạn chế” trước",
+  "phoneControlNotifications": "Thông báo",
+  "phoneControlNotificationsPairingHint": "Xác nhận, dừng và mã ghép nối đều qua thông báo",
+  "phoneControlNotificationsHint": "Cần cho xác nhận và nút “Dừng”",
+  "phoneControlAllowed": "Đã cho phép",
+  "phoneControlTry": "Thử xem",
+  "phoneControlReadScreen": "Đọc màn hình hiện tại",
+  "phoneControlReadScreenHint": "Xem DSH đọc được gì, không gửi cho mô hình",
+  "phoneControlEnableAccessibilityFirst": "Bật dịch vụ trợ năng trước",
+  "phoneControlLoading": "Đang tải",
+  "phoneControlRules": "Quy tắc",
+  "phoneControlRecentActions": "Thao tác gần đây",
+  "phoneControlRecentActionsHint": "Mỗi bước đều ghi lại, không gồm nội dung màn hình",
+  "phoneControlAllActions": "Toàn bộ ghi chép",
+  "phoneControlModuleNotReady": "Trong phiên bản này, mô-đun điều khiển điện thoại chưa sẵn sàng",
+  "phoneControlSafeModeUnavailable": "Chế độ an toàn không dùng được",
+  "phoneControlSafeModeHint": "Chế độ an toàn không tải Plugin, về chế độ bình thường rồi mới dùng được",
+  "phoneControlRemoteHost": "Hiện đang kết nối máy chủ từ xa",
+  "phoneControlCapabilities": "Bật rồi làm được gì",
+  "phoneControlIntents": "Đặt báo thức, tạo lịch, chỉ đường, chia sẻ",
+  "phoneControlNoExtraPermissions": "Không cần thêm quyền",
+  "phoneControlReadToTable": "Đọc màn hình, sắp thành bảng hoặc việc cần làm",
+  "phoneControlNeedsAccessibilityHint": "Cần bật trợ năng",
+  "phoneControlTapType": "Chạm và nhập giúp bạn",
+  "phoneControlSensitiveHint": "Hỏi bạn trước khi gửi, đặt hàng, không bao giờ thanh toán",
+  "phoneDisclosureWhatTitle": "Đọc gì",
+  "phoneDisclosureWhatBody": "Chữ trên màn hình hiện tại. Với mô hình xem được hình, có thể kèm một ảnh chụp màn hình.",
+  "phoneDisclosureWhenTitle": "Khi nào đọc",
+  "phoneDisclosureWhenBody": "Chỉ khi bạn bắt đầu một tác vụ, hoặc bấm “Đọc màn hình hiện tại”. Bình thường không đọc.",
+  "phoneDisclosureWhoTitle": "Gửi cho ai",
+  "phoneDisclosureWhoBody": "Gửi cho mô hình DeepSeek bạn chọn (trên đám mây). Số thẻ ngân hàng, số căn cước sẽ che trước.",
+  "phoneDisclosureNeverTitle": "Mặc định không làm",
+  "phoneDisclosureNeverBody": "Không nhập mật khẩu và mã xác minh, không đổi cài đặt hệ thống, gặp thì trả lại cho bạn. App ngân hàng, thanh toán cũng không chạm.",
+  "phoneDisclosureStopTitle": "Bạn dừng được bất cứ lúc nào",
+  "phoneDisclosureStopBody": "Khi thao tác, trên màn hình có thanh nổi, bạn có thể tạm dừng, dừng hoặc chen ngang. Điện thoại phải sáng màn hình, mở khóa.",
+  "phoneDisclosureTitle": "Trước khi bật điều khiển điện thoại",
+  "phoneDisclosureIntro": "DSH sẽ xem màn hình, chạm như bạn để làm xong việc. Trước khi bật, hãy hiểu mấy điểm này:",
+  "phoneDisclosureRestartNote": "Bật rồi Engine sẽ khởi động lại một lần, câu trả lời đang chạy sẽ bị ngắt",
+  "phoneDisclosureNotNow": "Để sau",
+  "phoneDisclosureAgreeEnable": "Đồng ý và bật",
+  "phoneCheckUnknown": "Không chắc",
+  "phoneCheckYes": "Có",
+  "phoneCheckNotYet": "Chưa có",
+  "phoneRomStock": "Gốc / Khác",
+  "phoneRestrictedAccessibility": "Trợ năng",
+  "phoneRestrictedOpenAccessibility": "Đi bật trợ năng",
+  "phoneRestrictedOverlay": "Cửa sổ nổi",
+  "phoneRestrictedOpenOverlay": "Đi bật cửa sổ nổi",
+  "phoneRestrictedTryAccessibility": "Vào “Trợ năng” bấm thử công tắc DSH một lần, thấy nhắc “Cài đặt bị hạn chế” thì bấm “OK”. Làm xong bước này, lựa chọn bên dưới mới hiện.",
+  "phoneRestrictedOpenInfoStep": "Quay lại đây, bấm “Mở thông tin app”.",
+  "phoneRestrictedBackAccessibility": "Quay lại “Trợ năng”, bật DSH.",
+  "phoneRestrictedMenuStep": "Bấm ba chấm ở góc phải trên, chọn “Cho phép cài đặt bị hạn chế”, rồi xác minh mật khẩu khóa màn hình theo hướng dẫn.",
+  "phoneRestrictedTryOverlay": "Vào cài đặt “Cửa sổ nổi” bấm thử công tắc DSH Go một lần, thấy nhắc “Cài đặt bị hạn chế” thì bấm “OK”. Làm xong bước này, lựa chọn bên dưới mới hiện.",
+  "phoneRestrictedBackOverlay": "Quay lại cài đặt “Cửa sổ nổi”, bật DSH Go.",
+  "phoneRestrictedHuaweiOverlay": "Huawei HarmonyOS 4 trở về trước đa số không có bước này, vào thẳng cài đặt “Cửa sổ nổi” bật DSH Go.",
+  "phoneRestrictedHuaweiAccessibility": "Huawei HarmonyOS 4 trở về trước đa số không có bước này, vào thẳng “Trợ năng” bật DSH.",
+  "phoneRestrictedVivoNote": "Vị trí có thể khác nhau theo từng phiên bản OriginOS. Góc phải trên không có ba chấm thì kéo trang thông tin app xuống dưới cùng tìm.",
+  "phoneRestrictedAdvancedStep": "Trong “Cài đặt nâng cao”, tìm “Cho phép cài đặt bị hạn chế” rồi bật lên.",
+  "phoneRestrictedOppoNote": "ColorOS đôi khi không tìm thấy lựa chọn này. Lúc đó dùng “Quản lý file” có sẵn của hệ thống tìm gói cài DSH, bấm để cài đè lên một lần (không cần gỡ, cuộc trò chuyện và cài đặt vẫn còn), rồi vào bật trợ năng.",
+  "phoneRestrictedHuaweiNote": "Nếu trong trợ năng thấy nhắc “Cài đặt bị hạn chế”, làm theo các bước “Gốc / Khác”.",
+  "phoneRestrictedTitle": "Cho phép cài đặt bị hạn chế",
+  "phoneRestrictedSteps": "Các bước",
+  "phoneRestrictedDiagram": "Hình minh họa",
+  "phoneRestrictedOpenInfo": "Mở thông tin app",
+  "phoneRestrictedOpenOverlayFailed": "Không mở được cài đặt cửa sổ nổi, hãy vào “Cài đặt” tìm “cửa sổ nổi”",
+  "phoneRestrictedOpenAccessibilityFailed": "Không mở được cài đặt trợ năng, hãy vào “Cài đặt” tìm “trợ năng”",
+  "phoneRestrictedFootnote": "Tên gọi khác nhau theo hệ thống, không tìm thấy thì tìm “bị hạn chế” trong cài đặt; vẫn không mở được thì khởi động lại điện thoại rồi thử lại",
+  "phoneRestrictedAppInfo": "Thông tin app",
+  "phoneRestrictedPermissionsManager": "Quản lý quyền",
+  "phoneRestrictedBatterySaver": "Chính sách tiết kiệm pin",
+  "phoneRestrictedAdvanced": "Cài đặt nâng cao",
+  "phoneRestrictedPermissions": "Quyền",
+  "phoneRestrictedBattery": "Pin",
+  "phoneRestrictedDiagramAdvanced": "Hình minh họa: trong trang thông tin app bấm “Cài đặt nâng cao”, rồi bật “Cho phép cài đặt bị hạn chế”",
+  "phoneRestrictedDiagramMenu": "Hình minh họa: trong trang thông tin app bấm ba chấm ở góc phải trên, rồi chọn “Cho phép cài đặt bị hạn chế”",
+  "phoneRestrictedCaptionAdvanced": "① Bấm “Cài đặt nâng cao”",
+  "phoneRestrictedCaptionMenu": "① Bấm ba chấm ở góc phải trên",
+  "phoneRestrictedCaptionToggle": "② Bật công tắc này",
+  "phoneRestrictedCaptionOption": "② Chọn mục này",
+  "phoneScreenReadFailed": "Không đọc được màn hình",
+  "phoneScreenUnknownReason": "Không rõ lý do",
+  "phoneScreenReadFailedHint": "Kiểm tra trợ năng đã bật chưa. Trang mật khẩu, thanh toán hệ thống không cho đọc",
+  "phoneScreenCurrent": "Màn hình hiện tại",
+  "phoneScreenEmpty": "(Trên màn hình không có chữ đọc được)",
+  "phoneScreenReadNote": "Đây là những chữ mô hình sẽ thấy, lần đọc này không gửi cho mô hình",
+  "phoneFailureSafeStartup": "Chế độ an toàn cũng không khởi động được",
+  "phoneFailureSafeStartupHint": "Vấn đề nhiều khả năng ở cấu hình chung hoặc môi trường chạy",
+  "phoneFailureKilled": "Engine bị hệ thống tắt",
+  "phoneFailureKilledHint": "Nhiều khả năng do thiếu RAM hoặc hệ thống tiết kiệm pin",
+  "phoneFailureLaunch": "Môi trường chạy trên máy không khởi động được",
+  "phoneFailureLaunchHint": "Xem nhật ký để biết lý do, hoặc kết nối máy chủ từ xa để dùng tiếp",
+  "phoneFailureTawcHint": "PRoot không chạy được Engine trên máy. Bạn có thể thử khởi động bằng tawcroot, dùng tiếp môi trường chạy và dữ liệu đã có.",
+  "phoneFailureRetryWithTawcroot": "Khởi động bằng tawcroot",
+  "phoneFailureNoSpaceHint": "Dọn bớt dung lượng rồi thử lại",
+  "phoneFailureStartup": "DSH khởi động thất bại",
+  "phoneFailureCrashedEarly": "DSH crash ngay sau khi khởi động",
+  "phoneFailureCrashedLate": "DSH crash trong lúc đang chạy",
+  "phoneFailureFatal": "Engine báo lỗi nghiêm trọng",
+  "phoneFailureRestore": "Khôi phục cấu hình",
+  "phoneFailureEnterSafe": "Vào chế độ an toàn",
+  "phoneFailureStartNormal": "Khởi động bình thường",
+  "phoneFailureGlobalPatch": "Bản vá toàn cục",
+  "phoneFailureEnvironment": "Biến môi trường",
+  "phoneSafeMoveAsideTitle": "Dời các tệp này sang chỗ khác trước?",
+  "phoneSafeMoveAsideIntro": "Chúng có hiệu lực với mọi cấu hình, chế độ an toàn cũng bị ảnh hưởng:",
+  "phoneSafeMoveAsideNote": "Chỉ đổi tên (thêm .off-thời gian), không xóa, sửa xong đổi lại được.",
+  "phoneSafeStartDirectly": "Khởi động luôn",
+  "phoneSafeMoveAsideStart": "Dời đi và khởi động",
+  "phoneSafeNoRestoreNeeded": "Cấu hình giống lúc bình thường lần trước, không cần khôi phục",
+  "phoneSafeNoRestoreRecord": "Chưa có bản ghi cấu hình từng chạy bình thường",
+  "phoneSafeRestoreTitle": "Khôi phục cấu hình bình thường lần trước?",
+  "phoneSafeRestoreStart": "Khôi phục và khởi động",
+  "phoneSafeRestoredStarting": "Đã khôi phục cấu hình bình thường lần trước, đang khởi động…",
+  "phoneSafeRestoreFailed": "Không khôi phục được",
+  "phoneSafeStopIncomplete": "Chưa xác nhận được Engine đã dừng, chưa đổi cấu hình. Hãy xem nhật ký Engine rồi thử lại.",
+  "phoneSafeRestartIncomplete": "Thao tác cấu hình đã xong, nhưng Engine chưa dừng nên chưa khởi động lại. Hãy đợi dừng xong rồi khởi động lại.",
+  "phoneSafeRestoreIntro": "DSH sẽ quay lại cấu hình lúc chạy bình thường lần trước:",
+  "phoneSafeRestoreSettings": "• Cài đặt khôi phục về phiên bản lúc đó (bản hiện tại lưu riêng làm bản sao)",
+  "phoneSafeRestoreNote": "Không gỡ Plugin nào, cũng không cần mạng. Plugin đã tắt sau này bật lại được.",
+  "phoneSafeLeaveTitle": "Về chế độ bình thường?",
+  "phoneSafeLeaveBody": "Khởi động với cấu hình và Plugin ban đầu. Cài đặt bản web đổi trong chế độ an toàn sẽ không giữ lại.",
+  "phoneSafeLeave": "Về chế độ bình thường",
+  "phoneSafeMovePatch": "Dời bản vá đi",
+  "phoneSafeMoveFiles": "Dời tệp đi",
+  "phoneSafeFailureLog": "Nhật ký trước và sau khi lỗi",
+  "phoneSafeFailureLogEmpty": "Không ghi được đầu ra lúc lỗi",
+  "phoneSafeBannerTitle": "Chế độ an toàn · Plugin chưa tải",
+  "phoneSafeBannerProbation": "Đang thử chế độ bình thường",
+  "phoneSafeBannerProbationHint": "Trong 2 phút không lỗi nữa thì tính là đã khôi phục, không thì tự quay lại chế độ an toàn",
+  "phoneSafeBannerRunningHint": "Cuộc trò chuyện vẫn còn, sửa xong cấu hình rồi về chế độ bình thường",
+  "phoneSafeBannerFailedHint": "Chế độ an toàn cũng không khởi động được, vào trang Engine xem",
+  "phoneSafeBannerStoppedHint": "Engine đã dừng, lần khởi động sau vẫn là chế độ an toàn",
+  "phoneSafeRepair": "Giúp tôi sửa",
+  "phoneSafeReasonStartup": "Khởi động thất bại hai lần liên tiếp",
+  "phoneSafeReasonProbation": "Về bình thường rồi lại crash",
+  "phoneSafeReasonManual": "Bật tay",
+  "phoneSafeNormalSettingsHint": "Khởi động lại với cấu hình và Plugin ban đầu",
+  "phoneSafeStartSettings": "Khởi động ở chế độ an toàn",
+  "phoneSafeStartSettingsHint": "Không tải Plugin, kiểm tra lỗi khởi động",
+  "phoneSafeAutoSettings": "Tự vào chế độ an toàn",
+  "phoneSafeAutoSettingsHint": "Tự bật khi khởi động thất bại liên tiếp",
+  "phoneAccentMist": "Xanh sương",
+  "phoneAccentDaiqing": "Xanh chàm",
+  "phoneAccentDusk": "Tím hoàng hôn",
+  "phoneAccentTurquoise": "Xanh ngọc",
+  "phoneAccentAmber": "Hổ phách",
+  "phoneAccentGraphite": "Xám chì",
+  "phoneAccentCustom": "Tùy chỉnh",
+  "phoneEngineInstallPercent": "Đang cài · {percent}%",
+  "@phoneEngineInstallPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneEngineStatusSemantics": "{prefix}Engine: {status}",
+  "@phoneEngineStatusSemantics": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneLogLineCount": "{count} dòng",
+  "@phoneLogLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneLogCopiedLines": "Đã sao chép {count} dòng",
+  "@phoneLogCopiedLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneAppRuleDefault": "Mặc định: {rule}",
+  "@phoneAppRuleDefault": {
+    "placeholders": {
+      "rule": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneAppRulesLoosenTitle": "Để DSH thao tác “{app}”?",
+  "@phoneAppRulesLoosenTitle": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneAppRulesSkipStepsTitle": "“{app}” không cần xác nhận từng bước nữa?",
+  "@phoneAppRulesSkipStepsTitle": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndBrowserFailed": "Không mở được trình duyệt. Địa chỉ: {url}",
+  "@phoneDndBrowserFailed": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndChannelReady": "{channel} · Dùng được rồi",
+  "@phoneDndChannelReady": {
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndChannelStatus": "{channel} · {reason}",
+  "@phoneDndChannelStatus": {
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndUsing": "Đang dùng: {channel}",
+  "@phoneDndUsing": {
+    "placeholders": {
+      "channel": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndEnableWith": "{mode, select, shizuku{Bật bằng Shizuku} sui{Bật bằng Sui} root{Bật bằng Root} adb{Bật bằng ADB tự kết nối} other{Bật chế độ không làm phiền}}",
+  "@phoneDndEnableWith": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndSwitchTo": "{mode, select, shizuku{Chuyển sang Shizuku} sui{Chuyển sang Sui} root{Chuyển sang Root} adb{Chuyển sang ADB tự kết nối} other{Chuyển sang kênh này}}",
+  "@phoneDndSwitchTo": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneControlWorkingApp": "Đang thao tác “{app}”",
+  "@phoneControlWorkingApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneControlPolicySummary": "{denied} app không chạm · {confirmed} app xác nhận từng bước",
+  "@phoneControlPolicySummary": {
+    "placeholders": {
+      "denied": {
+        "type": "int"
+      },
+      "confirmed": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneControlRemoteHint": "DSH trên “{host}” không thao tác được điện thoại này, chuyển về “Trên máy” rồi mới dùng được",
+  "@phoneControlRemoteHint": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneRestrictedSubtitle": "App cài ngoài phải cho phép mục này trước, công tắc {place} mới bấm được",
+  "@phoneRestrictedSubtitle": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneRestrictedDone": "{place} đã bật xong, bạn có thể quay lại",
+  "@phoneRestrictedDone": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneFailurePlugins": "Có thể liên quan tới Plugin “{plugins}”",
+  "@phoneFailurePlugins": {
+    "placeholders": {
+      "plugins": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneFailureRequired": "Thành phần bắt buộc {components} không qua được kiểm tra khởi động",
+  "@phoneFailureRequired": {
+    "placeholders": {
+      "components": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSafeRestoreAt": "DSH sẽ quay lại cấu hình lúc chạy bình thường vào {when}:",
+  "@phoneSafeRestoreAt": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSafeRestoreDisable": "• Tắt: {plugins}",
+  "@phoneSafeRestoreDisable": {
+    "placeholders": {
+      "plugins": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSafeRestoreChanged": "  ({plugins} đã nâng cấp sau đó, tạm thời chỉ tắt được)",
+  "@phoneSafeRestoreChanged": {
+    "placeholders": {
+      "plugins": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSafeRestoreEnable": "• Bật lại: {plugins}",
+  "@phoneSafeRestoreEnable": {
+    "placeholders": {
+      "plugins": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSafeTodayTime": "Hôm nay {time}",
+  "@phoneSafeTodayTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSafeReasonPlugins": "Khởi động thất bại hai lần liên tiếp, Plugin nghi ngờ: {plugins}",
+  "@phoneSafeReasonPlugins": {
+    "placeholders": {
+      "plugins": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneListSeparator": ", ",
+  "phonePluginQuoteSeparator": "” “",
+  "phoneEngineRunningAt": "Đang chạy · {address}",
+  "@phoneEngineRunningAt": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneEngineSafeAt": "Chế độ an toàn · {address}",
+  "@phoneEngineSafeAt": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneAppRulesLoosenBody": "App ngân hàng, thanh toán sẽ phát hiện thao tác tự động, có thể hạn chế đăng nhập thậm chí khóa tài khoản; DSH mặc định không nhập mật khẩu, không thanh toán.",
+  "phoneAppRulesSkipStepsBody": "App như WeChat có kiểm soát rủi ro, từng có trợ lý điện thoại thao tác rồi tài khoản bị buộc đăng xuất. Đổi sang bình thường rồi, chỉ thao tác như gửi tin nhắn mới hỏi bạn trước.",
+  "phoneResetDeletesChatsWorkspaces": "Cuộc trò chuyện và không gian làm việc",
+  "phoneResetBodyChatsWorkspaces": "Sẽ xóa cuộc trò chuyện và không gian làm việc, rồi cài lại môi trường chạy.",
+  "phoneResetDeletesWithPlugins": "Cuộc trò chuyện, không gian làm việc, Plugin và cài đặt",
+  "phoneResetBodyWithPlugins": "Sẽ xóa cuộc trò chuyện, không gian làm việc, Plugin và cài đặt, rồi cài lại môi trường chạy.",
+  "phoneResetDeletesWithUi": "Cuộc trò chuyện, không gian làm việc, cấu hình giao diện và kỹ năng",
+  "phoneResetBodyWithUi": "Sẽ xóa cuộc trò chuyện, không gian làm việc, cấu hình giao diện và kỹ năng, rồi cài lại môi trường chạy.",
+  "phoneResetDeletesEverything": "Cuộc trò chuyện, không gian làm việc, Plugin, cài đặt, cấu hình giao diện và kỹ năng",
+  "phoneResetBodyEverything": "Sẽ xóa cuộc trò chuyện, không gian làm việc, Plugin, cài đặt, cấu hình giao diện và kỹ năng, rồi cài lại môi trường chạy.",
+  "phoneEngineStorageDetails": "Không đủ dung lượng: cần khoảng {needed} MB, hiện còn {free} MB",
+  "@phoneEngineStorageDetails": {
+    "placeholders": {
+      "needed": {
+        "type": "String"
+      },
+      "free": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneControlEnabledRestarting": "Đã bật, Engine đang khởi động lại",
+  "phoneControlDisabledRestarting": "Đã tắt, Engine đang khởi động lại",
+  "phoneControlEnabledPending": "Đã bật, có hiệu lực sau khi Engine khởi động",
+  "phoneReturnAfterDone": "Xong thì quay lại DSH Go",
+  "phoneReturnAfterDoneHint": "Thu thanh nổi lại, quay về cuộc trò chuyện xem kết quả",
+  "phoneFloatingBar": "Thanh nổi",
+  "phoneIdleOpacity": "Độ mờ khi rảnh",
+  "phoneAutoCollapse": "Tự thu lại khi rảnh",
+  "phoneAutoCollapseHint": "Thu thành quả cầu nhỏ, chạm để mở",
+  "phoneDeveloperOptions": "Tùy chọn nhà phát triển",
+  "phoneDirectEngine": "Khởi động trực tiếp Engine trên máy",
+  "phoneDirectHint": "Tính năng thử nghiệm, mặc định tắt, có hiệu lực lần khởi động sau. Một số điện thoại (ví dụ Android 16) sẽ chặn khởi động trực tiếp, lúc đó tự chuyển sang khởi động tương thích, dữ liệu không bị ảnh hưởng.",
+  "phoneDirectFailedHint": "Khởi động trực tiếp không thành công trên điện thoại này, đã chuyển sang khởi động tương thích. Dừng Engine rồi bật lại để thử lần nữa.",
+  "phoneDirectCompatibleHint": "Lần này dùng khởi động tương thích, lý do xem ở trên. Đã giữ lựa chọn này, lần khởi động sau sẽ thử lại.",
+  "phoneDirectStopFirst": "Hãy dừng Engine trên máy trước, rồi đổi cách khởi động.",
+  "phoneDirectSafeHint": "Chế độ an toàn dùng khởi động tương thích; về chế độ bình thường rồi áp dụng lựa chọn này.",
+  "phoneDirectNeedsRuntime": "Lựa chọn này cần môi trường chạy hỗ trợ khởi động trực tiếp.",
+  "phoneDirectChangeFailed": "Không đổi được cách khởi động, hãy dừng Engine trên máy rồi thử lại.",
+  "phoneTawcEngine": "Khởi động nhanh bằng tawcroot",
+  "phoneTawcHint": "Tính năng thử nghiệm, mặc định tắt, có hiệu lực lần khởi động sau, chọn một trong hai với “Khởi động trực tiếp”. Dùng tawcroot thay khởi động tương thích để chạy Engine trên máy: khởi động nhanh gấp khoảng ba lần, cài gói, apt cũng nhanh hơn. Khởi động không thành công sẽ tự quay lại khởi động tương thích. Lần khởi động đầu tiên sau khi tắt sẽ sắp xếp các liên kết cứng nó tạo thành tệp thường trước, có thể phải đợi lâu hơn một chút.",
+  "phoneTawcFailedHint": "tawcroot không khởi động thành công trên điện thoại này, đã chuyển sang khởi động tương thích. Dừng Engine rồi bật lại để thử lần nữa.",
+  "phoneTawcUnavailable": "Gói cài này không gồm tawcroot, hoặc hệ thống dưới Android 10.",
+  "phoneLaunchTawcroot": "tawcroot",
+  "phoneTawcLaunchFailed": "tawcroot chưa khởi động thành công",
+  "phoneTawcUnsupported": "Tham số khởi động lần này tawcroot chưa hỗ trợ, tạm dùng khởi động tương thích",
+  "phoneActualLaunchMode": "Cách chạy hiện tại",
+  "phoneLaunchNotObserved": "Chưa chạy",
+  "phoneLastLaunchSelection": "Cách khởi động lần trước",
+  "phoneDirectRejectedReason": "Lý do dùng khởi động tương thích",
+  "phoneLaunchFailureReason": "Lần khởi động trước thất bại",
+  "phoneReturnCompatible": "Quay lại khởi động tương thích",
+  "phoneLaunchDirect": "Khởi động trực tiếp",
+  "phoneLaunchCompatible": "Khởi động tương thích",
+  "phoneDirectIncompatibleFiles": "Tệp Plugin đang chờ dọn dẹp, tạm dùng khởi động tương thích",
+  "phoneDirectNotEnoughSpace": "Không đủ dung lượng, tạm dùng khởi động tương thích",
+  "phoneDirectMigrationFailed": "Dọn dẹp tệp chưa xong, tạm dùng khởi động tương thích",
+  "phoneDirectLaunchFailed": "Khởi động trực tiếp không thành công",
+  "phoneLaunchStartFailed": "Không hoàn tất khởi động",
+  "phoneLaunchExited": "Mã thóat {code}",
+  "@phoneLaunchExited": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndManualConnect": "Kết nối theo cổng",
+  "phoneDndConnectPortLabel": "Cổng kết nối",
+  "phoneDndConnectPortHint": "Trong trang chính “Gỡ lỗi không dây” của hệ thống, xem “Địa chỉ IP và cổng”, điền cổng sau dấu hai chấm. Đừng dùng cổng ở trang mã ghép nối.",
+  "phonePreviewTitle": "Xem trực tiếp màn hình nền",
+  "phonePreviewDescription": "Chỉ lấy khung hình khi bản xem trước đang hiện. Hình chỉ ở trên máy này; bản xem trước không bấm được.",
+  "phonePreviewOpen": "Xem màn hình nền",
+  "phonePreviewTask": "Xem trước tác vụ {taskId}",
+  "@phonePreviewTask": {
+    "placeholders": {
+      "taskId": {
+        "type": "String"
+      }
+    }
+  },
+  "phonePreviewInUse": "Đang xem trước một tác vụ khác",
+  "phonePreviewOff": "Tác vụ đã kết thúc hoặc bản xem trước đã tắt",
+  "phonePreviewUnavailable": "Hình tạm thời không xem trước được, hoặc đang được bảo vệ",
+  "phonePreviewWaiting": "Đang chờ khung hình mới của màn hình nền",
+  "phoneViewportTitle": "Khung nhìn nền",
+  "phoneViewportDescription": "Có hiệu lực khi tạo màn hình nền mới lần sau; màn hình nền hiện tại không đổi, sau khi trả lại rồi tạo lại sẽ dùng cài đặt mới. Hướng khung nhìn không ép app xoay.",
+  "phoneViewportPortrait": "Dọc",
+  "phoneViewportLandscape": "Ngang",
+  "phoneResumeTask": "Cho phép lại điều khiển điện thoại",
+  "phoneResumeTaskHint": "Cho phép thao tác điện thoại sau cuộc trò chuyện này, không chạy lại hành động đã kết thúc.",
+  "phoneResumeTaskFailed": "Tạm thời chưa khôi phục được, hành động trước có thể vẫn đang kết thúc.",
+  "phoneStoppedTask": "Tác vụ điện thoại {task} đã dừng",
+  "phoneTaskDrainingHint": "Đang chờ hành động trước thóat và dọn dẹp màn hình nền.",
+  "phoneTaskCleanupFailedHint": "Không xác nhận được màn hình nền đã dọn dẹp, điều khiển điện thoại vẫn bị chặn.",
+  "@phoneStoppedTask": {
+    "placeholders": {
+      "task": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneFinishingTask": "Tác vụ điện thoại {task} đang kết thúc",
+  "@phoneFinishingTask": {
+    "placeholders": {
+      "task": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneCleanupRetry": "Thử dọn dẹp lại",
+  "phoneCleanupRetryFailed": "Vẫn chưa xác nhận được màn hình nền trước đã dọn dẹp, quyền chiếm màn hình vẫn giữ.",
+  "phoneSelfCheckTitle": "Kiểm tra điều khiển điện thoại",
+  "phoneSelfCheckTechnicalDetails": "Chi tiết kỹ thuật",
+  "phoneLocalOcrSummary": "Nhận dạng trên máy; kết quả có thể gửi cho mô hình, SDK sẽ thu thập thống kê sử dụng.",
+  "phoneLocalOcrPrivacyDetails": "Chi tiết riêng tư",
+  "phoneSelfCheckPartial": "Tự kiểm một phần: chỉ mục đã quan sát mới có kết quả",
+  "phoneSelfCheckScope": "Dùng kênh đã chọn và đã kết nối cùng màn hình trình chiếu tạm thời. Khởi động app, nhập chữ, chụp màn hình, OCR và tình trạng làm phiền màn hình chính đều chưa kiểm tra. Chỉ dọn dẹp xong không chứng minh đã tạo được màn hình trình chiếu.",
+  "phoneSelfCheckStart": "Bắt đầu kiểm tra",
+  "phoneSelfCheckCancel": "Yêu cầu hủy",
+  "phoneSelfCheckRefresh": "Làm mới trạng thái",
+  "phoneSelfCheckSave": "Lưu báo cáo đã ẩn thông tin nhạy cảm",
+  "phoneSelfCheckSaving": "Đang lưu…",
+  "phoneSelfCheckSaved": "Báo cáo đã lưu vào Tải xuống/DSH-Go.",
+  "phoneSelfCheckSaveFailed": "Lưu báo cáo thất bại.",
+  "phoneSelfCheckReportHint": "Chỉ xuất khi bạn bấm lưu. Báo cáo trên máy chỉ gồm kết quả cố định, không gồm ảnh chụp màn hình, chữ đã nhận dạng, nhật ký, dữ liệu tài khoản hay mã định danh lần chạy.",
+  "phoneSelfCheckRunState": "{state, select, idle{Chưa bắt đầu} running{Đang tự kiểm một phần} cleaning{Đang dọn dẹp; hủy không có nghĩa là đã thu hồi dữ liệu đã gửi} done{Đã kiểm tra xong, xem kết quả ở chi tiết kỹ thuật} cancelled{Đã hủy, thao tác đã quan sát vẫn giữ lại} other{Không rõ trạng thái}}",
+  "@phoneSelfCheckRunState": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckStepState": "{state, select, not_run{Chưa chạy / Không quan sát} running{Đang chạy} pass{Đã quan sát và đạt} fail{Thất bại} skipped{Đã bỏ qua} unknown{Chưa xác nhận} cancelled{Đã hủy} other{Chưa xác nhận}}",
+  "@phoneSelfCheckStepState": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckStage": "{stage, select, device{Điều kiện trước của thiết bị} channel{Kênh đã chọn} display{Tạo màn hình nền tạm thời} input_probe{Kiểm tra nhận chạm} launch{Khởi động app} tree{Cây điều khiển} tap{Chạm nút app} scroll{Cuộn app} back{Quay lại trong app} text_ascii{Nhập ASCII cố định} text_zh{Nhập tiếng Trung cố định} capture{Chụp mẫu cục bộ} continuity{Làm mới có kiểm soát giới hạn} main{Quan sát màn hình chính giới hạn} ocr{OCR trên máy} cleanup{Dọn dẹp nghiêm ngặt} other{Mục chưa biết}}",
+  "@phoneSelfCheckStage": {
+    "placeholders": {
+      "stage": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckReason": "{reason, select, busy{Điện thoại hoặc kênh đang bận.} unsupported{Thiết bị hoặc đầu đặc quyền không hỗ trợ mục tự kiểm này.} cancelled{Yêu cầu này đã hủy hoặc hết hạn.} disabled{Điều khiển điện thoại chưa bật.} locked{Thiết bị đã khóa.} identity{Lần chạy hoặc danh tính kênh ban đầu đã thay đổi.} invalid{Yêu cầu hoặc kết quả không kiểm chứng được.} display{Không xác nhận được màn hình trình chiếu tạm thời.} input{Chưa xác nhận việc nhận hoặc gửi dữ liệu nhập, dữ liệu đã gửi sẽ không gửi lại.} cleanup{Chưa xác nhận dọn dẹp tài nguyên, hãy kết nối lại kênh rồi kiểm tra lại.} denied{Hệ thống đã từ chối thao tác.} timeout{Thao tác hết thời gian, công việc đã gửi vẫn có thể hoàn thành.} unavailable{Trạng thái trên máy hoặc kênh đã chọn không dùng được.} target_unavailable{Không kiểm chứng được mục tiêu cố định, hãy dọn dẹp xong rồi bắt đầu lại.} target_changed{Mục tiêu ban đầu đã thay đổi, chỉ tiếp tục dọn dẹp.} target_cleanup{Chưa xác nhận dọn dẹp mục tiêu, hãy kết nối lại kênh rồi kiểm tra lại.} target_main{Mục tiêu đã xuất hiện trên màn hình chính. Đã dừng các bước sau, hãy dọn dẹp xong.} target_readback{Số lượng hoặc chữ đọc lại của mục tiêu cố định không khớp. Đừng lặp lại thao tác, hãy dọn dẹp xong.} tree_cleanup{Chưa xác nhận dọn dẹp kết nối cây, hãy kết nối lại kênh rồi kiểm tra lại.} target_launch{Mục tiêu khởi động bị từ chối hoặc chưa xác nhận, hãy kiểm tra thiết bị và dọn dẹp xong.} frame_unavailable{Không lấy được khung mẫu cục bộ dùng được, hãy dọn dẹp xong rồi bắt đầu tự kiểm mới.} frame_mismatch{Hình thực tế không khớp mục tiêu và giai đoạn lần này, hãy dọn dẹp xong.} continuity{Chuỗi làm mới có kiểm soát giới hạn chưa được xác nhận; đây không phải kết quả tốc độ khung hình.} main_changed{Điểm lấy mẫu trên màn hình chính đã thay đổi, cũng có thể gồm thao tác của người dùng; hãy dọn dẹp xong. Không dùng điều này để kết luận nguyên nhân.} main_unchanged{Ở các điểm lấy mẫu hữu hạn này không thấy thay đổi, giữa các lần lấy mẫu có bị làm phiền hay không vẫn chưa biết.} main_incomplete{Mẫu màn hình chính chưa đầy đủ, không chứng minh được là không bị làm phiền.} not_installed{Tự kiểm này không gồm OCR, chưa chạy kiểm tra nhận dạng.} other{Nhận được kết quả không nhận dạng được.}}",
+  "@phoneSelfCheckReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckTargetScope": "Dùng màn hình tạm thời thông thường và mục tiêu cố định trên máy, kiểm tra khởi động, cây điều khiển và một lần bấm nút. Chữ, cuộn, ảnh chụp màn hình và OCR chưa kiểm tra; màn hình chính chỉ ghi lại lỗi làm phiền đã quan sát thực tế, không đưa ra kết luận đạt. Chỉ dọn dẹp xong không chứng minh đã từng tạo màn hình nền.",
+  "phoneSelfCheckProfileChoice": "Chọn lần tự kiểm sau (không đổi báo cáo bên dưới)",
+  "phoneSelfCheckProfile": "{profile, select, probe_b{Đầu dò nhận dữ liệu nhập (B)} target_c1{Tự kiểm mục tiêu cố định (C1)} target_c2{Tự kiểm dữ liệu nhập và khung hình cố định (C2)} other{Không rõ chế độ}}",
+  "@phoneSelfCheckProfile": {
+    "placeholders": {
+      "profile": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckReportProfile": "{profile, select, probe_b{Báo cáo lần này: đầu dò nhận dữ liệu nhập (B)} target_c1{Báo cáo lần này: mục tiêu cố định (C1)} target_c2{Báo cáo lần này: dữ liệu nhập và khung hình cố định (C2)} other{Chưa xác nhận chế độ báo cáo lần này}}",
+  "@phoneSelfCheckReportProfile": {
+    "placeholders": {
+      "profile": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckTargetC2Scope": "Dùng mục tiêu cố định trên máy để kiểm tra khởi động, cây điều khiển, bấm nút một lần, thay thế toàn bộ ô bằng ACTION_SET_TEXT ASCII / tiếng Trung và đọc lại, chụp mẫu cục bộ và làm mới có kiểm soát giới hạn; không đo FPS hay độ mượt. Mẫu màn hình chính hữu hạn không chứng minh được giữa các lần lấy mẫu hoàn toàn không bị làm phiền. OCR, đầu dò nhận chạm, cuộn và quay lại không nằm trong phạm vi lần này. Chỉ dọn dẹp xong cũng không chứng minh đã từng tạo màn hình trình chiếu.",
+  "phoneTaskWaiting": "Tác vụ {taskId} · Đang chờ tài nguyên",
+  "phoneTaskWaitingApp": "Đang chờ app {packageName}, đã chờ {seconds} giây.",
+  "phoneTaskWaitingUnknown": "Đang chờ tài nguyên giao diện (chưa xác nhận danh tính app), đã chờ {seconds} giây.",
+  "phoneTaskWaitingScreen": "Đang chờ {screen}, đã chờ {seconds} giây.",
+  "phoneTaskMainResource": "Màn hình chính",
+  "phoneTaskBackgroundResource": "Màn hình nền",
+  "@phoneTaskWaiting": {
+    "placeholders": {
+      "taskId": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneTaskWaitingApp": {
+    "placeholders": {
+      "packageName": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneTaskWaitingUnknown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneTaskWaitingScreen": {
+    "placeholders": {
+      "screen": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneInterruptionTitle": "Tác vụ điện thoại lần trước chưa xác nhận đã kết thúc",
+  "phoneInterruptionLoading": "Đang đọc bản ghi gián đoạn tác vụ…",
+  "phoneInterruptionStorageError": "Không lưu hoặc đọc được bản ghi kết thúc tác vụ. Hãy thử lại; điều này không có nghĩa là tài nguyên nền đã dọn dẹp.",
+  "phoneInterruptionHint": "Có {count} tác vụ bị gián đoạn hoặc không lưu được trạng thái kết thúc, kết quả thao tác có thể đã xảy ra. Hãy kiểm tra trước; xác nhận chỉ có nghĩa là bạn đã xem nhắc này, không khôi phục thao tác hay chứng minh tài nguyên nền đã dọn dẹp.",
+  "phoneInterruptionAcknowledge": "Đã kiểm tra nhắc gián đoạn",
+  "phoneInterruptionRetry": "Thử lưu hoặc đọc lại",
+  "phoneInterruptionActionFailed": "Bản ghi tác vụ chưa được xác nhận, hãy thử lại",
+  "@phoneInterruptionHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneLocalOcrTitle": "Nhận dạng chữ",
+  "phoneLocalOcrUnknown": "Tạm thời không đọc được cài đặt nhận dạng chữ trên máy, hãy làm mới rồi thử lại.",
+  "phoneLocalOcrDisclosure": "Nhận dạng chạy trên máy này, ảnh chụp màn hình và chữ sẽ không gửi cho Google; SDK của Google thu thập thống kê sử dụng như mẫu máy, phiên bản app, thời gian xử lý.",
+  "phoneLocalOcrDetails": "Mặc định bật. Khi tắt, yêu cầu nhận dạng chữ sẽ không kích hoạt tải hay khởi tạo SDK; quét mã ghép nối Remote sẽ khởi tạo riêng SDK dùng chung khi cần, không bật nhận dạng chữ. Ảnh chụp màn hình và chữ đã nhận dạng có thể gửi cho mô hình bạn cấu hình. Tắt rồi sẽ không bắt đầu nhận dạng chữ trên máy mới nữa; việc đã bắt đầu có thể vẫn kết thúc. Tắt không gỡ SDK, cũng không cam kết xóa hay dừng gửi thống kê SDK đã tích lũy trước đó.",
+  "phoneBackgroundParallelTitle": "Giới hạn tác vụ nền",
+  "phoneBackgroundParallelStatus": "Giới hạn đã đặt: {configured} · Giới hạn khả dụng hiện tại: {effective} · Đã chiếm: {held}",
+  "phoneBackgroundParallelDescription": "Hạ giới hạn sẽ giữ các tác vụ đã có. Tác vụ mới vẫn phải chờ app và tài nguyên màn hình chính khả dụng.",
+  "phoneBackgroundParallelChoice": "{limit} khe tác vụ nền",
+  "phoneBackgroundParallelOff": "Kênh nền đã tắt. Lưu tùy chọn này sẽ không bật kênh.",
+  "phoneBackgroundParallelUnsupported": "Thiết bị này hiện không dùng được thao tác nền.",
+  "phoneBackgroundParallelConnection": "Cần thiết lập kết nối rồi mới nhận tác vụ nền mới.",
+  "phoneBackgroundParallelBusy": "Kênh nền đang chuẩn bị hoặc bảo trì, tạm thời không nhận tác vụ mới.",
+  "phoneGateRetest": "Kiểm tra lại kênh này",
+  "phoneBackgroundParallelSerial": "Kết nối này hỗ trợ một khe nền, tùy chọn đã đặt vẫn giữ.",
+  "@phoneBackgroundParallelStatus": {
+    "placeholders": {
+      "configured": {
+        "type": "int"
+      },
+      "effective": {
+        "type": "int"
+      },
+      "held": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneBackgroundParallelChoice": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneSkillBundlePublishedUnverified": "Tệp đã phát hành, nhưng chưa qua kiểm chứng đầy đủ. Đừng lưu lại lần nữa.",
+  "phoneSkillBundleUnknown": "Chưa xác nhận kết quả lưu, tệp có thể đã ghi. Đừng lưu lại lần nữa.",
+  "phoneSkillBundleRevision": "Phiên bản tuyến: {revision}",
+  "@phoneSkillBundleRevision": {
+    "placeholders": {
+      "revision": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSkillReplayReview": "Kiểm tra tuyến điện thoại",
+  "phoneSkillReplaySourceChanged": "Phiên hoặc kết nối trên máy đã thay đổi, hãy quay lại phiên trên máy hiện tại để chọn lại.",
+  "phoneSkillReplayUnavailable": "Tuyến này chưa chạy an toàn được trên điện thoại hiện tại. Vẫn dùng được theo mẫu kỹ năng thông thường.",
+  "phoneSkillReplayConfirm": "Tôi đã kiểm tra tuyến này với app đã chọn lần này.",
+  "phoneSkillReplayToComposer": "Đưa vào cuộc trò chuyện hiện tại",
+  "phoneSkillReplayStartText": "Trên máy đã chọn và kiểm tra tuyến điện thoại. Chỉ gọi mcp__phone__replay, tham số {request}. Nếu không dùng được hoặc bị từ chối, trả lại cho người dùng/mô hình, đừng phát lại thành hành động thông thường.",
+  "@phoneSkillReplayStartText": {
+    "placeholders": {
+      "request": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSkillReplayQueue": "Gửi tuyến (xếp hàng)",
+  "phoneSkillReplayQueued": "Tin nhắn tuyến đã được nhận hoặc xếp hàng, chưa có nghĩa là tuyến đã chạy thành công.",
+  "phoneSkillReplaySendUncertain": "Chưa xác nhận tin nhắn tuyến đã gửi thành công; không tự chuẩn bị hay phát lại. Hãy kiểm tra kết quả cuộc trò chuyện gốc.",
+  "phoneIosServiceTitle": "Dịch vụ tự động hóa iOS",
+  "phoneIosServiceHint": "Cấp quyền rồi khởi động khi cần. Tác vụ kết thúc sẽ dừng dịch vụ, nhắc “Automation Running” của hệ thống cũng kết thúc.",
+  "phoneIosSetupHint": "Giữ LocalDevVPN đã kết nối, lần đầu dùng hãy cho phép điều khiển 30 phút.",
+  "phoneIosReturnHint": "Tác vụ xong quay lại cuộc trò chuyện hiện tại, rồi dừng dịch vụ điều khiển điện thoại.",
+  "phoneIosNeedsSetup": "Trình chạy chưa sẵn sàng, hãy kiểm tra Engine trên máy và môi trường nhà phát triển đã cấu hình."
+}

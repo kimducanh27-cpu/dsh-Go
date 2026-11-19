@@ -1,0 +1,43 @@
+{
+  "@@locale": "vi",
+  "riskDontShowAgain": "Không hiện lại",
+  "riskAskAi": "Chưa chắc? Hỏi AI",
+  "riskConfirmAlwaysAction": "Luôn bỏ qua xác nhận",
+  "riskFullAccessAction": "Bật toàn quyền",
+  "riskAutoReviewAction": "Bật tự động kiểm tra",
+  "riskAllowForChatTitle": "Cho phép hết trong trò chuyện này?",
+  "riskAllowForChatBody": "Các lệnh và thay đổi sau đó trong trò chuyện này sẽ được cho qua luôn, có thể tắt bất cứ lúc nào phía trên khung nhập.",
+  "riskAllowForChatAction": "Cho phép tất cả",
+  "riskPetOverlayTitle": "Hiển thị trên các ứng dụng khác?",
+  "riskPetOverlayBody": "Cần bật “Hiển thị trên các ứng dụng khác” cho DSH Go trong cài đặt hệ thống thì thú cưng mới hiện trên app khác được.",
+  "riskPetOverlayAction": "Mở cài đặt",
+  "askAiTooltip": "Hỏi AI",
+  "askAiHelpTitle": "Trợ giúp",
+  "askAiHelpSubtitle": "Chỗ nào chưa hiểu, cứ hỏi AI",
+  "askAiAboutApp": "Về ứng dụng DSH Go: {question}",
+  "@askAiAboutApp": {
+    "placeholders": {
+      "question": {
+        "type": "String"
+      }
+    }
+  },
+  "askAiWithGuide": "Về ứng dụng DSH Go: {question}\nHãy trả lời theo hướng dẫn sử dụng đính kèm.",
+  "@askAiWithGuide": {
+    "placeholders": {
+      "question": {
+        "type": "String"
+      }
+    }
+  },
+  "askAiNoGuide": "Máy chủ này không có hướng dẫn sử dụng DSH Go nên câu trả lời có thể không chính xác",
+  "askAiQuestionOverview": "DSH Go làm được gì? Mình nên bắt đầu từ đâu?",
+  "askAiQuestionPhoneControl": "Điều khiển điện thoại hoạt động thế nào? Có rủi ro gì?",
+  "askAiQuestionPhoneAlways": "Điều khiển điện thoại chọn “Luôn bỏ qua xác nhận” thì sao? Rủi ro hơn “Hỏi mỗi lần” ở chỗ nào?",
+  "askAiQuestionAppRules": "Danh sách ứng dụng trong điều khiển điện thoại dùng để làm gì? Mở quyền cho app ngân hàng, thanh toán thì có rủi ro gì?",
+  "askAiQuestionFullAccess": "Bật “Toàn quyền” thì sẽ ra sao? Có rủi ro gì?",
+  "askAiQuestionPhoneFiles": "Bật “Truy cập tệp điện thoại” thì AI đọc/ghi được những tệp nào? Tắt thế nào?",
+  "askAiQuestionAllowForChat": "“Cho phép hết trong trò chuyện này” sẽ cho qua những thao tác nào? Tắt thế nào?",
+  "askAiQuestionPlugins": "Plugin làm được gì? Cài plugin bên thứ ba cần lưu ý gì?",
+  "askAiQuestionRemote": "Kết nối máy tính hoặc máy chủ của mình thế nào? Khác gì so với dùng trên điện thoại này?"
+}

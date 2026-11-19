@@ -1,0 +1,1061 @@
+{
+  "@@locale": "vi",
+  "botsFolderGone": "Thư mục này không còn nữa",
+  "botsFolderReadFailed": "Không đọc được thư mục này",
+  "botsFolderOpenFailed": "Không mở được thư mục này",
+  "botsFolderCount": "{count} thư mục",
+  "botsWorkingFolder": "Thư mục làm việc",
+  "botsFolderTeamDefault": "Không gian làm việc của nhóm",
+  "botsFolderRoomDefault": "Thư mục riêng của từng Bot",
+  "botsFolderHint": "Thư mục nằm trên máy chủ đã kết nối.",
+  "botsFolderCurrent": "Thư mục hiện tại",
+  "botsFolderUnavailable": "Kết nối hoặc thư mục đã thay đổi, mở lại để tiếp tục.",
+  "botsFolderNoChoices": "Máy chủ tạm không có thư mục khác.",
+  "botsFolderConfirm": "Dùng thư mục làm việc này?",
+  "botsFolderRefused": "Máy chủ từ chối thư mục này: có thể nó không còn, không truy cập được hoặc bị bảo vệ. Chọn thư mục khác hoặc thử lại.",
+  "botsChildCount": "{count} cấp dưới",
+  "@botsChildCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsCurrentChat": "Trò chuyện hiện tại",
+  "botsSubagentCount": "{count} Subagent",
+  "@botsSubagentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsRunningCount": "{count} đang chạy",
+  "@botsRunningCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsFailedCount": "{count} lỗi",
+  "@botsFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsNestedCount": "Gồm {count} cấp dưới",
+  "@botsNestedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsBackToParent": "Quay lại «{title}»",
+  "@botsBackToParent": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "botsTeamMemberCount": "Nhóm Agent, {count} thành viên",
+  "@botsTeamMemberCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsAgentTeam": "Nhóm Agent",
+  "botsSubagentRunningCount": "{count} Subagent, {running} đang chạy",
+  "@botsSubagentRunningCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "running": {
+        "type": "int"
+      }
+    }
+  },
+  "botsSubagents": "Subagent",
+  "botsNoSubagents": "Chưa cử Subagent nào",
+  "botsOpenChatFirst": "Mở một cuộc trò chuyện trước",
+  "botsTeamReadFailed": "Không tải được nhóm",
+  "botsNoTeamOnHost": "Máy chủ này không có nhóm Agent",
+  "botsTeamNotEnabled": "Nhóm Agent chưa bật",
+  "botsTeamDescription": "Nhiều Agent cùng làm việc, chia sẻ một bảng nhiệm vụ",
+  "botsTeamEnabling": "Đang bật…",
+  "botsTeamEnable": "Bật nhóm",
+  "botsMembersWorking": "{count} thành viên đang làm việc",
+  "@botsMembersWorking": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsTeamStandby": "Tất cả đang chờ",
+  "botsMembers": "Thành viên",
+  "botsTasks": "Nhiệm vụ",
+  "botsTeamRecordUnreadable": "Có một bản ghi nhóm không đọc được",
+  "botsMessages": "Tin nhắn",
+  "botsOwner": "Người phụ trách",
+  "botsTeamCreateHint": "Nhờ AI lập nhóm trong trò chuyện",
+  "botsCurrent": "Hiện tại",
+  "botsNoTasks": "Chưa có nhiệm vụ nào",
+  "botsTodo": "Cần làm",
+  "botsUnassigned": "Chưa giao",
+  "botsTaskWaitingFor": "Đang chờ {dependencies}",
+  "@botsTaskWaitingFor": {
+    "placeholders": {
+      "dependencies": {
+        "type": "String"
+      }
+    }
+  },
+  "botsWriteOverlap": "Phạm vi ghi chồng chéo",
+  "botsWaitingDependencies": "Đang chờ phần phụ thuộc",
+  "botsReadyToStart": "Sẵn sàng bắt đầu",
+  "botsTaskId": "Mã số",
+  "botsDependencies": "Phần phụ thuộc",
+  "botsWriteScopes": "Phạm vi ghi",
+  "botsMessagesReadFailed": "Không tải được tin nhắn",
+  "botsNoMemberMessages": "Các thành viên chưa nhắn nhau",
+  "botsMessagesIncomplete": "Một số tin nhắn của thành viên chưa tải được · Thử lại",
+  "botsDateTime": "{date} {time}",
+  "@botsDateTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "botsViewDetails": "Xem chi tiết",
+  "botsAdmin": "Quản trị viên",
+  "botsFullTextChanged": "Trò chuyện đã thay đổi",
+  "botsFullTextReopen": "Mở lại tin nhắn này",
+  "botsFullTextReadFailed": "Không tải được toàn văn",
+  "botsShowAll": "Hiện tất cả",
+  "botsImagePlaceholder": "[Hình ảnh]",
+  "botsSending": "Đang gửi",
+  "botsWriteOwn": "Tự viết",
+  "botsSubmit": "Gửi",
+  "botsChooseModelFor": "Chọn mô hình cho {name}",
+  "@botsChooseModelFor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsModelGreeting": "Chọn xong nó sẽ chào bạn",
+  "botsChooseModel": "Chọn mô hình",
+  "botsSkipAnswer": "Không trả lời",
+  "botsBotGone": "Bot này không còn nữa",
+  "botsWaitingModel": "Chờ bạn chọn mô hình",
+  "botsThinking": "Đang suy nghĩ",
+  "botsMainBot": "Bot chính",
+  "botsIdle": "Rảnh",
+  "botsAnsweredQuestion": "Bạn đã trả lời câu hỏi của nó",
+  "botsEarlierMessages": "Phần trước đó",
+  "botsComposerHint": "Gửi tin cho {name}…",
+  "@botsComposerHint": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsDeleteNamed": "Xóa «{name}»?",
+  "@botsDeleteNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsDeleteBotBody": "Trò chuyện của nó vẫn còn, ký ức sẽ chuyển vào kho lưu trữ.",
+  "botsTokensToday": "Token 24 giờ",
+  "botsMemoryUnit": "ký ức",
+  "botsRoomUnit": "trò chuyện nhóm",
+  "botsProfile": "Hồ sơ",
+  "botsModel": "Mô hình",
+  "botsBotName": "Tên",
+  "botsRole": "Vai trò",
+  "botsWriterExample": "Ví dụ: Người viết",
+  "botsInstructions": "Hướng dẫn",
+  "botsInstructionsHint": "Nó nên làm việc thế nào",
+  "botsColor": "Màu sắc",
+  "botsUsage": "Mức dùng",
+  "botsUsageScanning": "Đang thống kê trò chuyện cũ, dữ liệu sẽ bổ sung sau.",
+  "botsUsageRefresh": "Làm mới",
+  "botsToday": "24 giờ qua",
+  "botsLastWeek": "7 ngày qua",
+  "botsLastMonth": "30 ngày qua",
+  "botsMonthCalls": "30 ngày qua · {count} lần gọi",
+  "@botsMonthCalls": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsFullRecord": "Bản ghi đầy đủ",
+  "botsEveryToolCall": "Mọi lần gọi công cụ",
+  "botsUnsetMain": "Bỏ Bot chính",
+  "botsSetMain": "Đặt làm Bot chính",
+  "botsDeleteBot": "Xóa Bot",
+  "botsEffortOff": "Không suy nghĩ",
+  "botsEffortMinimal": "Rất ít",
+  "botsEffortLow": "Thấp",
+  "botsEffortMedium": "Vừa",
+  "botsEffortHigh": "Cao",
+  "botsEffortMax": "Cao nhất",
+  "botsNamedRecord": "{name} · Bản ghi đầy đủ",
+  "@botsNamedRecord": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsOrganizingNotes": "Đang sắp xếp ghi chú",
+  "botsToolRun": "Chạy lệnh",
+  "botsToolRead": "Xem tệp",
+  "botsToolEdit": "Sửa tệp",
+  "botsToolSearch": "Tìm kiếm web",
+  "botsToolBrowse": "Xem trang web",
+  "botsToolMessage": "Liên hệ Bot khác",
+  "botsToolGroup": "Trò chuyện trong nhóm",
+  "botsToolMemory": "Sắp xếp ký ức",
+  "botsToolRecall": "Xem lại bản ghi",
+  "botsToolTeam": "Sắp xếp nhóm",
+  "botsToolAsk": "Chuẩn bị hỏi bạn",
+  "botsToolWork": "Làm việc",
+  "botsJustNow": "Vừa xong",
+  "botsCountHundredMillion": "{value} trăm triệu",
+  "@botsCountHundredMillion": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "botsCountTenThousand": "{value} chục nghìn",
+  "@botsCountTenThousand": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "botsModelNotSelected": "Chưa chọn",
+  "botsYourPreview": "Bạn: {preview}",
+  "@botsYourPreview": {
+    "placeholders": {
+      "preview": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventWorking": "{name} bắt đầu làm việc",
+  "@botsEventWorking": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventApproval": "{name} đang chờ bạn phê duyệt",
+  "@botsEventApproval": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventDone": "{name} đã làm xong",
+  "@botsEventDone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventStopped": "Bạn đã dừng việc của {name}",
+  "@botsEventStopped": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventFailed": "{name} không trả lời được",
+  "@botsEventFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventMissed": "{name} không phản hồi kịp",
+  "@botsEventMissed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventLookup": "{name} đã xem lại trò chuyện của mình",
+  "@botsEventLookup": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventLookupQuery": "{name} đã tìm «{query}» trong trò chuyện của mình",
+  "@botsEventLookupQuery": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventResumed": "{name} khởi động lại rồi làm tiếp",
+  "@botsEventResumed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventCut": "{name} lại bị khởi động lại ngắt quãng nên đã dừng",
+  "@botsEventCut": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsAutomation": "Nhiệm vụ hẹn giờ",
+  "botsAutomationText": "Nhiệm vụ hẹn giờ: {text}",
+  "@botsAutomationText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "botsOtherBot": "Bot khác",
+  "botsMessageFrom": "Tin nhắn từ {name}",
+  "@botsMessageFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventReplied": "{name} đã trả lời",
+  "@botsEventReplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsGroupReplied": "Nhóm có trả lời mới",
+  "botsNamedGroupReplied": "«{name}» có trả lời mới",
+  "@botsNamedGroupReplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEventCalledStop": "{name} đã dừng công việc",
+  "@botsEventCalledStop": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsChooseMember": "Chọn thành viên",
+  "botsMentionMember": "Nhắc tới thành viên",
+  "botsRelayUnavailable": "Kết nối qua trung chuyển không dùng được Bot",
+  "botsUseSsh": "Kết nối SSH tới máy tính này là dùng được Bot",
+  "botsTeamLoadFailed": "Không tải được nhóm Bot",
+  "botsBotCount": "{count} Bot",
+  "@botsBotCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsRoomCount": "{count} trò chuyện nhóm",
+  "@botsRoomCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsNewBot": "Bot mới",
+  "botsGroupChat": "Trò chuyện nhóm",
+  "botsNewGroup": "Nhóm mới",
+  "botsDuplicateCreated": "Đã sao chép, sẽ hiện trong danh sách sau.",
+  "botsDuplicate": "Sao chép Bot",
+  "botsDuplicateHint": "Giữ nguyên cài đặt, trò chuyện và ký ức bắt đầu mới",
+  "botsDuplicateNamed": "Sao chép {name}?",
+  "botsDuplicateBody": "Bot mới giữ nguyên vai trò, hướng dẫn và cài đặt mô hình, bắt đầu với trò chuyện và ký ức cá nhân mới, tên do máy chủ đặt. Khi có mô hình, nó sẽ gửi lời chào trước.",
+  "@botsDuplicateNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsChooseModelStart": "Chọn một mô hình để bắt đầu",
+  "botsNoChats": "Chưa có trò chuyện nào",
+  "botsUnreadCount": "{count} chưa đọc",
+  "@botsUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsMainTag": "Chính",
+  "botsMemberNeedsApproval": "Có thành viên đang chờ bạn phê duyệt",
+  "botsNamedWorking": "{name} đang làm việc",
+  "@botsNamedWorking": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsNamesWorking": "{names} đang làm việc",
+  "@botsNamesWorking": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "botsMemberCount": "{count} thành viên",
+  "@botsMemberCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsUpdateRequired": "DS Bot cần cập nhật",
+  "botsInstall": "Cài DS Bot",
+  "botsUpdateForPhone": "Bản mới mới dùng được trên điện thoại",
+  "botsInstallDescription": "Một nhóm Bot luôn trực tuyến, mỗi Bot có ký ức và vai trò riêng",
+  "botsInstallOnHost": "Cài trên {host} là dùng được",
+  "@botsInstallOnHost": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "botsRunsOnHost": "Chạy trên {host}",
+  "@botsRunsOnHost": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "botsInstalling": "Đang cài đặt",
+  "botsMemory": "Ký ức",
+  "botsEditMemory": "Sửa ký ức",
+  "botsAddMemory": "Thêm ký ức",
+  "botsMemoryReplyExample": "Ví dụ: Trả lời càng ngắn càng tốt",
+  "botsMemoryDraftExample": "Ví dụ: Nộp bản nháp trước thứ Sáu",
+  "botsMemoryCount": "Ký ức · {count}",
+  "@botsMemoryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsMemoryReadFailed": "Không tải được ký ức",
+  "botsSummary": "Tóm tắt",
+  "botsNoMemory": "Chưa có ký ức nào",
+  "botsTeam": "Nhóm",
+  "botsSelf": "Bản thân",
+  "botsWrittenByYou": "Bạn viết",
+  "botsNameRequired": "Đặt một cái tên",
+  "botsRoleHint": "Một câu nói nó làm gì",
+  "botsNewInstructionsHint": "Nó nên làm việc thế nào, cần lưu ý gì",
+  "botsAppearance": "Giao diện",
+  "botsCreating": "Đang tạo",
+  "botsGroupNameOptional": "Tên nhóm (không bắt buộc)",
+  "botsMembersSelected": "Thành viên · Đã chọn {count}",
+  "@botsMembersSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsPickTwoBots": "Chọn ít nhất hai Bot",
+  "botsFullText": "Toàn văn",
+  "botsTextPartial": "Chỉ hiện {count} ký tự đầu",
+  "@botsTextPartial": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "botsTextCompletenessUnknown": "Không xác nhận được có phải nội dung đầy đủ không",
+  "botsRoomGone": "Trò chuyện nhóm này không còn nữa",
+  "botsNamedSpeaking": "{name} đang phát biểu",
+  "@botsNamedSpeaking": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsNamedActivity": "{name} {activity}",
+  "@botsNamedActivity": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "activity": {
+        "type": "String"
+      }
+    }
+  },
+  "botsWorking": "Đang làm việc",
+  "botsDiscussing": "Đang thảo luận",
+  "botsTyping": "Đang nhập",
+  "botsGroupComposerHint": "Gửi tin cho mọi người…",
+  "botsDecline": "Từ chối",
+  "botsAllowOnce": "Cho phép lần này",
+  "botsPrivateChat": "Trò chuyện riêng",
+  "botsSetAdmin": "Đặt làm quản trị viên",
+  "botsRemoveMember": "Xóa khỏi nhóm",
+  "botsDeleteRoomBody": "Bản ghi trong nhóm vẫn còn, ký ức nhóm sẽ chuyển vào kho lưu trữ.",
+  "botsNamedAdmin": "Quản trị viên {name}",
+  "@botsNamedAdmin": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsRoomWorkingCount": "{count} đang làm việc",
+  "@botsRoomWorkingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsMembersCountTitle": "Thành viên · {count}",
+  "@botsMembersCountTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsStopMember": "Dừng lại",
+  "botsAddMember": "Thêm thành viên",
+  "botsWhoAnswers": "Ai trả lời trước",
+  "botsAdminFirst": "Quản trị viên trả lời trước",
+  "botsEveryoneInTurn": "Mọi người lần lượt",
+  "botsGroupName": "Tên nhóm",
+  "botsGroupNotice": "Thông báo nhóm",
+  "botsGroupNoticeHint": "Mỗi thành viên đều thấy trước khi phát biểu",
+  "botsDeleteGroup": "Xóa nhóm",
+  "botsDiscardTitle": "Hủy thay đổi?",
+  "botsKeepEditing": "Tiếp tục sửa",
+  "botsDiscard": "Hủy",
+  "botsProgress": "Tiến độ",
+  "botsGlyphRun": "Chạy",
+  "botsGlyphJobOutput": "Xem tác vụ nền",
+  "botsGlyphJobs": "Tác vụ nền",
+  "botsGlyphStopJob": "Dừng tác vụ nền",
+  "botsGlyphRead": "Đọc",
+  "botsGlyphImage": "Xem hình ảnh",
+  "botsGlyphDeliver": "Giao tệp",
+  "botsGlyphWrite": "Ghi",
+  "botsGlyphSearch": "Tìm kiếm",
+  "botsGlyphFindFiles": "Tìm tệp",
+  "botsGlyphOpenWeb": "Mở trang web",
+  "botsGlyphMessageAgent": "Gửi tin cho Subagent",
+  "botsGlyphInterruptAgent": "Ngắt Subagent",
+  "botsGlyphListModels": "Liệt kê mô hình Subagent",
+  "botsGlyphWorkflow": "Quy trình làm việc",
+  "botsGlyphLoop": "Nhiệm vụ lặp",
+  "botsGlyphSkill": "Dùng kỹ năng",
+  "botsGlyphTodo": "Cập nhật việc cần làm",
+  "botsGlyphSetGoal": "Đặt mục tiêu",
+  "botsGlyphViewGoal": "Xem mục tiêu",
+  "botsGlyphUpdateGoal": "Cập nhật mục tiêu",
+  "botsGlyphAsk": "Đặt câu hỏi",
+  "botsCommunityEmpty": "Tạm chưa có nội dung",
+  "botsCommunityGroups": "Nhóm trò chuyện",
+  "botsCommunity": "Cộng đồng",
+  "botsForum": "Diễn đàn",
+  "botsForumSubtitle": "Hỏi đáp, chia sẻ, kết nối",
+  "botsProjectHome": "Trang chủ dự án DSH Go",
+  "botsOpenSource": "Dự án mã nguồn mở",
+  "botsPluginCatalogFailed": "Không mở được danh mục Plugin",
+  "botsTapRetry": "Chạm để thử lại",
+  "botsFeaturedPlugins": "Plugin nổi bật",
+  "botsPluginSource": "Thông tin Plugin từ dshfind",
+  "botsPromptIdeas": "Thử cái này",
+  "botsUpdates": "Có gì mới",
+  "botsLink": "liên kết",
+  "botsLinkOpenFailed": "Không mở được {host}",
+  "@botsLinkOpenFailed": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "botsYearMonth": "Tháng {month} năm {year}",
+  "@botsYearMonth": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "botsCopyGroupNumber": "Sao chép số nhóm",
+  "botsQrCodeLabel": "Mã QR {title}",
+  "@botsQrCodeLabel": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "botsFiles": "Tệp",
+  "botsEmptyCell": "(trống)",
+  "botsYesterdayTime": "Hôm qua {time}",
+  "@botsYesterdayTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "botsOutsideWorkspace": "Ngoài không gian làm việc",
+  "botsNotFolder": "Đây không phải thư mục",
+  "botsChatNotFound": "Không tìm thấy trò chuyện này",
+  "botsBrowseUnsupported": "Kết nối này không hỗ trợ duyệt tệp",
+  "botsWorkspace": "Không gian làm việc",
+  "botsSearchFiles": "Tìm tệp",
+  "botsGoUp": "Về thư mục trên",
+  "botsEmptyFolder": "Thư mục trống",
+  "@botsFolderCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsFileCount": "{count} tệp",
+  "@botsFileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsTruncatedItems": "Chỉ liệt kê {count} mục đầu",
+  "@botsTruncatedItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsMoreActions": "Thêm thao tác",
+  "botsSearchFailed": "Không tìm được",
+  "botsNoResults": "Không tìm thấy",
+  "botsCopyPath": "Sao chép đường dẫn",
+  "botsPetOutsideApp": "Hiển thị ngoài App",
+  "botsPetNotAuthorized": "Chưa cho phép",
+  "botsPetDisplayWhen": "Thời điểm hiển thị",
+  "botsPetWhenActive": "Hiển thị khi có việc",
+  "botsPetAlways": "Luôn hiển thị",
+  "botsPetOverlayShows": "Hiển thị trong cửa sổ nổi",
+  "botsPetOverlayPixel": "Thú cưng pixel",
+  "botsPetOverlayCompanion": "Cô ấy trong phòng",
+  "botsPetOverlayCompanionNamed": "{name} trong phòng",
+  "@botsPetOverlayCompanionNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetOverlayNoPack": "Mời một nhân vật trong Phòng bạn đồng hành trước",
+  "botsPetOverlayPackBroken": "Gói nhân vật chưa đầy đủ, nhập lại trong Phòng bạn đồng hành",
+  "botsPetOverlayUnavailable": "Điện thoại này tạm chưa hiển thị được cô ấy",
+  "botsPetOverlayCompanionHint": "Chạm để chơi với cô ấy, chạm hai lần để mở trò chuyện. Tốn pin hơn thú cưng pixel, sẽ dừng khi tắt màn hình và khi ẩn đi",
+  "botsPetOverlayLoading": "Đang gọi cô ấy ra…",
+  "botsPetOverlayFallback": "Cô ấy không ra được, thú cưng pixel đang thay thế",
+  "botsPetOverlayFraming": "Khung hình",
+  "botsPetOverlayFramingFull": "Toàn thân",
+  "botsPetOverlayFramingHalf": "Nửa người",
+  "botsPetOverlayFramingHint": "Đổi khung hình sẽ tải lại cô ấy",
+  "botsPetSwitchDisabled": "Công tắc không bật được",
+  "botsPetRestrictedSettings": "Cho phép cài đặt bị hạn chế",
+  "botsPetHiddenToday": "Hôm nay không hiển thị nữa",
+  "botsPetRestore": "Khôi phục",
+  "botsPetChange": "Đổi thú cưng",
+  "botsPetHideHour": "Ẩn 1 giờ",
+  "botsPetSettings": "Cài đặt thú cưng",
+  "botsPetDeepy": "Deepy",
+  "botsPetWhaleGirl": "鲸娘",
+  "botsPetNone": "Không hiển thị",
+  "botsPets": "Thú cưng",
+  "botsPetSource": "Từ DSH-TUI",
+  "botsPetImport": "Nhập",
+  "botsPetImportHint": "Nhập thú cưng pixel của bạn: một tệp zip gồm pack.json và ảnh chuỗi khung hình PNG, định dạng xem docs/design/pets.md trong repo. Nhấn giữ thú cưng đã nhập để xóa.",
+  "botsPetMake": "Để AI tạo một thú cưng",
+  "botsPetMakeSubtitle": "Biến GIF, sticker hoặc chủ đề thành gói thú cưng",
+  "botsPetImportDone": "«{name}» đã đến",
+  "botsPetCodexTitle": "«{name}» được chuyển từ thú cưng Codex",
+  "botsPetCodexBody": "Phần lớn giữ nguyên, có vài chỗ khác nhau:",
+  "botsPetCodexOk": "Đã hiểu",
+  "botsPetCodexLoops": "Động tác sẽ lặp tới khi đổi trạng thái, không như trong Codex chạy vài vòng rồi về trạng thái chờ",
+  "botsPetCodexRoamLeft": "Đi sang trái dùng ảnh lật của hàng đi sang phải",
+  "botsPetCodexDrag": "Khi kéo nó luôn dùng hàng quay mặt sang phải",
+  "botsPetCodexSleep": "Khi ngủ dùng khung hình đầu tiên của trạng thái chờ",
+  "botsPetCodexLook": "Các ô nhìn theo hướng khác nhau không được dùng",
+  "botsPetCodexWebp": "Ảnh WebP đã chuyển thành PNG",
+  "botsPetCodexCustomTracks": "Các hàng động tác tùy chỉnh không gắn với trạng thái nào",
+  "botsPetCodexFps": "Tốc độ khung hình đổi sang mili giây đã làm tròn",
+  "botsPetCodexOneShot": "Động tác chỉ phát một lần, phát xong quay về đâu do DSH quyết định",
+  "botsPetCodexMissingAuthor": "Gói không ghi tác giả",
+  "botsPetCodexMissingLicense": "Gói không ghi giấy phép",
+  "botsPetCodexMissingSource": "Gói không ghi nguồn",
+  "@botsPetImportDone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@botsPetCodexTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetImportReplaced": "«{name}» đã đổi thành bản mới",
+  "@botsPetImportReplaced": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetImportNotZip": "Đây không phải tệp zip",
+  "botsPetImportNoPack": "Trong zip không có pack.json",
+  "botsPetImportBadPack": "pack.json có vấn đề: {detail}",
+  "@botsPetImportBadPack": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetImportMissingSheet": "Trong zip thiếu ảnh chuỗi khung hình {name}",
+  "@botsPetImportMissingSheet": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetImportBadSheet": "Ảnh chuỗi khung hình không đúng: {name} (phải là PNG đầy đủ, mỗi cạnh tối đa 4096 điểm ảnh, mọi khung hình đều nằm trong ảnh)",
+  "@botsPetImportBadSheet": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetImportTooLarge": "Gói thú cưng này quá lớn",
+  "botsPetImportStorage": "Không lưu được vào điện thoại, thử lại lần nữa",
+  "botsPetRemoveTitle": "Xóa «{name}»?",
+  "@botsPetRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetRemoveBody": "Xóa rồi có thể nhập lại.",
+  "botsPetRemoveFailed": "Không xóa được «{name}», thử lại lần nữa",
+  "@botsPetRemoveFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsPetSize": "Kích thước",
+  "botsPetCustomSize": "Kích thước tùy chỉnh",
+  "botsPetQuiet": "Chế độ im lặng",
+  "botsPetQuietSubtitle": "Chỉ làm động tác, không hiện bong bóng",
+  "botsPetShowNow": "Hiện ngay",
+  "botsPetHiddenUntil": "Ẩn tới {time}",
+  "@botsPetHiddenUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "botsKeyEsc": "Gửi Esc",
+  "botsKeyTab": "Gửi Tab",
+  "botsKeyLeft": "Trái",
+  "botsKeyUp": "Lên",
+  "botsKeyDown": "Xuống",
+  "botsKeyRight": "Phải",
+  "botsKeyPipe": "Dấu gạch đứng",
+  "botsKeyTilde": "Dấu ngã",
+  "botsKeySlash": "Dấu gạch chéo",
+  "botsKeyDash": "Dấu gạch ngang",
+  "botsTerminal": "Terminal",
+  "botsTerminalRename": "Đổi tên terminal",
+  "botsTerminalName": "Tên terminal",
+  "botsTerminalRenameFailed": "Không đổi tên được",
+  "botsTerminalCloseNamed": "Đóng «{title}»?",
+  "@botsTerminalCloseNamed": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "botsTerminalCloseBody": "Tiến trình bên trong sẽ kết thúc",
+  "botsTerminalUnsupported": "Kết nối này không dùng được terminal",
+  "botsTerminalSupportedHosts": "Dùng được trên máy này, máy chủ SSH hoặc máy tính Remote",
+  "botsTerminalOpening": "Đang mở terminal…",
+  "botsTerminalNone": "Không có terminal đang mở",
+  "botsTerminalNew": "Terminal mới",
+  "botsTerminalClose": "Đóng terminal",
+  "botsTerminalChooseShell": "Chọn Shell",
+  "botsTerminalShellFailed": "Không tải được Shell",
+  "botsTerminalReading": "Đang đọc…",
+  "botsTerminalDefaultShell": "Shell mặc định",
+  "botsTerminalOtherDevice": "Thiết bị khác đang nhập",
+  "botsTerminalTakeOver": "Tiếp quản",
+  "botsTerminalStarting": "Đang khởi động…",
+  "botsTerminalConnecting": "Đang kết nối…",
+  "botsTerminalDisconnected": "Đã mất kết nối",
+  "botsTerminalReconnect": "Kết nối lại",
+  "botsTerminalEnded": "Đã kết thúc",
+  "botsTerminalExitCode": "Đã kết thúc · Mã thóat {code}",
+  "@botsTerminalExitCode": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "botsTerminalGone": "Terminal này không còn nữa",
+  "botsTerminalLimit": "Đóng terminal không dùng trước",
+  "botsToolWorkingRun": "Đang chạy lệnh",
+  "botsToolApprovalRun": "{name} muốn chạy lệnh",
+  "@botsToolApprovalRun": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingRead": "Đang xem tệp",
+  "botsToolApprovalRead": "{name} muốn xem tệp",
+  "@botsToolApprovalRead": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingEdit": "Đang sửa tệp",
+  "botsToolApprovalEdit": "{name} muốn sửa tệp",
+  "@botsToolApprovalEdit": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingSearch": "Đang tìm kiếm web",
+  "botsToolApprovalSearch": "{name} muốn tìm kiếm web",
+  "@botsToolApprovalSearch": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingBrowse": "Đang xem trang web",
+  "botsToolApprovalBrowse": "{name} muốn xem trang web",
+  "@botsToolApprovalBrowse": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingMessage": "Đang liên hệ Bot khác",
+  "botsToolApprovalMessage": "{name} muốn liên hệ Bot khác",
+  "@botsToolApprovalMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingGroup": "Đang trò chuyện trong nhóm",
+  "botsToolApprovalGroup": "{name} muốn trò chuyện trong nhóm",
+  "@botsToolApprovalGroup": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingMemory": "Đang sắp xếp ký ức",
+  "botsToolApprovalMemory": "{name} muốn sắp xếp ký ức",
+  "@botsToolApprovalMemory": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingRecall": "Đang xem lại bản ghi",
+  "botsToolApprovalRecall": "{name} muốn xem lại bản ghi",
+  "@botsToolApprovalRecall": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingTeam": "Đang sắp xếp nhóm",
+  "botsToolApprovalTeam": "{name} muốn sắp xếp nhóm",
+  "@botsToolApprovalTeam": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingAsk": "Đang chuẩn bị hỏi bạn",
+  "botsToolApprovalAsk": "{name} muốn hỏi bạn",
+  "@botsToolApprovalAsk": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsToolWorkingWork": "Đang làm việc",
+  "botsToolApprovalWork": "{name} muốn làm việc",
+  "@botsToolApprovalWork": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsEveryone": "Mọi người",
+  "botsActivelyRunning": "Đang chạy",
+  "botsListSeparator": ", ",
+  "botsNameSeparator": ", ",
+  "botsGlyphSubagent": "Subagent",
+  "botsGlyphWebSearch": "Tìm kiếm web",
+  "botsSenderPreview": "{name}: {preview}",
+  "@botsSenderPreview": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "preview": {
+        "type": "String"
+      }
+    }
+  },
+  "botsAgentSemantics": "{title}, {state}",
+  "@botsAgentSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "botsViewMetric": "{label}: {value}",
+  "@botsViewMetric": {
+    "placeholders": {
+      "label": {
+        "type": "Object"
+      },
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "botsEffortXhigh": "Rất cao",
+  "botsRelayLimit": "Giới hạn Bot gọi nhau",
+  "botsRelayLimitHint": "Từ lần bạn nhắn gần nhất, Bot gọi nhau tới số lần này sẽ tạm dừng. Nhập số nguyên 1–200, để trống dùng mặc định.",
+  "botsRelayLimitDefault": "Mặc định: {count}",
+  "botsRelayLimitInvalid": "Nhập số nguyên 1–200",
+  "botsRelayLimitRestore": "Khôi phục mặc định",
+  "botsRelayLimitConnectionChanged": "Kết nối đã thay đổi, đóng rồi mở lại.",
+  "@botsRelayLimitDefault": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsMobileUnsupportedTitle": "DS Bot tạm chưa hỗ trợ trên điện thoại",
+  "botsMobileApiRequired": "Dùng tạm trên bản web",
+  "botsMobileApiMissing": "Trên điện thoại tạm chưa hỗ trợ, dùng tạm trên bản web",
+  "botsCreationConnectionChanged": "Kết nối đã thay đổi, mở lại trang tạo rồi thao tác tiếp."
+}

@@ -1,0 +1,18 @@
+{
+  "@@locale": "vi",
+  "starPromptTitle": "{hours, plural, =0{Bé cá đã ở cùng bạn trong DSH Go được nửa giờ rồi⁠~} =1{Bé cá đã ở cùng bạn trong DSH Go được một giờ rồi⁠~} other{Bé cá đã ở cùng bạn trong DSH Go được {hours} giờ rồi⁠~}}",
+  "@starPromptTitle": {
+    "description": "The star prompt's first line. hours is the whole hours of use so far, rounded down; 0 is half an hour (the first ask comes after 30 minutes). The word joiner keeps the ~ on the line of the word before it.",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "starPromptBody": "DSH Go là dự án miễn phí, mã nguồn mở. Nếu nó làm trải nghiệm trên điện thoại của bạn tốt hơn một chút, hãy tặng một Star để ủng hộ nhé — với bé cá, đó là động lực rất lớn!",
+  "starPromptPlea": "Nhờ bạn nhé~ Điều này quan trọng lắm!!",
+  "starPromptStar": "Star trên GitHub",
+  "starPromptDone": "Đã Star rồi",
+  "starPromptLater": "Để lần sau",
+  "starSettingsTitle": "Tặng DSH Go một Star"
+}

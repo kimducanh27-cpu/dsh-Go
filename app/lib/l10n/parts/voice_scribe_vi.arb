@@ -1,0 +1,26 @@
+{
+  "@@locale": "vi",
+  "voiceScribeReadFailed": "Không đọc được cài đặt giọng nói, hãy thử lại.",
+  "voiceScribeSavedReadFailed": "Đã lưu, làm mới để xem cài đặt mới nhất.",
+  "voiceScribeSaveUnconfirmed": "Không xác nhận được đã lưu, hãy làm mới hoặc thử lại.",
+  "voiceScribeTitle": "Cài đặt giọng nói",
+  "voiceScribePolishPrompt": "Prompt trau chuốt",
+  "voiceScribeLanguage": "Ngôn ngữ nhận dạng",
+  "voiceScribeRefresh": "Làm mới",
+  "voiceScribeHostChanged": "Kết nối đã thay đổi, hãy mở lại.",
+  "voiceScribeUnsupported": "Kết nối hiện tại chưa hỗ trợ cài đặt giọng nói.",
+  "voiceScribePluginDefault": "Mặc định",
+  "voiceScribeBuiltInPrompt": "Prompt tích hợp",
+  "voiceScribeProviders": "Dịch vụ nhận dạng",
+  "voiceScribeKeySet": "Đã đặt khóa",
+  "voiceScribeNoKey": "Chưa đặt khóa",
+  "voiceScribeHotwords": "Từ nóng",
+  "voiceScribeHotwordRules": "{count} quy tắc",
+  "@voiceScribeHotwordRules": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

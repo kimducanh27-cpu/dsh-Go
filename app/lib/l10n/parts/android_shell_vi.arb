@@ -1,0 +1,86 @@
+{
+  "@@locale": "vi",
+  "androidShellTitle": "Android Shell",
+  "androidShellEntryHint": "Kênh lệnh hệ thống riêng, mặc định tắt",
+  "androidShellSubtitle": "Chạy lệnh hệ thống Android trên điện thoại này qua Shizuku hoặc ADB tự kết nối, không phải bash trong Ubuntu.",
+  "androidShellEnable": "Cho phép Android Shell",
+  "androidShellEnableHint": "Công tắc riêng, không bật theo chế độ không làm phiền hay miễn xác nhận khi tắt màn hình; chỉ thêm kênh lệnh Android, không ảnh hưởng bash / run_code… trong Ubuntu, hai bên dùng cùng lúc được.",
+  "androidShellConfirmationNote": "Mỗi lệnh đều cần xác nhận, có thể thay đổi hệ thống và tệp.",
+  "androidShellMasterOff": "Hãy bật “Điều khiển điện thoại” ở trang trước.",
+  "androidShellRiskTitle": "Cho phép chạy lệnh hệ thống Android?",
+  "androidShellRiskBody": "Lệnh dùng UID thực của kênh đã chọn, có thể thay đổi app, cài đặt hệ thống và tệp dùng chung. Nó không được danh sách app trên màn hình bảo vệ đầy đủ; mỗi lệnh vẫn sẽ xin xác nhận gốc riêng. Chỉ cho phép lệnh bạn hiểu và tin tưởng.",
+  "androidShellRiskAction": "Cho phép Android Shell",
+  "androidShellBackend": "Cách kết nối",
+  "androidShellDetails": "Chi tiết",
+  "androidShellReady": "Đã kết nối",
+  "androidShellShizukuHint": "Dùng Shizuku đã cài và đang chạy, cần cấp quyền riêng; không cần Android 14, trợ năng hay chế độ không làm phiền.",
+  "androidShellAdb": "ADB tự kết nối",
+  "androidShellAdbHint": "Kết nối gỡ lỗi không dây trên máy, dùng lại danh tính ADB riêng của app; không kết nối thiết bị khác.",
+  "androidShellInstalled": "Đã cài Shizuku",
+  "androidShellRunning": "Shizuku đang chạy",
+  "androidShellGranted": "Đã cấp quyền Shizuku",
+  "androidShellPaired": "Đã ghép nối ADB",
+  "androidShellConnected": "Đã kết nối ADB",
+  "androidShellAuthorize": "Xin cấp quyền Shizuku",
+  "androidShellAuthorizeHint": "Cài và khởi động Shizuku trước, rồi bấm nút này để cho phép dsh-Go. Mở trang này hay làm mới sẽ không xin cấp quyền.",
+  "androidShellStatus": "Trạng thái chạy",
+  "androidShellUid": "UID thực",
+  "androidShellUidUnknown": "Chưa báo cáo",
+  "androidShellRefresh": "Làm mới trạng thái",
+  "androidShellStop": "Dừng Android Shell",
+  "androidShellStopHint": "Hủy lệnh hiện tại và dừng chạy Shell riêng, không tắt điều khiển màn hình.",
+  "androidShellPairingGuide": "Trong tùy chọn nhà phát triển, bật “Gỡ lỗi không dây”, chọn “Ghép nối thiết bị bằng mã ghép nối”. Mã ghép nối chỉ dùng cho lần ghép nối này, không lưu, không ghi vào nhật ký.",
+  "androidShellStartPairing": "Mở hướng dẫn ghép nối",
+  "androidShellPair": "Nhập mã ghép nối",
+  "androidShellPairSubmit": "Ghép nối",
+  "androidShellPairCode": "Mã ghép nối 6 chữ số",
+  "androidShellPairPort": "Cổng ghép nối (không bắt buộc)",
+  "androidShellPairPortHint": "Điền cổng trong bảng ghép nối, không phải cổng kết nối ở trang chính gỡ lỗi không dây; để trống sẽ thử tự phát hiện.",
+  "androidShellConnect": "Kết nối ADB",
+  "androidShellConnectChannel": "Kết nối kênh đã chọn",
+  "androidShellConnectPort": "Cổng kết nối (không bắt buộc)",
+  "androidShellConnectPortHint": "Điền cổng trong mục “Địa chỉ IP và cổng” ở trang chính gỡ lỗi không dây, không phải cổng ghép nối. Chỉ kết nối máy này; để trống sẽ thử tự phát hiện.",
+  "androidShellErrorCode": "Mã lỗi: {code}",
+  "@androidShellErrorCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "androidShellLimits": "Mỗi lần tối đa {seconds} giây, đầu ra tối đa {bytes} byte",
+  "@androidShellLimits": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      },
+      "bytes": {
+        "type": "int"
+      }
+    }
+  },
+  "androidShellErrorDisabled": "Android Shell đã tắt.",
+  "androidShellErrorNotConnected": "Kênh đã chọn chưa kết nối.",
+  "androidShellErrorShizukuMissing": "Hãy cài Shizuku trước.",
+  "androidShellErrorShizukuStopped": "Hãy khởi động Shizuku trước, rồi làm mới trạng thái.",
+  "androidShellErrorPermissionRequired": "Bạn cần cấp quyền rõ ràng trong Shizuku.",
+  "androidShellErrorAdbNotPaired": "Hãy hoàn tất ghép nối gỡ lỗi không dây trên máy trước, rồi kết nối ADB.",
+  "androidShellErrorConnectFailed": "Kết nối không thành công. Hãy kiểm tra kênh đã chọn và cổng kết nối gỡ lỗi không dây hiện tại, rồi thử lại.",
+  "androidShellErrorIdentityChanged": "Danh tính kênh đã thay đổi, hãy dừng rồi cấp quyền hoặc kết nối lại.",
+  "androidShellErrorHelperStartFailed": "Tiến trình hỗ trợ Android Shell không khởi động được, lệnh chưa chạy.",
+  "androidShellErrorBusy": "Một thao tác khác chưa xong, hãy thử lại sau, hoặc dừng Android Shell trước.",
+  "androidShellErrorInvalidArguments": "Dữ liệu nhập không hợp lệ. Mã ghép nối phải là 6 chữ số, cổng phải từ 1–65535.",
+  "androidShellErrorCancelled": "Thao tác đã hủy.",
+  "androidShellErrorTimeout": "Thao tác hết thời gian. Hãy kiểm chứng kết quả trước; lệnh đã gửi đi thì đừng tự thử lại.",
+  "androidShellErrorConfirmationDenied": "Chưa được cho phép chạy lệnh.",
+  "androidShellErrorCleanupFailed": "Không dọn dẹp xong sau khi dừng. Hãy thử dừng lại, tạm thời đừng chạy lệnh mới.",
+  "androidShellErrorLocked": "Điện thoại đã khóa, hãy mở khóa rồi thử lại.",
+  "androidShellErrorConfirmationUnavailable": "Hiện không hiện được bảng xác nhận gốc, hãy quay lại app và kiểm tra quyền thông báo.",
+  "androidShellErrorTransportLost": "Kênh đã ngắt. Hãy kiểm chứng kết quả trước; lệnh đã gửi đi thì đừng tự thử lại, cần thì kết nối lại.",
+  "androidShellErrorProtocolMismatch": "Mô-đun gốc hiện tại không hỗ trợ giao thức Shell này, hãy cập nhật app.",
+  "androidShellErrorNativeUnavailable": "Mô-đun gốc Android Shell của bản build này không dùng được.",
+  "androidShellErrorInvalidResponse": "Không nhận được trạng thái gốc hợp lệ, hãy làm mới hoặc cập nhật app.",
+  "androidShellErrorStopped": "Lượt này đã kết thúc hoặc tạm dừng, hãy bật lại rồi thử.",
+  "androidShellErrorStopFailed": "Chưa xác nhận đã dừng, hãy làm mới trạng thái và thử dừng lại.",
+  "androidShellErrorUnknown": "Không xác nhận được kết quả thao tác. Hãy kiểm chứng kết quả trước; lệnh đã gửi đi thì đừng tự thử lại."
+}

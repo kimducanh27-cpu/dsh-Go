@@ -1,0 +1,17 @@
+{
+  "@@locale": "vi",
+  "workspaceRecoveryTitle": "Cứu hộ chỉ mục không gian làm việc",
+  "workspaceRecoveryEnable": "Bật cứu hộ chỉ mục không gian làm việc",
+  "workspaceRecoveryDisable": "Dùng lại chỉ mục gốc",
+  "workspaceRecoveryHint": "Chỉ trên máy: khi chỉ mục không gian làm việc gốc bị lỗi, dùng một chỉ mục khác để truy cập các cuộc trò chuyện còn đọc được.",
+  "workspaceRecoveryActive": "Đã chọn chỉ mục cứu hộ riêng; cả chỉ mục gốc và chỉ mục cứu hộ đều được giữ lại.",
+  "workspaceRecoveryWorking": "Đang xử lý…",
+  "workspaceRecoveryEnableBody": "Sẽ dừng Engine trên máy, chuyển sang chỉ mục cứu hộ riêng rồi khởi động lại. Chỉ mục không gian làm việc gốc giữ nguyên, không xóa tệp trò chuyện, Plugin và thông tin đăng nhập.\n\nLần bật đầu tiên, chỉ mục mới được tạo từ các phiên còn đọc được và các thư mục vẫn tồn tại. Tên, thứ tự, mặc định, lưu trữ và ghim của không gian làm việc cũ sẽ không tự kế thừa; không gian làm việc trống hoặc phiên có thư mục đã hỏng không đảm bảo xuất hiện trong danh sách mới. Nhóm và tuỳ chọn ghim vốn có trên máy được giữ lại.\n\nChỉ mục cứu hộ sẽ được giữ lại, lần bật sau tiếp tục dùng. Đây là cách vòng qua lỗi của chỉ mục gốc, chưa sửa chỉ mục gốc.",
+  "workspaceRecoveryDisableBody": "Sẽ dừng Engine trên máy, dùng lại chỉ mục không gian làm việc gốc rồi khởi động lại. Lỗi gốc có thể xuất hiện lại.\n\nTệp trò chuyện tạo trong thời gian cứu hộ và chỉ mục cứu hộ đều được giữ lại; quan hệ và thứ tự không gian làm việc của hai chỉ mục sẽ không tự đồng bộ. Chỉ mục gốc có thể không hiển thị các phiên mới thêm trong thời gian cứu hộ, bật lại là có thể tiếp tục dùng chỉ mục cứu hộ.",
+  "workspaceRecoveryEnableStart": "Bật và khởi động lại",
+  "workspaceRecoveryDisableStart": "Dùng chỉ mục gốc và khởi động lại",
+  "workspaceRecoveryUnavailable": "Phiên bản hiện tại chưa hỗ trợ cứu hộ chỉ mục không gian làm việc, hãy kiểm tra trạng thái Engine trên máy và cập nhật ứng dụng.",
+  "workspaceRecoveryRestartIncomplete": "Đã chuyển chế độ chỉ mục, nhưng chưa xác nhận Engine đã dừng, chưa khởi động lại. Hãy đợi dừng xong rồi khởi động.",
+  "workspaceRecoverySaveFailed": "Lưu chế độ chỉ mục thất bại, chưa yêu cầu khởi động lại. Hãy xem trạng thái Engine trên máy và nhật ký.",
+  "workspaceRecoveryFailed": "Thao tác chưa hoàn tất, hãy xem trạng thái Engine trên máy và nhật ký. Chế độ đã chuyển có thể xem lại ở trang này."
+}

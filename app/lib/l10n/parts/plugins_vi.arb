@@ -1,0 +1,841 @@
+{
+  "@@locale": "vi",
+  "pluginsOperationHostChanged": "Máy chủ đã đổi, chưa thực hiện gì",
+  "pluginsReloadLocal": "Khởi động lại Engine để tải lại",
+  "pluginsReloadInterrupts": "Sẽ làm gián đoạn nhiệm vụ đang chạy",
+  "pluginsReloadConfirm": "Tải lại «{name}»?",
+  "pluginsReloadExplanation": "Sẽ khởi động lại Engine trên máy và tải lại Plugin. Nhiệm vụ đang chạy sẽ bị gián đoạn.",
+  "pluginsReloadProceed": "Khởi động lại và tải lại",
+  "pluginsReloadRequested": "Đã yêu cầu khởi động lại Engine",
+  "pluginsReloadChanged": "Máy chủ hoặc trạng thái Plugin đã thay đổi, thử lại",
+  "pluginsReloadFailed": "Không khởi động lại được Engine, xem nhật ký Engine",
+  "@pluginsReloadConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsFile": "Tệp",
+  "pluginsChat": "Trò chuyện",
+  "pluginsImage": "Hình ảnh",
+  "pluginsNamespaceDefaultModel": "Mô hình mặc định",
+  "pluginsNamespaceDefaultPreset": "Preset mặc định",
+  "pluginsNamespaceAgent": "Agent",
+  "pluginsNamespaceSubagent": "Subagent",
+  "pluginsNamespaceSubagentModels": "Mô hình Subagent",
+  "pluginsNamespaceDeepSeekModel": "Mô hình DeepSeek",
+  "pluginsNamespaceAccountModel": "Mô hình tài khoản DeepSeek",
+  "pluginsNamespaceCustomModels": "Dịch vụ mô hình tùy chỉnh",
+  "pluginsNamespaceNetwork": "Truy cập mạng",
+  "pluginsNamespaceWebSearch": "Tìm kiếm web",
+  "pluginsNamespaceSearchApi": "API tìm kiếm web",
+  "pluginsNamespaceCommands": "Thực thi lệnh",
+  "pluginsNamespacePermissions": "Quyền",
+  "pluginsNamespaceChatLog": "Nhật ký trò chuyện",
+  "pluginsNamespaceThinkingTranslation": "Dịch phần suy nghĩ",
+  "pluginsNamespaceTranslation": "Dịch",
+  "pluginsNamespaceLanguage": "Ngôn ngữ",
+  "pluginsNamespaceWebAppearance": "Giao diện bản web",
+  "pluginsNamespaceWebChat": "Trò chuyện bản web",
+  "pluginsNamespaceWebInput": "Ô nhập bản web",
+  "pluginsNamespaceWebSettings": "Cài đặt bản web",
+  "pluginsNamespaceWebGeneral": "Chung bản web",
+  "pluginsNamespaceAutoReview": "Tự động rà soát",
+  "pluginsNamespaceAgentTeam": "Nhóm Agent",
+  "pluginsNamespaceVoiceInput": "Nhập bằng giọng nói",
+  "pluginsOfficialPlugin": "Plugin chính thức",
+  "pluginsLocalUnshareable": "Cài trên máy, không chia sẻ được",
+  "pluginsIncludesPresets": "Gồm preset «{names}»",
+  "@pluginsIncludesPresets": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsSecretsUnshareable": "Có chứa khóa bí mật, không chia sẻ được",
+  "pluginsLineCount": "{count} dòng",
+  "@pluginsLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsEmptyValue": "Trống",
+  "pluginsOnValue": "Bật",
+  "pluginsOffValue": "Tắt",
+  "pluginsOfficialUnavailable": "Máy chủ này không có Plugin chính thức này",
+  "pluginsEnabled": "Đã bật",
+  "pluginsVersionMismatch": "Phiên bản khác với lúc chia sẻ",
+  "pluginsCurrentVersion": "Phiên bản hiện tại",
+  "pluginsNewVersion": "Phiên bản mới",
+  "pluginsAddedWith": "Thêm cùng «{title}»",
+  "@pluginsAddedWith": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsApplyAfterInstall": "Áp dụng sau khi cài Plugin · {detail}",
+  "@pluginsApplyAfterInstall": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsSettingsReadFailed": "Không đọc được cài đặt của máy chủ này",
+  "pluginsSettingUnavailable": "Máy chủ này không có cài đặt này",
+  "pluginsSettingsReadOnly": "Cài đặt của máy chủ này chỉ đọc",
+  "pluginsImportLocalOnly": "Chỉ nhập được vào máy này",
+  "pluginsReplaceSkill": "Thay kỹ năng cùng tên",
+  "pluginsReplaceContent": "Thay nội dung hiện có",
+  "pluginsSafeModeInstallBlocked": "Không cài được Plugin ở Chế độ an toàn",
+  "pluginsHostInstallBlocked": "Không cài được Plugin trên máy chủ này từ đây",
+  "pluginsInstallFailed": "Cài đặt thất bại",
+  "pluginsAfterRestart": "Có hiệu lực sau khi khởi động lại",
+  "pluginsSettingsChanged": "Cài đặt vừa bị thay đổi",
+  "pluginsWriteFailed": "Không ghi được",
+  "pluginsHostUnreachable": "Không kết nối được máy chủ",
+  "pluginsFileWriteFailed": "Không ghi được tệp",
+  "pluginsProfileTitle": "Cấu hình DSH Go",
+  "pluginsGistTokenInvalid": "Token GitHub không hợp lệ hoặc thiếu quyền Gist",
+  "pluginsGistCreateHttpFailed": "Không tạo được Gist (HTTP {status})",
+  "@pluginsGistCreateHttpFailed": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsGistCreateFailed": "Không tạo được Gist",
+  "pluginsGitHubUnreachable": "Không kết nối được GitHub",
+  "pluginsGitHubTimeout": "Kết nối GitHub hết thời gian chờ",
+  "pluginsGistNotFound": "Không tìm thấy Gist này",
+  "pluginsGistNoProfile": "Gist này không có cấu hình để nhập",
+  "pluginsGistReadFailed": "Không đọc được Gist",
+  "pluginsListReadFailed": "Không đọc được danh sách Plugin",
+  "pluginsReadingPlugins": "Đang đọc Plugin…",
+  "pluginsDshOfficial": "DSH chính thức",
+  "pluginsOfficialToggleOnly": "Thành phần chính thức chỉ bật/tắt được, không gỡ được; áp dụng cho mọi trò chuyện trên máy chủ này",
+  "pluginsOfficial": "Chính thức",
+  "pluginsNoThirdParty": "Chưa cài Plugin bên thứ ba nào",
+  "pluginsPluginsDescription": "Plugin thêm công cụ, bộ nhớ và mô hình cho DSH",
+  "pluginsBrowseMarket": "Dạo chợ Plugin",
+  "pluginsLoading": "Đang tải",
+  "pluginsIslandClosed": "Giao diện Plugin đã đóng",
+  "pluginsReopen": "Mở lại",
+  "pluginsOpenBrowserHost": "Mở {host} trong trình duyệt?",
+  "@pluginsOpenBrowserHost": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsSearch": "Tìm Plugin",
+  "pluginsMarketLoading": "Đang tải danh mục Plugin…",
+  "pluginsMarketLoadFailed": "Không mở được danh mục Plugin",
+  "pluginsMarketInvalid": "Định dạng danh mục sai",
+  "pluginsAll": "Tất cả",
+  "pluginsMarketCount": "{count} Plugin · từ dshfind",
+  "@pluginsMarketCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsHideWeb": "Ẩn Plugin web",
+  "pluginsShowWebCount": "Hiện {count} Plugin web",
+  "@pluginsShowWebCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsNoCategoryPlugins": "Danh mục này không có Plugin nào",
+  "pluginsNoSearchResults": "Không tìm thấy «{query}»",
+  "@pluginsNoSearchResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsFailureDetails": "{title} · Chạm để xem",
+  "@pluginsFailureDetails": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsFeatured": "Đề xuất",
+  "pluginsInstalledRemoteRestart": "Đã cài «{name}», khởi động lại DSH trên {host} để áp dụng",
+  "@pluginsInstalledRemoteRestart": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsInstalledNamed": "Đã cài «{name}»",
+  "@pluginsInstalledNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsInstallCancelled": "Đã hủy cài đặt",
+  "pluginsInstallFailureNamed": "«{name}» {reason}",
+  "@pluginsInstallFailureNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsRestartRequired": "Cần khởi động lại Engine",
+  "pluginsRestartExplanation": "«{name}» có hiệu lực sau khi khởi động lại Engine, trả lời đang chạy sẽ bị gián đoạn.",
+  "@pluginsRestartExplanation": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsRestartEngine": "Khởi động lại Engine",
+  "pluginsAllowBuildScripts": "Cho phép script build?",
+  "pluginsBuildScriptPackages": "Các gói sau sẽ chạy script khi cài đặt:",
+  "pluginsBuildScriptWarning": "Script sẽ chạy với quyền của DSH trên {host}, có thể đọc/ghi tệp và truy cập mạng. Chỉ cho phép khi bạn tin Plugin này.",
+  "@pluginsBuildScriptWarning": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsThisDevice": "Thiết bị này",
+  "pluginsAllowRetry": "Cho phép và thử lại",
+  "pluginsUpdateNamed": "Cập nhật «{name}»?",
+  "@pluginsUpdateNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsUninstallNamed": "Gỡ «{title}»?",
+  "@pluginsUninstallNamed": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsUninstallExplanation": "Plugin sẽ bị gỡ khỏi {host}, dữ liệu và cài đặt của nó sẽ không bị xóa.",
+  "@pluginsUninstallExplanation": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsThisHost": "Máy chủ này",
+  "pluginsUninstall": "Gỡ",
+  "pluginsUninstalledNamed": "Đã gỡ «{title}»",
+  "@pluginsUninstalledNamed": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsRestartNow": "Khởi động lại ngay",
+  "pluginsUninstallFailed": "Không gỡ được",
+  "pluginsThatComputer": "Máy tính đó",
+  "pluginsCommandAfterInstall": "Sau khi cài, khởi động lại DSH trên máy tính đó rồi quay lại làm mới",
+  "pluginsError": "Lỗi",
+  "pluginsInventoryTitle": "Danh sách Plugin",
+  "pluginsGlobalPlugins": "Plugin toàn cục",
+  "pluginsAgentPresets": "Preset Agent",
+  "pluginsInventoryReadFailed": "Không đọc được danh sách Plugin",
+  "pluginsComponentCount": "{count} thành phần",
+  "@pluginsComponentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsEnabledCount": "{count} đã bật",
+  "@pluginsEnabledCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsErrorCount": "{count} lỗi",
+  "@pluginsErrorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsNoPlugins": "Không có Plugin",
+  "pluginsNoMatchingPlugins": "Không có Plugin khớp",
+  "pluginsPresetLoadFailed": "Không tải được preset này",
+  "pluginsPresetNoPlugins": "Preset này không có Plugin",
+  "pluginsStandard": "Chuẩn",
+  "pluginsMinimal": "Tối giản",
+  "pluginsDefaultPresetName": "{name} (mặc định)",
+  "@pluginsDefaultPresetName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsSystemComponents": "Thành phần hệ thống",
+  "pluginsCount": "{count} mục",
+  "@pluginsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsSource": "Nguồn",
+  "pluginsDisableCondition": "Tắt khi",
+  "pluginsProvidedByPreset": "Do preset cung cấp",
+  "pluginsDetailsTitle": "Chi tiết Plugin",
+  "pluginsPackageInfoError": "Thông tin gói lỗi: {error}",
+  "@pluginsPackageInfoError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsInstalling": "Đang cài đặt",
+  "pluginsGet": "Lấy",
+  "pluginsLoadingCannotCancel": "Đang tải Plugin, bước này không hủy được",
+  "pluginsInstallDuration": "Mất khoảng một hai phút, bạn có thể rời trang này",
+  "pluginsViewInstallLogs": "Xem nhật ký cài đặt",
+  "pluginsViewDetails": "Xem chi tiết",
+  "pluginsCopyCommand": "Sao chép lệnh",
+  "pluginsCommandCopied": "Đã sao chép lệnh",
+  "pluginsMissingFiles": "Thiếu tệp Plugin, cài lại để sửa",
+  "pluginsNotDshPlugin": "Không phải Plugin DSH, không tải được",
+  "pluginsIncompatible": "Không tương thích với phiên bản DSH hiện tại, chưa tải",
+  "pluginsRequiresDshVersion": "Cần DSH {requiredVersion}, hiện tại {currentVersion}, chưa tải",
+  "@pluginsRequiresDshVersion": {
+    "placeholders": {
+      "requiredVersion": {
+        "type": "String"
+      },
+      "currentVersion": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsLoadFailure": "Tải thất bại: {reason}",
+  "@pluginsLoadFailure": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsUnknownReason": "Không rõ lý do",
+  "pluginsBundleProblem": "Có vấn đề: {reason}",
+  "@pluginsBundleProblem": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsRefreshFailure": "Làm mới thất bại: {reason}",
+  "@pluginsRefreshFailure": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsTitle": "Plugin",
+  "pluginsRefresh": "Làm mới",
+  "pluginsMarketTitle": "Chợ Plugin",
+  "pluginsConnectToManage": "Kết nối Engine rồi quản lý Plugin",
+  "pluginsSafeModeOperationsBlocked": "Không cài hoặc gỡ Plugin ở Chế độ an toàn",
+  "pluginsRelayToggleOnly": "{host} · Qua trung chuyển chỉ bật/tắt được, cài đặt thì làm trên máy tính đó",
+  "@pluginsRelayToggleOnly": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsInstallThisPhone": "Cài vào: Máy này",
+  "pluginsInstallHost": "Cài vào: {host}",
+  "@pluginsInstallHost": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsOfflineDescription": "Plugin đã cài sẽ hiện khi Engine chạy, chợ Plugin thì xem ngay được",
+  "pluginsIconChanged": "Đã chọn biểu tượng màn hình, quay lại màn hình chính để thấy thay đổi",
+  "pluginsIconChangeFailed": "Không đổi được, thử lại sau",
+  "pluginsTheme": "Chủ đề",
+  "pluginsAppearance": "Giao diện",
+  "pluginsColors": "Màu sắc",
+  "pluginsFeatureIcons": "Biểu tượng tính năng",
+  "pluginsAppIcon": "Biểu tượng App",
+  "pluginsPet": "Thú cưng",
+  "pluginsCustomColor": "Tùy chỉnh",
+  "pluginsColorLabel": "Màu sắc: {label}",
+  "@pluginsColorLabel": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsCoral": "San hô",
+  "pluginsRouge": "Đỏ son",
+  "pluginsOchre": "Vàng đất",
+  "pluginsMoss": "Xanh rêu",
+  "pluginsLake": "Xanh hồ",
+  "pluginsIndigo": "Chàm",
+  "pluginsHue": "Sắc độ",
+  "pluginsWallpaper": "Hình nền",
+  "pluginsFollowWallpaper": "Theo màu hình nền",
+  "pluginsAllowHighPower": "Cho phép tốn pin cao ở chế độ nền",
+  "pluginsVivoBatteryPath": "Pin › Quản lý pin nền › {app}",
+  "@pluginsVivoBatteryPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsXiaomiBatterySetting": "Chính sách tiết kiệm pin: Không giới hạn",
+  "pluginsXiaomiBatteryPath": "Quản lý ứng dụng › {app} › Chính sách tiết kiệm pin",
+  "@pluginsXiaomiBatteryPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsHuaweiBatterySetting": "Cho phép hoạt động nền",
+  "pluginsHuaweiBatteryPath": "Pin › Quản lý khởi động ứng dụng › {app}",
+  "@pluginsHuaweiBatteryPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsOppoBatterySetting": "Cho phép hành vi nền",
+  "pluginsOppoBatteryPath": "Pin › Quản lý pin ứng dụng › {app}",
+  "@pluginsOppoBatteryPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsSamsungBatterySetting": "Pin: Không giới hạn",
+  "pluginsSamsungBatteryPath": "Ứng dụng › {app} › Pin",
+  "@pluginsSamsungBatteryPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsVivoBatteryStep": "Bật «Cho phép tốn pin cao ở chế độ nền»",
+  "pluginsXiaomiBatteryFullPath": "Cài đặt ứng dụng › Quản lý ứng dụng › {app} › Chính sách tiết kiệm pin › Không giới hạn",
+  "@pluginsXiaomiBatteryFullPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsXiaomiAutostart": "Bật «Tự khởi động» trên cùng trang",
+  "pluginsHuaweiBatteryStep": "Tắt «Quản lý tự động», bật «Cho phép hoạt động nền»",
+  "pluginsOppoBatteryStep": "Bật «Cho phép hành vi nền»",
+  "pluginsSamsungBatteryStep": "Chọn «Không giới hạn»",
+  "pluginsBackgroundTitle": "Chạy nền",
+  "pluginsBackgroundDescription": "Để trò chuyện chạy xong cả khi ở nền",
+  "pluginsSystem": "Hệ thống",
+  "pluginsSystemBatteryOptimization": "Tối ưu pin hệ thống",
+  "pluginsTurnedOff": "Đã tắt",
+  "pluginsNotTurnedOff": "Chưa tắt",
+  "pluginsStayOnline": "Giữ trực tuyến",
+  "pluginsKeepEngineNotification": "Giữ thông báo «Engine đang chạy»",
+  "pluginsLockInRecents": "Khóa {app} trong ứng dụng gần đây",
+  "@pluginsLockInRecents": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsPhoneBrands": "Các hãng điện thoại",
+  "pluginsOtherBrands": "Hãng khác",
+  "pluginsConnectedHost": "Đã kết nối ({host})",
+  "@pluginsConnectedHost": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsConnectionError": "Kết nối thất bại: {error}",
+  "@pluginsConnectionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsConnecting": "Đang kết nối",
+  "pluginsDiagnosticsCopied": "Đã sao chép thông tin chẩn đoán",
+  "pluginsDiagnostics": "Chẩn đoán",
+  "pluginsDiagnosticsDescription": "Đính kèm khi báo lỗi, không chứa Key và token",
+  "pluginsRuntime": "Runtime",
+  "pluginsArchitecture": "Kiến trúc",
+  "pluginsBundledVersion": "Phiên bản kèm theo",
+  "pluginsInstalledVersion": "Phiên bản đã cài",
+  "pluginsErrorLabel": "Lỗi",
+  "pluginsConnection": "Kết nối",
+  "pluginsAddress": "Địa chỉ",
+  "pluginsClient": "Client",
+  "pluginsConfigured": "Đã cấu hình",
+  "pluginsExport": "Xuất",
+  "pluginsCopyDiagnostics": "Sao chép thông tin chẩn đoán",
+  "pluginsDiagnosticsContents": "Chỉ gồm phiên bản và trạng thái kết nối",
+  "pluginsNotificationsPartlyBlocked": "Hệ thống đã tắt một phần",
+  "pluginsNotificationsBlocked": "Hệ thống đã tắt",
+  "pluginsTurnedOn": "Đã bật",
+  "pluginsNotifications": "Thông báo",
+  "pluginsNotificationSettingsFailed": "Không mở được cài đặt hệ thống. Bật thông báo ở «Cài đặt → Ứng dụng → DSH Go → Thông báo»",
+  "pluginsSystemNotificationsOff": "Thông báo hệ thống đã tắt",
+  "pluginsBackgroundNoAlerts": "App ở nền sẽ không nhận được nhắc nhở nào",
+  "pluginsApprovalNotificationsOff": "Thông báo «Chờ bạn xác nhận» đã tắt",
+  "pluginsBackgroundNoApprovalAlerts": "App ở nền sẽ không nhắc xác nhận",
+  "pluginsDoneNotificationsOff": "Thông báo «Hết một lượt» đã tắt",
+  "pluginsBackgroundNoDoneAlerts": "App ở nền sẽ không nhắc khi xong hoặc khi lỗi",
+  "pluginsTurnOn": "Đi bật",
+  "pluginsNotificationsDescription": "Nhắc bạn khi trò chuyện xong hoặc cần bạn",
+  "pluginsAllowNotifications": "Cho phép thông báo",
+  "pluginsNotificationsAndBanners": "Thông báo hệ thống và banner trên cùng",
+  "pluginsAlerts": "Nhắc nhở",
+  "pluginsRemoteAlertsRequirement": "Nhắc nhở của máy chủ từ xa cần App đang chạy và kết nối trực tuyến",
+  "pluginsTurnComplete": "Xong một lượt",
+  "pluginsReplyPreview": "Kèm phần đầu trả lời",
+  "pluginsErrorOrStopped": "Lỗi hoặc bị dừng",
+  "pluginsErrorOrStoppedDescription": "Yêu cầu thất bại, Engine khởi động lại hoặc bị dừng",
+  "pluginsApprovalDescription": "Chạy lệnh, sửa tệp… cần được phê duyệt",
+  "pluginsQuestions": "Câu hỏi cho bạn",
+  "pluginsQuestionsDescription": "AI cần bạn trả lời",
+  "pluginsSystemSettings": "Cài đặt hệ thống",
+  "pluginsLockScreenPrivacy": "Không hiện nội dung trò chuyện trên màn hình khóa",
+  "pluginsSoundBannerLockScreen": "Âm thanh, banner và màn hình khóa",
+  "pluginsEnableFloatingNotifications": "Nếu banner không hiện, bật «Thông báo nổi»",
+  "pluginsPersonalPreferences": "Sở thích cá nhân",
+  "pluginsPreferencesDescription": "Trò chuyện mới sẽ trả lời theo yêu cầu ở đây",
+  "pluginsPreferencesHint": "Ví dụ: Trả lời bằng tiếng Việt, tôi chủ yếu viết Flutter",
+  "pluginsSaving": "Đang lưu",
+  "pluginsShareLink": "Chia sẻ liên kết",
+  "pluginsInstallPlugin": "Cài Plugin",
+  "pluginsImportProfile": "Nhập cấu hình",
+  "pluginsImportTo": "Nhập vào",
+  "pluginsInstallTo": "Cài vào",
+  "pluginsVerification": "Kiểm chứng",
+  "pluginsSize": "Kích thước",
+  "pluginsVerified": "Đã kiểm chứng",
+  "pluginsVerificationMismatch": "Kiểm chứng không khớp",
+  "pluginsCannotVerify": "Không kiểm chứng được",
+  "pluginsVerifying": "Đang kiểm chứng",
+  "pluginsPresets": "Preset",
+  "pluginsSkills": "Kỹ năng",
+  "pluginsAdded": "Đã thêm",
+  "pluginsModified": "Đã sửa",
+  "pluginsNoChanges": "Không cần thay đổi",
+  "pluginsUnavailable": "Không dùng được",
+  "pluginsHostProfileReadFailed": "Không đọc được cấu hình của máy chủ này",
+  "pluginsAlreadyMatches": "Máy chủ này đã như vậy rồi",
+  "pluginsUnsuccessful": "Không thành công",
+  "pluginsSkipped": "Đã bỏ qua",
+  "pluginsView": "Xem",
+  "pluginsImport": "Nhập",
+  "pluginsHostPluginsReadFailed": "Không đọc được Plugin của máy chủ này",
+  "pluginsUpdateTo": "Cập nhật lên {version}",
+  "@pluginsUpdateTo": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsImportCount": "Nhập {count} mục",
+  "@pluginsImportCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsImporting": "Đang nhập",
+  "pluginsInstallingActive": "Đang cài đặt",
+  "pluginsImportFailedCount": "{count} mục không thành công",
+  "@pluginsImportFailedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsCouldNotInstall": "Không cài được",
+  "pluginsEngineRestartToApply": "Khởi động lại Engine để áp dụng",
+  "pluginsRemoteRestartToApply": "Khởi động lại DSH trên {host} để áp dụng",
+  "@pluginsRemoteRestartToApply": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsImportedCount": "Đã nhập {count} mục",
+  "@pluginsImportedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsLocalPluginUnshareable": "Plugin này cài trên máy, không chia sẻ được",
+  "pluginsSharePlugin": "Chia sẻ Plugin",
+  "pluginsPluginCount": "{count} Plugin",
+  "@pluginsPluginCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsSettingsCount": "{count} cài đặt",
+  "@pluginsSettingsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsPresetCount": "{count} preset",
+  "@pluginsPresetCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsSkillCount": "{count} kỹ năng",
+  "@pluginsSkillCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsNothingSelected": "Chưa chọn nội dung",
+  "pluginsNext": "Tiếp theo",
+  "pluginsNothingToShare": "Không có nội dung để chia sẻ",
+  "pluginsProfileReadFailed": "Không đọc được cấu hình",
+  "pluginsShareProfile": "Chia sẻ cấu hình",
+  "pluginsFileCount": "{count} tệp",
+  "@pluginsFileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsShareNeedsUpdate": "Cần cập nhật App mới mở được",
+  "pluginsShareUnusable": "Mã chia sẻ này không dùng được",
+  "pluginsShareDamaged": "Mã chia sẻ này không đầy đủ hoặc đã hỏng",
+  "pluginsShareFileReadFailed": "Không đọc được tệp này",
+  "pluginsShareOpenFailed": "Không mở được mã chia sẻ này",
+  "pluginsPluginShareTitle": "Plugin DSH Go",
+  "pluginsShareSheetOpenFailed": "Không mở được chia sẻ",
+  "pluginsSavePermissionDenied": "Không có quyền lưu trữ, không lưu được",
+  "pluginsQrCode": "Mã QR",
+  "pluginsSaveAsFile": "Lưu thành tệp",
+  "pluginsGistLinkReady": "Đã tạo liên kết Gist",
+  "pluginsTooLargeShareFile": "Nội dung nhiều, chia sẻ bằng tệp",
+  "pluginsGenerateLink": "Tạo liên kết",
+  "pluginsGitHubToken": "Token GitHub",
+  "pluginsGistPermissionNeeded": "Cần quyền gist",
+  "pluginsGenerateGistLink": "Tạo liên kết bằng Gist",
+  "pluginsShareQrCode": "Mã QR của mã chia sẻ",
+  "pluginsUpdateCurrentWarning": "Sẽ gỡ phiên bản hiện tại trước, rồi cài {to}. Nếu bản mới cài không được, Plugin sẽ ở trạng thái chưa cài và cần cài lại.",
+  "@pluginsUpdateCurrentWarning": {
+    "placeholders": {
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsUpdateVersionWarning": "Sẽ gỡ {from} trước, rồi cài {to}. Nếu bản mới cài không được, Plugin sẽ ở trạng thái chưa cài và cần cài lại.",
+  "@pluginsUpdateVersionWarning": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsUninstalledRestartLocal": "Đã gỡ «{title}», khởi động lại Engine để gỡ hoàn toàn",
+  "@pluginsUninstalledRestartLocal": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsUninstalledRestartRemote": "Đã gỡ «{title}», khởi động lại DSH trên {host} để gỡ hoàn toàn",
+  "@pluginsUninstalledRestartRemote": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsEnableFailed": "Không bật được",
+  "pluginsDisableFailed": "Không tắt được",
+  "pluginsEnabledRestartLocal": "Đã bật, khởi động lại Engine để áp dụng",
+  "pluginsEnabledRestartRemote": "Đã bật, khởi động lại DSH trên {host} để áp dụng",
+  "@pluginsEnabledRestartRemote": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsDisabledRestartLocal": "Đã tắt, khởi động lại Engine để áp dụng",
+  "pluginsDisabledRestartRemote": "Đã tắt, khởi động lại DSH trên {host} để áp dụng",
+  "@pluginsDisabledRestartRemote": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsRelayCommandInstruction": "Khi qua DSH Remote trung chuyển chỉ bật/tắt được Plugin. Chạy lệnh này trong terminal trên {host}:",
+  "@pluginsRelayCommandInstruction": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsPermissionLocalThirdParty": "Plugin chạy với quyền của DSH: đọc/ghi tệp, chạy lệnh, đọc API Key và bộ nhớ điện thoại bạn đã cấp quyền, không bị giới hạn bởi sandbox của không gian làm việc. Do bên thứ ba cung cấp, DSH chính thức chưa kiểm duyệt.",
+  "pluginsPermissionLocalTrusted": "Plugin chạy với quyền của DSH: đọc/ghi tệp, chạy lệnh, đọc API Key và bộ nhớ điện thoại bạn đã cấp quyền, không bị giới hạn bởi sandbox của không gian làm việc. Chỉ cài Plugin bạn tin tưởng.",
+  "pluginsPermissionRemoteThirdParty": "Plugin chạy với quyền của DSH: đọc/ghi tệp, chạy lệnh, đọc API Key, không bị giới hạn bởi sandbox của không gian làm việc. Do bên thứ ba cung cấp, DSH chính thức chưa kiểm duyệt.",
+  "pluginsPermissionRemoteTrusted": "Plugin chạy với quyền của DSH: đọc/ghi tệp, chạy lệnh, đọc API Key, không bị giới hạn bởi sandbox của không gian làm việc. Chỉ cài Plugin bạn tin tưởng.",
+  "pluginsSelectedQrCount": "Đã chọn {count} mục · Tạo được mã QR",
+  "@pluginsSelectedQrCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsSelectedFileCount": "Đã chọn {count} mục · Chia sẻ bằng tệp",
+  "@pluginsSelectedFileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsListSeparator": ", ",
+  "pluginsActionFailure": "{action}: {reason}",
+  "@pluginsActionFailure": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsInventorySemantics": "{title}, {status}",
+  "@pluginsInventorySemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginsSettingsChanges": "{shown} và thêm {count} mục",
+  "@pluginsSettingsChanges": {
+    "placeholders": {
+      "shown": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginsLoadStatus": "Trạng thái tải",
+  "pluginsLoadPartial": "Áp dụng một phần",
+  "pluginsLoadFailed": "Tải thất bại",
+  "pluginsLoadNotReady": "Chưa sẵn sàng",
+  "pluginsLoadMetadata": "Chẩn đoán metadata",
+  "pluginsLoadRunningCount": "{running} / {total} thành phần đang chạy",
+  "pluginsLoadUnreported": "Chưa báo trạng thái",
+  "pluginsLoadNoRuntimeDetail": "Máy chủ không trả về chi tiết lỗi runtime, xem nhật ký Engine.",
+  "pluginsLoadRemoteLogs": "Xem nhật ký Engine trên máy chủ này.",
+  "@pluginsLoadRunningCount": {
+    "placeholders": {
+      "running": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  }
+}

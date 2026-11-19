@@ -1,0 +1,21 @@
+{
+  "@@locale": "vi",
+  "phoneKeepTitle": "{mode, select, shizuku{Giữ kênh Shizuku} sui{Giữ kênh Sui} root{Giữ kênh root} adb{Giữ kênh ADB tự kết nối} other{Giữ kênh này}}",
+  "@phoneKeepTitle": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneKeepRootDescription": "Sau khi ngắt kết nối, mở lại app hoặc khởi động lại điện thoại, DSH Go sẽ tự xin lại quyền từ trình quản lý root; cho hay không vẫn do trình quản lý quyết định.",
+  "phoneKeepSharedDescription": "Sau khi ngắt kết nối, mở lại app hoặc khởi động lại điện thoại, DSH Go dùng quyền đã có để tự kết nối lại, không xin quyền thay bạn.",
+  "phoneKeepAdbDescription": "Sau khi ngắt kết nối, mở lại app hoặc khởi động lại điện thoại, DSH Go dùng thông tin ghép nối đã có để tự kết nối lại qua Wi-Fi; nếu có quyền “tự khôi phục trợ năng” thì sẽ thử bật gỡ lỗi không dây một lần.",
+  "phoneKeepRestoring": "Đang kết nối lại",
+  "phoneKeepWaiting": "Đợi kênh khả dụng rồi kết nối",
+  "phoneKeepWaitingService": "Đợi dịch vụ đã chọn chạy rồi kết nối",
+  "phoneKeepWaitingPermission": "Chưa được cấp quyền; cấp quyền xong sẽ tự kết nối",
+  "phoneKeepWaitingNetwork": "Đợi kết nối Wi-Fi rồi kết nối",
+  "phoneKeepNotPaired": "Chưa ghép nối, hãy hoàn tất ghép nối gỡ lỗi không dây trước",
+  "phoneKeepFailed": "Không kết nối được; thử lại khi mở app hoặc bắt đầu điều khiển lần sau"
+}
