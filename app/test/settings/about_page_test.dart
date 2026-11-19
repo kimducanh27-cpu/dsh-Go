@@ -99,17 +99,16 @@ void main() {
     for (final brightness in Brightness.values) {
       testWidgets('author profiles fit 360dp at 1.3x in $locale $brightness', (tester) async {
         await pump(tester, locale: locale, brightness: brightness, scale: 1.3);
-        final english = locale == AppLocale.en;
-        expect(find.text(english ? 'Original author of DSH Go' : 'DSH Go 原作者'), findsOneWidget);
+        expect(find.text(lookupL10n(locale).hubAboutAuthor), findsOneWidget);
         expect(find.text('ccch1mneyyy'), findsOneWidget);
         expect(find.text('ccchimneyyy'), findsOneWidget);
         expect(find.text('@cccch1mneyyyy'), findsOneWidget);
         expect(find.text('@ccch1mneyyy'), findsOneWidget);
         expect(find.text('1.0.2 (42)'), findsOneWidget);
         expect(find.byKey(const ValueKey('settings-star')), findsOneWidget);
-        expect(find.text(english ? 'Bilibili profile' : 'B站主页'), findsOneWidget);
-        expect(find.text(english ? 'X profile' : 'X 主页'), findsOneWidget);
-        expect(find.text(english ? 'GitHub profile' : 'GitHub 主页'), findsOneWidget);
+        expect(find.text(lookupL10n(locale).hubAboutBilibili), findsOneWidget);
+        expect(find.text(lookupL10n(locale).hubAboutX), findsOneWidget);
+        expect(find.text(lookupL10n(locale).hubAboutGithub), findsOneWidget);
 
         for (final (key, _) in _profiles) {
           final row = find.byKey(ValueKey(key));
@@ -119,9 +118,7 @@ void main() {
           expect(tester.widget<SettingsTile>(row).onTap, isNotNull);
           expect(tester.takeException(), isNull, reason: 'No overflow at $key');
         }
-        final disclaimer = find.text(
-          english ? 'Built on DeepSeek Harness · Unofficial DeepSeek app' : '基于 DeepSeek Harness 构建 · 非 DeepSeek 官方应用',
-        );
+        final disclaimer = find.text(lookupL10n(locale).stateAppDisclaimer);
         await tester.ensureVisible(disclaimer);
         await tester.pumpAndSettle();
         expect(disclaimer.hitTestable(), findsOneWidget);

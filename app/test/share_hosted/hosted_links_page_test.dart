@@ -23,7 +23,7 @@ import '../support/english_preview.dart' show useEnglish, inEnglish;
 import 'hosted_client_test.dart' show FakeHost;
 import 'hosted_links_state_test.dart' show MemoryStore;
 
-final _now = DateTime(2026, 10, 25, 12);
+final _now = DateTime(2026, 11, 19, 12);
 
 HostedLink _link(String id, String title, {DateTime? expires, HostedTtl ttl = HostedTtl.month}) => HostedLink(
   id: id,
@@ -31,17 +31,17 @@ HostedLink _link(String id, String title, {DateTime? expires, HostedTtl ttl = Ho
   key: encodeHostedKey(List.generate(32, (i) => (i * 7 + id.codeUnitAt(0)) & 0xff)),
   deleteToken: 'token-$id-0123456789',
   title: title,
-  createdAt: DateTime(2026, 10, 20),
+  createdAt: DateTime(2026, 11, 14),
   ttl: ttl,
   expiresAt: expires,
   origin: 'https://go.example',
 );
 
 final _links = [
-  _link('M000000001', '修复登录按钮重复提交', expires: DateTime(2026, 11, 24, 9)),
-  _link('A000000002', '给周报写一个自动汇总脚本', expires: DateTime(2026, 10, 26, 9), ttl: HostedTtl.week),
+  _link('M000000001', '修复登录按钮重复提交', expires: DateTime(2026, 12, 19, 9)),
+  _link('A000000002', '给周报写一个自动汇总脚本', expires: DateTime(2026, 11, 20, 9), ttl: HostedTtl.week),
   _link('z000000003', '把 DeepSeek 装进口袋：一次完整的部署记录', ttl: HostedTtl.forever),
-  _link('A000000004', '旧的排查记录', expires: DateTime(2026, 10, 20, 9), ttl: HostedTtl.week),
+  _link('A000000004', '旧的排查记录', expires: DateTime(2026, 11, 14, 9), ttl: HostedTtl.week),
 ];
 
 Future<(FakeHost, MemoryStore)> _pump(
@@ -168,12 +168,12 @@ void main() {
     expect(host.requests, isEmpty);
   });
   test('expiry wording', () {
-    expect(hostedExpiryText(_links[0], _now), '11 月 24 日到期');
+    expect(hostedExpiryText(_links[0], _now), '12 月 19 日到期');
     expect(hostedExpiryText(_links[1], _now), '明天到期');
     expect(hostedExpiryText(_links[2], _now), '永久有效');
     expect(hostedExpiryText(_links[3], _now), '已过期');
-    expect(hostedExpiryText(_link('A000000005', 't', expires: DateTime(2026, 10, 25, 20)), _now), '今天到期');
-    expect(hostedExpiryText(_link('M000000006', 't', expires: DateTime(2027, 1, 3, 9)), _now), '2027 年 1 月 3 日到期');
+    expect(hostedExpiryText(_link('A000000005', 't', expires: DateTime(2026, 11, 19, 20)), _now), '今天到期');
+    expect(hostedExpiryText(_link('M000000006', 't', expires: DateTime(2027, 1, 28, 9)), _now), '2027 年 1 月 28 日到期');
   });
 
   testWidgets('lists every link with its expiry', (tester) async {
@@ -182,7 +182,7 @@ void main() {
     for (final l in _links) {
       expect(find.text(l.title), findsOneWidget);
     }
-    expect(find.text('11 月 24 日到期'), findsOneWidget);
+    expect(find.text('12 月 19 日到期'), findsOneWidget);
     expect(find.text('永久有效'), findsOneWidget);
     expect(find.text('已过期'), findsOneWidget);
     // An expired link can't be copied, only removed.
