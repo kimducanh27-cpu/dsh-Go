@@ -18,7 +18,7 @@ class IdentifierTests(unittest.TestCase):
         parts.mkdir(parents=True)
         script = app / 'tool/l10n_merge.py'
         shutil.copy2(Path(__file__).with_name('l10n_merge.py'), script)
-        for locale, text in [('zh', '示例'), ('en', 'Example')]:
+        for locale, text in [('zh', '示例'), ('en', 'Example'), ('vi', 'Ví dụ')]:
             (parts / f'example_{locale}.arb').write_text(
                 json.dumps({'@@locale': locale, key: text}, ensure_ascii=False), encoding='utf-8')
         result = subprocess.run([sys.executable, '-B', str(script), mode],

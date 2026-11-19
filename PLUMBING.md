@@ -167,3 +167,12 @@ Phạm vi: chỉ phía Dart/Flutter. KHÔNG làm Android native (`AppStrings.kt`
   ARB cũ ra đúng từng byte so với file đã commit. Lưu ý: vi giữ nguyên
   cấu trúc plural/select của zh (0 lệch case), en lệch zh 258 chỗ nên
   KHÔNG được đổi từ file en.
+
+## Test Python của merge script (sửa 19/11 sau lần CI 2)
+
+- Job "Python tooling" chạy `unittest discover` trong `app/tool`. Khi thêm
+  `vi` vào `LANGS`, fixture của `test_l10n_merge.py` /
+  `test_l10n_identifiers.py` chỉ có zh+en nên 8/57 test rớt. Đã sửa test:
+  fixture thêm probe vi, test nào viết lại probe zh/en có placeholder thì
+  viết thêm probe vi tương ứng, `test_valid_merge...` unpack 3 output
+  (zh, en, vi). Chạy local: 57/57 OK.

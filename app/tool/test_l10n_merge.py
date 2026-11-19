@@ -70,7 +70,8 @@ class MergeFixture(unittest.TestCase):
         self.parts.mkdir(parents=True)
         self.write('zh', {'title': '标题'})
         self.write('en', {'title': 'Title'})
-        self.outputs = [self.parts.parent / f'app_{lang}.arb' for lang in ('zh', 'en')]
+        self.write('vi', {'title': 'Tiêu đề'})
+        self.outputs = [self.parts.parent / f'app_{lang}.arb' for lang in ('zh', 'en', 'vi')]
         for output in self.outputs:
             output.write_text('existing-output', encoding='utf-8')
 
@@ -102,12 +103,14 @@ class MergeCliTest(MergeFixture):
     def test_valid_merge_preserves_template_metadata(self):
         self.write('zh', {'title': '{name} 的标题', '@title': {'placeholders': {'name': {'type': 'String'}}}})
         self.write('en', {'title': 'Title for {name}'})
+        self.write('vi', {'title': 'Tiêu đề cho {name}'})
         result = self.run_cli('--no-gen')
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        zh, en = [json.loads(output.read_text(encoding='utf-8')) for output in self.outputs]
+        zh, en, vi = [json.loads(output.read_text(encoding='utf-8')) for output in self.outputs]
         self.assertEqual(zh, {'@@locale': 'zh', 'title': '{name} 的标题',
                              '@title': {'placeholders': {'name': {'type': 'String'}}}})
         self.assertEqual(en, {'@@locale': 'en', 'title': 'Title for {name}'})
+        self.assertEqual(vi, {'@@locale': 'vi', 'title': 'Tiêu đề cho {name}'})
 
     def test_duplicate_message_key_is_not_silently_overwritten(self):
         (self.parts / 'probe_en.arb').write_text('{"title":"Correct","title":"Wrong"}', encoding='utf-8')
@@ -182,6 +185,7 @@ class AdditionalLocaleTest(MergeFixture):
     def test_complete_extra_locale_can_add_russian_plural_categories(self):
         self.write('zh', {'title': '{n} 个文件', '@title': {'placeholders': {'n': {'type': 'int'}}}})
         self.write('en', {'title': '{n, plural, one{{n} file} other{{n} files}}'})
+        self.write('vi', {'title': '{n} tệp'})
         ru = '{n, plural, one{{n} файл} few{{n} файла} many{{n} файлов} other{{n} файла}}'
         self.write('ru', {'title': ru})
         result = self.run_cli('--no-gen', '--locale', 'ru')
@@ -223,7 +227,7 @@ class AdditionalLocaleTest(MergeFixture):
         self.assert_locale_rejected('@@locale must equal "ru"')
 
     def test_region_subtag_and_area_underscores_are_not_confused(self):
-        for lang, value in [('zh', '标题'), ('en', 'Title'), ('es', 'Título'), ('es_MX', 'Título')]:
+        for lang, value in [('zh', '标题'), ('en', 'Title'), ('vi', 'Tiêu đề'), ('es', 'Título'), ('es_MX', 'Título')]:
             (self.parts / f'other_area_{lang}.arb').write_text(
                 json.dumps({'regionTitle': value}), encoding='utf-8')
         self.write('es', {'title': 'Título'})
@@ -275,6 +279,7 @@ class AdditionalLocaleTest(MergeFixture):
         self.write('ru', {'title': 'Заголовок'})
         for lang in ('zh', 'en'):
             (self.parts / f'other_{lang}.arb').write_text('{"other":"Other"}', encoding='utf-8')
+        (self.parts / 'other_vi.arb').write_text('{"other":"Khác"}', encoding='utf-8')
         result = self.run_cli('--part', 'probe', '--locale', 'ru')
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertFalse((self.parts.parent / 'app_ru.arb').exists())
