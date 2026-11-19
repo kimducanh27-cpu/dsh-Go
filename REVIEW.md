@@ -82,9 +82,21 @@ Greeting = "Lời mở đầu"; More (bare) = "Xem thêm"; Developer disk image 
 - **Rủi ro CI cần bắt**: thêm enum `AppLanguage.vi` có thể làm các `switch`
   exhaustive khác trong repo thiếu case — xem `PLUMBING.md`.
 
+## Đẩy lên fork
+
+- Fork: `kimducanh27-cpu/dsh-Go` (fork tay từ `ccch1mneyyy/dsh-go`).
+- Commit đẩy bản dịch: `ecb6a8b5e8cc620f9927c72cbb9abf3c9b74918c`
+  ("i18n: thêm tiếng Việt (vi) cho toàn bộ giao diện", 17:28 ngày 2026-11-19,
+  89 file: 75 file `*_vi.arb` + 6 file zh/en đồng bộ + 3 file Dart plumbing +
+  `AGENTS.md` + 4 docs).
+- Lưu ý: fork lúc tạo chậm hơn baseline 4 commit nên 4 file zh/en
+  (`android_shell`, `phone`) được đồng bộ lên nội dung baseline (thêm 3 key
+  `androidShellErrorHelperStartFailed`, `phoneFailureTawcHint`,
+  `phoneFailureRetryWithTawcroot`) để key vi khớp zh/en.
+
 ## Bước tiếp theo
 
-1. Đẩy lên fork GitHub (tên fork chưa chốt).
+1. ~~Đẩy lên fork GitHub (tên fork chưa chốt).~~ Đã đẩy lên `kimducanh27-cpu/dsh-Go`.
 2. Chạy CI: `flutter pub get && flutter analyze && flutter test`,
    `l10n_merge.py --locale vi --check` đầy đủ, `gen-l10n`.
 3. Build APK bằng `tooling/build-apk.sh` (hoặc GitHub Actions) và kiểm tra trên
