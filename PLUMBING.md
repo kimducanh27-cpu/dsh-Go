@@ -176,3 +176,55 @@ Phạm vi: chỉ phía Dart/Flutter. KHÔNG làm Android native (`AppStrings.kt`
   fixture thêm probe vi, test nào viết lại probe zh/en có placeholder thì
   viết thêm probe vi tương ứng, `test_valid_merge...` unpack 3 output
   (zh, en, vi). Chạy local: 57/57 OK.
+
+## File gen zh/en bị cũ (sửa 19/11 sau lần CI 2 — Flutter 0 rớt)
+
+- Nguyên nhân: fork HEAD (0a15d4c) cũ hơn upstream 4 commit, trong đó
+  upstream thêm 3 key mới (`androidShellErrorHelperStartFailed`,
+  `phoneFailureTawcHint`, `phoneFailureRetryWithTawcroot`). File gộp
+  zh/en đã có 4 key mới (3 key này + `localeVi`) nhưng file gen
+  `app_localizations_zh.dart` / `app_localizations_en.dart` trên fork
+  vẫn chỉ có 8.328 method → CI chạy gen-l10n sinh lại, `git diff` lệch.
+- Cách sửa: sinh lại cả 3 file gen bằng `gen_vi.py` rồi chạy
+  `dart format --line-length 120` (Dart SDK 3.13.4 ở `~/dart-sdk/3.13.4`,
+  khớp Flutter 3.47.7; repo đặt `formatter: page_width: 120` trong
+  `app/analysis_options.yaml`). Kiểm chứng: diff với file đã commit chỉ
+  đúng 4 key mới (en +13/-0, zh +12/-0, vi +2/-1 — vi chỉ sửa 1 dòng
+  wrap ở `phoneSelfCheckReason` / `target_readback`, 121 ký tự).
+- Bài học: KHÔNG tự đoán luật xuống dòng của dart format (vd. entry
+  plural `one:` dài 145 ký tự vẫn không tách, còn entry select
+  `main_changed:` 130 ký tự lại tách — đoán bằng ngưỡng 120 là sai).
+  Luôn sinh file rồi chạy `dart format` thật, so với file đã commit.
+- Push 5 (commit `f4d7b9f4`): 3 file gen zh/en/vi. CI run mới 44513580779
+  đang chạy; script canh `ci-watch-fix3.py` / log `ci-watch-fix3.log`.
+
+## Golden + 3 test lỗi (sửa 19/11 sau lần CI 3 — run 44513580779)
+
+- Kết quả CI run 44513580779 (commit f4d7b9f4): analyze + Python tooling +
+  Android JVM đều xanh; 3 job Flutter rớt ở bước "Test every third file".
+  Nguyên nhân: 14 golden đổi + 3 test lỗi thật.
+- 14 golden đổi (workflow goldens.yml run 44521078851, artifact
+  `golden-updates-f4d7b9f4...zip`, đã tải về
+  `~/workspace/dsh-go-survey/golden-updates/`): settings_hub_full dark/light,
+  settings_appearance dark/light + large_text dark/light, settings_bottom
+  dark/light (màn hình Cài đặt có thêm pill "Tiếng Việt"), plugin_load_vi
+  và plugin_reload_vi dark/light (test chạy locale vi, trước đây fallback
+  sang zh, giờ hiện chữ Việt thật), hosted_links dark/light.
+- Chỉ đẩy 12 golden, KHÔNG đẩy 2 file hosted_links: 2 file đó đổi chỉ vì
+  link hết hạn bị cắt khỏi danh sách (xem dưới) — sau khi sửa fixture thì
+  golden cũ (4 link) mới đúng.
+- Test lỗi 1+2 — `about_page_test.dart` "author profiles fit 360dp at 1.3x
+  in vi": test lặp qua `AppLocale.supported` nhưng hardcode chuỗi zh/en
+  (`english ? 'Original author of DSH Go' : 'DSH Go 原作者'`...). Sửa: dùng
+  `lookupL10n(locale).hubAboutAuthor / .hubAboutBilibili / .hubAboutX /
+  .hubAboutGithub / .stateAppDisclaimer`, bỏ biến `english`.
+- Test lỗi 3 — `hosted_links_page_test.dart` "lists every link with its
+  expiry": link '旧的排查记录' hết hạn 2026-10-20; controller cắt link hết
+  hạn quá 30 ngày theo `DateTime.now()` (không theo clock của test), hạn
+  chót là 2026-11-19 09:00 — test chạy sau giờ đó nên link bị cắt. Lỗi
+  theo thời gian, KHÔNG liên quan vi. Sửa: dời toàn bộ fixture +25 ngày
+  (`_now` → 2026-11-19, các ngày hết hạn và chuỗi kỳ vọng đổi theo).
+- Đẩy: commit b87d01db (2 file test, qua push-files). 12 golden PNG phải
+  đẩy bằng browser upload (push-files chỉ nhận file UTF-8, PNG bị từ chối).
+- Đã kiểm chứng bằng mắt: golden settings_hub_full_light.png hiện rõ
+  4 pill ngôn ngữ (跟随系统 / 简体中文 / English / Tiếng Việt).

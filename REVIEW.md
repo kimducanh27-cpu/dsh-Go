@@ -94,10 +94,25 @@ Greeting = "Lời mở đầu"; More (bare) = "Xem thêm"; Developer disk image 
   `androidShellErrorHelperStartFailed`, `phoneFailureTawcHint`,
   `phoneFailureRetryWithTawcroot`) để key vi khớp zh/en.
 
+## CI — XANH (run 44550278953, HEAD bcd20b2, 22:18 ngày 2026-11-19)
+
+- Kết quả: `conclusion=success`. Tất cả job xanh: changes, Flutter 0/1/2,
+  Android JVM, Dart packages, Generated files/tooling/SDK/web, Runtime and
+  bridge, CI OK. (iOS runtime regression: skipped như mọi lần.)
+- Đường đi tới xanh (chi tiết ở `PLUMBING.md`):
+  1. Run 44513580779 (HEAD f4d7b9f4): Flutter 0/1/2 rớt — 14 golden đổi +
+     3 test lỗi thật.
+  2. Sửa 2 test (about_page dùng `lookupL10n`, hosted_links dời fixture
+     +25 ngày) → commit b87d01db; đẩy 12 golden mới → 8b07167, 6c5cf0c,
+     22de135.
+  3. Run 44532135324: Flutter 0/1 xanh, chỉ còn Flutter 2 rớt 2 test golden
+     hosted_links (lệch 397px do chữ ngày đổi 11/24 → 12/19).
+  4. Lấy ảnh mới từ artifact `golden-failures-2` của CI, kiểm tra bằng mắt
+     (đủ 4 link, đúng ngày) → đẩy 2 ảnh → commit bcd20b2 → CI xanh.
+
 ## Bước tiếp theo
 
 1. ~~Đẩy lên fork GitHub (tên fork chưa chốt).~~ Đã đẩy lên `kimducanh27-cpu/dsh-Go`.
-2. Chạy CI: `flutter pub get && flutter analyze && flutter test`,
-   `l10n_merge.py --locale vi --check` đầy đủ, `gen-l10n`.
+2. ~~Chạy CI.~~ Đã xanh (run 44550278953).
 3. Build APK bằng `tooling/build-apk.sh` (hoặc GitHub Actions) và kiểm tra trên
    máy thật: chọn "Tiếng Việt" trong Cài đặt → Ngôn ngữ.
