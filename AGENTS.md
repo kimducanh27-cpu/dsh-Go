@@ -159,6 +159,11 @@ Quy tắc đầy đủ ở [GLOSSARY.md](GLOSSARY.md) (v3), quy trình review �
   kiểm tra các `switch` exhaustive khác trên `AppLanguage` có đủ case không.
   Android native (`AppStrings.kt`, `values/`) chưa có bản vi — xem
   `PLUMBING.md`.
+- Thêm ngôn ngữ mới vào `LANGS` trong `app/tool/l10n_merge.py` (hiện tại
+  `('zh', 'en', 'vi')`) rồi chạy `python3 app/tool/l10n_merge.py` để viết lại
+  `app_zh.arb`/`app_en.arb`/`app_vi.arb` và chạy `flutter gen-l10n` sinh
+  `lib/l10n/gen/` — cả file gộp lẫn file gen đều phải commit, CI kiểm tra
+  `git diff --exit-code -- lib/l10n` sau khi chạy lại merge.
 - Mọi thay đổi bản dịch đều qua 3 lớp review (ngữ nghĩa, kỹ thuật, đọc hiểu)
   + Consensus Judge; finding phải có `file:line` và log kiểm chứng thực tế.
 

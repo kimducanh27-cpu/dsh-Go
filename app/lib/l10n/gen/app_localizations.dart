@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
+import 'app_localizations_vi.dart';
 import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
@@ -90,7 +91,7 @@ abstract class L10n {
   ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('en'), Locale('zh')];
+  static const List<Locale> supportedLocales = <Locale>[Locale('en'), Locale('vi'), Locale('zh')];
 
   /// No description provided for @a11yRestoreTitle.
   ///
@@ -3379,6 +3380,12 @@ abstract class L10n {
   /// In zh, this message translates to:
   /// **'通道身份已改变，请停止后重新授权或连接。'**
   String get androidShellErrorIdentityChanged;
+
+  /// No description provided for @androidShellErrorHelperStartFailed.
+  ///
+  /// In zh, this message translates to:
+  /// **'Android Shell 辅助进程未能启动，命令未执行。'**
+  String get androidShellErrorHelperStartFailed;
 
   /// No description provided for @androidShellErrorBusy.
   ///
@@ -18638,6 +18645,12 @@ abstract class L10n {
   /// **'English'**
   String get localeEn;
 
+  /// No description provided for @localeVi.
+  ///
+  /// In zh, this message translates to:
+  /// **'Tiếng Việt'**
+  String get localeVi;
+
   /// No description provided for @localEnvChooseTitle.
   ///
   /// In zh, this message translates to:
@@ -22465,6 +22478,18 @@ abstract class L10n {
   /// In zh, this message translates to:
   /// **'查看日志了解原因，或连接远程主机继续使用'**
   String get phoneFailureLaunchHint;
+
+  /// No description provided for @phoneFailureTawcHint.
+  ///
+  /// In zh, this message translates to:
+  /// **'PRoot 无法执行本机引擎。可以尝试用 tawcroot 启动，继续使用已有的运行环境和数据。'**
+  String get phoneFailureTawcHint;
+
+  /// No description provided for @phoneFailureRetryWithTawcroot.
+  ///
+  /// In zh, this message translates to:
+  /// **'用 tawcroot 启动'**
+  String get phoneFailureRetryWithTawcroot;
 
   /// No description provided for @phoneFailureNoSpaceHint.
   ///
@@ -50070,7 +50095,7 @@ class _L10nDelegate extends LocalizationsDelegate<L10n> {
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_L10nDelegate old) => false;
@@ -50081,6 +50106,8 @@ L10n lookupL10n(Locale locale) {
   switch (locale.languageCode) {
     case 'en':
       return L10nEn();
+    case 'vi':
+      return L10nVi();
     case 'zh':
       return L10nZh();
   }

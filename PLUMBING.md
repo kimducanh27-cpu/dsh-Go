@@ -144,3 +144,26 @@ Phạm vi: chỉ phía Dart/Flutter. KHÔNG làm Android native (`AppStrings.kt`
   `locale_state.dart`). Khi người dùng chọn `vi`, phía Dart chạy tiếng Việt,
   nhưng thông báo phía Android native chưa có bản vi (đã chốt không làm
   `values-vi/` ở đợt này) nên có thể rơi về mặc định hệ thống/Anh ở phần đó.
+
+## File gộp + file gen (phát hiện qua CI 19/11)
+
+- CI bước "Analyze, and generated localization matches its source" chạy
+  `flutter analyze`, `python3 tool/l10n_merge.py` (không `--locale`),
+  rồi `git diff --exit-code -- lib/l10n`. Muốn CI xanh thì cả file gộp
+  (`app_zh.arb`/`app_en.arb`/`app_vi.arb`) lẫn file gen
+  (`lib/l10n/gen/app_localizations*.dart`) đều phải commit đúng nội dung
+  mà tool sinh ra — thiếu là rớt.
+- Ngôn ngữ mới phải thêm vào `LANGS` trong `app/tool/l10n_merge.py`
+  (hiện `('zh', 'en', 'vi')`); `--locale vi` chỉ dùng cho bản thử, CI chạy
+  lệnh trần nên không có `vi` trong LANGS là CI không sinh `app_vi.arb`.
+- `app_localizations.dart` (file gen chung) cũng phải sửa tay theo mẫu:
+  import `app_localizations_vi.dart`, thêm `Locale('vi')` vào
+  `supportedLocales`, `'vi'` vào `isSupported`, `case 'vi'` vào
+  `lookupL10n`, và thêm khai báo abstract cho key mới (kèm doc
+  `/// No description provided for @key.` + `/// In zh, ...`) đúng vị trí
+  theo thứ tự key trong ARB.
+- Viết tay file gen: script `~/workspace/dsh-go-survey/gen_vi.py` sinh
+  `app_localizations_vi.dart` từ ARB. Đã tự kiểm: sinh lại file zh từ
+  ARB cũ ra đúng từng byte so với file đã commit. Lưu ý: vi giữ nguyên
+  cấu trúc plural/select của zh (0 lệch case), en lệch zh 258 chỗ nên
+  KHÔNG được đổi từ file en.

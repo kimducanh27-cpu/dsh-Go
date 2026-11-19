@@ -21,7 +21,7 @@ Usage: tool/l10n_merge.py [--check] [--no-gen] [--part AREA] [--locale LOCALE ..
   --part AREA  validate only AREA in every selected locale (implies --check);
                keys clashing with other parts are still reported
   --locale    opt in to an additional complete static locale, e.g. --locale ru;
-               repeat for more locales. zh/en are always required.
+               repeat for more locales. zh/en/vi are always required.
 
 Unselected locale fragments are not loaded. Partial drafts never become a
 supported language by file discovery. Extra root-directory *.arb files are refused
@@ -41,7 +41,7 @@ from collections import OrderedDict
 APP = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 L10N = os.path.join(APP, 'lib', 'l10n')
 PARTS = os.path.join(L10N, 'parts')
-LANGS = ('zh', 'en')
+LANGS = ('zh', 'en', 'vi')
 KEY_RE = re.compile(r'^[a-z][a-zA-Z0-9]*$')
 IDENT = re.compile(r'[A-Za-z_][A-Za-z0-9_]*')
 PLURAL_CASES = frozenset(('zero', 'one', 'two', 'few', 'many', 'other'))
