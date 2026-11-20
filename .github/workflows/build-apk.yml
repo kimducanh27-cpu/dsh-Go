@@ -74,11 +74,12 @@ jobs:
       # NOTE: no `yes |` in front of sdkmanager — it never prompts for a
       # license here, and with pipefail the `yes` process dying of SIGPIPE
       # after a successful install fails the whole step (run #3, 20/11).
-      # NOTE (run #4, 20/11): sdkmanager downloaded + unzipped NDK r28c to
-      # 100% and then exited 1 with NO error text — a silent failure. So
-      # run it --verbose, capture its exit code, and judge by the installed
-      # NDK itself: if source.properties + clang verify, the step passes
-      # even when sdkmanager exits non-zero; otherwise fail loudly.
+      # NOTE (run #5, 20/11): sdkmanager itself was FINE (rc=0, "complete" /
+      # "finished") — the step failed on MY OWN verify grep: NDK writes
+      # `Pkg.Revision = 28.2.13676358` (spaces around `=`), but the grep
+      # looked for `Pkg.Revision=...` (no spaces) and never matched. Fix:
+      # tolerate optional spaces around `=`, and print the NDK dir contents
+      # first so a future verify failure is self-explanatory in the log.
       - name: Install pinned NDK
         run: |
           set +e
@@ -87,7 +88,11 @@ jobs:
           set -e
           echo "sdkmanager exit code: $SDKMANAGER_RC"
           NDK="$ANDROID_HOME/ndk/${{ env.NDK_VERSION }}"
-          if grep -q "Pkg.Revision=${{ env.NDK_VERSION }}" "$NDK/source.properties" && test -x "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"; then
+          echo "--- $NDK/source.properties ---"
+          cat "$NDK/source.properties" || echo "(missing source.properties)"
+          echo "--- clang ---"
+          ls -l "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" || echo "(missing clang)"
+          if grep -Eq "^Pkg\.Revision *= *${{ env.NDK_VERSION }} *$" "$NDK/source.properties" && test -x "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"; then
             echo "ANDROID_NDK_HOME=$NDK" >> "$GITHUB_ENV"
             echo "NDK verified: $NDK (sdkmanager rc=$SDKMANAGER_RC)"
           else
