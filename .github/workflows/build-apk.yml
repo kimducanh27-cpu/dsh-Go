@@ -67,9 +67,18 @@ jobs:
       - uses: gradle/actions/setup-gradle@8da46b539cd8fe6ab27ca75128919a18d757604c # v6.4.1
         with:
           gradle-version: ${{ env.GRADLE_VERSION }}
-      # tawcroot (runtime/tawcroot/build.py) needs the pinned NDK.
+      # tawcroot (runtime/tawcroot/build.py) needs the pinned NDK. The runner
+      # image pre-installs its own NDK and sets ANDROID_NDK_HOME to it, which
+      # build.py prefers over the SDK's ndk/<pinned> dir — so install the
+      # pinned one, verify it, and point ANDROID_NDK_HOME at it explicitly.
       - name: Install pinned NDK
-        run: echo "y" | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "ndk;${{ env.NDK_VERSION }}"
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" "ndk;${{ env.NDK_VERSION }}"
+          NDK="$ANDROID_HOME/ndk/${{ env.NDK_VERSION }}"
+          grep -q "Pkg.Revision=${{ env.NDK_VERSION }}" "$NDK/source.properties"
+          test -x "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+          echo "ANDROID_NDK_HOME=$NDK" >> "$GITHUB_ENV"
+          echo "NDK verified: $NDK"
       - name: Build APK
         run: tooling/build-apk.sh
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
