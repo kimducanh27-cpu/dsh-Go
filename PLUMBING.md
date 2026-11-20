@@ -228,3 +228,46 @@ Phạm vi: chỉ phía Dart/Flutter. KHÔNG làm Android native (`AppStrings.kt`
   đẩy bằng browser upload (push-files chỉ nhận file UTF-8, PNG bị từ chối).
 - Đã kiểm chứng bằng mắt: golden settings_hub_full_light.png hiện rõ
   4 pill ngôn ngữ (跟随系统 / 简体中文 / English / Tiếng Việt).
+
+## Build APK (workflow `.github/workflows/build-apk.yml`, 20/11)
+
+- Workflow tự viết (fork/upstream không có): workflow_dispatch, ubuntu-24.04,
+  timeout 120 phút. Checkout → restore cache `runtime/.cache` →
+  `runtime/build-runtime.sh arm64-v8a` → `check_runtime_bundle.py` →
+  setup Java 17 → flutter-action 3.47.7 → `flutter pub get` +
+  local.properties → setup-gradle 9.3.1 → cài NDK pinned 28.2.13676358 →
+  `tooling/build-apk.sh` → upload artifact `dsh-go-apk`
+  (`app-arm64-release.apk`, retention 14 ngày).
+- Không có `key.properties` nên release build tự rơi về debug key — cài
+  được trên máy thật dùng riêng, không phải bản phát hành chính thức.
+- Run #1 (44619919449, 04:33): FAIL ở "Build APK" — tawcroot cần NDK
+  28.2.13676358, runner tự set `ANDROID_NDK_HOME` về NDK khác.
+- Fix: bước "Install pinned NDK" cài đúng bản pinned + verify + ghi
+  `ANDROID_NDK_HOME` vào `$GITHUB_ENV` (commit 8a7396a).
+- Run #2 (44650618608, 08:02): kẹt Queued 80+ phút, không job nào chạy;
+  GitHub từ chối hủy qua UI ("Failed to cancel workflow") — vẫn Queued tới
+  12:20, không chặn run khác.
+- Run #3 (44660639315, 09:25): FAIL ở "Install pinned NDK" sau 18s — NDK
+  tải/giải nén xong 100%, nhưng `yes | sdkmanager` bị SIGPIPE
+  ("yes: standard output: Broken pipe") khi sdkmanager đóng pipe; GitHub
+  Actions chạy bash với pipefail nên cả bước fail. Xác minh không chạy.
+- Fix: bỏ `yes |`, gọi sdkmanager trực tiếp (commit 10bb778).
+- Run #4 (44676451405, 11:44): FAIL ở "Install pinned NDK" — sdkmanager
+  exit 1 không báo lỗi. Fix: thêm `--verbose`, chỉ fail khi verify thật
+  sự lỗi (commit 9705044).
+- Run #5 (44677806805, 11:57): FAIL ở "Install pinned NDK" — sdkmanager
+  rc=0, cài xong; lỗi là grep verify của mình: tìm `Pkg.Revision=...`
+  trong khi NDK ghi `Pkg.Revision = ...` (có khoảng trắng quanh `=`).
+  Fix: grep `^Pkg\.Revision *= *<ver> *$`, in source.properties + clang
+  trước khi verify (commit 39f8439).
+- Run #6 (44678962264, 12:07–12:22, 14m31s): SUCCESS. "Install pinned
+  NDK" success, "Build APK" (assembleArm64Release) success, artifact
+  `dsh-go-apk` 221MB (zip), APK 232.457.753 bytes. Kiểm chứng: APK hợp lệ
+  (Android package, arm64), chuỗi Việt UTF-16LE trong libapp.so:
+  "Tiếng Việt" ×1, "Cài đặt" ×69, "Trò chuyện" ×59, "Hủy" ×10. Artifact
+  hết hạn 2026-12-04. File: `~/workspace/dsh-go-survey/app-arm64-release.apk`.
+- Đẩy workflow file: push-files bị 403 với `.github/workflows/*` → phải
+  đẩy bằng browser upload qua GitHub web UI. File text thường đẩy bằng
+  push-files.
+- Bài học: đừng dùng `yes |` với sdkmanager dưới pipefail; đừng đoán
+  định dạng source.properties — in ra rồi mới grep.

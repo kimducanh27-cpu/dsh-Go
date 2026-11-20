@@ -110,9 +110,23 @@ Greeting = "Lời mở đầu"; More (bare) = "Xem thêm"; Developer disk image 
   4. Lấy ảnh mới từ artifact `golden-failures-2` của CI, kiểm tra bằng mắt
      (đủ 4 link, đúng ngày) → đẩy 2 ảnh → commit bcd20b2 → CI xanh.
 
+## Build APK — XANH (run 44678962264, HEAD 39f8439, 12:22 ngày 2026-11-20)
+
+- Kết quả: `conclusion=success`, 14m31s. Artifact `dsh-go-apk` (221MB
+  zip), APK `app-arm64-release.apk` 232MB arm64, đã kiểm chứng có chữ
+  Việt thật trong libapp.so. File ở
+  `~/workspace/dsh-go-survey/app-arm64-release.apk`. Đã giao cho Kduu
+  12:54 ngày 2026-11-20; thông báo 30 phút/lần đã dừng.
+- Đường đi tới xanh (chi tiết ở `PLUMBING.md`): 6 run — #1 NDK sai bản
+  (tawcroot), #2 kẹt Queued, #3 `yes |` SIGPIPE, #4 sdkmanager exit 1
+  lặng, #5 grep verify sai định dạng `Pkg.Revision =`, #6 xanh.
+- Chưa kiểm tra trên máy thật: cài APK lên Honor Magic6, chọn
+  "Tiếng Việt" trong Cài đặt → Ngôn ngữ.
+
 ## Bước tiếp theo
 
 1. ~~Đẩy lên fork GitHub (tên fork chưa chốt).~~ Đã đẩy lên `kimducanh27-cpu/dsh-Go`.
 2. ~~Chạy CI.~~ Đã xanh (run 44550278953).
-3. Build APK bằng `tooling/build-apk.sh` (hoặc GitHub Actions) và kiểm tra trên
-   máy thật: chọn "Tiếng Việt" trong Cài đặt → Ngôn ngữ.
+3. ~~Build APK bằng `tooling/build-apk.sh` (hoặc GitHub Actions).~~ Đã
+   xanh (run 44678962264); còn kiểm tra trên máy thật: chọn
+   "Tiếng Việt" trong Cài đặt → Ngôn ngữ.
