@@ -74,14 +74,26 @@ jobs:
       # NOTE: no `yes |` in front of sdkmanager — it never prompts for a
       # license here, and with pipefail the `yes` process dying of SIGPIPE
       # after a successful install fails the whole step (run #3, 20/11).
+      # NOTE (run #4, 20/11): sdkmanager downloaded + unzipped NDK r28c to
+      # 100% and then exited 1 with NO error text — a silent failure. So
+      # run it --verbose, capture its exit code, and judge by the installed
+      # NDK itself: if source.properties + clang verify, the step passes
+      # even when sdkmanager exits non-zero; otherwise fail loudly.
       - name: Install pinned NDK
         run: |
-          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" "ndk;${{ env.NDK_VERSION }}"
+          set +e
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --verbose --sdk_root="$ANDROID_HOME" "ndk;${{ env.NDK_VERSION }}"
+          SDKMANAGER_RC=$?
+          set -e
+          echo "sdkmanager exit code: $SDKMANAGER_RC"
           NDK="$ANDROID_HOME/ndk/${{ env.NDK_VERSION }}"
-          grep -q "Pkg.Revision=${{ env.NDK_VERSION }}" "$NDK/source.properties"
-          test -x "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
-          echo "ANDROID_NDK_HOME=$NDK" >> "$GITHUB_ENV"
-          echo "NDK verified: $NDK"
+          if grep -q "Pkg.Revision=${{ env.NDK_VERSION }}" "$NDK/source.properties" && test -x "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"; then
+            echo "ANDROID_NDK_HOME=$NDK" >> "$GITHUB_ENV"
+            echo "NDK verified: $NDK (sdkmanager rc=$SDKMANAGER_RC)"
+          else
+            echo "::error::NDK ${{ env.NDK_VERSION }} did not verify after sdkmanager (rc=$SDKMANAGER_RC)"
+            exit 1
+          fi
       - name: Build APK
         run: tooling/build-apk.sh
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
