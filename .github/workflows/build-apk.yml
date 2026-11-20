@@ -71,9 +71,12 @@ jobs:
       # image pre-installs its own NDK and sets ANDROID_NDK_HOME to it, which
       # build.py prefers over the SDK's ndk/<pinned> dir — so install the
       # pinned one, verify it, and point ANDROID_NDK_HOME at it explicitly.
+      # NOTE: no `yes |` in front of sdkmanager — it never prompts for a
+      # license here, and with pipefail the `yes` process dying of SIGPIPE
+      # after a successful install fails the whole step (run #3, 20/11).
       - name: Install pinned NDK
         run: |
-          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" "ndk;${{ env.NDK_VERSION }}"
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" "ndk;${{ env.NDK_VERSION }}"
           NDK="$ANDROID_HOME/ndk/${{ env.NDK_VERSION }}"
           grep -q "Pkg.Revision=${{ env.NDK_VERSION }}" "$NDK/source.properties"
           test -x "$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
